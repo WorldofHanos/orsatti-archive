@@ -4139,11 +4139,11 @@
    "year": 1993,
    "type": "movie",
    "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0108147/",
-   "poster": "posters/tt0108147.jpg",
-   "boxOffice": null,
+   "imdb": "https://www.imdb.com/title/tt0106613/",
+   "poster": "posters/tt0106613.jpg",
+   "boxOffice": 40700000,
    "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Cop_and_a_Half",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -7739,8 +7739,8 @@
   }
  ],
  "boxOfficeSummary": {
-  "total": 17120278244,
-  "withData": 182,
+  "total": 17160978244,
+  "withData": 183,
   "films": 308,
   "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."

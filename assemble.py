@@ -1,8 +1,7 @@
 import re
 import json
 cr=json.load(open('credits.all.json'))
-AFIFIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='posters/tt0106613.jpg',boxOffice=40700000,boxOfficeSource='https://en.wikipedia.org/wiki/Cop_and_a_Half'),
-('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
+AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
 for c in cr:
   if c['title'].startswith('Afi Catalog'): c['title']=AFIFIX.get((c['person'],c['year']),c['title'])
 cr=[c for c in cr if not c['title'].startswith("L'Incroyable Hulk")]
@@ -40,7 +39,8 @@ for g in _cl:
 json.dump(MERGED,open('merged_report.json','w'),indent=1)
 _seen=set();cr=[c for c in cr if not ((c['person'],c['title'],c['year']) in _seen or _seen.add((c['person'],c['title'],c['year'])))]
 OV=json.load(open('poster_override.json'))
-FIX={'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
+FIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='posters/tt0106613.jpg',boxOffice=40700000,boxOfficeSource='https://en.wikipedia.org/wiki/Cop_and_a_Half'),
+'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stranger Things':dict(imdb='https://www.imdb.com/title/tt4574334/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stop at Nothing':dict(boxOffice=None,boxOfficeSource=None),'Moonlight':dict(boxOffice=None,boxOfficeSource=None),
 'The Swarm':dict(boxOffice=None),'Highlander II: The Quickening':dict(boxOffice=None),
