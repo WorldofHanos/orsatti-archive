@@ -1,0 +1,40 @@
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const money=n=>'$'+Math.round(n).toLocaleString('en-US');
+const link=u=>/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace('www.',''))}</a>`:esc(u);
+const KIND={baseball:'Diamond',mob:'Rumor & Reputation',keaton:'The Keaton Years',quote:'In Their Words',business:'Family Business',milestone:'Milestone'};
+fetch('data.json').then(r=>r.json()).then(D=>{
+ const years={};D.films.forEach(f=>(years[f.year]??={films:[],ms:[]}).films.push(f));D.milestones.forEach(m=>(years[m.year]??={films:[],ms:[]}).ms.push(m));D.people.forEach(p=>p.year&&(years[p.year]??={films:[],ms:[]}).ms.unshift({kind:'person',p}));
+ const S=D.boxOfficeSummary;$('#bosub').textContent=`${S.withData} of ${S.films} titles have box-office data; ${S.films-S.withData} unknown (not estimated)`;
+ $('#foot').textContent=`${D.films.length} titles · ${D.milestones.length} milestones · total known worldwide gross ${money(S.total)}`;
+ const nC=D.films.reduce((n,f)=>n+f.credits.length,0),yrs=new Date().getFullYear()-1923;
+ $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*'],[4,'generations']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Terminator · Avengers: Endgame · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
+ const tl=$('#timeline');let cum=0;
+ Object.keys(years).sort((a,b)=>a-b).forEach(y=>{const g=years[y];g.films.forEach(f=>cum+=f.boxOffice||0);
+  const el=document.createElement('section');el.className='yr';el.dataset.cum=cum;
+  const reel=g.films.map((f,i)=>`<div class="p" data-i="${i}">${f.poster?`<img src="${esc(f.poster)}" alt="${esc(f.title)} poster" loading="lazy">`:`<div class="np">${esc(f.title)}</div>`}<div>${esc(f.title)}</div></div>`).join('');
+  const ents=g.films.flatMap((f,i)=>f.credits.map(c=>`<div class="ent" data-i="${i}"><h3>${esc(f.title)}</h3><div class="who">${esc(c.person)}</div><div class="role">${esc(c.role)}</div></div>`)).join('');
+  const facts=g.ms.map(m=>m.kind==='person'?`<div class="fact person">${m.p.photo?`<img src="${esc(m.p.photo)}" alt="${esc(m.p.name)}">`:''}<div><div class="k">Enter · Family Member</div><h3>${esc(m.p.name)}</h3><div class="who">${esc(m.p.years||'')}</div><p>${esc(m.p.note)}</p>${m.p.photo?`<div class="src">Photo${m.p.photoCaption?' ('+esc(m.p.photoCaption)+')':''}: ${link(m.p.photoSource)}</div>`:''}${m.p.imdb?`<div class="src">Profile: ${link(m.p.imdb)}</div>`:''}</div></div>`:`<div class="fact ${m.kind}"><div class="k">${KIND[m.kind]||''}</div><h3>${esc(m.title)}</h3><p>${esc(m.text)}</p>${m.flag?`<div class="flag">⚑ ${esc(m.flag)}</div>`:''}<div class="src">Sources: ${m.sources.map(link).join(' · ')}</div></div>`).join('');
+  el.innerHTML=`<div class="yhead"><div class="year">${y}</div></div>${g.films.length?`<div class="reel">${reel}</div><div class="hint">${g.films.length} title${g.films.length>1?'s':''} · click year to pin</div>`:''}<div class="items">${ents}${facts}</div>`;
+  el.querySelector('.yhead').onclick=()=>el.classList.toggle('pinned');
+  el.querySelectorAll('[data-i]').forEach(p=>p.onclick=e=>{e.stopPropagation();open(g.films[p.dataset.i])});
+  tl.appendChild(el)});
+ function open(f){$('#mbody').innerHTML=`<div>${f.poster?`<img src="${esc(f.poster)}" alt="">`:''}</div><div><h2>${esc(f.title)}</h2><div class="yr2">${f.year}</div>
+  <h4>The Orsattis on this film</h4><ul>${f.credits.map(c=>{const pp=D.people.find(p=>p.photo&&c.person.startsWith(p.name.split(' (')[0]));return `<li>${pp?`<img class="face" src="${esc(pp.photo)}" alt="">`:''}<b>${esc(c.person)}</b> – ${esc(c.role)} <span class="src">(${link(c.source)})</span></li>`}).join('')}</ul>
+  <h4>Worldwide box office</h4><p>${f.boxOffice?money(f.boxOffice)+` <span class="src">(${link(f.boxOfficeSource)})</span>`:'<span class="src">Unknown / not reported</span>'}</p>
+  ${f.funFacts.length?`<h4>Fun facts</h4><ul>${f.funFacts.map(x=>`<li>${esc(x.text)} <span class="src">(${link(x.source)})</span></li>`).join('')}</ul>`:''}
+  ${f.media.length?`<h4>Media</h4><div class="media">${f.media.map(m=>m.type==='youtube'?`<iframe src="https://www.youtube-nocookie.com/embed/${esc(m.id)}" title="${esc(m.title)}" loading="lazy" allowfullscreen></iframe>`:m.type==='photo'?`<a href="${esc(m.url)}" target="_blank"><img src="${esc(m.src)}" alt="${esc(m.title)}"></a>`:`<a class="ml" href="${esc(m.url)}" target="_blank" rel="noopener">${m.type==='audio'?'♪':'→'} ${esc(m.title)}${m.note?` <span class=src>(${esc(m.note)})</span>`:''}</a>`).join('')}</div>`:''}
+  ${f.imdb?`<a class="btn" href="${esc(f.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}</div>`;$('#modal').hidden=false}
+ $('#modal').onclick=e=>{if(e.target.id==='modal'||e.target.classList.contains('x'))$('#modal').hidden=true};
+ document.onkeydown=e=>{if(e.key==='Escape')$('#modal').hidden=true};
+ const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('in')),{threshold:.1});
+ document.querySelectorAll('.yr').forEach(s=>io.observe(s));
+ let shown=0,target=0;const tick=()=>{shown+=(target-shown)*.12;if(Math.abs(target-shown)<1)shown=target;$('#bo').textContent=money(shown);requestAnimationFrame(tick)};tick();
+ const upd=()=>{let c=0;document.querySelectorAll('.yr').forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.6)c=+s.dataset.cum});target=c};addEventListener('scroll',upd);upd();
+});
+
+(()=>{const c=document.getElementById('stars'),x=c.getContext('2d'),RM=matchMedia('(prefers-reduced-motion: reduce)').matches;let S=[];
+const rs=()=>{c.width=innerWidth*devicePixelRatio;c.height=innerHeight*devicePixelRatio;S=Array.from({length:260},()=>({x:Math.random()*c.width,y:Math.random()*c.height,z:Math.random()*.9+.1}))};rs();addEventListener('resize',rs);
+const draw=()=>{x.clearRect(0,0,c.width,c.height);const sy=scrollY*devicePixelRatio;for(const s of S){const y=((s.y-sy*s.z*.3)%c.height+c.height)%c.height;x.fillStyle=`rgba(255,255,255,${s.z*.8})`;x.fillRect(s.x,y,s.z*2,s.z*2)}};
+if(RM){draw();addEventListener('scroll',draw,{passive:true})}else{const l=()=>{draw();requestAnimationFrame(l)};l()}
+const items=['photos/ernie-1933-goudey.jpg','“Husbands are much easier to find than good agents.”','photos/noon.jpg','Gashouse Gang · 1934'];const _x=['photos/ernie-1933-goudey.jpg','photos/ernie-f.jpg','photos/noon.jpg','“Husbands are much easier to find than good agents.”','Gashouse Gang · 1934','Sherlock Jr. · 1924','“the envy of most of the younger players”','photos/rowbie.jpg','A Hollywood Family Since 1923'];
+const d=document.getElementById('drift');items.forEach((t,i)=>{const e=t.startsWith('photos/')?Object.assign(document.createElement('img'),{src:t,alt:''}):Object.assign(document.createElement('div'),{textContent:t});e.className='d';e.style.left=(5+i*11%85)+'%';e.style.top=(i*37%100)+'%';e.style.fontSize=(1+i%3*.5)+'rem';e.style.animationDelay=(-i*10)+'s';e.style.animationDuration=(80+i*7)+'s';d.appendChild(e)})})();
