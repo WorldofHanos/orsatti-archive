@@ -126,3 +126,12 @@ main{max-width:none;padding:30px 24px 100px}
 @media(min-width:1001px){main{max-width:min(1100px,calc(100vw - 432px))!important;padding-left:0;padding-right:0}}
 @media(max-width:1000px){main{padding-top:56px}}
 @media(max-width:700px){.counter{left:0!important;right:0!important;top:0!important;width:100%!important;max-width:none!important;border:0;border-bottom:1px solid rgba(201,168,106,.35);background:#000!important;display:flex;justify-content:space-between;align-items:baseline;padding:6px 14px!important}main{padding-top:44px}}
+/* fit text in cards */
+.side{min-width:0}.side .fact,.side .fact *{box-sizing:border-box;min-width:0;overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+.side .fact{overflow:hidden;width:100%}
+.side .fact.person{flex-direction:column;align-items:flex-start;gap:12px}
+.side .fact.person>div{width:100%}
+.side .fact.person img{width:96px;height:120px}
+.side .fact a{overflow-wrap:anywhere}
+@media(min-width:1001px){.yr{grid-template-columns:minmax(190px,1fr) minmax(0,560px) minmax(190px,1fr)!important;gap:24px!important}}
+.side .fact.person img{max-width:100%}
