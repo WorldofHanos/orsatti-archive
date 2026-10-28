@@ -1,3 +1,4 @@
+import re
 import json
 cr=json.load(open('credits.all.json'))
 AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
@@ -96,6 +97,8 @@ for c in cr:
   k=(c['title'],None if c.get('type')=='tv' else c['year']); f=films.setdefault(k,dict(title=('Mafia! (Jane Austen\'s Mafia!)' if c['title']=='Mafia!' else c['title']),year=c['year'],type=c.get('type','movie'),tmdb=c.get('tmdb'),imdb=c.get('imdb'),poster=c.get('poster'),boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))
   f['year']=min(f['year'],c['year']); f['poster']=f['poster'] or c.get('poster'); f['imdb']=f['imdb'] or c.get('imdb')
   import re as _r; m=_r.match(r'(\d+ episodes?)\s*…?\s*(.*)',c['role'] or ''); c['role']=f"{m.group(2) or 'Crew'} · {m.group(1)}" if m else c['role']
+  c['role']=(c['role'] or '').replace('(also stunts, uncredited)','· Stunts')
+  c['role']=re.sub(r'\s*[(,]?\s*(also stunts, )?uncredited\s*\)?','',c['role'] or '',flags=re.I).replace('( ','(').replace('()','').strip(' ,·') or 'Crew'
   f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
 for f in films.values():
   o=OV.get(f"{f['title']}|{f['year'] if f['type']=='movie' else None}")
