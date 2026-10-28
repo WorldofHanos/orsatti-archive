@@ -157,3 +157,14 @@ main{max-width:none;padding:30px 24px 100px}
 .yr .year{transition:color .4s,box-shadow .4s,border-color .4s}
 .yr.now .year{color:var(--gold);border-color:var(--gold);box-shadow:0 0 18px rgba(201,168,106,.45)}
 @media(max-width:1000px){.yr{min-height:50vh}}
+/* milestone star field */
+.side .fact.milestone{background:radial-gradient(ellipse at 50% 0%,rgba(201,168,106,.10),transparent 70%),#050403}
+.side .fact.milestone::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;opacity:.55;
+background-image:radial-gradient(1px 1px at 12% 18%,#e6c88a,transparent),radial-gradient(1px 1px at 78% 12%,#e6c88a,transparent),radial-gradient(1.5px 1.5px at 88% 46%,#d4b46e,transparent),radial-gradient(1px 1px at 34% 62%,#e6c88a,transparent),radial-gradient(1px 1px at 62% 84%,#d4b46e,transparent),radial-gradient(1.5px 1.5px at 22% 88%,#e6c88a,transparent),radial-gradient(1px 1px at 52% 32%,#d4b46e,transparent),radial-gradient(1px 1px at 94% 74%,#e6c88a,transparent),radial-gradient(1px 1px at 6% 52%,#d4b46e,transparent),radial-gradient(1px 1px at 70% 58%,#e6c88a,transparent);
+animation:mtw 4.5s ease-in-out infinite alternate}
+.side .fact.milestone > *{position:relative;z-index:1}
+.side .fact.milestone .more{position:absolute}
+@keyframes mtw{0%{opacity:.25}50%{opacity:.6}100%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.side .fact.milestone::before{animation:none}}
+.side .fact.milestone::before{background-image:radial-gradient(1.6px 1.6px at 12% 18%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 78% 12%,#f0d28f,transparent),radial-gradient(2px 2px at 88% 46%,#e0bd74,transparent),radial-gradient(1.4px 1.4px at 34% 62%,#f0d28f,transparent),radial-gradient(1.6px 1.6px at 62% 84%,#e0bd74,transparent),radial-gradient(2px 2px at 22% 88%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 52% 32%,#e0bd74,transparent),radial-gradient(1.6px 1.6px at 94% 74%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 6% 52%,#e0bd74,transparent),radial-gradient(1.6px 1.6px at 70% 58%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 44% 8%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 84% 92%,#e0bd74,transparent),radial-gradient(1.2px 1.2px at 28% 40%,#f0d28f,transparent),radial-gradient(1.2px 1.2px at 58% 70%,#e0bd74,transparent)}
+@keyframes mtw{0%{opacity:.45}50%{opacity:.95}100%{opacity:.6}}
