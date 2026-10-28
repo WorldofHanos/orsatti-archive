@@ -76,7 +76,11 @@
    "year": 1974,
    "years": "1942–2004",
    "imdb": "https://www.imdb.com/name/nm0650685/",
-   "note": "Ernie's son; doubled Schwarzenegger, Burt Reynolds, Bill Bixby."
+   "note": "Frank Harry Orsatti, born LA Feb 26, 1942; died Sherman Oaks Dec 23, 2004. Doubled Arnold Schwarzenegger (The Terminator), Burt Reynolds (nine years) and Bill Bixby (The Magician, The Incredible Hulk); directed Hulk episodes; stunt coordinator on Serpico and Highlander II; original member of Stunts Unlimited.",
+   "noteSources": [
+    "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/",
+    "https://stuntsunlimited.com/frank-orsatti-honorary/"
+   ]
   },
   {
    "name": "Noon Orsatti",
@@ -539,7 +543,12 @@
      "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Frank H. Orsatti's first stunt job (1968). Drafted by the Cardinals, an injury ended his baseball career; he spent ten years in the Merchant Marine before stunts.",
+     "source": "https://stuntsunlimited.com/frank-orsatti-honorary/"
+    }
+   ],
    "media": []
   },
   {
@@ -947,6 +956,56 @@
     }
    ],
    "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Serpico",
+   "year": 1973,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0070666/",
+   "poster": "posters/tt0070666.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt Coordinator",
+     "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
+    }
+   ],
+   "funFacts": [
+    {
+     "text": "Frank H. Orsatti was the film's stunt coordinator.",
+     "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
+    }
+   ],
+   "media": []
+  },
+  {
+   "title": "The Magician",
+   "year": 1973,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0069606/",
+   "poster": "posters/tt0069606.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
+    }
+   ],
+   "funFacts": [
+    {
+     "text": "Frank H. did stunts on this Bill Bixby series, then followed Bixby to The Incredible Hulk as his double and stunt coordinator.",
+     "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
+    }
+   ],
    "media": []
   },
   {
@@ -3346,7 +3405,12 @@
      "source": "https://www.imdb.com/name/nm0650685/"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Frank H. Orsatti was the film's stunt coordinator.",
+     "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
+    }
+   ],
    "media": []
   },
   {
@@ -5232,6 +5296,31 @@
     }
    ],
    "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Practice",
+   "year": 1997,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0118437/",
+   "poster": "posters/tt0118437.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Double",
+     "source": "https://app.productionbeast.com/12248-noon-orsatti"
+    }
+   ],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti is credited as a stunt double on seasons 2 and 4.",
+     "source": "https://app.productionbeast.com/12248-noon-orsatti"
+    }
+   ],
    "media": []
   },
   {
@@ -7963,8 +8052,8 @@
  "boxOfficeSummary": {
   "total": 17160978244,
   "withData": 183,
-  "films": 312,
-  "tvShows": 35,
+  "films": 313,
+  "tvShows": 37,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

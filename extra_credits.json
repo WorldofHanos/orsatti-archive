@@ -187,5 +187,53 @@
   "role": "Script Clerk",
   "imdb": "https://www.imdb.com/title/tt0018440/",
   "poster": "posters/tt0018440.jpg"
+ },
+ {
+  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "source": "https://stuntsunlimited.com/frank-orsatti-honorary/",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "B.S. I Love You",
+  "year": 1971,
+  "type": "movie",
+  "role": "Stunts",
+  "imdb": "https://www.imdb.com/title/tt0066803/",
+  "poster": "posters/tt0066803.jpg"
+ },
+ {
+  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Serpico",
+  "year": 1973,
+  "type": "movie",
+  "role": "Stunt Coordinator",
+  "imdb": "https://www.imdb.com/title/tt0070666/",
+  "poster": "posters/tt0070666.jpg"
+ },
+ {
+  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "The Magician",
+  "year": 1973,
+  "type": "tv",
+  "role": "Stunts",
+  "imdb": "https://www.imdb.com/title/tt0069606/",
+  "poster": "posters/tt0069606.jpg"
+ },
+ {
+  "person": "Noon Orsatti",
+  "source": "https://app.productionbeast.com/12248-noon-orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "The Practice",
+  "year": 1997,
+  "type": "tv",
+  "role": "Stunt Double",
+  "imdb": "https://www.imdb.com/title/tt0118437/",
+  "poster": "posters/tt0118437.jpg"
  }
 ]
