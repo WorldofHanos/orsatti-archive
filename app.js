@@ -58,7 +58,7 @@ function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p
  const srcs=p?[p.photoSource,...(p.noteSources||[]),...(p.nameSources||[])].filter(Boolean):(m.sources||[]);
  $('#mbody').innerHTML=`<div class="story"><div class="k">${p?'Family Member':(KIND[m.kind]||'')}</div>${p&&p.photo?`<img class="sportrait" src="${esc(p.photo)}" alt="${esc(p.photoCaption||p.name)}" data-cap="${esc(p.photoCaption||'')}">`:''}<h2>${esc(title)}</h2>${p&&p.birthName?`<div class="yr2">Born ${esc(p.birthName)}</div>`:''}${p&&p.relation?`<div class="rel">${esc(p.relation)}</div>`:''}${p&&p.years?`<div class="yr2">${esc(p.years)}</div>`:`<div class="yr2">${m.year||''}</div>`}
  ${P.length?`<div class="gal">${P.map(x=>`<figure><img src="${esc(x.src)}" alt="${esc(x.cap||'')}">${x.cap?`<figcaption>${esc(x.cap)}</figcaption>`:''}</figure>`).join('')}</div>`:''}
- <p class="full">${esc(text||'')}</p>${links.length?`<h4 class="mlh">Photos elsewhere</h4><div class="media mll">${links.join('')}</div>`:''}
+ <p class="full">${esc(text||'')}</p>${p&&p.films?`<h4 class="mlh">Her films</h4><ul class="pfilms">${p.films.map(f=>`<li><span class="fy">${f.year}</span> <a href="${esc(f.imdb)}" target="_blank" rel="noopener">${esc(f.title)}</a> <span class="fr">${esc(f.role)}</span></li>`).join('')}</ul>`:''}${links.length?`<h4 class="mlh">Photos elsewhere</h4><div class="media mll">${links.join('')}</div>`:''}
  ${p&&p.imdb?`<a class="btn" href="${esc(p.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}
  ${m.flag?`<p class="src">Note: ${esc(m.flag)}</p>`:''}<p class="src qs">Sources: ${srcs.map(link).join(' · ')}</p></div>`;
  $('#modal').hidden=false;$('#modal .x').focus()}
