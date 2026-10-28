@@ -189,7 +189,7 @@
   "poster": "posters/tt0018440.jpg"
  },
  {
-  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "person": "Frank H. Orsatti (stuntman, 1942–2004)",
   "source": "https://stuntsunlimited.com/frank-orsatti-honorary/",
   "boxOffice": null,
   "boxOfficeSource": null,
@@ -201,7 +201,7 @@
   "poster": "posters/tt0066803.jpg"
  },
  {
-  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "person": "Frank H. Orsatti (stuntman, 1942–2004)",
   "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/",
   "boxOffice": null,
   "boxOfficeSource": null,
@@ -213,7 +213,7 @@
   "poster": "posters/tt0070666.jpg"
  },
  {
-  "person": "Frank H. Orsatti (stuntman, 1942\u20132004)",
+  "person": "Frank H. Orsatti (stuntman, 1942–2004)",
   "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/",
   "boxOffice": null,
   "boxOfficeSource": null,
@@ -235,5 +235,77 @@
   "role": "Stunt Double",
   "imdb": "https://www.imdb.com/title/tt0118437/",
   "poster": "posters/tt0118437.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "No Questions Asked",
+  "year": 1951,
+  "type": "movie",
+  "role": "Bit part",
+  "imdb": "https://www.imdb.com/title/tt0043861/",
+  "poster": "posters/tt0043861.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Strictly Dishonorable",
+  "year": 1951,
+  "type": "movie",
+  "role": "Calpurnia, opera sequence",
+  "imdb": "https://www.imdb.com/title/tt0044082/",
+  "poster": "posters/tt0044082.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Singin' in the Rain",
+  "year": 1952,
+  "type": "movie",
+  "role": "Mrs. Simpson",
+  "imdb": "https://www.imdb.com/title/tt0045152/",
+  "poster": "posters/tt0045152.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Love Is Better Than Ever",
+  "year": 1952,
+  "type": "movie",
+  "role": "Mrs. Sperson",
+  "imdb": "https://www.imdb.com/title/tt0044852/",
+  "poster": "posters/tt0044852.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Dream Wife",
+  "year": 1953,
+  "type": "movie",
+  "role": "Secretary",
+  "imdb": "https://www.imdb.com/title/tt0045706/",
+  "poster": "posters/tt0045706.jpg"
+ },
+ {
+  "person": "Inez Gorman (1912–1986)",
+  "source": "https://catalog.afi.com/Person/72676-Inez-Gorman",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Give a Girl a Break",
+  "year": 1953,
+  "type": "movie",
+  "role": "Miss Leslie",
+  "imdb": "https://www.imdb.com/title/tt0045822/",
+  "poster": "posters/tt0045822.jpg"
  }
 ]
