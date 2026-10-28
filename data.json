@@ -101,6 +101,8 @@
   {
    "title": "Our Hospitality",
    "year": 1923,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0014341/",
    "poster": "posters/tt0014341.jpg",
    "boxOffice": 537844,
@@ -124,6 +126,8 @@
   {
    "title": "Sherlock Jr.",
    "year": 1924,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0015324/",
    "poster": "posters/tt0015324.jpg",
    "boxOffice": 448337,
@@ -163,6 +167,8 @@
   {
    "title": "The Cameraman",
    "year": 1928,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0018742/",
    "poster": "posters/tt0018742.jpg",
    "boxOffice": null,
@@ -179,8 +185,30 @@
    "media": []
   },
   {
+   "title": "Spite Marriage",
+   "year": 1929,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0020442/",
+   "poster": "posters/tt0020442.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Death on the Diamond",
    "year": 1934,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0025039/",
    "poster": "posters/tt0025039.jpg",
    "boxOffice": null,
@@ -204,6 +232,8 @@
   {
    "title": "The Irish in Us",
    "year": 1935,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0026534/",
    "poster": "posters/tt0026534.jpg",
    "boxOffice": 1337000,
@@ -214,6 +244,11 @@
      "person": "Frank Orsatti (agent)",
      "role": "Writer (story)",
      "source": "https://www.imdb.com/name/nm0650684/"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Story",
+     "source": "https://www.themoviedb.org/person/166075-frank-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
@@ -222,6 +257,8 @@
   {
    "title": "Flight to Hong Kong",
    "year": 1956,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0049219/",
    "poster": "posters/tt0049219.jpg",
    "boxOffice": null,
@@ -240,6 +277,8 @@
   {
    "title": "Domino Kid",
    "year": 1957,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0050325/",
    "poster": "posters/tt0050325.jpg",
    "boxOffice": null,
@@ -258,6 +297,8 @@
   {
    "title": "The Hired Gun",
    "year": 1957,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0050510/",
    "poster": "posters/tt0050510.jpg",
    "boxOffice": null,
@@ -276,6 +317,8 @@
   {
    "title": "Ride Out for Revenge",
    "year": 1957,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0050900/",
    "poster": "posters/tt0050900.jpg",
    "boxOffice": null,
@@ -294,6 +337,8 @@
   {
    "title": "Apache Territory",
    "year": 1958,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0051369/",
    "poster": "posters/tt0051369.jpg",
    "boxOffice": null,
@@ -310,8 +355,30 @@
    "media": []
   },
   {
+   "title": "The Texan",
+   "year": 1958,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/14763-the-texan",
+   "imdb": null,
+   "poster": "posters/14763-the-texan.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "2 episodes … Producer",
+     "source": "https://www.themoviedb.org/person/1050247-victor-m-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Face in the Rain",
    "year": 1963,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0057050/",
    "poster": "posters/tt0057050.jpg",
    "boxOffice": null,
@@ -328,8 +395,275 @@
    "media": []
   },
   {
+   "title": "The Green Berets",
+   "year": 1968,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/22377-the-green-berets",
+   "imdb": "https://www.imdb.com/title/tt0063035/",
+   "poster": "posters/tt0063035.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Acid Eaters",
+   "year": 1968,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/88580-the-acid-eaters",
+   "imdb": "https://www.imdb.com/title/tt0061329/",
+   "poster": "posters/tt0061329.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Ollie",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Bullitt",
+   "year": 1968,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/916-bullitt",
+   "imdb": "https://www.imdb.com/title/tt0062765/",
+   "poster": "posters/tt0062765.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Planet of the Apes",
+   "year": 1968,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/871-planet-of-the-apes",
+   "imdb": "https://www.imdb.com/title/tt0063442/",
+   "poster": "posters/tt0063442.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The New People",
+   "year": 1969,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/10652-the-new-people",
+   "imdb": null,
+   "poster": "posters/10652-the-new-people.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Arrangement",
+   "year": 1969,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/48612-the-arrangement",
+   "imdb": "https://www.imdb.com/title/tt0064041/",
+   "poster": "posters/tt0064041.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Viva Max!",
+   "year": 1969,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0065184/",
+   "poster": "posters/tt0065184.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Actor: Stunt",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Immortal",
+   "year": 1970,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/9955-the-immortal",
+   "imdb": null,
+   "poster": "posters/9955-the-immortal.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "2 episodes",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Daniel Boone",
+   "year": 1970,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/11053-daniel-boone",
+   "imdb": null,
+   "poster": "posters/11053-daniel-boone.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode as Tupi (uncredited)",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Star Spangled Girl",
+   "year": 1971,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/92292-star-spangled-girl",
+   "imdb": "https://www.imdb.com/title/tt0067787/",
+   "poster": "posters/tt0067787.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Once Upon a Dead Man",
+   "year": 1971,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/601969-once-upon-a-dead-man",
+   "imdb": "https://www.imdb.com/title/tt0066933/",
+   "poster": "posters/tt0066933.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Dewhawk",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "B. S. I Love You",
+   "year": 1971,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0066803/",
+   "poster": "posters/tt0066803.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Actor: Manuel",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Jesus Trip",
+   "year": 1971,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0067268/",
+   "poster": "posters/tt0067268.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Actor: Tyler",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Poseidon Adventure",
    "year": 1972,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0069113/",
    "poster": "posters/tt0069113.jpg",
    "boxOffice": 125000000,
@@ -338,6 +672,11 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Terry (actor) – performed the famous 32-ft skylight fall",
+     "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Terry (actor) – performed the famous 32-ft skylight fall",
      "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
     }
@@ -373,8 +712,175 @@
    ]
   },
   {
+   "title": "The Streets of San Francisco",
+   "year": 1972,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/2468-the-streets-of-san-francisco",
+   "imdb": null,
+   "poster": "posters/2468-the-streets-of-san-francisco.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Mechanic",
+   "year": 1972,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/19403-the-mechanic",
+   "imdb": "https://www.imdb.com/title/tt0068931/",
+   "poster": "posters/tt0068931.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Actor: Chicken Lickin driver",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Fuzz",
+   "year": 1972,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/4986-fuzz",
+   "imdb": "https://www.imdb.com/title/tt0068617/",
+   "poster": "posters/tt0068617.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Stone Killer",
+   "year": 1973,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/26202-the-stone-killer",
+   "imdb": "https://www.imdb.com/title/tt0070736/",
+   "poster": "posters/tt0070736.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Hawkins",
+   "year": 1973,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/9844-hawkins",
+   "imdb": null,
+   "poster": "posters/9844-hawkins.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Sonny Bartlow",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Last American Hero",
+   "year": 1973,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/31605-the-last-american-hero",
+   "imdb": "https://www.imdb.com/title/tt0070287/",
+   "poster": "posters/tt0070287.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Davie Baer",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Mad Bomber",
+   "year": 1973,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/97904-the-mad-bomber",
+   "imdb": "https://www.imdb.com/title/tt0068892/",
+   "poster": "posters/tt0068892.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Rapist",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Soylent Green",
+   "year": 1973,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/12101-soylent-green",
+   "imdb": "https://www.imdb.com/title/tt0070723/",
+   "poster": "posters/tt0070723.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Towering Inferno",
    "year": 1974,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0072308/",
    "poster": "posters/tt0072308.jpg",
    "boxOffice": 203300000,
@@ -384,6 +890,11 @@
     {
      "person": "Ernie F. Orsatti (1940–2020)",
      "role": "Stunts – firefighter hanging from the scenic elevator",
+     "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
      "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
     }
    ],
@@ -398,6 +909,8 @@
   {
    "title": "Black Samson",
    "year": 1974,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0071226/",
    "poster": "posters/tt0071226.jpg",
    "boxOffice": null,
@@ -414,8 +927,230 @@
    "media": []
   },
   {
+   "title": "Freebie and the Bean",
+   "year": 1974,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/20802-freebie-and-the-bean",
+   "imdb": "https://www.imdb.com/title/tt0071521/",
+   "poster": "posters/tt0071521.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Laundry Truck Driver",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Mannix",
+   "year": 1974,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/2813-mannix",
+   "imdb": null,
+   "poster": "posters/2813-mannix.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lenny",
+   "year": 1974,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/27094-lenny",
+   "imdb": "https://www.imdb.com/title/tt0071746/",
+   "poster": "posters/tt0071746.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Hunter (uncredited)",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Longest Yard",
+   "year": 1974,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/4985-the-longest-yard",
+   "imdb": "https://www.imdb.com/title/tt0071771/",
+   "poster": "posters/tt0071771.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Midnight Man",
+   "year": 1974,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/116138-the-midnight-man",
+   "imdb": "https://www.imdb.com/title/tt0071838/",
+   "poster": "posters/tt0071838.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Night Moves",
+   "year": 1975,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/32042-night-moves",
+   "imdb": "https://www.imdb.com/title/tt0073453/",
+   "poster": "posters/tt0073453.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Flash and the Firecat",
+   "year": 1975,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/112728-flash-and-the-firecat",
+   "imdb": "https://www.imdb.com/title/tt0072995/",
+   "poster": "posters/tt0072995.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cleopatra Jones And The Casino Of Gold",
+   "year": 1975,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0072791/",
+   "poster": "posters/tt0072791.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt driver",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rancho Deluxe",
+   "year": 1975,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0073605/",
+   "poster": "posters/tt0073605.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stuntman",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Sky Riders",
+   "year": 1976,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/42551-sky-riders",
+   "imdb": "https://www.imdb.com/title/tt0075229/",
+   "poster": "posters/tt0075229.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Gumball Rally",
+   "year": 1976,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/25305-the-gumball-rally",
+   "imdb": "https://www.imdb.com/title/tt0074597/",
+   "poster": "posters/tt0074597.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Viva Knievel!",
    "year": 1977,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0076890/",
    "poster": "posters/tt0076890.jpg",
    "boxOffice": null,
@@ -432,8 +1167,50 @@
    "media": []
   },
   {
+   "title": "Moonshine County Express",
+   "year": 1977,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/99846-moonshine-county-express",
+   "imdb": "https://www.imdb.com/title/tt0076409/",
+   "poster": "posters/tt0076409.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt Driver",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Car",
+   "year": 1977,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0075809/",
+   "poster": "posters/tt0075809.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Actor: Dalton",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Swarm",
    "year": 1978,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0078350/",
    "poster": "posters/tt0078350.jpg",
    "boxOffice": null,
@@ -450,8 +1227,55 @@
    "media": []
   },
   {
+   "title": "Blue Collar",
+   "year": 1978,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/14839-blue-collar",
+   "imdb": "https://www.imdb.com/title/tt0077248/",
+   "poster": "posters/tt0077248.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt Driver",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Incredible Hulk",
+   "year": 1979,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/648-the-incredible-hulk",
+   "imdb": null,
+   "poster": "posters/648-the-incredible-hulk.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Phil Haze",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode as Kurt Donahue",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Defiance",
    "year": 1980,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0080605/",
    "poster": "posters/tt0080605.jpg",
    "boxOffice": null,
@@ -468,8 +1292,70 @@
    "media": []
   },
   {
+   "title": "Farewell to the Planet of the Apes",
+   "year": 1980,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/385733-farewell-to-the-planet-of-the-apes",
+   "imdb": "https://www.imdb.com/title/tt0379782/",
+   "poster": "posters/tt0379782.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Human",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Underground Aces",
+   "year": 1981,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/255685-underground-aces",
+   "imdb": "https://www.imdb.com/title/tt0081681/",
+   "poster": "posters/tt0081681.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Greatest American Hero",
+   "year": 1981,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/1909-the-greatest-american-hero",
+   "imdb": null,
+   "poster": "posters/1909-the-greatest-american-hero.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Bob Baron",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Dead Men Don't Wear Plaid",
    "year": 1982,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0083798/",
    "poster": "posters/tt0083798.jpg",
    "boxOffice": 18200000,
@@ -486,8 +1372,210 @@
    "media": []
   },
   {
+   "title": "Remington Steele",
+   "year": 1982,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/589-remington-steele",
+   "imdb": null,
+   "poster": "posters/589-remington-steele.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "94 episodes … Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Entity",
+   "year": 1982,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/24740-the-entity",
+   "imdb": "https://www.imdb.com/title/tt0082334/",
+   "poster": "posters/tt0082334.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Death Wish II",
+   "year": 1982,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/14373-death-wish-ii",
+   "imdb": "https://www.imdb.com/title/tt0082250/",
+   "poster": "posters/tt0082250.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "First Blood",
+   "year": 1982,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1368-first-blood",
+   "imdb": "https://www.imdb.com/title/tt0083944/",
+   "poster": "posters/tt0083944.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Beastmaster",
+   "year": 1982,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/16441-the-beastmaster",
+   "imdb": "https://www.imdb.com/title/tt0083630/",
+   "poster": "posters/tt0083630.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Amityville 3-D",
+   "year": 1983,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/27214-amityville-3-d",
+   "imdb": "https://www.imdb.com/title/tt0085159/",
+   "poster": "posters/tt0085159.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "D.C. Cab",
+   "year": 1983,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/27679-d-c-cab",
+   "imdb": "https://www.imdb.com/title/tt0085387/",
+   "poster": "posters/tt0085387.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "10 to Midnight",
+   "year": 1983,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/18587-10-to-midnight",
+   "imdb": "https://www.imdb.com/title/tt0085121/",
+   "poster": "posters/tt0085121.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Matt Houston",
+   "year": 1983,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/10365-matt-houston",
+   "imdb": null,
+   "poster": "posters/10365-matt-houston.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "1 episode",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Star Chamber",
+   "year": 1983,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0086356/",
+   "poster": "posters/tt0086356.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt Men and Women",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Terminator",
    "year": 1984,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0088247/",
    "poster": "posters/tt0088247.jpg",
    "boxOffice": 78000000,
@@ -509,8 +1597,260 @@
    "media": []
   },
   {
+   "title": "St. Elsewhere",
+   "year": 1984,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/30-st-elsewhere",
+   "imdb": null,
+   "poster": "posters/30-st-elsewhere.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode as Tim",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Evil That Men Do",
+   "year": 1984,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/53426-the-evil-that-men-do",
+   "imdb": "https://www.imdb.com/title/tt0087222/",
+   "poster": "posters/tt0087222.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Hill Street Blues",
+   "year": 1984,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/3828-hill-street-blues",
+   "imdb": null,
+   "poster": "posters/3828-hill-street-blues.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Cop (uncredited)",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Woman In Red",
+   "year": 1984,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0088414/",
+   "poster": "posters/tt0088414.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Secret Admirer",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/24742-secret-admirer",
+   "imdb": "https://www.imdb.com/title/tt0089981/",
+   "poster": "posters/tt0089981.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Mischief",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/14750-mischief",
+   "imdb": "https://www.imdb.com/title/tt0089601/",
+   "poster": "posters/tt0089601.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Falcon Crest",
+   "year": 1985,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/93-falcon-crest",
+   "imdb": null,
+   "poster": "posters/93-falcon-crest.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "2 episodes as Punk",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Hood",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Death Wish 3",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/24873-death-wish-3",
+   "imdb": "https://www.imdb.com/title/tt0089003/",
+   "poster": "posters/tt0089003.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Reason to Live",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/626964-a-reason-to-live",
+   "imdb": "https://www.imdb.com/title/tt0089887/",
+   "poster": "posters/tt0089887.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Alice in Wonderland",
+   "year": 1985,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/42553-alice-in-wonderland",
+   "imdb": null,
+   "poster": "posters/42553-alice-in-wonderland.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode as Bill",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Badge of the Assassin",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/218979-badge-of-the-assassin",
+   "imdb": "https://www.imdb.com/title/tt0088767/",
+   "poster": "posters/tt0088767.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Into the Night",
+   "year": 1985,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11338-into-the-night",
+   "imdb": "https://www.imdb.com/title/tt0089346/",
+   "poster": "posters/tt0089346.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Back to School",
    "year": 1986,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0090685/",
    "poster": "posters/tt0090685.jpg",
    "boxOffice": 91300000,
@@ -529,6 +1869,8 @@
   {
    "title": "The Golden Child",
    "year": 1986,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0091129/",
    "poster": "posters/tt0091129.jpg",
    "boxOffice": 149400000,
@@ -545,8 +1887,320 @@
    "media": []
   },
   {
+   "title": "Legal Eagles",
+   "year": 1986,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9930-legal-eagles",
+   "imdb": "https://www.imdb.com/title/tt0091396/",
+   "poster": "posters/tt0091396.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Welcome to 18",
+   "year": 1986,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/202337-welcome-to-18",
+   "imdb": "https://www.imdb.com/title/tt0092199/",
+   "poster": "posters/tt0092199.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Boy in Car",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Hoosiers",
+   "year": 1986,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/5693-hoosiers",
+   "imdb": "https://www.imdb.com/title/tt0091217/",
+   "poster": "posters/tt0091217.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Murphy's Law",
+   "year": 1986,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/33055-murphy-s-law",
+   "imdb": "https://www.imdb.com/title/tt0091575/",
+   "poster": "posters/tt0091575.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Less Than Zero",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/13703-less-than-zero",
+   "imdb": "https://www.imdb.com/title/tt0093407/",
+   "poster": "posters/tt0093407.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Amazon Women on the Moon",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/5709-amazon-women-on-the-moon",
+   "imdb": "https://www.imdb.com/title/tt0092546/",
+   "poster": "posters/tt0092546.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Death Wish 4: The Crackdown",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/26263-death-wish-4-the-crackdown",
+   "imdb": "https://www.imdb.com/title/tt0092857/",
+   "poster": "posters/tt0092857.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Allnighter",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/37818-the-allnighter",
+   "imdb": "https://www.imdb.com/title/tt0092537/",
+   "poster": "posters/tt0092537.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Winners Take All",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/117636-winners-take-all",
+   "imdb": "https://www.imdb.com/title/tt0092222/",
+   "poster": "posters/tt0092222.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Back to the Beach",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/26477-back-to-the-beach",
+   "imdb": "https://www.imdb.com/title/tt0092608/",
+   "poster": "posters/tt0092608.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Surfers & Punks",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Like Father Like Son",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/36914-like-father-like-son",
+   "imdb": "https://www.imdb.com/title/tt0093418/",
+   "poster": "posters/tt0093418.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Murder by the Book",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/606957-murder-by-the-book",
+   "imdb": "https://www.imdb.com/title/tt0093585/",
+   "poster": "posters/tt0093585.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Carly's Web",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/793805-carly-s-web",
+   "imdb": "https://www.imdb.com/title/tt0092726/",
+   "poster": "posters/tt0092726.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Outlaws",
+   "year": 1987,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/4100-outlaws",
+   "imdb": null,
+   "poster": "posters/4100-outlaws.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "3 episodes … Director",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Big Shots",
+   "year": 1987,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0092655/",
+   "poster": "posters/tt0092655.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Beetlejuice",
    "year": 1988,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0094721/",
    "poster": "posters/tt0094721.jpg",
    "boxOffice": 84600000,
@@ -565,6 +2219,8 @@
   {
    "title": "A Nightmare on Elm Street 4: The Dream Master",
    "year": 1988,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0095742/",
    "poster": "posters/tt0095742.jpg",
    "boxOffice": null,
@@ -586,8 +2242,355 @@
    "media": []
   },
   {
+   "title": "To Die For",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/86681-to-die-for",
+   "imdb": "https://www.imdb.com/title/tt0098482/",
+   "poster": "posters/tt0098482.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Dangerous Curves",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/93937-dangerous-curves",
+   "imdb": "https://www.imdb.com/title/tt0094946/",
+   "poster": "posters/tt0094946.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Messenger of Death",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/26172-messenger-of-death",
+   "imdb": "https://www.imdb.com/title/tt0095626/",
+   "poster": "posters/tt0095626.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Uninvited",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/45937-uninvited",
+   "imdb": "https://www.imdb.com/title/tt0096341/",
+   "poster": "posters/tt0096341.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Journey to the Center of the Earth",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/122894-journey-to-the-center-of-the-earth",
+   "imdb": "https://www.imdb.com/title/tt0097630/",
+   "poster": "posters/tt0097630.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Dead Heat",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/40095-dead-heat",
+   "imdb": "https://www.imdb.com/title/tt0094961/",
+   "poster": "posters/tt0094961.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Critters 2",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10127-critters-2",
+   "imdb": "https://www.imdb.com/title/tt0094919/",
+   "poster": "posters/tt0094919.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Above the Law",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9395-above-the-law",
+   "imdb": "https://www.imdb.com/title/tt0094602/",
+   "poster": "posters/tt0094602.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Bad Dreams",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/59797-bad-dreams",
+   "imdb": "https://www.imdb.com/title/tt0094701/",
+   "poster": "posters/tt0094701.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Stoning in Fulham County",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/209340-a-stoning-in-fulham-county",
+   "imdb": "https://www.imdb.com/title/tt0096179/",
+   "poster": "posters/tt0096179.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "(uncredited)",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Let's Get Lost",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/37640-let-s-get-lost",
+   "imdb": "https://www.imdb.com/title/tt0095515/",
+   "poster": "posters/tt0095515.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Self",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Police Story: Burnout",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/594707-police-story-burnout",
+   "imdb": "https://www.imdb.com/title/tt0095883/",
+   "poster": "posters/tt0095883.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "I'm Gonna Git You Sucka",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/17006-i-m-gonna-git-you-sucka",
+   "imdb": "https://www.imdb.com/title/tt0095348/",
+   "poster": "posters/tt0095348.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Phantasm II",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/15158-phantasm-ii",
+   "imdb": "https://www.imdb.com/title/tt0095863/",
+   "poster": "posters/tt0095863.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Presidio",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11851-the-presidio",
+   "imdb": "https://www.imdb.com/title/tt0095897/",
+   "poster": "posters/tt0095897.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Workman",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Shakedown",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0096087/",
+   "poster": "posters/tt0096087.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Dudes",
+   "year": 1988,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0346560/",
+   "poster": "posters/tt0346560.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Star Trek V: The Final Frontier",
    "year": 1989,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0098382/",
    "poster": "posters/tt0098382.jpg",
    "boxOffice": 63000000,
@@ -604,8 +2607,680 @@
    "media": []
   },
   {
+   "title": "Phantom of the Mall: Eric's Revenge",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/86326-phantom-of-the-mall-eric-s-revenge",
+   "imdb": "https://www.imdb.com/title/tt0098089/",
+   "poster": "posters/tt0098089.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rush Week",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/68884-rush-week",
+   "imdb": "https://www.imdb.com/title/tt0098235/",
+   "poster": "posters/tt0098235.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/5825-national-lampoon-s-christmas-vacation",
+   "imdb": "https://www.imdb.com/title/tt0097958/",
+   "poster": "posters/tt0097958.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "One Man Force",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/56725-one-man-force",
+   "imdb": "https://www.imdb.com/title/tt0098026/",
+   "poster": "posters/tt0098026.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "C.H.U.D. II: Bud the Chud",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/53150-c-h-u-d-ii-bud-the-chud",
+   "imdb": "https://www.imdb.com/title/tt0097001/",
+   "poster": "posters/tt0097001.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Happy Together",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/55059-happy-together",
+   "imdb": "https://www.imdb.com/title/tt0097478/",
+   "poster": "posters/tt0097478.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Bill & Ted's Excellent Adventure",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1648-bill-ted-s-excellent-adventure",
+   "imdb": "https://www.imdb.com/title/tt0096928/",
+   "poster": "posters/tt0096928.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Kinjite: Forbidden Subjects",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/59201-kinjite-forbidden-subjects",
+   "imdb": "https://www.imdb.com/title/tt0097670/",
+   "poster": "posters/tt0097670.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Blind Fury",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/19124-blind-fury",
+   "imdb": "https://www.imdb.com/title/tt0096945/",
+   "poster": "posters/tt0096945.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/942-lethal-weapon-2",
+   "imdb": "https://www.imdb.com/title/tt0097733/",
+   "poster": "posters/tt0097733.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The 'Burbs",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11974-the-burbs",
+   "imdb": "https://www.imdb.com/title/tt0096734/",
+   "poster": "posters/tt0096734.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Kinjite",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0097670/",
+   "poster": "posters/tt0097670.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Road House",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0098206/",
+   "poster": "posters/tt0098206.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Who's Harry Crumb?",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0098645/",
+   "poster": "posters/tt0098645.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lock Up",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0097770/",
+   "poster": "posters/tt0097770.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Loverboy",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0097790/",
+   "poster": "posters/tt0097790.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cage",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0097003/",
+   "poster": "posters/tt0097003.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Under The Boardwalk",
+   "year": 1989,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0098557/",
+   "poster": "posters/tt0098557.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Almost an Angel",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/25943-almost-an-angel",
+   "imdb": "https://www.imdb.com/title/tt0099018/",
+   "poster": "posters/tt0099018.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Fatal Charm",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/182497-fatal-charm",
+   "imdb": "https://www.imdb.com/title/tt0104234/",
+   "poster": "posters/tt0104234.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Men at Work",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10169-men-at-work",
+   "imdb": "https://www.imdb.com/title/tt0100135/",
+   "poster": "posters/tt0100135.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Night of the Wilding",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/202111-night-of-the-wilding",
+   "imdb": "https://www.imdb.com/title/tt0100259/",
+   "poster": "posters/tt0100259.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ghost Dad",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10485-ghost-dad",
+   "imdb": "https://www.imdb.com/title/tt0099654/",
+   "poster": "posters/tt0099654.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Opportunity Knocks",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/24073-opportunity-knocks",
+   "imdb": "https://www.imdb.com/title/tt0100301/",
+   "poster": "posters/tt0100301.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lambada",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/117269-lambada",
+   "imdb": "https://www.imdb.com/title/tt0099969/",
+   "poster": "posters/tt0099969.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Donor",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/338535-donor",
+   "imdb": "https://www.imdb.com/title/tt0099453/",
+   "poster": "posters/tt0099453.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Welcome Home, Roxy Carmichael",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/31923-welcome-home-roxy-carmichael",
+   "imdb": "https://www.imdb.com/title/tt0100911/",
+   "poster": "posters/tt0100911.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Gumshoe Kid",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/271873-the-gumshoe-kid",
+   "imdb": "https://www.imdb.com/title/tt0099718/",
+   "poster": "posters/tt0099718.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Adventures Of Ford Fairlane",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0098987/",
+   "poster": "posters/tt0098987.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Tune In Tomorrow...",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0100822/",
+   "poster": "posters/tt0100822.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Angel Town",
+   "year": 1990,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0099039/",
+   "poster": "posters/tt0099039.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Actor: Drunken frat man",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Highlander II: The Quickening",
    "year": 1991,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0102034/",
    "poster": "posters/tt0102034.jpg",
    "boxOffice": null,
@@ -622,8 +3297,615 @@
    "media": []
   },
   {
+   "title": "Star Trek VI: The Undiscovered Country",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/174-star-trek-vi-the-undiscovered-country",
+   "imdb": "https://www.imdb.com/title/tt0102975/",
+   "poster": "posters/tt0102975.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Highway to Hell",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/16191-highway-to-hell",
+   "imdb": "https://www.imdb.com/title/tt0104418/",
+   "poster": "posters/tt0104418.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Billy Bathgate",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/12647-billy-bathgate",
+   "imdb": "https://www.imdb.com/title/tt0101453/",
+   "poster": "posters/tt0101453.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Taking of Beverly Hills",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/32045-the-taking-of-beverly-hills",
+   "imdb": "https://www.imdb.com/title/tt0105526/",
+   "poster": "posters/tt0105526.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ricochet",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9546-ricochet",
+   "imdb": "https://www.imdb.com/title/tt0102789/",
+   "poster": "posters/tt0102789.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Hot Shots!",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9595-hot-shots",
+   "imdb": "https://www.imdb.com/title/tt0102059/",
+   "poster": "posters/tt0102059.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Another You",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/23303-another-you",
+   "imdb": "https://www.imdb.com/title/tt0101356/",
+   "poster": "posters/tt0101356.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Eyes of an Angel",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/50677-eyes-of-an-angel",
+   "imdb": "https://www.imdb.com/title/tt0101844/",
+   "poster": "posters/tt0101844.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Gnome Named Gnorm",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/21357-a-gnome-named-gnorm",
+   "imdb": "https://www.imdb.com/title/tt0109912/",
+   "poster": "posters/tt0109912.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Prayer of the Rollerboys",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/44568-prayer-of-the-rollerboys",
+   "imdb": "https://www.imdb.com/title/tt0102703/",
+   "poster": "posters/tt0102703.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Strays",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/123324-strays",
+   "imdb": "https://www.imdb.com/title/tt0102994/",
+   "poster": "posters/tt0102994.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9319-the-last-boy-scout",
+   "imdb": "https://www.imdb.com/title/tt0102266/",
+   "poster": "posters/tt0102266.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Point Break",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1089-point-break",
+   "imdb": "https://www.imdb.com/title/tt0102685/",
+   "poster": "posters/tt0102685.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Perfect Weapon",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/34421-the-perfect-weapon",
+   "imdb": "https://www.imdb.com/title/tt0102655/",
+   "poster": "posters/tt0102655.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Highlander 2: The Quickening",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0102034/",
+   "poster": "posters/tt0102034.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt coord, sword master & stuntman",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Career Opportunities",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0101545/",
+   "poster": "posters/tt0101545.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cool As Ice",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0101615/",
+   "poster": "posters/tt0101615.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Harley Davidson And The Marlboro Man",
+   "year": 1991,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0102005/",
+   "poster": "posters/tt0102005.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A River Runs Through It",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/293-a-river-runs-through-it",
+   "imdb": "https://www.imdb.com/title/tt0105265/",
+   "poster": "posters/tt0105265.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Red Shoe Diaries",
+   "year": 1992,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/1082-red-shoe-diaries",
+   "imdb": null,
+   "poster": "posters/1082-red-shoe-diaries.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode … Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "1 episode … Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Sleepwalkers",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11428-sleepwalkers",
+   "imdb": "https://www.imdb.com/title/tt0105428/",
+   "poster": "posters/tt0105428.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Knots Landing",
+   "year": 1992,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/2595-knots-landing",
+   "imdb": null,
+   "poster": "posters/2595-knots-landing.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode as Orderly",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Into the Sun",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/209369-into-the-sun",
+   "imdb": "https://www.imdb.com/title/tt0104521/",
+   "poster": "posters/tt0104521.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "Addl stunt coord",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ruby",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/70709-ruby",
+   "imdb": "https://www.imdb.com/title/tt0107999/",
+   "poster": "posters/tt0107999.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Action Jackson",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "No Place to Hide",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/94005-no-place-to-hide",
+   "imdb": "https://www.imdb.com/title/tt0105009/",
+   "poster": "posters/tt0105009.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rapid Fire",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/13153-rapid-fire",
+   "imdb": "https://www.imdb.com/title/tt0105219/",
+   "poster": "posters/tt0105219.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lethal Weapon 3",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/943-lethal-weapon-3",
+   "imdb": "https://www.imdb.com/title/tt0104714/",
+   "poster": "posters/tt0104714.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Mom And Dad Save The World",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0104905/",
+   "poster": "posters/tt0104905.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Nickel & Dime",
+   "year": 1992,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0104994/",
+   "poster": "posters/tt0104994.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Hard Target",
    "year": 1993,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0107076/",
    "poster": "posters/tt0107076.jpg",
    "boxOffice": 74200000,
@@ -640,8 +3922,285 @@
    "media": []
   },
   {
+   "title": "Sister Act 2: Back in the Habit",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/6279-sister-act-2-back-in-the-habit",
+   "imdb": "https://www.imdb.com/title/tt0108147/",
+   "poster": "posters/tt0108147.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rescue Me",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/110624-rescue-me",
+   "imdb": "https://www.imdb.com/title/tt0107556/",
+   "poster": "posters/tt0107556.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Jailbait",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/271173-jailbait",
+   "imdb": "https://www.imdb.com/title/tt0110178/",
+   "poster": "posters/tt0110178.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Beverly Hillbillies",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11041-the-beverly-hillbillies",
+   "imdb": "https://www.imdb.com/title/tt0106400/",
+   "poster": "posters/tt0106400.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Good Son",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9272-the-good-son",
+   "imdb": "https://www.imdb.com/title/tt0107034/",
+   "poster": "posters/tt0107034.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "True Romance",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/319-true-romance",
+   "imdb": "https://www.imdb.com/title/tt0108399/",
+   "poster": "posters/tt0108399.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Hot Shots! Part Deux",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9255-hot-shots-part-deux",
+   "imdb": "https://www.imdb.com/title/tt0107144/",
+   "poster": "posters/tt0107144.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Benny & Joon",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/4104-benny-joon",
+   "imdb": "https://www.imdb.com/title/tt0106387/",
+   "poster": "posters/tt0106387.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Grumpy Old Men",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11520-grumpy-old-men",
+   "imdb": "https://www.imdb.com/title/tt0107050/",
+   "poster": "posters/tt0107050.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Fade to Black",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/338393-fade-to-black",
+   "imdb": "https://www.imdb.com/title/tt0106853/",
+   "poster": "posters/tt0106853.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Surf Ninjas",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0108258/",
+   "poster": "posters/tt0108258.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt player",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cop & 1/2",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0108147/",
+   "poster": "posters/tt0108147.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "King Of The Hill",
+   "year": 1993,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0107322/",
+   "poster": "posters/tt0107322.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Maverick",
    "year": 1994,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0110478/",
    "poster": "posters/tt0110478.jpg",
    "boxOffice": 183000000,
@@ -658,8 +4217,225 @@
    "media": []
   },
   {
+   "title": "Flashfire",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/136597-flashfire",
+   "imdb": "https://www.imdb.com/title/tt0106925/",
+   "poster": "posters/tt0106925.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Airheads",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/13595-airheads",
+   "imdb": "https://www.imdb.com/title/tt0109068/",
+   "poster": "posters/tt0109068.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Getting Even with Dad",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/41579-getting-even-with-dad",
+   "imdb": "https://www.imdb.com/title/tt0109891/",
+   "poster": "posters/tt0109891.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Past Tense",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/189297-past-tense",
+   "imdb": "https://www.imdb.com/title/tt0110793/",
+   "poster": "posters/tt0110793.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Shattered Image",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/81265-shattered-image",
+   "imdb": "https://www.imdb.com/title/tt0111160/",
+   "poster": "posters/tt0111160.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lily in Winter",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/165769-lily-in-winter",
+   "imdb": "https://www.imdb.com/title/tt0110354/",
+   "poster": "posters/tt0110354.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Andre",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/21352-andre",
+   "imdb": "https://www.imdb.com/title/tt0109120/",
+   "poster": "posters/tt0109120.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "In the Best of Families: Marriage, Pride & Madness",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/448925-in-the-best-of-families-marriage-pride-madness",
+   "imdb": "https://www.imdb.com/title/tt0110124/",
+   "poster": "posters/tt0110124.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Dragstrip Girl",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/204821-dragstrip-girl",
+   "imdb": "https://www.imdb.com/title/tt0109662/",
+   "poster": "posters/tt0109662.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Afi Catalog Of Feature Films: The First 100 Years (1893-1993)",
+   "year": 1994,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Tall Tale",
    "year": 1995,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0111359/",
    "poster": "posters/tt0111359.jpg",
    "boxOffice": 8199999,
@@ -678,6 +4454,8 @@
   {
    "title": "Theodore Rex",
    "year": 1995,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0114658/",
    "poster": "posters/tt0114658.jpg",
    "boxOffice": null,
@@ -688,6 +4466,11 @@
      "person": "Ernie F. Orsatti (1940–2020)",
      "role": "Second unit director",
      "source": "https://www.imdb.com/name/nm0650683/"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
@@ -696,6 +4479,8 @@
   {
    "title": "Nine Months",
    "year": 1995,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0113986/",
    "poster": "posters/tt0113986.jpg",
    "boxOffice": 138500000,
@@ -712,8 +4497,140 @@
    "media": []
   },
   {
+   "title": "Rage",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/92375-rage",
+   "imdb": "https://www.imdb.com/title/tt0114224/",
+   "poster": "posters/tt0114224.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Coldblooded",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/32502-coldblooded",
+   "imdb": "https://www.imdb.com/title/tt0112702/",
+   "poster": "posters/tt0112702.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Perfect Alibi",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/188804-perfect-alibi",
+   "imdb": "https://www.imdb.com/title/tt0114114/",
+   "poster": "posters/tt0114114.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Unstrung Heroes",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/52856-unstrung-heroes",
+   "imdb": "https://www.imdb.com/title/tt0114798/",
+   "poster": "posters/tt0114798.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Problem Child 3",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/28601-problem-child-3",
+   "imdb": "https://www.imdb.com/title/tt0114188/",
+   "poster": "posters/tt0114188.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Tall Tale: The Unbelievable Adventure",
+   "year": 1995,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/41841-tall-tale-the-unbelievable-adventure",
+   "imdb": "https://www.imdb.com/title/tt0111359/",
+   "poster": "posters/tt0111359.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Larger Than Life",
    "year": 1996,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0116823/",
    "poster": "posters/tt0116823.jpg",
    "boxOffice": 8300000,
@@ -732,6 +4649,8 @@
   {
    "title": "Tremors 2: Aftershocks",
    "year": 1996,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0114720/",
    "poster": "posters/tt0114720.jpg",
    "boxOffice": null,
@@ -742,6 +4661,311 @@
      "person": "Noon Orsatti",
      "role": "Stunt coordinator",
      "source": "https://www.ihorrordb.com/people/116575/noon-orsatti"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Riot",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/74832-riot",
+   "imdb": "https://www.imdb.com/title/tt0117481/",
+   "poster": "posters/tt0117481.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Very Brady Sequel",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/12606-a-very-brady-sequel",
+   "imdb": "https://www.imdb.com/title/tt0118073/",
+   "poster": "posters/tt0118073.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Don't Look Back",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/49315-don-t-look-back",
+   "imdb": "https://www.imdb.com/title/tt0116127/",
+   "poster": "posters/tt0116127.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Sweeper",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/121817-the-sweeper",
+   "imdb": "https://www.imdb.com/title/tt0114590/",
+   "poster": "posters/tt0114590.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Truth About Cats & Dogs",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/8866-the-truth-about-cats-dogs",
+   "imdb": "https://www.imdb.com/title/tt0117979/",
+   "poster": "posters/tt0117979.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Primal Fear",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1592-primal-fear",
+   "imdb": "https://www.imdb.com/title/tt0117381/",
+   "poster": "posters/tt0117381.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ed",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/32308-ed",
+   "imdb": "https://www.imdb.com/title/tt0116165/",
+   "poster": "posters/tt0116165.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Goon #2",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "One Fine Day",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/7300-one-fine-day",
+   "imdb": "https://www.imdb.com/title/tt0117247/",
+   "poster": "posters/tt0117247.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Unlikely Angel",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/103409-unlikely-angel",
+   "imdb": "https://www.imdb.com/title/tt0118048/",
+   "poster": "posters/tt0118048.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "To Gillian on Her 37th Birthday",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/30500-to-gillian-on-her-37th-birthday",
+   "imdb": "https://www.imdb.com/title/tt0117924/",
+   "poster": "posters/tt0117924.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Crime of the Century",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/198389-crime-of-the-century",
+   "imdb": "https://www.imdb.com/title/tt0115974/",
+   "poster": "posters/tt0115974.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Friend's Betrayal",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/284459-a-friend-s-betrayal",
+   "imdb": "https://www.imdb.com/title/tt0116364/",
+   "poster": "posters/tt0116364.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Sgt. Bilko",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9099-sgt-bilko",
+   "imdb": "https://www.imdb.com/title/tt0117608/",
+   "poster": "posters/tt0117608.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Ultimate Lie",
+   "year": 1996,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/429680-the-ultimate-lie",
+   "imdb": "https://www.imdb.com/title/tt0118013/",
+   "poster": "posters/tt0118013.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
@@ -750,6 +4974,8 @@
   {
    "title": "City of Industry",
    "year": 1997,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0118859/",
    "poster": "posters/tt0118859.jpg",
    "boxOffice": 1568328,
@@ -768,6 +4994,8 @@
   {
    "title": "Con Air",
    "year": 1997,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0118880/",
    "poster": "posters/tt0118880.jpg",
    "boxOffice": 224,
@@ -786,6 +5014,8 @@
   {
    "title": "Nothing to Lose",
    "year": 1997,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0119807/",
    "poster": "posters/tt0119807.jpg",
    "boxOffice": 44500000,
@@ -804,6 +5034,8 @@
   {
    "title": "Alien Resurrection",
    "year": 1997,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0118583/",
    "poster": "posters/tt0118583.jpg",
    "boxOffice": 161400000,
@@ -814,6 +5046,176 @@
      "person": "Noon Orsatti",
      "role": "Stunts",
      "source": "https://www.ihorrordb.com/people/116575/noon-orsatti"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Big Fall",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/245838-the-big-fall",
+   "imdb": "https://www.imdb.com/title/tt0115677/",
+   "poster": "posters/tt0115677.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Sins of the Mind",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/368128-sins-of-the-mind",
+   "imdb": "https://www.imdb.com/title/tt0120137/",
+   "poster": "posters/tt0120137.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Just Write",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/163869-just-write",
+   "imdb": "https://www.imdb.com/title/tt0119434/",
+   "poster": "posters/tt0119434.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Driver",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "She's So Lovely",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/38295-she-s-so-lovely",
+   "imdb": "https://www.imdb.com/title/tt0120112/",
+   "poster": "posters/tt0120112.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Cop #3",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Love Bug",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/32643-the-love-bug",
+   "imdb": "https://www.imdb.com/title/tt0119571/",
+   "poster": "posters/tt0119571.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Trial and Error",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/17770-trial-and-error",
+   "imdb": "https://www.imdb.com/title/tt0120373/",
+   "poster": "posters/tt0120373.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "A Nightmare Come True",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/406163-a-nightmare-come-true",
+   "imdb": "https://www.imdb.com/title/tt0134848/",
+   "poster": "posters/tt0134848.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Friends 'Til the End",
+   "year": 1997,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/169002-friends-til-the-end",
+   "imdb": "https://www.imdb.com/title/tt0119158/",
+   "poster": "posters/tt0119158.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
@@ -822,6 +5224,8 @@
   {
    "title": "Fallen",
    "year": 1998,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0119099/",
    "poster": "posters/tt0119099.jpg",
    "boxOffice": 25200000,
@@ -840,6 +5244,8 @@
   {
    "title": "Doctor Dolittle",
    "year": 1998,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0118998/",
    "poster": "posters/tt0118998.jpg",
    "boxOffice": 294400000,
@@ -858,6 +5264,8 @@
   {
    "title": "Mafia!",
    "year": 1998,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0120741/",
    "poster": "posters/tt0120741.jpg",
    "boxOffice": 30100000,
@@ -874,8 +5282,350 @@
    "media": []
   },
   {
+   "title": "Charmed",
+   "year": 1998,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0158552/",
+   "poster": "posters/1981-charmed.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "First credit (per IMDb)",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode … Stunt Double",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "37 episodes … Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "CHiPs '99",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/121945-chips-99",
+   "imdb": "https://www.imdb.com/title/tt0162898/",
+   "poster": "posters/tt0162898.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Thirst",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/243866-thirst",
+   "imdb": "https://www.imdb.com/title/tt0163337/",
+   "poster": "posters/tt0163337.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Pleasantville",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/2657-pleasantville",
+   "imdb": "https://www.imdb.com/title/tt0120789/",
+   "poster": "posters/tt0120789.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "American History X",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/73-american-history-x",
+   "imdb": "https://www.imdb.com/title/tt0120586/",
+   "poster": "posters/tt0120586.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Fear and Loathing in Las Vegas",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1878-fear-and-loathing-in-las-vegas",
+   "imdb": "https://www.imdb.com/title/tt0120669/",
+   "poster": "posters/tt0120669.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cab to Canada",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/438049-cab-to-canada",
+   "imdb": "https://www.imdb.com/title/tt0161356/",
+   "poster": "posters/tt0161356.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Jane Austen's Mafia!",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9835-jane-austen-s-mafia",
+   "imdb": "https://www.imdb.com/title/tt0120741/",
+   "poster": "posters/tt0120741.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Silk Hope",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/114611-silk-hope",
+   "imdb": "https://www.imdb.com/title/tt0201128/",
+   "poster": "posters/tt0201128.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Limey",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10388-the-limey",
+   "imdb": "https://www.imdb.com/title/tt0165854/",
+   "poster": "posters/tt0165854.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Runner",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/214412-the-runner",
+   "imdb": "https://www.imdb.com/title/tt0165454/",
+   "poster": "posters/tt0165454.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "My Favorite Martian",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9849-my-favorite-martian",
+   "imdb": "https://www.imdb.com/title/tt0120764/",
+   "poster": "posters/tt0120764.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Jamie Foxx Show",
+   "year": 1999,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/2312-the-jamie-foxx-show",
+   "imdb": null,
+   "poster": "posters/2312-the-jamie-foxx-show.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode as The Mugger",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Simpatico",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/50116-simpatico",
+   "imdb": "https://www.imdb.com/title/tt0174204/",
+   "poster": "posters/tt0174204.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "D.R.E.A.M. Team",
+   "year": 1999,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/216290-d-r-e-a-m-team",
+   "imdb": "https://www.imdb.com/title/tt0179140/",
+   "poster": "posters/tt0179140.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Men of Honor",
    "year": 2000,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0203019/",
    "poster": "posters/tt0203019.jpg",
    "boxOffice": 82300000,
@@ -892,8 +5642,180 @@
    "media": []
   },
   {
+   "title": "Kiss Tomorrow Goodbye",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/219297-kiss-tomorrow-goodbye",
+   "imdb": "https://www.imdb.com/title/tt0203624/",
+   "poster": "posters/tt0203624.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Picking Up the Pieces",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/31774-picking-up-the-pieces",
+   "imdb": "https://www.imdb.com/title/tt0192455/",
+   "poster": "posters/tt0192455.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "3 Strikes",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/47816-3-strikes",
+   "imdb": "https://www.imdb.com/title/tt0199290/",
+   "poster": "posters/tt0199290.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Magicians",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/123447-magicians",
+   "imdb": "https://www.imdb.com/title/tt0188045/",
+   "poster": "posters/tt0188045.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Strong Medicine",
+   "year": 2000,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/4544-strong-medicine",
+   "imdb": null,
+   "poster": "posters/4544-strong-medicine.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Big Momma's House",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9600-big-momma-s-house",
+   "imdb": "https://www.imdb.com/title/tt0208003/",
+   "poster": "posters/tt0208003.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Miracle in Lane 2",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/77921-miracle-in-lane-2",
+   "imdb": "https://www.imdb.com/title/tt0218440/",
+   "poster": "posters/tt0218440.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Going Home",
+   "year": 2000,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/440942-going-home",
+   "imdb": "https://www.imdb.com/title/tt0200668/",
+   "poster": "posters/tt0200668.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Black Knight",
    "year": 2001,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0265087/",
    "poster": "posters/tt0265087.jpg",
    "boxOffice": 39900000,
@@ -912,6 +5834,8 @@
   {
    "title": "Stop at Nothing",
    "year": 2001,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0283798/",
    "poster": null,
    "boxOffice": null,
@@ -928,8 +5852,215 @@
    "media": []
   },
   {
+   "title": "Joe Somebody",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/12312-joe-somebody",
+   "imdb": "https://www.imdb.com/title/tt0279889/",
+   "poster": "posters/tt0279889.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Not Another Teen Movie",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11397-not-another-teen-movie",
+   "imdb": "https://www.imdb.com/title/tt0277371/",
+   "poster": "posters/tt0277371.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Tremors 3: Back to Perfection",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10829-tremors-3-back-to-perfection",
+   "imdb": "https://www.imdb.com/title/tt0259685/",
+   "poster": "posters/tt0259685.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rennie's Landing",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/132422-rennie-s-landing",
+   "imdb": "https://www.imdb.com/title/tt0251370/",
+   "poster": "posters/tt0251370.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Joe Dirt",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10956-joe-dirt",
+   "imdb": "https://www.imdb.com/title/tt0245686/",
+   "poster": "posters/tt0245686.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Tomcats",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10646-tomcats",
+   "imdb": "https://www.imdb.com/title/tt0246989/",
+   "poster": "posters/tt0246989.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Corky Romano",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/17708-corky-romano",
+   "imdb": "https://www.imdb.com/title/tt0250310/",
+   "poster": "posters/tt0250310.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Crocodile Dundee in Los Angeles",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/9290-crocodile-dundee-in-los-angeles",
+   "imdb": "https://www.imdb.com/title/tt0231402/",
+   "poster": "posters/tt0231402.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Rain",
+   "year": 2001,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/354307-rain",
+   "imdb": "https://www.imdb.com/title/tt0265611/",
+   "poster": "posters/tt0265611.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Frank McKlusky, C.I.",
+   "year": 2002,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/21220-frank-mcklusky-c-i",
+   "imdb": "https://www.imdb.com/title/tt0281865/",
+   "poster": "posters/tt0281865.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Carnivàle",
    "year": 2003,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0319969/",
    "poster": "posters/tt0319969.jpg",
    "boxOffice": null,
@@ -946,8 +6077,155 @@
    "media": []
   },
   {
+   "title": "Cheaper by the Dozen",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/11007-cheaper-by-the-dozen",
+   "imdb": "https://www.imdb.com/title/tt0349205/",
+   "poster": "posters/tt0349205.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Cooler",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10744-the-cooler",
+   "imdb": "https://www.imdb.com/title/tt0318374/",
+   "poster": "posters/tt0318374.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The League of Extraordinary Gentlemen",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/8698-the-league-of-extraordinary-gentlemen",
+   "imdb": "https://www.imdb.com/title/tt0311429/",
+   "poster": "posters/tt0311429.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Carolina",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/4592-carolina",
+   "imdb": "https://www.imdb.com/title/tt0289889/",
+   "poster": "posters/tt0289889.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Just Married",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/12090-just-married",
+   "imdb": "https://www.imdb.com/title/tt0305711/",
+   "poster": "posters/tt0305711.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cult Culture: The Poseidon Adventure",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/671443-cult-culture-the-poseidon-adventure",
+   "imdb": "https://www.imdb.com/title/tt0397050/",
+   "poster": "posters/tt0397050.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Himself",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Afi Catalog Of Feature Films: The First 100 Years (1893-1993)",
+   "year": 2003,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Club Dread",
    "year": 2004,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0331953/",
    "poster": "posters/tt0331953.jpg",
    "boxOffice": 7600000,
@@ -966,6 +6244,8 @@
   {
    "title": "Entourage",
    "year": 2004,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0387199/",
    "poster": "posters/tt0387199.jpg",
    "boxOffice": null,
@@ -982,8 +6262,100 @@
    "media": []
   },
   {
+   "title": "Christmas with the Kranks",
+   "year": 2004,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/13673-christmas-with-the-kranks",
+   "imdb": "https://www.imdb.com/title/tt0388419/",
+   "poster": "posters/tt0388419.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Tremors 4: The Legend Begins",
+   "year": 2004,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/10891-tremors-4-the-legend-begins",
+   "imdb": "https://www.imdb.com/title/tt0334541/",
+   "poster": "posters/tt0334541.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "In Good Company",
+   "year": 2004,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1901-in-good-company",
+   "imdb": "https://www.imdb.com/title/tt0385267/",
+   "poster": "posters/tt0385267.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Welcome to Mooseport",
+   "year": 2004,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/16784-welcome-to-mooseport",
+   "imdb": "https://www.imdb.com/title/tt0361925/",
+   "poster": "posters/tt0361925.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Yours, Mine & Ours",
    "year": 2005,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0443295/",
    "poster": "posters/tt0443295.jpg",
    "boxOffice": 72700000,
@@ -1000,8 +6372,35 @@
    "media": []
   },
   {
+   "title": "Happy Endings",
+   "year": 2005,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/14922-happy-endings",
+   "imdb": "https://www.imdb.com/title/tt0361693/",
+   "poster": "posters/tt0361693.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Pink Panther",
    "year": 2006,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0383216/",
    "poster": "posters/tt0383216.jpg",
    "boxOffice": 164100000,
@@ -1020,6 +6419,8 @@
   {
    "title": "It's Always Sunny in Philadelphia",
    "year": 2006,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0472954/",
    "poster": "posters/tt0472954.jpg",
    "boxOffice": null,
@@ -1036,8 +6437,100 @@
    "media": []
   },
   {
+   "title": "Scrubs",
+   "year": 2006,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/4556-scrubs",
+   "imdb": null,
+   "poster": "posters/4556-scrubs.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode … Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "1 episode as Pilgrim Kid",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Running with Scissors",
+   "year": 2006,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/7510-running-with-scissors",
+   "imdb": "https://www.imdb.com/title/tt0439289/",
+   "poster": "posters/tt0439289.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Initiation of Sarah",
+   "year": 2006,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/23691-the-initiation-of-sarah",
+   "imdb": "https://www.imdb.com/title/tt0795403/",
+   "poster": "posters/tt0795403.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Closer",
+   "year": 2006,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/1450-the-closer",
+   "imdb": null,
+   "poster": "posters/1450-the-closer.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "1 episode … Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "5 episodes … Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Moonlight",
    "year": 2007,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0955346/",
    "poster": "posters/tt0955346.jpg",
    "boxOffice": null,
@@ -1056,6 +6549,8 @@
   {
    "title": "Made of Honor",
    "year": 2008,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0866439/",
    "poster": "posters/tt0866439.jpg",
    "boxOffice": 106,
@@ -1074,6 +6569,8 @@
   {
    "title": "Strange Wilderness",
    "year": 2008,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0489282/",
    "poster": "posters/tt0489282.jpg",
    "boxOffice": 6900000,
@@ -1092,6 +6589,8 @@
   {
    "title": "Rambo",
    "year": 2008,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0462499/",
    "poster": "posters/tt0462499.jpg",
    "boxOffice": 113200000,
@@ -1108,8 +6607,30 @@
    "media": []
   },
   {
+   "title": "Speed Racer",
+   "year": 2008,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/7459-speed-racer",
+   "imdb": "https://www.imdb.com/title/tt0811080/",
+   "poster": "posters/tt0811080.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Pink Panther 2",
    "year": 2009,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0838232/",
    "poster": "posters/tt0838232.jpg",
    "boxOffice": 76000000,
@@ -1128,6 +6649,8 @@
   {
    "title": "Big Love",
    "year": 2009,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0421030/",
    "poster": null,
    "boxOffice": null,
@@ -1144,8 +6667,50 @@
    "media": []
   },
   {
+   "title": "Angels & Demons",
+   "year": 2009,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/13448-angels-demons",
+   "imdb": "https://www.imdb.com/title/tt0808151/",
+   "poster": "posters/tt0808151.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "L'Incroyable Hulk : L'Homme Mystère",
+   "year": 2009,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/549956-l-incroyable-hulk-l-homme-mystere",
+   "imdb": null,
+   "poster": "posters/549956-l-incroyable-hulk-l-homme-mystere.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
+     "role": "Director",
+     "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Furry Vengeance",
    "year": 2010,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0492389/",
    "poster": "posters/tt0492389.jpg",
    "boxOffice": 39000000,
@@ -1164,6 +6729,8 @@
   {
    "title": "The Expendables",
    "year": 2010,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1320253/",
    "poster": "posters/tt1320253.jpg",
    "boxOffice": 274500000,
@@ -1180,8 +6747,160 @@
    "media": []
   },
   {
+   "title": "Let Me In",
+   "year": 2010,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt1228987/",
+   "poster": "posters/tt1228987.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Actor: Scottie Tate (also stunts, uncredited)",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Once Fallen",
+   "year": 2010,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/44862-once-fallen",
+   "imdb": "https://www.imdb.com/title/tt1087524/",
+   "poster": "posters/tt1087524.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Cherry",
+   "year": 2010,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/47320-cherry",
+   "imdb": "https://www.imdb.com/title/tt1315350/",
+   "poster": "posters/tt1315350.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Trespass",
+   "year": 2011,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/70578-trespass",
+   "imdb": "https://www.imdb.com/title/tt1674784/",
+   "poster": "posters/tt1674784.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Conan the Barbarian",
+   "year": 2011,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/37430-conan-the-barbarian",
+   "imdb": "https://www.imdb.com/title/tt0816462/",
+   "poster": "posters/tt0816462.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Mechanic",
+   "year": 2011,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/27582-the-mechanic",
+   "imdb": "https://www.imdb.com/title/tt0472399/",
+   "poster": "posters/tt0472399.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Just Peck",
+   "year": 2011,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/39773-just-peck",
+   "imdb": "https://www.imdb.com/title/tt2123216/",
+   "poster": "posters/tt2123216.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Stolen",
    "year": 2012,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1656186/",
    "poster": "posters/tt1656186.jpg",
    "boxOffice": 18000000,
@@ -1200,6 +6919,8 @@
   {
    "title": "Project X",
    "year": 2012,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1636826/",
    "poster": "posters/tt1636826.jpg",
    "boxOffice": 102700000,
@@ -1216,8 +6937,215 @@
    "media": []
   },
   {
+   "title": "Bullet to the Head",
+   "year": 2012,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/70074-bullet-to-the-head",
+   "imdb": "https://www.imdb.com/title/tt1308729/",
+   "poster": "posters/tt1308729.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Expendables 2",
+   "year": 2012,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/76163-the-expendables-2",
+   "imdb": "https://www.imdb.com/title/tt1764651/",
+   "poster": "posters/tt1764651.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Hunger Games: Catching Fire",
+   "year": 2013,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/101299-the-hunger-games-catching-fire",
+   "imdb": "https://www.imdb.com/title/tt1951264/",
+   "poster": "posters/tt1951264.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Escape Plan",
+   "year": 2013,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/107846-escape-plan",
+   "imdb": "https://www.imdb.com/title/tt1211956/",
+   "poster": "posters/tt1211956.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ride Along",
+   "year": 2014,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/168530-ride-along",
+   "imdb": "https://www.imdb.com/title/tt1408253/",
+   "poster": "posters/tt1408253.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ride Along 2",
+   "year": 2016,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/323675-ride-along-2",
+   "imdb": "https://www.imdb.com/title/tt2869728/",
+   "poster": "posters/tt2869728.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Spider-Man: Homecoming",
+   "year": 2017,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/315635-spider-man-homecoming",
+   "imdb": "https://www.imdb.com/title/tt2250912/",
+   "poster": "posters/tt2250912.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/324552-john-wick-chapter-2",
+   "imdb": "https://www.imdb.com/title/tt4425200/",
+   "poster": "posters/tt4425200.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Avengers: Infinity War",
+   "year": 2018,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/299536-avengers-infinity-war",
+   "imdb": "https://www.imdb.com/title/tt4154756/",
+   "poster": "posters/tt4154756.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Black Panther",
+   "year": 2018,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/284054-black-panther",
+   "imdb": "https://www.imdb.com/title/tt1825683/",
+   "poster": "posters/tt1825683.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Gemini Man",
    "year": 2019,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1025100/",
    "poster": "posters/tt1025100.jpg",
    "boxOffice": 173500000,
@@ -1236,6 +7164,8 @@
   {
    "title": "Avengers: Endgame",
    "year": 2019,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt4154796/",
    "poster": "posters/tt4154796.jpg",
    "boxOffice": 2799439100,
@@ -1252,8 +7182,30 @@
    "media": []
   },
   {
+   "title": "Skyfire",
+   "year": 2019,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/604872",
+   "imdb": "https://www.imdb.com/title/tt9203190/",
+   "poster": "posters/tt9203190.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Hawkeye",
    "year": 2021,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt10160804/",
    "poster": "posters/tt10160804.jpg",
    "boxOffice": null,
@@ -1264,6 +7216,11 @@
      "person": "Rowbie Orsatti",
      "role": "Stunts (5 eps)",
      "source": "https://www.imdb.com/name/nm1769066/"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "6 episodes … Other",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
@@ -1272,6 +7229,8 @@
   {
    "title": "Extraction II",
    "year": 2023,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt12263384/",
    "poster": "posters/tt12263384.jpg",
    "boxOffice": null,
@@ -1317,8 +7276,35 @@
    ]
   },
   {
+   "title": "Extraction 2",
+   "year": 2023,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/697843-extraction-2",
+   "imdb": "https://www.imdb.com/title/tt12263384/",
+   "poster": "posters/tt12263384.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "Borderlands",
    "year": 2024,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt4978420/",
    "poster": "posters/tt4978420.jpg",
    "boxOffice": 33,
@@ -1348,6 +7334,8 @@
   {
    "title": "Fly Me to the Moon",
    "year": 2024,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1896747/",
    "poster": "posters/tt1896747.jpg",
    "boxOffice": 42000000,
@@ -1366,6 +7354,8 @@
   {
    "title": "Agatha All Along",
    "year": 2024,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt15571732/",
    "poster": "posters/tt15571732.jpg",
    "boxOffice": null,
@@ -1384,6 +7374,8 @@
   {
    "title": "You're Cordially Invited",
    "year": 2025,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt21227864/",
    "poster": "posters/tt21227864.jpg",
    "boxOffice": null,
@@ -1407,6 +7399,8 @@
   {
    "title": "Bride Hard",
    "year": 2025,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt21317634/",
    "poster": "posters/tt21317634.jpg",
    "boxOffice": 2100000,
@@ -1430,6 +7424,8 @@
   {
    "title": "Thunderbolts*",
    "year": 2025,
+   "type": "movie",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt20969586/",
    "poster": "posters/tt20969586.jpg",
    "boxOffice": 382,
@@ -1453,6 +7449,8 @@
   {
    "title": "Stranger Things",
    "year": 2025,
+   "type": "tv",
+   "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt4574334/",
    "poster": null,
    "boxOffice": null,
@@ -1470,6 +7468,36 @@
   }
  ],
  "milestones": [
+  {
+   "year": 1998,
+   "kind": "milestone",
+   "title": "Rowbie Orsatti's first credit: Charmed",
+   "text": "Rowbie Orsatti's first screen credit came on Charmed in 1998, the series on which his father Noon Orsatti worked as stunt coordinator and second-unit director for years.",
+   "sources": [
+    "https://www.imdb.com/name/nm1769066/",
+    "family"
+   ]
+  },
+  {
+   "year": 2001,
+   "kind": "milestone",
+   "title": "Rowbie Orsatti joins SAG",
+   "text": "Rowbie Orsatti becomes a member of the Screen Actors Guild – the union Ken Orsatti led as national executive director from 1981 to 2000.",
+   "sources": [
+    "family"
+   ]
+  },
+  {
+   "year": 1999,
+   "kind": "milestone",
+   "title": "The Orsatti TV years",
+   "text": "Through the late 1990s and 2000s Ernie F. and Noon Orsatti coordinated stunts across a remarkable run of network and cable series – Charmed, Carnivàle, Entourage, It's Always Sunny in Philadelphia, Nip/Tuck, The Closer, Big Love and more. The family recalls a stretch when father and son were running more shows than anyone in town.",
+   "sources": [
+    "https://www.imdb.com/name/nm0650683/",
+    "https://www.imdb.com/name/nm0650687/",
+    "family"
+   ]
+  },
   {
    "year": 1928,
    "kind": "lore",
@@ -1789,7 +7817,8 @@
  "boxOfficeSummary": {
   "total": 5798431353,
   "withData": 42,
-  "films": 69,
+  "films": 315,
+  "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

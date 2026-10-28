@@ -1,5 +1,5 @@
 import json
-cr=json.load(open('credits.bo.json'))
+cr=json.load(open('credits.all.json'))
 FIX={'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stranger Things':dict(imdb='https://www.imdb.com/title/tt4574334/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stop at Nothing':dict(boxOffice=None,boxOfficeSource=None),'Moonlight':dict(boxOffice=None,boxOfficeSource=None),
@@ -24,6 +24,9 @@ funfacts={
  'A Nightmare on Elm Street 4: The Dream Master':[{'text':'Noon is credited as a stunt player (AFI Catalog). A claim that he doubled Freddy Krueger could NOT be verified – AFI lists him among general stunt players only.','source':'https://catalog.afi.com/Catalog/moviedetails/58990'}],
 }
 milestones=[
+ dict(year=1998,kind='milestone',title='Rowbie Orsatti\'s first credit: Charmed',text='Rowbie Orsatti\'s first screen credit came on Charmed in 1998, the series on which his father Noon Orsatti worked as stunt coordinator and second-unit director for years.',sources=['https://www.imdb.com/name/nm1769066/','family']),
+ dict(year=2001,kind='milestone',title='Rowbie Orsatti joins SAG',text='Rowbie Orsatti becomes a member of the Screen Actors Guild – the union Ken Orsatti led as national executive director from 1981 to 2000.',sources=['family']),
+ dict(year=1999,kind='milestone',title='The Orsatti TV years',text='Through the late 1990s and 2000s Ernie F. and Noon Orsatti coordinated stunts across a remarkable run of network and cable series – Charmed, Carnivàle, Entourage, It\'s Always Sunny in Philadelphia, Nip/Tuck, The Closer, Big Love and more. The family recalls a stretch when father and son were running more shows than anyone in town.',sources=['https://www.imdb.com/name/nm0650683/','https://www.imdb.com/name/nm0650687/','family']),
  dict(year=1928,kind='lore',title='Bootleggers to the studios',text='Family lore holds that the Orsatti brothers supplied Hollywood – and MGM in particular – during Prohibition. The documented pieces: author Tim Adler says Frank got into the movie business by supplying Louis B. Mayer with alcohol and women; Weaver et al. call Frank "a former bootlegger"; and father Morris was convicted (1922–25) of bribing a Prohibition agent.',sources=['https://en.wikipedia.org/wiki/Victor_Orsatti (citing Adler, Hollywood and the Mob)','Tom Weaver, David Schecter & Robert J. Kiss, Universal Terrors, 1951–1955 (McFarland, 2017)','https://hallapproved.com/us/cases/ca9/1925/6757913/'],flag='Lore, partly documented'),
  dict(year=1936,kind='lore',title='Vic\'s spaghetti parties',text='A period news photo shows Al and Victor Orsatti with Alice Faye, James Stewart, Rochelle Hudson and Shirley Ross at "one of Victor Orsatti\'s famous Hollywood spaghetti parties."',sources=['https://www.gettyimages.com.au/detail/news-photo/al-orsatti-rochelle-hudson-victor-orsatti-shirley-ross-news-photo/646310372'],flag='Photo caption; exact year unknown'),
  dict(year=1936,kind='business',title='Bringing Sonja Henie to Hollywood',text='Vic is credited with persuading three-time Olympic figure-skating champion Sonja Henie to move to Hollywood after the 1936 Winter Olympics; she became one of its highest-paid stars. In 1939 Louella Parsons reported their romance was "the talk of Hollywood."',sources=['https://en.wikipedia.org/wiki/Victor_Orsatti']),
@@ -78,10 +81,11 @@ media={
 }
 films={}
 for c in cr:
-  k=(c['title'],c['year']); f=films.setdefault(k,dict(title=c['title'],year=c['year'],imdb=c['imdb'],poster=c['poster'],boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))
+  k=(c['title'],None if c.get('type')=='tv' else c['year']); f=films.setdefault(k,dict(title=c['title'],year=c['year'],type=c.get('type','movie'),tmdb=c.get('tmdb'),imdb=c.get('imdb'),poster=c.get('poster'),boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))
+  f['year']=min(f['year'],c['year']); f['poster']=f['poster'] or c.get('poster'); f['imdb']=f['imdb'] or c.get('imdb')
   f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
 fl=sorted(films.values(),key=lambda f:f['year'])
-known=[f for f in fl if f['boxOffice']]
-data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=len(fl),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
+known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
+data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])

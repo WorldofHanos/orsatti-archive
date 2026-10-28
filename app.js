@@ -4,10 +4,10 @@ const link=u=>/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noope
 const KIND={baseball:'Diamond',mob:'Hollywood Underworld',keaton:'The Keaton Years',quote:'In Their Words',business:'Family Business',milestone:'Milestone',lore:'Hollywood Legend'};
 fetch('data.json').then(r=>r.json()).then(D=>{
  const years={};D.films.forEach(f=>(years[f.year]??={films:[],ms:[]}).films.push(f));D.milestones.forEach(m=>(years[m.year]??={films:[],ms:[]}).ms.push(m));D.people.forEach(p=>p.year&&(years[p.year]??={films:[],ms:[]}).ms.unshift({kind:'person',p}));
- const S=D.boxOfficeSummary;$('#bosub').textContent=`${S.withData} of ${S.films} titles have box-office data; ${S.films-S.withData} unknown (not estimated)`;
+ const S=D.boxOfficeSummary;$('#bosub').textContent=`${S.withData} of ${S.films} films with reported grosses · TV excluded`;
  $('#foot').textContent=`${D.films.length} titles · ${D.milestones.length} milestones · total known worldwide gross ${money(S.total)}`;
  const nC=D.films.reduce((n,f)=>n+f.credits.length,0),yrs=new Date().getFullYear()-1923;
- $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*'],[4,'generations']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Terminator · Avengers: Endgame · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
+ $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],[S.films+S.tvShows,'films & series'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Terminator · Avengers: Endgame · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
  const tl=$('#timeline');let cum=0,idx=0;
  Object.keys(years).sort((a,b)=>a-b).forEach(y=>{const g=years[y];g.films.forEach(f=>cum+=f.boxOffice||0);
   const el=document.createElement('section');el.className='yr';el.dataset.cum=cum;
@@ -18,9 +18,9 @@ fetch('data.json').then(r=>r.json()).then(D=>{
   el.querySelector('.yhead').onclick=()=>el.classList.toggle('pinned');
   el.querySelectorAll('[data-i]').forEach(p=>p.onclick=e=>{e.stopPropagation();open(g.films[p.dataset.i])});
   tl.appendChild(el)});
- function open(f){$('#mbody').innerHTML=`<div>${f.poster?`<img src="${esc(f.poster)}" alt="">`:''}</div><div><h2>${esc(f.title)}</h2><div class="yr2">${f.year}</div>
+ function open(f){$('#mbody').innerHTML=`<div>${f.poster?`<img src="${esc(f.poster)}" alt="">`:''}</div><div><h2>${esc(f.title)}</h2><div class="yr2">${f.year}${f.type==='tv'?' · TV series':''}</div>
   <h4>The Orsattis on this film</h4><ul>${f.credits.map(c=>{const pp=D.people.find(p=>p.photo&&c.person.startsWith(p.name.split(' (')[0]));return `<li>${pp?`<img class="face" src="${esc(pp.photo)}" alt="">`:''}<b>${esc(c.person)}</b> – ${esc(c.role)} <span class="src">(${link(c.source)})</span></li>`}).join('')}</ul>
-  <h4>Worldwide box office</h4><p>${f.boxOffice?money(f.boxOffice)+` <span class="src">(${link(f.boxOfficeSource)})</span>`:'<span class="src">Unknown / not reported</span>'}</p>
+  <h4>Worldwide box office</h4><p>${f.type==='tv'?'<span class="src">Television – no box office</span>':f.boxOffice?money(f.boxOffice)+` <span class="src">(${link(f.boxOfficeSource)})</span>`:'<span class="src">Not reported</span>'}</p>
   ${f.funFacts.length?`<h4>Fun facts</h4><ul>${f.funFacts.map(x=>`<li>${esc(x.text)} <span class="src">(${link(x.source)})</span></li>`).join('')}</ul>`:''}
   ${f.media.length?`<h4>Media</h4><div class="media">${f.media.map(m=>m.type==='youtube'?`<iframe src="https://www.youtube-nocookie.com/embed/${esc(m.id)}" title="${esc(m.title)}" loading="lazy" allowfullscreen></iframe>`:m.type==='photo'?`<a href="${esc(m.url)}" target="_blank"><img src="${esc(m.src)}" alt="${esc(m.title)}"></a>`:`<a class="ml" href="${esc(m.url)}" target="_blank" rel="noopener">${m.type==='audio'?'♪':'→'} ${esc(m.title)}${m.note?` <span class=src>(${esc(m.note)})</span>`:''}</a>`).join('')}</div>`:''}
   ${f.imdb?`<a class="btn" href="${esc(f.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}</div>`;$('#modal').hidden=false}
