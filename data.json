@@ -42,6 +42,7 @@
   {
    "name": "Ernie F. Orsatti (\"Earnest\")",
    "relation": "Son of Ernie Orsatti",
+   "relationSource": "Family; IMDb and SABR",
    "year": 1972,
    "photo": "photos/ernie-f.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650683/",
@@ -52,6 +53,7 @@
   {
    "name": "Frank H. Orsatti (stuntman)",
    "relation": "Son of Ernie Orsatti",
+   "relationSource": "Family; IMDb and SABR",
    "year": 1974,
    "years": "1942–2004",
    "imdb": "https://www.imdb.com/name/nm0650685/",
