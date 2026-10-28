@@ -120,3 +120,9 @@ main{max-width:none;padding:30px 24px 100px}
 #lb{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;cursor:zoom-out}
 #lb.on{display:flex}#lb img{max-width:92vw;max-height:90vh;border:1px solid var(--gold);box-shadow:0 0 40px rgba(201,168,106,.25)}
 .fact.person img,.media img,.card img.big{cursor:zoom-in}
+/* counter never over side cards: symmetric gutters */
+.counter{width:180px;box-sizing:border-box;padding:7px 12px!important;right:16px!important;top:16px!important}
+.counter .lbl{font-size:.5rem;letter-spacing:.16em}#bo{font-size:1.15rem!important}.counter .sub{font-size:.58rem;max-width:none}
+@media(min-width:1001px){main{max-width:min(1100px,calc(100vw - 432px))!important;padding-left:0;padding-right:0}}
+@media(max-width:1000px){main{padding-top:56px}}
+@media(max-width:700px){.counter{left:0!important;right:0!important;top:0!important;width:100%!important;max-width:none!important;border:0;border-bottom:1px solid rgba(201,168,106,.35);background:#000!important;display:flex;justify-content:space-between;align-items:baseline;padding:6px 14px!important}main{padding-top:44px}}
