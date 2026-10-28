@@ -256,6 +256,10 @@ _inez=dict(name='Inez Gorman',birthName='Lillian Inez Gorman',relation='Wife of 
  photoLinks=[dict(caption='Signed c. 1936 Fox portrait by Gene Kornman (dealer listing)',url='https://leadinglightsautographs.com/products/inez-gorman-singer-and-starlet-autograph-and-vintage-photo')])
 _i=[k for k,p in enumerate(data['people']) if p['name']=='Ernie Orsatti'][0]
 data['people']=[p for p in data['people'] if p['name']!='Inez Gorman'];data['people'].insert(_i+1,_inez)
+# --- Ken photo lead (link only)
+for p in data['people']:
+  if p['name'].startswith('Ken Orsatti'):
+    p['photoLinks']=[l for l in p.get('photoLinks',[]) if 'copcomm' not in l['url']]+[dict(caption='Ken Orsatti with SAG President Patty Duke, c. 1987 (SAG-AFTRA magazine, Spring 2021, p. 71)',url='https://digital.copcomm.com/i/1367665-spring-2021/72')]
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
