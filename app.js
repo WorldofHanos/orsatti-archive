@@ -7,7 +7,7 @@ fetch('data.json?v='+Date.now()).then(r=>r.json()).then(D=>{window.D=D;
  const S=D.boxOfficeSummary;$('#bosub').textContent=`${S.withData} of ${S.films} films with reported grosses · TV excluded`;
  $('#foot').textContent=`${D.films.length} titles · ${D.milestones.length} milestones · total known worldwide gross ${money(S.total)}`;
  const nC=D.films.reduce((n,f)=>n+f.credits.length,0),yrs=new Date().getFullYear()-1923;
- $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],[S.films+S.tvShows,'films & series'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Terminator · American History X · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
+ $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],[S.films+S.tvShows,'films & series'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Incredible Hulk · American History X · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
  const tl=$('#timeline');let cum=0,idx=0;
  Object.keys(years).sort((a,b)=>a-b).forEach(y=>{const g=years[y];g.films.forEach(f=>cum+=f.boxOffice||0);
   const el=document.createElement('section');el.className='yr';el.dataset.cum=cum;
