@@ -24,6 +24,7 @@ for c in cr:
   if c['title'] in('The Poseidon Adventure','The Towering Inferno'): c['source']='https://en.wikipedia.org/wiki/Ernie_Orsatti'
 W='https://en.wikipedia.org/wiki/Ernie_Orsatti'; S='https://sabr.org/bioproj/person/ernie-orsatti/'; V='https://en.wikipedia.org/wiki/Victor_Orsatti'
 funfacts={
+ 'American History X':[{'text':'Noon Orsatti and Ernie F. Orsatti created the film\'s infamous curb-stomp scene (family account). Both are credited as the film\'s stunt coordinators.','source':'family; https://www.themoviedb.org/person/1407364-noon-orsatti; https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
  'Stolen':[{'text':'Stuntman-actor Kevin Foster got his role through Noon, the film\'s stunt coordinator: "It all started with Noon." The same route landed him his part in the first Iron Man.','source':'https://mattjhorn.wordpress.com/2013/04/02/kevin-foster-stolen-2013/'}],
  'Hill Street Blues':[{'text':'Ernie F. Orsatti was thrown through a window in the 1981 pilot.','source':'https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
  'The Mechanic':[{'text':'Ernie F. appears as the "Chicken Lickin driver."','source':'https://catalog.afi.com/Person/218285-Ernie-Orsatti'}],
