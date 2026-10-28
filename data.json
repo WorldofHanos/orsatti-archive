@@ -18,7 +18,6 @@
     "https://sabr.org/bioproj/person/ernie-orsatti/",
     "https://en.wikipedia.org/wiki/Ernie_Orsatti"
    ],
-   "relation": "Great-grandfather of the archive's keeper",
    "year": 1923,
    "photo": "photos/ernie-1933-goudey.jpg",
    "photoCaption": "1933 Goudey baseball card",
@@ -32,7 +31,7 @@
    ],
    "years": "1902–1968",
    "imdb": "https://www.imdb.com/name/nm1108143/",
-   "note": "Great-grandfather. Keaton prop man/stuntman, Cardinals outfielder, agent."
+   "note": "Keaton prop man/stuntman, Cardinals outfielder, agent."
   },
   {
    "name": "Frank Orsatti (agent)",
@@ -42,7 +41,7 @@
   },
   {
    "name": "Ernie F. Orsatti (\"Earnest\")",
-   "relation": "Son of Ernie · grandfather",
+   "relation": "Son of Ernie Orsatti",
    "year": 1972,
    "photo": "photos/ernie-f.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650683/",
@@ -52,7 +51,7 @@
   },
   {
    "name": "Frank H. Orsatti (stuntman)",
-   "relation": "Son of Ernie · great-uncle",
+   "relation": "Son of Ernie Orsatti",
    "year": 1974,
    "years": "1942–2004",
    "imdb": "https://www.imdb.com/name/nm0650685/",
@@ -60,7 +59,7 @@
   },
   {
    "name": "Noon Orsatti",
-   "relation": "Son of Ernie F.",
+   "relation": "Son of Ernie F. Orsatti",
    "year": 1986,
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
@@ -69,7 +68,7 @@
   },
   {
    "name": "Rowbie Orsatti",
-   "relation": "Son of Noon",
+   "relation": "Son of Noon Orsatti",
    "year": 2012,
    "photo": "photos/rowbie.jpg",
    "photoSource": "https://www.imdb.com/name/nm1769066/",
