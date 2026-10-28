@@ -78,3 +78,4 @@ main{max-width:none;padding:30px 24px 100px}
 .fact.person img{width:80px;height:100px}
 @media(max-width:1000px){.yr{grid-template-columns:1fr;gap:10px}.side{align-items:stretch;order:3}.mid{order:1}.side .fact{max-width:none}}
 .counter{top:auto;bottom:20px;right:auto;left:20px;text-align:left;padding:8px 14px}#bo{font-size:1.4rem}.side .fact .src{opacity:.6}
+.grain{display:none}

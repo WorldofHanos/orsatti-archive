@@ -1,5 +1,9 @@
 import json
 cr=json.load(open('credits.all.json'))
+AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
+for c in cr:
+  if c['title'].startswith('Afi Catalog'): c['title']=AFIFIX.get((c['person'],c['year']),c['title'])
+OV=json.load(open('poster_override.json'))
 FIX={'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stranger Things':dict(imdb='https://www.imdb.com/title/tt4574334/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stop at Nothing':dict(boxOffice=None,boxOfficeSource=None),'Moonlight':dict(boxOffice=None,boxOfficeSource=None),
@@ -88,6 +92,9 @@ for c in cr:
   f['year']=min(f['year'],c['year']); f['poster']=f['poster'] or c.get('poster'); f['imdb']=f['imdb'] or c.get('imdb')
   import re as _r; m=_r.match(r'(\d+ episodes?)\s*…?\s*(.*)',c['role'] or ''); c['role']=f"{m.group(2) or 'Crew'} · {m.group(1)}" if m else c['role']
   f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
+for f in films.values():
+  o=OV.get(f"{f['title']}|{f['year'] if f['type']=='movie' else None}")
+  if o and not (f['poster'] and __import__('os').path.exists(f['poster'])): f.update({k:v for k,v in o.items() if k in('poster','tmdb')})
 fl=sorted(films.values(),key=lambda f:f['year'])
 known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
 data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))

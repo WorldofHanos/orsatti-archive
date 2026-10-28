@@ -6,7 +6,7 @@ for k,person in F.items():
   i=L.index('FILMOGRAPHY');sec=None;buf=[]
   for l in L[i+1:]:
     if l in('STAND INS','CAST','DIRECTOR','HISTORY'): sec=l;buf=[];continue
-    if l in('TITLE','CREDITED AS','CREDIT','YEAR') or l.startswith('THESE TITLES') or l.startswith('CATALOG') or l.startswith('(1893'): buf=[];continue
+    if l in('TITLE','CREDITED AS','CREDIT','YEAR') or l.startswith('THESE TITLES') or l.startswith('AFI CATALOG') or l.startswith('CATALOG') or l.startswith('(1893'): buf=[];continue
     if l.startswith('AFI Life'): break
     if re.fullmatch(r'(18|19|20)\d\d',l):
       if buf:

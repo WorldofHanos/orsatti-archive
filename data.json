@@ -301,9 +301,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0050510/",
    "poster": "posters/tt0050510.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 845000,
+   "boxOfficeText": "$845,000",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Hired_Gun_%281957_film%29",
    "credits": [
     {
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
@@ -401,9 +401,9 @@
    "tmdb": "https://www.themoviedb.org/movie/22377-the-green-berets",
    "imdb": "https://www.imdb.com/title/tt0063035/",
    "poster": "posters/tt0063035.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 32000000,
+   "boxOfficeText": "$32 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Green_Berets_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -441,9 +441,9 @@
    "tmdb": "https://www.themoviedb.org/movie/916-bullitt",
    "imdb": "https://www.imdb.com/title/tt0062765/",
    "poster": "posters/tt0062765.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 42300000,
+   "boxOfficeText": "$42.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Bullitt",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -461,9 +461,9 @@
    "tmdb": "https://www.themoviedb.org/movie/871-planet-of-the-apes",
    "imdb": "https://www.imdb.com/title/tt0063442/",
    "poster": "posters/tt0063442.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 33299999,
+   "boxOfficeText": "$33.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Planet_of_the_Apes_%281968_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -502,7 +502,7 @@
    "imdb": "https://www.imdb.com/title/tt0064041/",
    "poster": "posters/tt0064041.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$4 million (US/Canada rentals)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -582,7 +582,7 @@
    "imdb": "https://www.imdb.com/title/tt0067787/",
    "poster": "posters/tt0067787.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -627,7 +627,7 @@
    "imdb": "https://www.imdb.com/title/tt0066803/",
    "poster": "posters/tt0066803.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -764,7 +764,7 @@
    "imdb": "https://www.imdb.com/title/tt0068617/",
    "poster": "posters/tt0068617.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -784,7 +784,7 @@
    "imdb": "https://www.imdb.com/title/tt0070736/",
    "poster": "posters/tt0070736.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$1,300,000 (US/ Canada rentals)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -823,9 +823,9 @@
    "tmdb": "https://www.themoviedb.org/movie/31605-the-last-american-hero",
    "imdb": "https://www.imdb.com/title/tt0070287/",
    "poster": "posters/tt0070287.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1000000,
+   "boxOfficeText": "$1 million (US/Canada)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Last_American_Hero",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -864,7 +864,7 @@
    "imdb": "https://www.imdb.com/title/tt0070723/",
    "poster": "posters/tt0070723.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$3.6 million (rentals)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -933,9 +933,9 @@
    "tmdb": "https://www.themoviedb.org/movie/20802-freebie-and-the-bean",
    "imdb": "https://www.imdb.com/title/tt0071521/",
    "poster": "posters/tt0071521.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 12500000,
+   "boxOfficeText": "$12.5 million in the United States and Canada",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Freebie_and_the_Bean",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -974,7 +974,7 @@
    "imdb": "https://www.imdb.com/title/tt0071746/",
    "poster": "posters/tt0071746.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$11.6 million (rentals)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -993,9 +993,9 @@
    "tmdb": "https://www.themoviedb.org/movie/4985-the-longest-yard",
    "imdb": "https://www.imdb.com/title/tt0071771/",
    "poster": "posters/tt0071771.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 43000000,
+   "boxOfficeText": "$43 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Longest_Yard_%281974_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1094,7 +1094,7 @@
    "imdb": "https://www.imdb.com/title/tt0073605/",
    "poster": "posters/tt0073605.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -1173,9 +1173,9 @@
    "tmdb": "https://www.themoviedb.org/movie/99846-moonshine-county-express",
    "imdb": "https://www.imdb.com/title/tt0076409/",
    "poster": "posters/tt0076409.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1000000,
+   "boxOfficeText": "$1 million or $1.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Moonshine_County_Express",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1233,9 +1233,9 @@
    "tmdb": "https://www.themoviedb.org/movie/14839-blue-collar",
    "imdb": "https://www.imdb.com/title/tt0077248/",
    "poster": "posters/tt0077248.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 6500000,
+   "boxOfficeText": "$6.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Blue_Collar_%28film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1319,7 +1319,7 @@
    "imdb": "https://www.imdb.com/title/tt0081681/",
    "poster": "posters/tt0081681.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -1398,9 +1398,9 @@
    "tmdb": "https://www.themoviedb.org/movie/24740-the-entity",
    "imdb": "https://www.imdb.com/title/tt0082334/",
    "poster": "posters/tt0082334.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 13300000,
+   "boxOfficeText": "$13.3 million Kremer|2015|p=272",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Entity",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1418,9 +1418,9 @@
    "tmdb": "https://www.themoviedb.org/movie/14373-death-wish-ii",
    "imdb": "https://www.imdb.com/title/tt0082250/",
    "poster": "posters/tt0082250.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 29000000,
+   "boxOfficeText": "$29 million (U.S.A. Collection)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Death_Wish_II",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1438,9 +1438,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1368-first-blood",
    "imdb": "https://www.imdb.com/title/tt0083944/",
    "poster": "posters/tt0083944.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 125200000,
+   "boxOfficeText": "$125.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/First_Blood",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1458,9 +1458,9 @@
    "tmdb": "https://www.themoviedb.org/movie/16441-the-beastmaster",
    "imdb": "https://www.imdb.com/title/tt0083630/",
    "poster": "posters/tt0083630.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 14100000,
+   "boxOfficeText": "$14.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Beastmaster",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1478,9 +1478,9 @@
    "tmdb": "https://www.themoviedb.org/movie/27214-amityville-3-d",
    "imdb": "https://www.imdb.com/title/tt0085159/",
    "poster": "posters/tt0085159.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 6300000,
+   "boxOfficeText": "$6.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Amityville_3-D",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -1498,9 +1498,9 @@
    "tmdb": "https://www.themoviedb.org/movie/27679-d-c-cab",
    "imdb": "https://www.imdb.com/title/tt0085387/",
    "poster": "posters/tt0085387.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 16000000,
+   "boxOfficeText": "$16 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/D.C._Cab",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1518,9 +1518,9 @@
    "tmdb": "https://www.themoviedb.org/movie/18587-10-to-midnight",
    "imdb": "https://www.imdb.com/title/tt0085121/",
    "poster": "posters/tt0085121.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7000000,
+   "boxOfficeText": "$7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/10_to_Midnight",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1558,9 +1558,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0086356/",
    "poster": "posters/tt0086356.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 5600000,
+   "boxOfficeText": "$5.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Star_Chamber",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1623,9 +1623,9 @@
    "tmdb": "https://www.themoviedb.org/movie/53426-the-evil-that-men-do",
    "imdb": "https://www.imdb.com/title/tt0087222/",
    "poster": "posters/tt0087222.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 13100000,
+   "boxOfficeText": "$13.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Evil_That_Men_Do_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1663,9 +1663,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0088414/",
    "poster": "posters/tt0088414.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 25300000,
+   "boxOfficeText": "$25.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Woman_in_Red_%281984_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1684,7 +1684,7 @@
    "imdb": "https://www.imdb.com/title/tt0089981/",
    "poster": "posters/tt0089981.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$8.6 million (US)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -1703,9 +1703,9 @@
    "tmdb": "https://www.themoviedb.org/movie/14750-mischief",
    "imdb": "https://www.imdb.com/title/tt0089601/",
    "poster": "posters/tt0089601.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 8692426,
+   "boxOfficeText": "$8,692,426",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Mischief_%281985_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -1753,9 +1753,9 @@
    "tmdb": "https://www.themoviedb.org/movie/24873-death-wish-3",
    "imdb": "https://www.imdb.com/title/tt0089003/",
    "poster": "posters/tt0089003.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 16100000,
+   "boxOfficeText": "$16.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Death_Wish_3",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1833,9 +1833,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11338-into-the-night",
    "imdb": "https://www.imdb.com/title/tt0089346/",
    "poster": "posters/tt0089346.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7500000,
+   "boxOfficeText": "$7.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Into_the_Night_%281985_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -1893,9 +1893,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9930-legal-eagles",
    "imdb": "https://www.imdb.com/title/tt0091396/",
    "poster": "posters/tt0091396.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 93200000,
+   "boxOfficeText": "$93.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Legal_Eagles",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -1933,9 +1933,9 @@
    "tmdb": "https://www.themoviedb.org/movie/5693-hoosiers",
    "imdb": "https://www.imdb.com/title/tt0091217/",
    "poster": "posters/tt0091217.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 28600000,
+   "boxOfficeText": "$28.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Hoosiers_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1953,9 +1953,9 @@
    "tmdb": "https://www.themoviedb.org/movie/33055-murphy-s-law",
    "imdb": "https://www.imdb.com/title/tt0091575/",
    "poster": "posters/tt0091575.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 9947631,
+   "boxOfficeText": "$9,947,631 (U.S.)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Murphy%27s_Law_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -1973,9 +1973,9 @@
    "tmdb": "https://www.themoviedb.org/movie/13703-less-than-zero",
    "imdb": "https://www.imdb.com/title/tt0093407/",
    "poster": "posters/tt0093407.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 12400000,
+   "boxOfficeText": "$12.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Less_than_Zero_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -1993,9 +1993,9 @@
    "tmdb": "https://www.themoviedb.org/movie/5709-amazon-women-on-the-moon",
    "imdb": "https://www.imdb.com/title/tt0092546/",
    "poster": "posters/tt0092546.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 548696,
+   "boxOfficeText": "$548,696",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Amazon_Women_on_the_Moon",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2013,9 +2013,9 @@
    "tmdb": "https://www.themoviedb.org/movie/26263-death-wish-4-the-crackdown",
    "imdb": "https://www.imdb.com/title/tt0092857/",
    "poster": "posters/tt0092857.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 6900000,
+   "boxOfficeText": "$6.9 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Death_Wish_4%3A_The_Crackdown",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2038,9 +2038,9 @@
    "tmdb": "https://www.themoviedb.org/movie/37818-the-allnighter",
    "imdb": "https://www.imdb.com/title/tt0092537/",
    "poster": "posters/tt0092537.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 2700000,
+   "boxOfficeText": "$2.7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Allnighter_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2059,7 +2059,7 @@
    "imdb": "https://www.imdb.com/title/tt0092222/",
    "poster": "posters/tt0092222.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2083,9 +2083,9 @@
    "tmdb": "https://www.themoviedb.org/movie/26477-back-to-the-beach",
    "imdb": "https://www.imdb.com/title/tt0092608/",
    "poster": "posters/tt0092608.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 13100000,
+   "boxOfficeText": "$13.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Back_to_the_Beach",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2103,9 +2103,9 @@
    "tmdb": "https://www.themoviedb.org/movie/36914-like-father-like-son",
    "imdb": "https://www.imdb.com/title/tt0093418/",
    "poster": "posters/tt0093418.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 34400000,
+   "boxOfficeText": "$34.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Like_Father_Like_Son_%281987_film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -2183,9 +2183,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0092655/",
    "poster": "posters/tt0092655.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 3400000,
+   "boxOfficeText": "$3.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Big_Shots_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2269,7 +2269,7 @@
    "imdb": "https://www.imdb.com/title/tt0094946/",
    "poster": "posters/tt0094946.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "<!--(please use condensed and rounded values, e.g. \"£11.6 million\" not \"£11,586,221\")-->",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2288,9 +2288,9 @@
    "tmdb": "https://www.themoviedb.org/movie/26172-messenger-of-death",
    "imdb": "https://www.imdb.com/title/tt0095626/",
    "poster": "posters/tt0095626.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 3074681,
+   "boxOfficeText": "$3,074,681 (USA)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Messenger_of_Death",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2353,9 +2353,9 @@
    "tmdb": "https://www.themoviedb.org/movie/40095-dead-heat",
    "imdb": "https://www.imdb.com/title/tt0094961/",
    "poster": "posters/tt0094961.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 3588626,
+   "boxOfficeText": "$3,588,626",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Dead_Heat_%281988_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2374,7 +2374,7 @@
    "imdb": "https://www.imdb.com/title/tt0094919/",
    "poster": "posters/tt0094919.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$3.8 million  (US)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2393,9 +2393,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9395-above-the-law",
    "imdb": "https://www.imdb.com/title/tt0094602/",
    "poster": "posters/tt0094602.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 18800000,
+   "boxOfficeText": "$18.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Above_the_Law_%281988_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2413,9 +2413,9 @@
    "tmdb": "https://www.themoviedb.org/movie/59797-bad-dreams",
    "imdb": "https://www.imdb.com/title/tt0094701/",
    "poster": "posters/tt0094701.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 9800000,
+   "boxOfficeText": "$9.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Bad_Dreams_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2453,9 +2453,9 @@
    "tmdb": "https://www.themoviedb.org/movie/37640-let-s-get-lost",
    "imdb": "https://www.imdb.com/title/tt0095515/",
    "poster": "posters/tt0095515.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 477113,
+   "boxOfficeText": "$477,113",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Let%27s_Get_Lost_%281988_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2493,9 +2493,9 @@
    "tmdb": "https://www.themoviedb.org/movie/17006-i-m-gonna-git-you-sucka",
    "imdb": "https://www.imdb.com/title/tt0095348/",
    "poster": "posters/tt0095348.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 13000000,
+   "boxOfficeText": "$13 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/I%27m_Gonna_Git_You_Sucka",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -2513,9 +2513,9 @@
    "tmdb": "https://www.themoviedb.org/movie/15158-phantasm-ii",
    "imdb": "https://www.imdb.com/title/tt0095863/",
    "poster": "posters/tt0095863.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7300000,
+   "boxOfficeText": "$7.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Phantasm_II",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -2533,9 +2533,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11851-the-presidio",
    "imdb": "https://www.imdb.com/title/tt0095897/",
    "poster": "posters/tt0095897.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 51000000,
+   "boxOfficeText": "$51 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Presidio_%28film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2553,9 +2553,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0096087/",
    "poster": "posters/tt0096087.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 10100000,
+   "boxOfficeText": "$10.1  million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Shakedown_%281988_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2574,7 +2574,7 @@
    "imdb": "https://www.imdb.com/title/tt0346560/",
    "poster": "posters/tt0346560.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2614,7 +2614,7 @@
    "imdb": "https://www.imdb.com/title/tt0098089/",
    "poster": "posters/tt0098089.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2634,7 +2634,7 @@
    "imdb": "https://www.imdb.com/title/tt0098235/",
    "poster": "posters/tt0098235.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2653,9 +2653,9 @@
    "tmdb": "https://www.themoviedb.org/movie/5825-national-lampoon-s-christmas-vacation",
    "imdb": "https://www.imdb.com/title/tt0097958/",
    "poster": "posters/tt0097958.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 78900000,
+   "boxOfficeText": "$78.9 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/National_Lampoon%27s_Christmas_Vacation",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2694,7 +2694,7 @@
    "imdb": "https://www.imdb.com/title/tt0097001/",
    "poster": "posters/tt0097001.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2713,9 +2713,9 @@
    "tmdb": "https://www.themoviedb.org/movie/55059-happy-together",
    "imdb": "https://www.imdb.com/title/tt0097478/",
    "poster": "posters/tt0097478.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 75657,
+   "boxOfficeText": "$75,657",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Happy_Together_%281989_American_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2733,9 +2733,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1648-bill-ted-s-excellent-adventure",
    "imdb": "https://www.imdb.com/title/tt0096928/",
    "poster": "posters/tt0096928.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 40500000,
+   "boxOfficeText": "$40.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Bill_%26_Ted%27s_Excellent_Adventure",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2754,7 +2754,7 @@
    "imdb": "https://www.imdb.com/title/tt0097670/",
    "poster": "posters/tt0097670.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "3,416,846 (U.S.)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2783,9 +2783,9 @@
    "tmdb": "https://www.themoviedb.org/movie/19124-blind-fury",
    "imdb": "https://www.imdb.com/title/tt0096945/",
    "poster": "posters/tt0096945.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 2700000,
+   "boxOfficeText": "$2.7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Blind_Fury",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -2808,9 +2808,9 @@
    "tmdb": "https://www.themoviedb.org/movie/942-lethal-weapon-2",
    "imdb": "https://www.imdb.com/title/tt0097733/",
    "poster": "posters/tt0097733.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 227300000,
+   "boxOfficeText": "$227.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Lethal_Weapon_2",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2828,9 +2828,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11974-the-burbs",
    "imdb": "https://www.imdb.com/title/tt0096734/",
    "poster": "posters/tt0096734.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 49100000,
+   "boxOfficeText": "$49.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_%27Burbs",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2849,7 +2849,7 @@
    "imdb": "https://www.imdb.com/title/tt0097670/",
    "poster": "posters/tt0097670.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "3,416,846 (U.S.)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2878,9 +2878,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0098206/",
    "poster": "posters/tt0098206.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 61600000,
+   "boxOfficeText": "$61.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Road_House_%281989_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2898,9 +2898,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0098645/",
    "poster": "posters/tt0098645.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 11000000,
+   "boxOfficeText": "$11  million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Who%27s_Harry_Crumb%3F",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2918,9 +2918,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0097770/",
    "poster": "posters/tt0097770.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 22100000,
+   "boxOfficeText": "$22.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Lock_Up_%281989_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2939,7 +2939,7 @@
    "imdb": "https://www.imdb.com/title/tt0097790/",
    "poster": "posters/tt0097790.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$3.8 million (US)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2958,9 +2958,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0097003/",
    "poster": "posters/tt0097003.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 618178,
+   "boxOfficeText": "$618,178 (U.S.)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Cage_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -2979,7 +2979,7 @@
    "imdb": "https://www.imdb.com/title/tt0098557/",
    "poster": "posters/tt0098557.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "'''Domestic'''<br>$147,542",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -2998,9 +2998,9 @@
    "tmdb": "https://www.themoviedb.org/movie/25943-almost-an-angel",
    "imdb": "https://www.imdb.com/title/tt0099018/",
    "poster": "posters/tt0099018.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 6000000,
+   "boxOfficeText": "$6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Almost_an_Angel",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3048,9 +3048,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10169-men-at-work",
    "imdb": "https://www.imdb.com/title/tt0100135/",
    "poster": "posters/tt0100135.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 16200000,
+   "boxOfficeText": "$16.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Men_at_Work_%281990_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3093,9 +3093,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10485-ghost-dad",
    "imdb": "https://www.imdb.com/title/tt0099654/",
    "poster": "posters/tt0099654.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 25400000,
+   "boxOfficeText": "$25.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ghost_Dad",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3118,9 +3118,9 @@
    "tmdb": "https://www.themoviedb.org/movie/24073-opportunity-knocks",
    "imdb": "https://www.imdb.com/title/tt0100301/",
    "poster": "posters/tt0100301.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 11359129,
+   "boxOfficeText": "$11,359,129",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Opportunity_Knocks_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3143,9 +3143,9 @@
    "tmdb": "https://www.themoviedb.org/movie/117269-lambada",
    "imdb": "https://www.imdb.com/title/tt0099969/",
    "poster": "posters/tt0099969.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 4263112,
+   "boxOfficeText": "$4,263,112",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Lambada_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3183,9 +3183,9 @@
    "tmdb": "https://www.themoviedb.org/movie/31923-welcome-home-roxy-carmichael",
    "imdb": "https://www.imdb.com/title/tt0100911/",
    "poster": "posters/tt0100911.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 4000000,
+   "boxOfficeText": "$4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Welcome_Home%2C_Roxy_Carmichael",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -3223,9 +3223,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0098987/",
    "poster": "posters/tt0098987.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 21400000,
+   "boxOfficeText": "$21.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Adventures_of_Ford_Fairlane",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3243,9 +3243,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0100822/",
    "poster": "posters/tt0100822.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1794001,
+   "boxOfficeText": "$1,794,001",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Tune_in_Tomorrow",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3263,9 +3263,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0099039/",
    "poster": "posters/tt0099039.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 855810,
+   "boxOfficeText": "$855,810",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Angel_Town_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3303,9 +3303,9 @@
    "tmdb": "https://www.themoviedb.org/movie/174-star-trek-vi-the-undiscovered-country",
    "imdb": "https://www.imdb.com/title/tt0102975/",
    "poster": "posters/tt0102975.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 96800000,
+   "boxOfficeText": "$96.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Star_Trek_VI%3A_The_Undiscovered_Country",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3343,9 +3343,9 @@
    "tmdb": "https://www.themoviedb.org/movie/12647-billy-bathgate",
    "imdb": "https://www.imdb.com/title/tt0101453/",
    "poster": "posters/tt0101453.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 15500000,
+   "boxOfficeText": "$15.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Billy_Bathgate_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3363,9 +3363,9 @@
    "tmdb": "https://www.themoviedb.org/movie/32045-the-taking-of-beverly-hills",
    "imdb": "https://www.imdb.com/title/tt0105526/",
    "poster": "posters/tt0105526.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 939277,
+   "boxOfficeText": "$939,277 (U.S.)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Taking_of_Beverly_Hills",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3388,9 +3388,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9546-ricochet",
    "imdb": "https://www.imdb.com/title/tt0102789/",
    "poster": "posters/tt0102789.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 21800000,
+   "boxOfficeText": "$21.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ricochet_%281991_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3408,9 +3408,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9595-hot-shots",
    "imdb": "https://www.imdb.com/title/tt0102059/",
    "poster": "posters/tt0102059.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 181100000,
+   "boxOfficeText": "$181.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Hot_Shots%21",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3433,9 +3433,9 @@
    "tmdb": "https://www.themoviedb.org/movie/23303-another-you",
    "imdb": "https://www.imdb.com/title/tt0101356/",
    "poster": "posters/tt0101356.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 2900000,
+   "boxOfficeText": "$2.9 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Another_You",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3479,7 +3479,7 @@
    "imdb": "https://www.imdb.com/title/tt0109912/",
    "poster": "posters/tt0109912.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -3538,9 +3538,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9319-the-last-boy-scout",
    "imdb": "https://www.imdb.com/title/tt0102266/",
    "poster": "posters/tt0102266.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 114500000,
+   "boxOfficeText": "$114.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Last_Boy_Scout",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3558,9 +3558,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1089-point-break",
    "imdb": "https://www.imdb.com/title/tt0102685/",
    "poster": "posters/tt0102685.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 83500000,
+   "boxOfficeText": "$83.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Point_Break",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3578,9 +3578,9 @@
    "tmdb": "https://www.themoviedb.org/movie/34421-the-perfect-weapon",
    "imdb": "https://www.imdb.com/title/tt0102655/",
    "poster": "posters/tt0102655.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 14000000,
+   "boxOfficeText": "$14 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Perfect_Weapon_%281991_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3618,9 +3618,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0101545/",
    "poster": "posters/tt0101545.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 11300000,
+   "boxOfficeText": "$11.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Career_Opportunities_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3638,9 +3638,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0101615/",
    "poster": "posters/tt0101615.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1200000,
+   "boxOfficeText": "$1.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Cool_as_Ice",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3658,9 +3658,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0102005/",
    "poster": "posters/tt0102005.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7400000,
+   "boxOfficeText": "$7.4 million (U.S.)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Harley_Davidson_and_the_Marlboro_Man",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3678,9 +3678,9 @@
    "tmdb": "https://www.themoviedb.org/movie/293-a-river-runs-through-it",
    "imdb": "https://www.imdb.com/title/tt0105265/",
    "poster": "posters/tt0105265.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 66000000,
+   "boxOfficeText": "$66 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/A_River_Runs_Through_It_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3723,9 +3723,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11428-sleepwalkers",
    "imdb": "https://www.imdb.com/title/tt0105428/",
    "poster": "posters/tt0105428.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 30500000,
+   "boxOfficeText": "$30.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Sleepwalkers_%281992_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3763,9 +3763,9 @@
    "tmdb": "https://www.themoviedb.org/movie/209369-into-the-sun",
    "imdb": "https://www.imdb.com/title/tt0104521/",
    "poster": "posters/tt0104521.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 641886,
+   "boxOfficeText": "$641,886",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Into_the_Sun_%281992_film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -3788,9 +3788,9 @@
    "tmdb": "https://www.themoviedb.org/movie/70709-ruby",
    "imdb": "https://www.imdb.com/title/tt0107999/",
    "poster": "posters/tt0107999.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1100000,
+   "boxOfficeText": "$1.1 million  (US/UK)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ruby_%281992_film%29",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3829,7 +3829,7 @@
    "imdb": "https://www.imdb.com/title/tt0105219/",
    "poster": "posters/tt0105219.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$14.4 million<br>(North America)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -3848,9 +3848,9 @@
    "tmdb": "https://www.themoviedb.org/movie/943-lethal-weapon-3",
    "imdb": "https://www.imdb.com/title/tt0104714/",
    "poster": "posters/tt0104714.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 321700000,
+   "boxOfficeText": "$321.7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Lethal_Weapon_3",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3868,9 +3868,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0104905/",
    "poster": "posters/tt0104905.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 2000000,
+   "boxOfficeText": "$2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Mom_and_Dad_Save_the_World",
    "credits": [
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -3928,9 +3928,9 @@
    "tmdb": "https://www.themoviedb.org/movie/6279-sister-act-2-back-in-the-habit",
    "imdb": "https://www.imdb.com/title/tt0108147/",
    "poster": "posters/tt0108147.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 125000000,
+   "boxOfficeText": "$125 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Sister_Act_2%3A_Back_in_the_Habit",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -3998,9 +3998,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11041-the-beverly-hillbillies",
    "imdb": "https://www.imdb.com/title/tt0106400/",
    "poster": "posters/tt0106400.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 57400000,
+   "boxOfficeText": "$57.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Beverly_Hillbillies_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4018,9 +4018,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9272-the-good-son",
    "imdb": "https://www.imdb.com/title/tt0107034/",
    "poster": "posters/tt0107034.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 60600000,
+   "boxOfficeText": "$60.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Good_Son_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4038,9 +4038,9 @@
    "tmdb": "https://www.themoviedb.org/movie/319-true-romance",
    "imdb": "https://www.imdb.com/title/tt0108399/",
    "poster": "posters/tt0108399.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 12600000,
+   "boxOfficeText": "$12.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/True_Romance",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4058,9 +4058,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9255-hot-shots-part-deux",
    "imdb": "https://www.imdb.com/title/tt0107144/",
    "poster": "posters/tt0107144.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 133800000,
+   "boxOfficeText": "$133.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Hot_Shots%21_Part_Deux",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4083,9 +4083,9 @@
    "tmdb": "https://www.themoviedb.org/movie/4104-benny-joon",
    "imdb": "https://www.imdb.com/title/tt0106387/",
    "poster": "posters/tt0106387.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 30000000,
+   "boxOfficeText": "$30 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Benny_%26_Joon",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4103,9 +4103,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11520-grumpy-old-men",
    "imdb": "https://www.imdb.com/title/tt0107050/",
    "poster": "posters/tt0107050.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 80500000,
+   "boxOfficeText": "$80.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Grumpy_Old_Men_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -4143,9 +4143,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0108258/",
    "poster": "posters/tt0108258.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 4900000,
+   "boxOfficeText": "$4.9 million (USA)",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Surf_Ninjas",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -4183,9 +4183,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0107322/",
    "poster": "posters/tt0107322.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1200000,
+   "boxOfficeText": "$1.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/King_of_the_Hill_%281993_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4273,9 +4273,9 @@
    "tmdb": "https://www.themoviedb.org/movie/41579-getting-even-with-dad",
    "imdb": "https://www.imdb.com/title/tt0109891/",
    "poster": "posters/tt0109891.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 53800000,
+   "boxOfficeText": "$53.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Getting_Even_with_Dad",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4358,9 +4358,9 @@
    "tmdb": "https://www.themoviedb.org/movie/21352-andre",
    "imdb": "https://www.imdb.com/title/tt0109120/",
    "poster": "posters/tt0109120.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 16820893,
+   "boxOfficeText": "$16,820,893",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Andre_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -4412,12 +4412,12 @@
    "media": []
   },
   {
-   "title": "Afi Catalog Of Feature Films: The First 100 Years (1893-1993)",
+   "title": "Mixed Nuts",
    "year": 1994,
    "type": "movie",
-   "tmdb": null,
+   "tmdb": "https://www.themoviedb.org/movie/24070-mixed-nuts",
    "imdb": null,
-   "poster": null,
+   "poster": "posters/24070-mixed-nuts.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -4523,9 +4523,9 @@
    "tmdb": "https://www.themoviedb.org/movie/32502-coldblooded",
    "imdb": "https://www.imdb.com/title/tt0112702/",
    "poster": "posters/tt0112702.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 16198,
+   "boxOfficeText": "$16,198",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Coldblooded_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4573,9 +4573,9 @@
    "tmdb": "https://www.themoviedb.org/movie/52856-unstrung-heroes",
    "imdb": "https://www.imdb.com/title/tt0114798/",
    "poster": "posters/tt0114798.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7929434,
+   "boxOfficeText": "$7,929,434",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Unstrung_Heroes",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -4698,9 +4698,9 @@
    "tmdb": "https://www.themoviedb.org/movie/12606-a-very-brady-sequel",
    "imdb": "https://www.imdb.com/title/tt0118073/",
    "poster": "posters/tt0118073.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 21400000,
+   "boxOfficeText": "$21.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/A_Very_Brady_Sequel",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4763,9 +4763,9 @@
    "tmdb": "https://www.themoviedb.org/movie/8866-the-truth-about-cats-dogs",
    "imdb": "https://www.imdb.com/title/tt0117979/",
    "poster": "posters/tt0117979.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 59000000,
+   "boxOfficeText": "$59 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Truth_About_Cats_%26_Dogs",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4788,9 +4788,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1592-primal-fear",
    "imdb": "https://www.imdb.com/title/tt0117381/",
    "poster": "posters/tt0117381.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 102600000,
+   "boxOfficeText": "$102.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Primal_Fear_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4813,9 +4813,9 @@
    "tmdb": "https://www.themoviedb.org/movie/32308-ed",
    "imdb": "https://www.imdb.com/title/tt0116165/",
    "poster": "posters/tt0116165.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 4422330,
+   "boxOfficeText": "$4,422,330",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ed_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -4838,9 +4838,9 @@
    "tmdb": "https://www.themoviedb.org/movie/7300-one-fine-day",
    "imdb": "https://www.imdb.com/title/tt0117247/",
    "poster": "posters/tt0117247.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 97500000,
+   "boxOfficeText": "$97.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/One_Fine_Day_%281996_film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -4879,7 +4879,7 @@
    "imdb": "https://www.imdb.com/title/tt0117924/",
    "poster": "posters/tt0117924.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "$4.1 million (US)",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -4938,9 +4938,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9099-sgt-bilko",
    "imdb": "https://www.imdb.com/title/tt0117608/",
    "poster": "posters/tt0117608.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 37956793,
+   "boxOfficeText": "$37,956,793",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Sgt._Bilko",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -5128,9 +5128,9 @@
    "tmdb": "https://www.themoviedb.org/movie/38295-she-s-so-lovely",
    "imdb": "https://www.imdb.com/title/tt0120112/",
    "poster": "posters/tt0120112.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7281450,
+   "boxOfficeText": "$7,281,450",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/She%27s_So_Lovely",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5168,9 +5168,9 @@
    "tmdb": "https://www.themoviedb.org/movie/17770-trial-and-error",
    "imdb": "https://www.imdb.com/title/tt0120373/",
    "poster": "posters/tt0120373.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 14598571,
+   "boxOfficeText": "$14,598,571",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Trial_and_Error_%281997_film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -5368,9 +5368,9 @@
    "tmdb": "https://www.themoviedb.org/movie/2657-pleasantville",
    "imdb": "https://www.imdb.com/title/tt0120789/",
    "poster": "posters/tt0120789.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 49800000,
+   "boxOfficeText": "$49.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Pleasantville_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5393,9 +5393,9 @@
    "tmdb": "https://www.themoviedb.org/movie/73-american-history-x",
    "imdb": "https://www.imdb.com/title/tt0120586/",
    "poster": "posters/tt0120586.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 23800000,
+   "boxOfficeText": "$23.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/American_History_X",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5418,9 +5418,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1878-fear-and-loathing-in-las-vegas",
    "imdb": "https://www.imdb.com/title/tt0120669/",
    "poster": "posters/tt0120669.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 13700000,
+   "boxOfficeText": "$13.7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5503,9 +5503,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10388-the-limey",
    "imdb": "https://www.imdb.com/title/tt0165854/",
    "poster": "posters/tt0165854.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 3200000,
+   "boxOfficeText": "$3.2 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Limey",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5543,9 +5543,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9849-my-favorite-martian",
    "imdb": "https://www.imdb.com/title/tt0120764/",
    "poster": "posters/tt0120764.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 36800000,
+   "boxOfficeText": "$36.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/My_Favorite_Martian_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5588,9 +5588,9 @@
    "tmdb": "https://www.themoviedb.org/movie/50116-simpatico",
    "imdb": "https://www.imdb.com/title/tt0174204/",
    "poster": "posters/tt0174204.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1300000,
+   "boxOfficeText": "$1.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Simpatico_%28film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -5693,9 +5693,9 @@
    "tmdb": "https://www.themoviedb.org/movie/47816-3-strikes",
    "imdb": "https://www.imdb.com/title/tt0199290/",
    "poster": "posters/tt0199290.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 9800000,
+   "boxOfficeText": "$9.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/3_Strikes_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5758,9 +5758,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9600-big-momma-s-house",
    "imdb": "https://www.imdb.com/title/tt0208003/",
    "poster": "posters/tt0208003.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 174000000,
+   "boxOfficeText": "$174 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Big_Momma%27s_House",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -5837,7 +5837,7 @@
    "type": "movie",
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0283798/",
-   "poster": null,
+   "poster": "posters/stop-at-nothing-titlecard.jpg",
    "boxOffice": null,
    "boxOfficeText": "$1.3 million",
    "boxOfficeSource": null,
@@ -5858,9 +5858,9 @@
    "tmdb": "https://www.themoviedb.org/movie/12312-joe-somebody",
    "imdb": "https://www.imdb.com/title/tt0279889/",
    "poster": "posters/tt0279889.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 24500000,
+   "boxOfficeText": "$24.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Joe_Somebody",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5878,9 +5878,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11397-not-another-teen-movie",
    "imdb": "https://www.imdb.com/title/tt0277371/",
    "poster": "posters/tt0277371.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 66500000,
+   "boxOfficeText": "$66.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Not_Another_Teen_Movie",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5938,9 +5938,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10956-joe-dirt",
    "imdb": "https://www.imdb.com/title/tt0245686/",
    "poster": "posters/tt0245686.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 31000000,
+   "boxOfficeText": "$31 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Joe_Dirt",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5963,9 +5963,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10646-tomcats",
    "imdb": "https://www.imdb.com/title/tt0246989/",
    "poster": "posters/tt0246989.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 23400000,
+   "boxOfficeText": "$23.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Tomcats_%282001_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -5983,9 +5983,9 @@
    "tmdb": "https://www.themoviedb.org/movie/17708-corky-romano",
    "imdb": "https://www.imdb.com/title/tt0250310/",
    "poster": "posters/tt0250310.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 25300000,
+   "boxOfficeText": "$25.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Corky_Romano",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6003,9 +6003,9 @@
    "tmdb": "https://www.themoviedb.org/movie/9290-crocodile-dundee-in-los-angeles",
    "imdb": "https://www.imdb.com/title/tt0231402/",
    "poster": "posters/tt0231402.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 39400000,
+   "boxOfficeText": "$39.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Crocodile_Dundee_in_Los_Angeles",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6024,7 +6024,7 @@
    "imdb": "https://www.imdb.com/title/tt0265611/",
    "poster": "posters/tt0265611.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -6044,7 +6044,7 @@
    "imdb": "https://www.imdb.com/title/tt0281865/",
    "poster": "posters/tt0281865.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -6083,9 +6083,9 @@
    "tmdb": "https://www.themoviedb.org/movie/11007-cheaper-by-the-dozen",
    "imdb": "https://www.imdb.com/title/tt0349205/",
    "poster": "posters/tt0349205.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 190500000,
+   "boxOfficeText": "$190.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Cheaper_by_the_Dozen_%282003_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6096,6 +6096,11 @@
      "person": "Ernie F. Orsatti (1940–2020)",
      "role": "Stunt Coordinator",
      "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt coord",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
     }
    ],
    "funFacts": [],
@@ -6108,9 +6113,9 @@
    "tmdb": "https://www.themoviedb.org/movie/10744-the-cooler",
    "imdb": "https://www.imdb.com/title/tt0318374/",
    "poster": "posters/tt0318374.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 10400000,
+   "boxOfficeText": "$10.4 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Cooler",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6128,9 +6133,9 @@
    "tmdb": "https://www.themoviedb.org/movie/8698-the-league-of-extraordinary-gentlemen",
    "imdb": "https://www.imdb.com/title/tt0311429/",
    "poster": "posters/tt0311429.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 179300000,
+   "boxOfficeText": "$179.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6168,9 +6173,9 @@
    "tmdb": "https://www.themoviedb.org/movie/12090-just-married",
    "imdb": "https://www.imdb.com/title/tt0305711/",
    "poster": "posters/tt0305711.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 101600000,
+   "boxOfficeText": "$101.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Just_Married",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6196,26 +6201,6 @@
      "person": "Ernie F. Orsatti (1940–2020)",
      "role": "Himself",
      "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Afi Catalog Of Feature Films: The First 100 Years (1893-1993)",
-   "year": 2003,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": null,
-   "poster": null,
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunt coord",
-     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
     }
    ],
    "funFacts": [],
@@ -6268,9 +6253,9 @@
    "tmdb": "https://www.themoviedb.org/movie/13673-christmas-with-the-kranks",
    "imdb": "https://www.imdb.com/title/tt0388419/",
    "poster": "posters/tt0388419.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 96600000,
+   "boxOfficeText": "$96.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Christmas_with_the_Kranks",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6318,9 +6303,9 @@
    "tmdb": "https://www.themoviedb.org/movie/1901-in-good-company",
    "imdb": "https://www.imdb.com/title/tt0385267/",
    "poster": "posters/tt0385267.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 61300000,
+   "boxOfficeText": "$61.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/In_Good_Company_%282004_film%29",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6338,9 +6323,9 @@
    "tmdb": "https://www.themoviedb.org/movie/16784-welcome-to-mooseport",
    "imdb": "https://www.imdb.com/title/tt0361925/",
    "poster": "posters/tt0361925.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 14600000,
+   "boxOfficeText": "$14.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Welcome_to_Mooseport",
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6378,9 +6363,9 @@
    "tmdb": "https://www.themoviedb.org/movie/14922-happy-endings",
    "imdb": "https://www.imdb.com/title/tt0361693/",
    "poster": "posters/tt0361693.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1300000,
+   "boxOfficeText": "$1.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Happy_Endings_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6468,9 +6453,9 @@
    "tmdb": "https://www.themoviedb.org/movie/7510-running-with-scissors",
    "imdb": "https://www.imdb.com/title/tt0439289/",
    "poster": "posters/tt0439289.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 7000000,
+   "boxOfficeText": "$7 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Running_with_Scissors_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6613,9 +6598,9 @@
    "tmdb": "https://www.themoviedb.org/movie/7459-speed-racer",
    "imdb": "https://www.imdb.com/title/tt0811080/",
    "poster": "posters/tt0811080.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 94000000,
+   "boxOfficeText": "$94 million<!--  Template:Infobox film : \"Please use condensed and rounded values\" -->",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Speed_Racer_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6650,9 +6635,9 @@
    "title": "Big Love",
    "year": 2009,
    "type": "tv",
-   "tmdb": null,
+   "tmdb": "https://www.themoviedb.org/tv/4392-big-love",
    "imdb": "https://www.imdb.com/title/tt0421030/",
-   "poster": null,
+   "poster": "posters/4392-big-love.jpg",
    "boxOffice": null,
    "boxOfficeText": "$9 119 668<br>$11,482,165 worldwide",
    "boxOfficeSource": null,
@@ -6673,9 +6658,9 @@
    "tmdb": "https://www.themoviedb.org/movie/13448-angels-demons",
    "imdb": "https://www.imdb.com/title/tt0808151/",
    "poster": "posters/tt0808151.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 485900000,
+   "boxOfficeText": "$485.9 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Angels_%26_Demons_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6753,9 +6738,9 @@
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt1228987/",
    "poster": "posters/tt1228987.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 27000000,
+   "boxOfficeText": "$27  million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Let_Me_In_%28film%29",
    "credits": [
     {
      "person": "Rowbie Orsatti",
@@ -6774,7 +6759,7 @@
    "imdb": "https://www.imdb.com/title/tt1087524/",
    "poster": "posters/tt1087524.jpg",
    "boxOffice": null,
-   "boxOfficeText": null,
+   "boxOfficeText": "",
    "boxOfficeSource": null,
    "credits": [
     {
@@ -6813,9 +6798,9 @@
    "tmdb": "https://www.themoviedb.org/movie/70578-trespass",
    "imdb": "https://www.imdb.com/title/tt1674784/",
    "poster": "posters/tt1674784.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 10100000,
+   "boxOfficeText": "$10.1 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Trespass_%282011_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6833,9 +6818,9 @@
    "tmdb": "https://www.themoviedb.org/movie/37430-conan-the-barbarian",
    "imdb": "https://www.imdb.com/title/tt0816462/",
    "poster": "posters/tt0816462.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 63500000,
+   "boxOfficeText": "$63.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Conan_the_Barbarian_%282011_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6858,9 +6843,9 @@
    "tmdb": "https://www.themoviedb.org/movie/27582-the-mechanic",
    "imdb": "https://www.imdb.com/title/tt0472399/",
    "poster": "posters/tt0472399.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 76300000,
+   "boxOfficeText": "$76.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Mechanic_%282011_film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6948,9 +6933,9 @@
    "tmdb": "https://www.themoviedb.org/movie/70074-bullet-to-the-head",
    "imdb": "https://www.imdb.com/title/tt1308729/",
    "poster": "posters/tt1308729.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 22600000,
+   "boxOfficeText": "$22.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Bullet_to_the_Head",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6968,9 +6953,9 @@
    "tmdb": "https://www.themoviedb.org/movie/76163-the-expendables-2",
    "imdb": "https://www.imdb.com/title/tt1764651/",
    "poster": "posters/tt1764651.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 315000000,
+   "boxOfficeText": "$315 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Expendables_2",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -6988,9 +6973,9 @@
    "tmdb": "https://www.themoviedb.org/movie/101299-the-hunger-games-catching-fire",
    "imdb": "https://www.imdb.com/title/tt1951264/",
    "poster": "posters/tt1951264.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 869900000,
+   "boxOfficeText": "$869.9 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Catching_Fire",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7008,9 +6993,9 @@
    "tmdb": "https://www.themoviedb.org/movie/107846-escape-plan",
    "imdb": "https://www.imdb.com/title/tt1211956/",
    "poster": "posters/tt1211956.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 137000000,
+   "boxOfficeText": "$137 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Escape_Plan_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7033,9 +7018,9 @@
    "tmdb": "https://www.themoviedb.org/movie/168530-ride-along",
    "imdb": "https://www.imdb.com/title/tt1408253/",
    "poster": "posters/tt1408253.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 154500000,
+   "boxOfficeText": "$154.5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ride_Along_%28film%29",
    "credits": [
     {
      "person": "Rowbie Orsatti",
@@ -7053,9 +7038,9 @@
    "tmdb": "https://www.themoviedb.org/movie/323675-ride-along-2",
    "imdb": "https://www.imdb.com/title/tt2869728/",
    "poster": "posters/tt2869728.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 124600000,
+   "boxOfficeText": "$124.6 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Ride_Along_2",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7073,9 +7058,9 @@
    "tmdb": "https://www.themoviedb.org/movie/315635-spider-man-homecoming",
    "imdb": "https://www.imdb.com/title/tt2250912/",
    "poster": "posters/tt2250912.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 880900000,
+   "boxOfficeText": "$880.9  million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Spider-Man%3A_Homecoming",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7093,9 +7078,9 @@
    "tmdb": "https://www.themoviedb.org/movie/324552-john-wick-chapter-2",
    "imdb": "https://www.imdb.com/title/tt4425200/",
    "poster": "posters/tt4425200.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 174300000,
+   "boxOfficeText": "$174.3 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/John_Wick%3A_Chapter_2",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7113,9 +7098,9 @@
    "tmdb": "https://www.themoviedb.org/movie/299536-avengers-infinity-war",
    "imdb": "https://www.imdb.com/title/tt4154756/",
    "poster": "posters/tt4154756.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 2052000000,
+   "boxOfficeText": "$2.052 billion",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Avengers%3A_Infinity_War",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7133,9 +7118,9 @@
    "tmdb": "https://www.themoviedb.org/movie/284054-black-panther",
    "imdb": "https://www.imdb.com/title/tt1825683/",
    "poster": "posters/tt1825683.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 1350000000,
+   "boxOfficeText": "$1.35 billion",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Black_Panther_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7193,9 +7178,9 @@
    "tmdb": "https://www.themoviedb.org/movie/604872",
    "imdb": "https://www.imdb.com/title/tt9203190/",
    "poster": "posters/tt9203190.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 24800000,
+   "boxOfficeText": "$24.8 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Skyfire_%28film%29",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7455,9 +7440,9 @@
    "title": "Stranger Things",
    "year": 2025,
    "type": "tv",
-   "tmdb": null,
+   "tmdb": "https://www.themoviedb.org/tv/66732-stranger-things",
    "imdb": "https://www.imdb.com/title/tt4574334/",
-   "poster": null,
+   "poster": "posters/66732-stranger-things.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -7840,9 +7825,9 @@
   }
  ],
  "boxOfficeSummary": {
-  "total": 5798431353,
-  "withData": 42,
-  "films": 315,
+  "total": 17115278244,
+  "withData": 181,
+  "films": 314,
   "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }

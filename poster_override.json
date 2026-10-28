@@ -1,0 +1,25 @@
+{
+ "Cheaper by the Dozen|2003": {
+  "poster": "posters/11007-cheaper-by-the-dozen.jpg",
+  "tmdb": "https://www.themoviedb.org/movie/11007-cheaper-by-the-dozen",
+  "posterSource": "https://media.themoviedb.org/t/p/w500/afclGGoQslTYFTnyW1LRMtJMiBp.jpg"
+ },
+ "Mixed Nuts|1994": {
+  "poster": "posters/24070-mixed-nuts.jpg",
+  "tmdb": "https://www.themoviedb.org/movie/24070-mixed-nuts",
+  "posterSource": "https://media.themoviedb.org/t/p/w500/xPdQMqxWnFwCKOIto8dBEorTtGR.jpg"
+ },
+ "Big Love|None": {
+  "poster": "posters/4392-big-love.jpg",
+  "tmdb": "https://www.themoviedb.org/tv/4392-big-love",
+  "posterSource": "https://media.themoviedb.org/t/p/w500/38aaxDXz4qim9M85VTzpUecKlq9.jpg"
+ },
+ "Stranger Things|None": {
+  "poster": "posters/66732-stranger-things.jpg",
+  "tmdb": "https://www.themoviedb.org/tv/66732-stranger-things",
+  "posterSource": "https://media.themoviedb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+ },
+ "Stop at Nothing|2001": {
+  "poster": "posters/stop-at-nothing-titlecard.jpg"
+ }
+}

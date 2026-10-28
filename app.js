@@ -32,9 +32,3 @@ fetch('data.json').then(r=>r.json()).then(D=>{
  const upd=()=>{let c=0;document.querySelectorAll('.yr').forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.6)c=+s.dataset.cum});target=c};addEventListener('scroll',upd);upd();
 });
 
-(()=>{const c=document.getElementById('stars'),x=c.getContext('2d'),RM=matchMedia('(prefers-reduced-motion: reduce)').matches;let S=[];
-const rs=()=>{c.width=innerWidth*devicePixelRatio;c.height=innerHeight*devicePixelRatio;S=Array.from({length:260},()=>({x:Math.random()*c.width,y:Math.random()*c.height,z:Math.random()*.9+.1}))};rs();addEventListener('resize',rs);
-const draw=()=>{x.clearRect(0,0,c.width,c.height);const sy=scrollY*devicePixelRatio;for(const s of S){const y=((s.y-sy*s.z*.3)%c.height+c.height)%c.height;x.fillStyle=`rgba(255,255,255,${s.z*.8})`;x.fillRect(s.x,y,s.z*2,s.z*2)}};
-if(RM){draw();addEventListener('scroll',draw,{passive:true})}else{const l=()=>{draw();requestAnimationFrame(l)};l()}
-const items=['photos/ernie-1933-goudey.jpg','“Husbands are much easier to find than good agents.”','photos/noon.jpg','Gashouse Gang · 1934'];const _x=['photos/ernie-1933-goudey.jpg','photos/ernie-f.jpg','photos/noon.jpg','“Husbands are much easier to find than good agents.”','Gashouse Gang · 1934','Sherlock Jr. · 1924','“the envy of most of the younger players”','photos/rowbie.jpg','A Hollywood Family Since 1923'];
-const d=document.getElementById('drift');items.forEach((t,i)=>{const e=t.startsWith('photos/')?Object.assign(document.createElement('img'),{src:t,alt:''}):Object.assign(document.createElement('div'),{textContent:t});e.className='d';e.style.left=(5+i*11%85)+'%';e.style.top=(i*37%100)+'%';e.style.fontSize=(1+i%3*.5)+'rem';e.style.animationDelay=(-i*10)+'s';e.style.animationDuration=(80+i*7)+'s';d.appendChild(e)})})();
