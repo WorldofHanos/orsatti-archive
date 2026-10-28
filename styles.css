@@ -202,6 +202,3 @@ animation:mtw 4.5s ease-in-out infinite alternate}
  .reel{max-width:calc(4*92px + 3*14px)!important}.reel .p,.reel .pw{width:92px!important}}
 @media(max-width:1000px){.reel{max-width:calc(3*96px + 2*12px)!important}.reel .p,.reel .pw{width:96px!important}}
 @media(max-width:420px){.reel{max-width:calc(2*110px + 12px)!important}.reel .p,.reel .pw{width:110px!important}}
-/* compact timeline: content-height years */
-.yr{min-height:0!important;padding:28px 0!important;margin:0!important}
-@media(max-width:1000px){.yr{min-height:0!important;padding:20px 0!important}}
