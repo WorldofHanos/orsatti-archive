@@ -219,6 +219,31 @@ for m in data['milestones']:
      'At 5-foot-7 and 150 pounds he was nearly Keaton\'s double, and in Sherlock Jr.\'s famous motorcycle run he was exactly that. Keaton told the story in 1958: actor Ford West "couldn\'t fall off the motorcycle so I took my assistant prop man… and put my clothes on him to be on the handlebars," while Keaton himself, dressed as West, took the fall. '
      'Ernie also played first base and caught for Keaton\'s ball team (1922–25), until former big-leaguer Turkey Mike Donlin told Keaton the kid could earn more playing baseball than working in pictures.')
     m['sources']=['https://sabr.org/bioproj/person/ernie-orsatti/','https://www.imdb.com/name/nm1108143/','https://www.damfinoroads.com/buster-keaton (Keaton interview with Christopher Bishop, 1958)']
+# --- second-generation stories (research round)
+THR='https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'
+SU='https://stuntsunlimited.com/frank-orsatti-honorary/'
+VAR='https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/'
+data['milestones']+= [
+ dict(year=1968,kind='milestone',title='From freighters to Planet of the Apes',
+  text='Frank H. Orsatti was drafted by his father\'s Cardinals, but an injury in training ended that dream. He shipped out with the Merchant Marines and spent ten years working freighters. Back in Los Angeles he took his first stunt job on Planet of the Apes (1968), then worked Rosemary\'s Baby and Bullitt the same year.',
+  sources=[SU,'https://www.imdb.com/name/nm0650685/bio/']),
+ dict(year=1971,kind='milestone',title='Off the Golden Gate Bridge',
+  text='For B.S. I Love You, Frank H. Orsatti jumped off the Golden Gate Bridge. Stunts Unlimited lists it among the defining gags of a career that went on to The Poseidon Adventure, The Longest Yard, Lethal Weapon 2 and 3, Point Break and Con Air.',
+  sources=[SU]),
+ dict(year=1972,kind='milestone',title='"We\'ve all come to watch you die."',
+  text='Ernie F. Orsatti was cast as an actor in The Poseidon Adventure, playing Terry, the boyfriend of Pamela Sue Martin\'s character. The day before the shoot, Irwin Allen told him he wanted him to do the fall. "I\'m not a stuntman," Ernie said. He did it anyway: hanging from an upside-down table, letting go, and dropping 32 feet onto his back through the ballroom skylight. Paul Stader\'s only advice: "Pick a point, look at it and let go." It knocked him "colder than a cucumber," and they got it in one take. Gene Hackman and Ernest Borgnine came in on their day off with their families. "We\'ve all come to watch you die," Hackman told him, and took pictures. Afterwards, Ernie said, nobody called him an actor again: "you\'re the guy who did the stunt in The Poseidon Adventure, you\'re a stuntman – I wish I\'d found that out years earlier because I\'d be richer."',
+  sources=[THR,'https://www.imdb.com/name/nm0650683/bio/']),
+ dict(year=1981,kind='milestone',title='Through the window on Hill Street Blues',
+  text='Ernie F. Orsatti was thrown through a window in the Hill Street Blues pilot (1981), the start of three decades coordinating stunts – Hoosiers, Grumpy Old Men, Primal Fear, Fear and Loathing in Las Vegas, Pleasantville, Joe Dirt, Cheaper by the Dozen – and TV from L.A. Law and Picket Fences to Nip/Tuck and Big Love.',
+  sources=[THR,'https://www.televisionacademy.com/bios/ernie-f-orsatti']),
+]
+for p in data['people']:
+  if p['name'].startswith('Ernie F.'):
+    p['note']=p['note'].rstrip('.')+'. Started in the film industry at sixteen; acted in The Green Berets (1968), The Mechanic (1972) and The Towering Inferno (1974, a firefighter in the glass-elevator rescue) before stunts took over.'
+    p.setdefault('noteSources',[]).extend([THR,'https://www.televisionacademy.com/bios/ernie-f-orsatti'])
+  if p['name'].startswith('Frank H.'):
+    p['note']=p['note'].rstrip('.')+'. Ten years in the Merchant Marines before stunts; jumped off the Golden Gate Bridge for B.S. I Love You; second-unit director on Sherlock Holmes Returns, Stark and Strays.'
+    p.setdefault('noteSources',[]).extend([SU,VAR])
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
