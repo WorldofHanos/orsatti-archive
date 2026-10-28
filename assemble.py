@@ -62,7 +62,7 @@ people=[
  dict(name='Ernie F. Orsatti ("Earnest")',relation='Son of Ernie Orsatti',year=1972,photo='photos/ernie-f.jpg',photoSource='https://www.imdb.com/name/nm0650683/',years='1940–2020',imdb='https://www.imdb.com/name/nm0650683/',note='Ernie\'s son; stuntman, actor, 2nd-unit director. Identification with "Earnest Orsatti" is inferred.'),
  dict(name='Frank H. Orsatti (stuntman)',relation='Son of Ernie Orsatti',year=1974,years='1942–2004',imdb='https://www.imdb.com/name/nm0650685/',note='Ernie\'s son; doubled Schwarzenegger, Burt Reynolds, Bill Bixby.'),
  dict(name='Noon Orsatti',relation='Son of Ernie F. Orsatti',year=1986,photo='photos/noon.jpg',photoSource='https://www.imdb.com/name/nm0650687/',imdb='https://www.imdb.com/name/nm0650687/',note='Son of Ernie F.; stunt coordinator / 2nd-unit director.'),
- dict(name='Rowbie Orsatti',relation='Son of Noon Orsatti',year=2012,photo='photos/rowbie.jpg',photoSource='https://www.imdb.com/name/nm1769066/',years='b. 1991',imdb='https://www.imdb.com/name/nm1769066/',note='Son of Noon; stunt performer/coordinator.'),
+ dict(name='Rowbie Orsatti',relation='Son of Noon Orsatti',relationSource='Family; also IMDb trivia (nm1769066)',year=2012,photo='photos/rowbie.jpg',photoSource='https://www.imdb.com/name/nm1769066/',years='b. 1991',imdb='https://www.imdb.com/name/nm1769066/',note='Son of Noon; stunt performer/coordinator.'),
  dict(name='Ken Orsatti (Alfred Kendall)',year=1961,years='1932–2010',note='Nephew of Ernie: his father and two uncles ran the Orsatti Agency (LA Times). Rorvic Productions assistant 1956; SAG national executive director 1981–2000.'),
 ]
 media={
