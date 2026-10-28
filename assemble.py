@@ -207,5 +207,14 @@ for f in fl:
 print('TV year appearances added:',TVADDED)
 known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
 data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
+# --- one photo, one home: each photo appears in only its best-matching section
+OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
+def _key(src):return src.split('/')[-1].split('?')[0]
+def _ok(src,who):
+  o=OWNER.get(_key(src));return o is None or who.startswith(o)
+for p in data['people']:
+  p['photos']=[x for x in p.get('photos',[]) if _ok(x['src'],'P:'+p['name'])]
+for m in data['milestones']:
+  if m.get('photos'):m['photos']=[x for x in m['photos'] if _ok(x['src'],'M:'+m['title'])]
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
