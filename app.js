@@ -68,3 +68,18 @@ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.tar
 })();
 ;(function(){const t=setInterval(()=>{const ys=document.querySelectorAll('.yr');if(!ys.length)return;clearInterval(t);
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.yr.now').forEach(x=>x.classList.remove('now'));e.target.classList.add('now')}}),{rootMargin:'-45% 0px -45% 0px'});ys.forEach(y=>io.observe(y))},200)})();
+;(function(){const mb=document.getElementById("mbody");let P=[],i=0,v=null;
+function show(k){i=(k+P.length)%P.length;const im=v.querySelector(".gv-img"),cap=v.querySelector(".gv-cap");im.classList.add("fade");setTimeout(()=>{im.src=P[i].src;cap.textContent=P[i].cap+"  ("+(i+1)+"/"+P.length+")";im.classList.remove("fade")},180)}
+function enhance(){const s=mb.querySelector(".story");if(!s||s.dataset.gx)return;s.dataset.gx=1;const g=s.querySelector(".gal");if(!g)return;
+P=[...g.querySelectorAll("figure")].map(f=>({src:f.querySelector("img").src,cap:(f.querySelector("figcaption")||{}).textContent||""}));g.remove();
+const b=document.createElement("button");b.className="btn gbtn";b.textContent="Photos ("+P.length+")";s.querySelector("h2").after(b);
+const wrap=document.createElement("div");wrap.className="sv";while(s.firstChild)wrap.append(s.firstChild);s.append(wrap);
+v=document.createElement("div");v.className="gview";v.innerHTML="<button class=\"btn gback\">‹ Back to story</button><div class=\"gstage\"><button class=\"gnav gp\" aria-label=\"Previous\">‹</button><img class=\"gv-img\" alt=\"\"><button class=\"gnav gn\" aria-label=\"Next\">›</button></div><div class=\"gv-cap\"></div>";s.append(v);
+if(P.length<2)v.querySelectorAll(".gnav").forEach(x=>x.style.visibility="hidden");
+b.onclick=e=>{e.stopPropagation();s.style.minHeight=s.offsetHeight+"px";s.classList.add("gal-on");show(0)};
+v.querySelector(".gback").onclick=e=>{e.stopPropagation();s.classList.remove("gal-on")};
+v.querySelector(".gp").onclick=e=>{e.stopPropagation();show(i-1)};v.querySelector(".gn").onclick=e=>{e.stopPropagation();show(i+1)};
+v.querySelector(".gv-img").onclick=e=>{e.stopPropagation();const lb=document.getElementById("lb");if(lb){lb.querySelector("img").src=P[i].src;lb.classList.add("on")}}}
+new MutationObserver(enhance).observe(mb,{childList:true});
+document.addEventListener("keydown",e=>{const s=mb.querySelector(".story.gal-on");if(!s||document.getElementById("modal").hidden)return;if(e.key==="ArrowRight")show(i+1);if(e.key==="ArrowLeft")show(i-1);if(e.key==="Escape"&&!document.getElementById("lb").classList.contains("on")){s.classList.remove("gal-on");e.stopImmediatePropagation()}},true);
+})();

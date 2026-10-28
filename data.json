@@ -11,6 +11,13 @@
   {
    "name": "Vic Orsatti",
    "birthName": "Victor Manuel Orsatti",
+   "photos": [
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/June_Lang_by_Otto_Dyar,_1930s.jpg?width=900",
+     "caption": "June Lang, Vic Orsatti's first wife (m. 1937), portrait by Otto Dyar, 1930s",
+     "source": "https://commons.wikimedia.org/wiki/File:June_Lang_by_Otto_Dyar,_1930s.jpg"
+    }
+   ],
    "relation": "Brother of Ernie Orsatti",
    "relationSource": "Wikipedia; SABR",
    "years": "1905–1984",
@@ -7920,6 +7927,18 @@
    "text": "\"My interest, as a boy, was in motion pictures and not in baseball… In 1920, I decided to quit school and devote all my time to the picture business.\" He worked as a gofer, then a stuntman: wing-walking, cliff dives, car and boat stunts. From 1922 he was Keaton's prop man and bit player, and played first base and catcher on Keaton's team (1922–25).",
    "sources": [
     "https://sabr.org/bioproj/person/ernie-orsatti/ (citing The Sporting News, Feb 4, 1932)"
+   ],
+   "photos": [
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Buster_Keaton_with_writers_and_director_in_1923.jpg?width=900",
+     "caption": "Buster Keaton (centre) with his writers and director, 1923 – the Keaton unit Ernie joined (Ernie not pictured)",
+     "source": "https://commons.wikimedia.org/wiki/File:Buster_Keaton_with_writers_and_director_in_1923.jpg"
+    },
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Buster_keaton_in_sherlock_jr,_1924.jpg?width=900",
+     "caption": "Buster Keaton in Sherlock Jr. (1924), the film in which Ernie doubled him",
+     "source": "https://commons.wikimedia.org/wiki/File:Buster_keaton_in_sherlock_jr,_1924.jpg"
+    }
    ]
   },
   {
@@ -8008,6 +8027,13 @@
    "text": "Per Keaton biographer James Curtis, Ernie \"was so good that one day in 1925 he arrived at work and found a new set of luggage and a check…and was told he was fired. Keaton handed him a contract to play for the Vernon Tigers.\"",
    "sources": [
     "https://en.wikipedia.org/wiki/Ernie_Orsatti (citing Curtis, Buster Keaton: A Filmmaker's Life, 2022, p.280)"
+   ],
+   "photos": [
+    {
+     "src": "photos/ernie-action.jpg",
+     "caption": "Ernie Orsatti fielding, press photo (public domain, via DPLA)",
+     "source": "https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg"
+    }
    ]
   },
   {
@@ -8018,6 +8044,13 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Ernie_Orsatti",
     "https://www.baseball-reference.com/players/o/orsater01.shtml"
+   ],
+   "photos": [
+    {
+     "src": "photos/ernie-goudey-1933-pd.jpg",
+     "caption": "Ernie Orsatti, 1933 Goudey card #201 (public domain)",
+     "source": "https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg"
+    }
    ]
   },
   {
@@ -8027,6 +8060,13 @@
    "text": "Ernie played in four World Series (1928, 1930, 1931, 1934), winning in 1931 and 1934; .273 across 13 Series games.",
    "sources": [
     "https://en.wikipedia.org/wiki/Ernie_Orsatti"
+   ],
+   "photos": [
+    {
+     "src": "photos/ernie-action.jpg",
+     "caption": "Ernie Orsatti, Cardinals-era press photo (public domain, via DPLA)",
+     "source": "https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg"
+    }
    ]
   },
   {
@@ -8046,6 +8086,13 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Ernie_Orsatti",
     "https://sabr.org/bioproj/person/ernie-orsatti/"
+   ],
+   "photos": [
+    {
+     "src": "photos/ernie-goudey-1933-pd.jpg",
+     "caption": "Ernie Orsatti, 1933 Goudey card (public domain)",
+     "source": "https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg"
+    }
    ]
   },
   {

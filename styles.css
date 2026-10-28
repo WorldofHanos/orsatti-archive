@@ -179,3 +179,14 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 .side .fact.person .k{margin-bottom:2px}
 .side .fact *{cursor:pointer}
 .gal figure{width:auto;max-width:260px}.gal img{width:auto!important;height:auto!important;max-width:260px;max-height:340px;object-fit:contain!important;background:#000}.side .fact.person img,.fact.person img{object-fit:contain!important;object-position:top;background:#000}.card img.face{object-fit:cover;object-position:top}
+.story{position:relative}.story .sv,.story .gview{transition:opacity .35s ease,transform .35s ease}
+.story .gview{position:absolute;inset:0;opacity:0;transform:translateX(24px);pointer-events:none;display:flex;flex-direction:column;gap:10px}
+.story.gal-on .sv{opacity:0;transform:translateX(-24px);pointer-events:none}
+.story.gal-on .gview{opacity:1;transform:none;pointer-events:auto}
+.gbtn{margin:6px 0 10px}.gback{align-self:flex-start}
+.gstage{flex:1;display:flex;align-items:center;justify-content:center;gap:10px;min-height:260px}
+.gv-img{max-width:100%;max-height:52vh;object-fit:contain;border:1px solid rgba(201,168,106,.45);background:#000;cursor:zoom-in;transition:opacity .18s}
+.gv-img.fade{opacity:0}
+.gnav{background:none;border:1px solid rgba(201,168,106,.5);color:var(--gold);width:36px;height:36px;border-radius:50%;font-size:1.3rem;cursor:pointer;flex:none}
+.gnav:hover{background:rgba(201,168,106,.15)}
+.gv-cap{font-size:.75rem;color:var(--dim);text-align:center;font-style:italic}
