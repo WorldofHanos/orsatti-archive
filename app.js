@@ -66,3 +66,5 @@ function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p
 document.addEventListener('click',e=>{if(e.target.closest('a'))return;const c=e.target.closest('.side .fact[data-f]');if(!c)return;story(FS[+c.dataset.f])});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('.side .fact[data-f]')){e.preventDefault();story(FS[+e.target.dataset.f])}});
 })();
+;(function(){const t=setInterval(()=>{const ys=document.querySelectorAll('.yr');if(!ys.length)return;clearInterval(t);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.yr.now').forEach(x=>x.classList.remove('now'));e.target.classList.add('now')}}),{rootMargin:'-45% 0px -45% 0px'});ys.forEach(y=>io.observe(y))},200)})();

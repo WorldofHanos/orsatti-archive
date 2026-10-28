@@ -152,3 +152,8 @@ main{max-width:none;padding:30px 24px 100px}
 .gal{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0}.gal figure{margin:0;width:150px}.gal img{width:150px;height:190px;object-fit:cover;border:1px solid rgba(201,168,106,.4);cursor:zoom-in;filter:grayscale(.2)}.gal figcaption{font-size:.65rem;color:var(--dim);margin-top:4px}
 @media(max-width:1000px){.side .fact{height:220px}}
 .seas{color:var(--gold);font-size:.8rem;margin-top:4px}
+/* consistent year slots + active year */
+.yr{min-height:62vh;margin:0!important;padding:4vh 0;box-sizing:border-box}
+.yr .year{transition:color .4s,box-shadow .4s,border-color .4s}
+.yr.now .year{color:var(--gold);border-color:var(--gold);box-shadow:0 0 18px rgba(201,168,106,.45)}
+@media(max-width:1000px){.yr{min-height:50vh}}
