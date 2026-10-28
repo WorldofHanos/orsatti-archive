@@ -207,6 +207,18 @@ for f in fl:
 print('TV year appearances added:',TVADDED)
 known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
 data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
+# --- Daredevil years (1920) + Keaton-years enrichment
+data['milestones'].append(dict(year=1920,kind='keaton',title='Daredevil years',
+ text='At seventeen, Ernie walked out of school and onto the studio lots of Los Angeles. He began as a gofer, then became a stuntman: walking the wings of airplanes in flight, diving off cliffs, and taking the car and boat gags the pictures of the day ate up. This was Hollywood\'s barnstorming moment, when war-surplus Curtiss Jennys and aerial daredevils like Ormer Locklear were turning wing-walking into screen spectacle. "I wanted to be an actor, a director, a cameraman, anything that would identify me with motion pictures," he said. Within two years the daredevil was on Buster Keaton\'s lot.',
+ sources=['https://sabr.org/bioproj/person/ernie-orsatti/ (citing The Sporting News, Feb 4, 1932)'],
+ photos=[dict(src=C+'WingWalk1.jpg?width=900',caption='Barnstormer Ormer Locklear wing-walking on a Curtiss JN-4D, c. 1919–20 – the stunt era Ernie entered (Ernie not pictured). Smithsonian NASM, public domain',source='https://commons.wikimedia.org/wiki/File:WingWalk1.jpg')]))
+for m in data['milestones']:
+  if m['title']=='Quitting school for the movies':
+    m['text']=('"My interest, as a boy, was in motion pictures and not in baseball… In 1920, I decided to quit school and devote all my time to the picture business." '
+     'In 1922 he joined Buster Keaton\'s studio as prop man and bit player – assistant property master on Sherlock Jr. (1924) and The Cameraman (1928), with stunt work on Our Hospitality (1923) and Sherlock Jr. '
+     'At 5-foot-7 and 150 pounds he was nearly Keaton\'s double, and in Sherlock Jr.\'s famous motorcycle run he was exactly that. Keaton told the story in 1958: actor Ford West "couldn\'t fall off the motorcycle so I took my assistant prop man… and put my clothes on him to be on the handlebars," while Keaton himself, dressed as West, took the fall. '
+     'Ernie also played first base and caught for Keaton\'s ball team (1922–25), until former big-leaguer Turkey Mike Donlin told Keaton the kid could earn more playing baseball than working in pictures.')
+    m['sources']=['https://sabr.org/bioproj/person/ernie-orsatti/','https://www.imdb.com/name/nm1108143/','https://www.damfinoroads.com/buster-keaton (Keaton interview with Christopher Bishop, 1958)']
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
