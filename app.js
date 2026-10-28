@@ -2,7 +2,7 @@ const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>(
 const money=n=>'$'+Math.round(n).toLocaleString('en-US');
 const link=u=>/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace('www.',''))}</a>`:esc(u);
 const KIND={baseball:'Diamond',mob:'Hollywood Underworld',keaton:'The Keaton Years',quote:'In Their Words',business:'Family Business',milestone:'Milestone',lore:'Hollywood Legend'};
-fetch('data.json?v='+Date.now()).then(r=>r.json()).then(D=>{
+fetch('data.json?v='+Date.now()).then(r=>r.json()).then(D=>{window.D=D;
  const years={};D.films.forEach(f=>(f.years||[f.year]).forEach(y=>(years[y]??={films:[],ms:[]}).films.push(f)));D.milestones.forEach(m=>(years[m.year]??={films:[],ms:[]}).ms.push(m));D.people.forEach(p=>p.year&&(years[p.year]??={films:[],ms:[]}).ms.unshift({kind:'person',p}));
  const S=D.boxOfficeSummary;$('#bosub').textContent=`${S.withData} of ${S.films} films with reported grosses · TV excluded`;
  $('#foot').textContent=`${D.films.length} titles · ${D.milestones.length} milestones · total known worldwide gross ${money(S.total)}`;
