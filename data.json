@@ -12,6 +12,13 @@
   },
   {
    "name": "Ernie Orsatti",
+   "birthName": "Ernest Ralph Orsatti",
+   "nameSources": [
+    "https://www.baseball-reference.com/players/o/orsater01.shtml",
+    "https://sabr.org/bioproj/person/ernie-orsatti/",
+    "https://en.wikipedia.org/wiki/Ernie_Orsatti"
+   ],
+   "relation": "Great-grandfather of the archive's keeper",
    "year": 1923,
    "photo": "photos/ernie-1933-goudey.jpg",
    "photoCaption": "1933 Goudey baseball card",
@@ -35,6 +42,7 @@
   },
   {
    "name": "Ernie F. Orsatti (\"Earnest\")",
+   "relation": "Son of Ernie · grandfather",
    "year": 1972,
    "photo": "photos/ernie-f.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650683/",
@@ -44,6 +52,7 @@
   },
   {
    "name": "Frank H. Orsatti (stuntman)",
+   "relation": "Son of Ernie · great-uncle",
    "year": 1974,
    "years": "1942–2004",
    "imdb": "https://www.imdb.com/name/nm0650685/",
@@ -51,6 +60,7 @@
   },
   {
    "name": "Noon Orsatti",
+   "relation": "Son of Ernie F.",
    "year": 1986,
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
@@ -59,6 +69,7 @@
   },
   {
    "name": "Rowbie Orsatti",
+   "relation": "Son of Noon",
    "year": 2012,
    "photo": "photos/rowbie.jpg",
    "photoSource": "https://www.imdb.com/name/nm1769066/",
