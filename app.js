@@ -45,20 +45,20 @@ const rs=()=>{c.width=innerWidth*devicePixelRatio;c.height=innerHeight*devicePix
 const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const d=t=>{x.clearRect(0,0,c.width,c.height);for(const s of S){const a=.12+.38*(.5+.5*Math.sin(t/1000*s.s+s.p));x.fillStyle=`rgba(212,180,110,${still?.3:a})`;x.beginPath();x.arc(s.x,s.y,s.r,0,6.28);x.fill()}still||requestAnimationFrame(d)};requestAnimationFrame(d)})();
 ;(function(){const lb=document.createElement('div');lb.id='lb';lb.innerHTML='<img alt="">';document.body.append(lb);lb.onclick=()=>lb.classList.remove('on');addEventListener('keydown',e=>e.key==='Escape'&&lb.classList.remove('on'));
-document.addEventListener('click',e=>{const i=e.target.closest('.card .media img,.card .ph img,.card img.big,.card .gal img');if(!i)return;e.preventDefault();e.stopPropagation();lb.querySelector('img').src=i.src;const c0=lb.querySelector('.lbcap');if(c0)c0.textContent='';lb.querySelectorAll('.lbnav').forEach(b=>b.style.display='none');lb.classList.add('on')},true)})();
+document.addEventListener('click',e=>{const i=e.target.closest('.card .media img,.card .ph img,.card img.big,.card .gal img,.story img.sportrait');if(!i)return;e.preventDefault();e.stopPropagation();lb.querySelector('img').src=i.src;const c0=lb.querySelector('.lbcap');if(c0)c0.textContent=(i.dataset.cap||'').trim();lb.querySelectorAll('.lbnav').forEach(b=>b.style.display='none');lb.classList.add('on')},true)})();
 
 ;(function(){
 const nm=s=>(s||'').split(' (')[0];
 function photosFor(m){const P=[];const add=(src,cap,url)=>{if(src&&!P.some(x=>x.src===src))P.push({src,cap,url})};
- if(m.kind==='person'){const p=m.p;add(p.photo,p.photoCaption,p.photoSource);(p.photos||[]).forEach(x=>add(x.src,x.caption,x.source))}
+ if(m.kind==='person'){const p=m.p;(p.photos||[]).forEach(x=>add(x.src,x.caption,x.source))}
  (m.photos||[]).forEach(x=>add(x.src,x.caption,x.source));
  return P}
 function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p?p.note:m.text;
  const links=p?[...(p.photoLinks||[]).map(l=>`<a class="ml" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.caption)} ↗</a>`)]:[];
  const srcs=p?[p.photoSource,...(p.noteSources||[]),...(p.nameSources||[])].filter(Boolean):(m.sources||[]);
- $('#mbody').innerHTML=`<div class="story"><div class="k">${p?'Family Member':(KIND[m.kind]||'')}</div><h2>${esc(title)}</h2>${p&&p.birthName?`<div class="yr2">Born ${esc(p.birthName)}</div>`:''}${p&&p.relation?`<div class="rel">${esc(p.relation)}</div>`:''}${p&&p.years?`<div class="yr2">${esc(p.years)}</div>`:`<div class="yr2">${m.year||''}</div>`}
+ $('#mbody').innerHTML=`<div class="story"><div class="k">${p?'Family Member':(KIND[m.kind]||'')}</div>${p&&p.photo?`<img class="sportrait" src="${esc(p.photo)}" alt="${esc(p.photoCaption||p.name)}" data-cap="${esc(p.photoCaption||'')}">`:''}<h2>${esc(title)}</h2>${p&&p.birthName?`<div class="yr2">Born ${esc(p.birthName)}</div>`:''}${p&&p.relation?`<div class="rel">${esc(p.relation)}</div>`:''}${p&&p.years?`<div class="yr2">${esc(p.years)}</div>`:`<div class="yr2">${m.year||''}</div>`}
  ${P.length?`<div class="gal">${P.map(x=>`<figure><img src="${esc(x.src)}" alt="${esc(x.cap||'')}">${x.cap?`<figcaption>${esc(x.cap)}</figcaption>`:''}</figure>`).join('')}</div>`:''}
- <p class="full">${esc(text||'')}</p>${links.length?`<h4>Photos elsewhere</h4><div class="media">${links.join('')}</div>`:''}
+ <p class="full">${esc(text||'')}</p>${links.length?`<h4 class="mlh">Photos elsewhere</h4><div class="media mll">${links.join('')}</div>`:''}
  ${p&&p.imdb?`<a class="btn" href="${esc(p.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}
  ${m.flag?`<p class="src">Note: ${esc(m.flag)}</p>`:''}<p class="src qs">Sources: ${srcs.map(link).join(' · ')}</p></div>`;
  $('#modal').hidden=false;$('#modal .x').focus()}

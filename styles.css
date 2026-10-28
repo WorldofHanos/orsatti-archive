@@ -217,3 +217,8 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 #lb .lbcap:empty{display:none}
 .thumbs figcaption{display:none}
 .thumbs{flex-wrap:wrap;overflow:hidden}.thumbs.open{max-height:400px}
+.story img.sportrait{display:block;max-width:220px;max-height:280px;width:auto;height:auto;object-fit:contain;margin:0 0 14px;border:1px solid var(--gold);box-shadow:0 0 24px rgba(201,168,106,.2);cursor:zoom-in}
+.story h4.mlh{color:var(--gold);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;margin:18px 0 6px;font-weight:500}
+.story .mll{display:flex;flex-wrap:wrap;gap:6px 14px}
+.story .mll .ml{color:var(--gold);font-size:.75rem;border-bottom:1px solid rgba(201,168,106,.35);padding:1px 0}
+.story .mll .ml:hover{color:#f3dfae;border-color:var(--gold)}
