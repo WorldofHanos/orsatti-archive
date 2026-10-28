@@ -59,7 +59,10 @@
    "photoSource": "https://www.imdb.com/name/nm0650683/",
    "years": "1940–2020",
    "imdb": "https://www.imdb.com/name/nm0650683/",
-   "note": "Ernie's son; stuntman, actor, 2nd-unit director. Identification with \"Earnest Orsatti\" is inferred."
+   "note": "Ernest Frank Orsatti, born Beverly Hills Feb 13, 1940; died La Quinta Sept 12, 2020. Nicknamed \"The Legend.\" Mother: opera singer Inez Gorman. A Foster Grant model and swimmer trained under Johnny Weissmuller; three Death Wish films, Hot Shots!, Alien: Resurrection, American History X, NYPD Blue, Charmed.",
+   "noteSources": [
+    "https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/"
+   ]
   },
   {
    "name": "Frank H. Orsatti (stuntman)",
@@ -77,7 +80,12 @@
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
    "imdb": "https://www.imdb.com/name/nm0650687/",
-   "note": "Son of Ernie F.; stunt coordinator / 2nd-unit director."
+   "note": "Son of Ernie F.; stunt coordinator / 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition.",
+   "noteSources": [
+    "https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards",
+    "https://www.actorawards.org/node/12606",
+    "https://ew.com/movies/chad-stahelski-keanu-reeves-stunt-double-the-matrix-resurrections-interview/"
+   ]
   },
   {
    "name": "Rowbie Orsatti",
@@ -753,7 +761,12 @@
      "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Ernie F. appears as the \"Chicken Lickin driver.\"",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
    "media": []
   },
   {
@@ -1658,7 +1671,12 @@
      "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Ernie F. Orsatti was thrown through a window in the 1981 pilot.",
+     "source": "https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/"
+    }
+   ],
    "media": []
   },
   {
@@ -6823,7 +6841,12 @@
      "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Ernie F. appears as the \"Chicken Lickin driver.\"",
+     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
+    }
+   ],
    "media": []
   },
   {
@@ -6863,7 +6886,12 @@
      "source": "https://www.imdb.com/name/nm0650687/"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Stuntman-actor Kevin Foster got his role through Noon, the film's stunt coordinator: \"It all started with Noon.\" The same route landed him his part in the first Iron Man.",
+     "source": "https://mattjhorn.wordpress.com/2013/04/02/kevin-foster-stolen-2013/"
+    }
+   ],
    "media": []
   },
   {
@@ -7182,7 +7210,7 @@
    "media": []
   },
   {
-   "title": "Extraction II",
+   "title": "Extraction 2",
    "year": 2023,
    "type": "movie",
    "tmdb": null,
@@ -7229,31 +7257,6 @@
      "url": "https://podbay.fm/p/philosophical-fall-guy/e/1741801177"
     }
    ]
-  },
-  {
-   "title": "Extraction 2",
-   "year": 2023,
-   "type": "movie",
-   "tmdb": "https://www.themoviedb.org/movie/697843-extraction-2",
-   "imdb": "https://www.imdb.com/title/tt12263384/",
-   "poster": "posters/tt12263384.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Noon Orsatti",
-     "role": "Stunt Coordinator",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
-    },
-    {
-     "person": "Rowbie Orsatti",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti?language=en-US"
-    }
-   ],
-   "funFacts": [],
-   "media": []
   },
   {
    "title": "Borderlands",
@@ -7780,11 +7783,12 @@
    ]
   },
   {
-   "year": 2023,
+   "year": 2024,
    "kind": "milestone",
    "title": "Taurus World Stunt Award",
-   "text": "Noon Orsatti honored for lead stunt coordination on Extraction II – 3rd generation of the family in film.",
+   "text": "Noon Orsatti wins the Taurus World Stunt Award for Best Stunt Coordinator and/or 2nd Unit Director for Extraction 2 – the third generation of the family in film.",
    "sources": [
+    "https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards",
     "https://www.imdb.com/name/nm0650687/"
    ]
   }
@@ -7792,7 +7796,7 @@
  "boxOfficeSummary": {
   "total": 17120278244,
   "withData": 182,
-  "films": 312,
+  "films": 311,
   "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
