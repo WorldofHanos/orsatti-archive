@@ -7150,6 +7150,33 @@
    "media": []
   },
   {
+   "title": "Charlie Puth: Loser",
+   "year": 2022,
+   "type": "music_video",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt22527742/",
+   "poster": "posters/yt-Sp6BS-rSr98.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt Coordinator",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": [
+    {
+     "type": "youtube",
+     "title": "Charlie Puth – Loser (Official Music Video)",
+     "url": "https://www.youtube.com/watch?v=Sp6BS-rSr98",
+     "id": "Sp6BS-rSr98"
+    }
+   ]
+  },
+  {
    "title": "Extraction 2",
    "year": 2023,
    "type": "movie",
@@ -7197,6 +7224,26 @@
      "url": "https://podbay.fm/p/philosophical-fall-guy/e/1741801177"
     }
    ]
+  },
+  {
+   "title": "Bad Bodyguard",
+   "year": 2023,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt30217319/",
+   "poster": "posters/tt30217319.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt Coordinator (short)",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   },
   {
    "title": "Borderlands",
@@ -7272,6 +7319,26 @@
      "source": "family (Rowbie); https://www.imdb.com/name/nm1769066/"
     }
    ],
+   "media": []
+  },
+  {
+   "title": "The Middle",
+   "year": 2024,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt Coordinator (short)",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
    "media": []
   },
   {
@@ -7363,6 +7430,106 @@
     {
      "person": "Rowbie Orsatti",
      "role": "Stunt performer (2 eps)",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ballard",
+   "year": 2025,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt26676904/",
+   "poster": "posters/tt26676904.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt double: John Lee Ames",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Runarounds",
+   "year": 2025,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt30274061/",
+   "poster": "posters/tt30274061.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Utility Stunts",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Oval",
+   "year": 2026,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt10580092/",
+   "poster": "posters/tt10580092.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt Performer",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Beauty in Black",
+   "year": 2026,
+   "type": "tv",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt31260386/",
+   "poster": "posters/tt31260386.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Utility Stunts",
+     "source": "https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Fort Valor",
+   "year": 2026,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt34423292/",
+   "poster": "posters/tt34423292.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt Performer (short)",
      "source": "https://www.imdb.com/name/nm1769066/"
     }
    ],
@@ -7741,8 +7908,8 @@
  "boxOfficeSummary": {
   "total": 17160978244,
   "withData": 183,
-  "films": 308,
-  "tvShows": 31,
+  "films": 311,
+  "tvShows": 35,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

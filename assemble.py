@@ -1,6 +1,6 @@
 import re
 import json
-cr=json.load(open('credits.all.json'))
+cr=json.load(open('credits.all.json'))+json.load(open('extra_credits.json'))
 AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
 for c in cr:
   if c['title'].startswith('Afi Catalog'): c['title']=AFIFIX.get((c['person'],c['year']),c['title'])
@@ -124,6 +124,7 @@ people=[
  dict(name='Ken Orsatti (Alfred Kendall)',year=1961,years='1932–2010',note='Nephew of Ernie: his father and two uncles ran the Orsatti Agency (LA Times). Rorvic Productions assistant 1956; SAG national executive director 1981–2000.'),
 ]
 media={
+ 'Charlie Puth: Loser':[{'type':'youtube','title':'Charlie Puth – Loser (Official Music Video)','url':'https://www.youtube.com/watch?v=Sp6BS-rSr98','id':'Sp6BS-rSr98'}],
  'The Poseidon Adventure':[{'type':'link','title':'The Poseidon Adventure: Falling Up with Ernie (2006 featurette, Ernie F. recounts the fall)','url':'https://www.imdb.com/name/nm0650683/','note':'Listed on his IMDb; video not located online'},{'type':'youtube','title':'Poseidon Adventure (1972) making-of featurette','url':'https://www.youtube.com/watch?v=JpOU1hGm-xs','id':'JpOU1hGm-xs'},{'type':'article','title':'Hollywood Reporter obituary: the skylight fall','url':'https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
  'Extraction 2':[{'type':'article','title':'Decider: the car chase & Noon\'s rear-seat driving','url':'https://decider.com/2023/06/16/extraction-2-director-interview-21-minute-one-shot-take/'},{'type':'audio','title':'Philosophical Fall Guy podcast, Ep. 1: Noon Orsatti (2025)','url':'https://podbay.fm/p/philosophical-fall-guy/e/1741801177'}],
  'Borderlands':[{'type':'article','title':'Digital Trends interview with Noon Orsatti & Jimmy O\'Dee','url':'https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/'}],
