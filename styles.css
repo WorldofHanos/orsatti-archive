@@ -79,3 +79,12 @@ main{max-width:none;padding:30px 24px 100px}
 @media(max-width:1000px){.yr{grid-template-columns:1fr;gap:10px}.side{align-items:stretch;order:3}.mid{order:1}.side .fact{max-width:none}}
 .counter{top:auto;bottom:20px;right:auto;left:20px;text-align:left;padding:8px 14px}#bo{font-size:1.4rem}.side .fact .src{opacity:.6}
 .grain{display:none}
+
+.items{display:block!important;margin-top:8px}
+.ent,.ent:nth-child(odd){display:block;text-align:center!important;border:0!important;padding:3px 0!important;font-size:.82rem;line-height:1.35;background:#000}
+.ent .t{font-family:'Playfair Display',serif;font-size:.98rem;color:var(--w)}.ent .t i{font-style:normal;font-size:.6rem;letter-spacing:.15em;color:var(--gold);border:1px solid rgba(201,168,106,.4);padding:0 4px;margin-left:4px;vertical-align:middle}
+.ent .who{color:var(--gold);font-size:.74rem;letter-spacing:.03em}.ent .role{color:var(--dim)}
+.ent:hover .t{color:var(--gold)}
+.mid{background:#000;position:relative;z-index:2;padding:6px 0}
+.yr{margin:10px 0!important}
+.reel .p,.reel img,.reel .np{width:96px}.reel img,.reel .np{height:142px}

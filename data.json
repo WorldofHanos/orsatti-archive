@@ -4248,9 +4248,9 @@
    "tmdb": "https://www.themoviedb.org/movie/13595-airheads",
    "imdb": "https://www.imdb.com/title/tt0109068/",
    "poster": "posters/tt0109068.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
+   "boxOffice": 5000000,
+   "boxOfficeText": "$5 million",
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/Airheads",
    "credits": [
     {
      "person": "Noon Orsatti",
@@ -7825,8 +7825,8 @@
   }
  ],
  "boxOfficeSummary": {
-  "total": 17115278244,
-  "withData": 181,
+  "total": 17120278244,
+  "withData": 182,
   "films": 314,
   "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."

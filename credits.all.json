@@ -2128,9 +2128,9 @@
   "imdb": "https://www.imdb.com/title/tt0109068/",
   "posterSource": "https://media.themoviedb.org/t/p/w500/4xPG8pPMyeoec48gKWbbC85EC8j.jpg",
   "poster": "posters/tt0109068.jpg",
-  "boxOffice": null,
-  "boxOfficeText": null,
-  "boxOfficeSource": null
+  "boxOffice": 5000000,
+  "boxOfficeText": "$5 million",
+  "boxOfficeSource": "https://en.wikipedia.org/wiki/Airheads"
  },
  {
   "person": "Noon Orsatti",
@@ -4059,9 +4059,9 @@
   "imdb": "https://www.imdb.com/title/tt0109068/",
   "posterSource": "https://media.themoviedb.org/t/p/w500/4xPG8pPMyeoec48gKWbbC85EC8j.jpg",
   "poster": "posters/tt0109068.jpg",
-  "boxOffice": null,
-  "boxOfficeText": null,
-  "boxOfficeSource": null
+  "boxOffice": 5000000,
+  "boxOfficeText": "$5 million",
+  "boxOfficeSource": "https://en.wikipedia.org/wiki/Airheads"
  },
  {
   "person": "Ernie F. Orsatti (1940–2020)",
