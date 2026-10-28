@@ -135,3 +135,19 @@ main{max-width:none;padding:30px 24px 100px}
 .side .fact a{overflow-wrap:anywhere}
 @media(min-width:1001px){.yr{grid-template-columns:minmax(190px,1fr) minmax(0,560px) minmax(190px,1fr)!important;gap:24px!important}}
 .side .fact.person img{max-width:100%}
+/* uniform teaser cards */
+.side .fact{height:250px;cursor:pointer;position:relative;transition:border-color .3s,box-shadow .3s;display:block}
+.side .fact:hover,.side .fact:focus-visible{border-color:var(--gold);box-shadow:0 0 18px rgba(201,168,106,.2);outline:none}
+.side .fact p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.side .fact .src,.side .fact .flag{display:none}
+.side .fact h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.side .fact::after{content:"";position:absolute;left:0;right:0;bottom:0;height:56px;background:linear-gradient(transparent,#000 75%);pointer-events:none}
+.side .fact .more{position:absolute;right:14px;bottom:10px;z-index:2;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.side .fact.person{display:block!important}
+.side .fact.person img{float:right;width:52px!important;height:64px!important;margin:0 0 6px 10px;object-fit:cover}
+.side .fact.person .rel,.side .fact.person .who{font-size:.8rem}
+.side .fact.person p{-webkit-line-clamp:3}
+.story h2{margin:.2em 0}.story .full{white-space:pre-line;line-height:1.6;color:#d8d3c8}.story .qs{opacity:.6;margin-top:18px}
+#mbody .story{grid-column:1/-1}
+.gal{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0}.gal figure{margin:0;width:150px}.gal img{width:150px;height:190px;object-fit:cover;border:1px solid rgba(201,168,106,.4);cursor:zoom-in;filter:grayscale(.2)}.gal figcaption{font-size:.65rem;color:var(--dim);margin-top:4px}
+@media(max-width:1000px){.side .fact{height:220px}}

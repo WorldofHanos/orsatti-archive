@@ -14,7 +14,7 @@ fetch('data.json').then(r=>r.json()).then(D=>{
   const short=p=>p.replace(/ \(.*$/,'').replace(' Orsatti','').replace('Victor "Vic"','Vic').replace('"Vic" ','');
   const reel=g.films.map((f,i)=>`<div class="p" data-i="${i}"><div class="pw">${f.poster?`<img src="${esc(f.poster)}" alt="${esc(f.title)} poster" loading="lazy">`:`<div class="np">${esc(f.title)}</div>`}<div class="ov">${f.credits.map(c=>`<b>${esc(short(c.person))}</b><small>${esc(c.role)}</small>`).join('')}</div></div><div>${esc(f.title)}</div></div>`).join('');
 const ents=g.films.map((f,i)=>`<div class="ent" data-i="${i}"><span class="t">${esc(f.title)}${f.type==='tv'?' <i>TV</i>':f.type==='music_video'?' <i>Music Video</i>':''}</span> <span class="who">${f.credits.map(c=>esc(short(c.person))+' <span class="role">'+esc(c.role)+'</span>').join(' · ')}</span></div>`).join('');
-  const facts=g.ms.map(m=>m.kind==='person'?`<div class="fact person">${m.p.photo?`<img src="${esc(m.p.photo)}" alt="${esc(m.p.name)}">`:''}<div><div class="k">Enter · Family Member</div><h3>${esc(m.p.name)}</h3>${m.p.birthName?`<div class="src">Born ${esc(m.p.birthName)}</div>`:''}${m.p.relation?`<div class="rel">${esc(m.p.relation)}</div>`:''}<div class="who">${esc(m.p.years||'')}</div><p>${esc(m.p.note)}</p>${m.p.photo?`<div class="src">Photo${m.p.photoCaption?' ('+esc(m.p.photoCaption)+')':''}: ${link(m.p.photoSource)}</div>`:''}${m.p.imdb?`<div class="src">Profile: ${link(m.p.imdb)}</div>`:''}</div></div>`:`<div class="fact ${m.kind}"><div class="k">${KIND[m.kind]||''}</div><h3>${esc(m.title)}</h3><p>${esc(m.text)}</p>${m.flag?`<span class="flag" title="${esc(m.flag)}">†</span>`:''}<div class="src">Sources: ${m.sources.map(link).join(' · ')}</div></div>`);
+  const facts=g.ms.map(m=>(window.FS=window.FS||[]).push(m)&&m).map(m=>m.kind==='person'?`<div class="fact person" data-f="${FS.indexOf(m)}" tabindex="0" role="button">${m.p.photo?`<img src="${esc(m.p.photo)}" alt="${esc(m.p.name)}">`:''}<div><div class="k">Enter · Family Member</div><h3>${esc(m.p.name)}</h3>${m.p.birthName?`<div class="src">Born ${esc(m.p.birthName)}</div>`:''}${m.p.relation?`<div class="rel">${esc(m.p.relation)}</div>`:''}<div class="who">${esc(m.p.years||'')}</div><p>${esc(m.p.note)}</p>${m.p.photo?`<div class="src">Photo${m.p.photoCaption?' ('+esc(m.p.photoCaption)+')':''}: ${link(m.p.photoSource)}</div>`:''}${m.p.imdb?`<div class="src">Profile: ${link(m.p.imdb)}</div>`:''}</div><span class="more">Read more ›</span></div>`:`<div class="fact ${m.kind}" data-f="${FS.indexOf(m)}" tabindex="0" role="button"><div class="k">${KIND[m.kind]||''}</div><h3>${esc(m.title)}</h3><p>${esc(m.text)}</p>${m.flag?`<span class="flag" title="${esc(m.flag)}">†</span>`:''}<div class="src">Sources: ${m.sources.map(link).join(' · ')}</div><span class="more">Read more ›</span></div>`);
   const first=(idx++%2)?'r':'l';const L=[],R=[];let hl=0,hr=0;facts.forEach((h,k)=>{const w=h.replace(/<[^>]+>/g,'').length+(h.includes('fact person')?400:150);const toL=k===0?first==='l':(hl<hr||(hl===hr&&first==='r'));if(toL){L.push(h);hl+=w}else{R.push(h);hr+=w}});el.innerHTML=`<div class="side sl">${L.join('')}</div><div class="mid"><div class="yhead"><div class="year">${y}</div></div>${g.films.length?`<div class="reel">${reel}</div>`:''}</div><div class="side sr">${R.join('')}</div>`;
   el.querySelector('.yhead').onclick=()=>el.classList.toggle('pinned');
   el.querySelectorAll('[data-i]').forEach(p=>p.onclick=e=>{e.stopPropagation();open(g.films[p.dataset.i])});
@@ -45,4 +45,24 @@ const rs=()=>{c.width=innerWidth*devicePixelRatio;c.height=innerHeight*devicePix
 const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const d=t=>{x.clearRect(0,0,c.width,c.height);for(const s of S){const a=.12+.38*(.5+.5*Math.sin(t/1000*s.s+s.p));x.fillStyle=`rgba(212,180,110,${still?.3:a})`;x.beginPath();x.arc(s.x,s.y,s.r,0,6.28);x.fill()}still||requestAnimationFrame(d)};requestAnimationFrame(d)})();
 ;(function(){const lb=document.createElement('div');lb.id='lb';lb.innerHTML='<img alt="">';document.body.append(lb);lb.onclick=()=>lb.classList.remove('on');addEventListener('keydown',e=>e.key==='Escape'&&lb.classList.remove('on'));
-document.addEventListener('click',e=>{const i=e.target.closest('.fact.person img,.media img,.card .ph img,.card img.big');if(!i)return;e.preventDefault();e.stopPropagation();lb.querySelector('img').src=i.src;lb.classList.add('on')},true)})();
+document.addEventListener('click',e=>{const i=e.target.closest('.card .media img,.card .ph img,.card img.big,.card .gal img');if(!i)return;e.preventDefault();e.stopPropagation();lb.querySelector('img').src=i.src;lb.classList.add('on')},true)})();
+
+;(function(){
+const nm=s=>(s||'').split(' (')[0];
+function photosFor(m){const P=[];const add=(src,cap,url)=>{if(src&&!P.some(x=>x.src===src))P.push({src,cap,url})};
+ if(m.kind==='person'){const p=m.p;add(p.photo,p.photoCaption,p.photoSource);(p.photos||[]).forEach(x=>add(x.src,x.caption,x.source))}
+ (m.photos||[]).forEach(x=>add(x.src,x.caption,x.source));
+ if(m.kind!=='person'){const t=(m.title+' '+m.text);D.people.forEach(p=>{const n=nm(p.name);if(p.photo&&n&&t.includes(n))add(p.photo,p.name+(p.photoCaption?' – '+p.photoCaption:''),p.photoSource)})}
+ return P}
+function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p?p.note:m.text;
+ const links=p?[...(p.photoLinks||[]).map(l=>`<a class="ml" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.caption)} ↗</a>`)]:[];
+ const srcs=p?[p.photoSource,...(p.noteSources||[]),...(p.nameSources||[])].filter(Boolean):(m.sources||[]);
+ $('#mbody').innerHTML=`<div class="story"><div class="k">${p?'Family Member':(KIND[m.kind]||'')}</div><h2>${esc(title)}</h2>${p&&p.birthName?`<div class="yr2">Born ${esc(p.birthName)}</div>`:''}${p&&p.relation?`<div class="rel">${esc(p.relation)}</div>`:''}${p&&p.years?`<div class="yr2">${esc(p.years)}</div>`:`<div class="yr2">${m.year||''}</div>`}
+ ${P.length?`<div class="gal">${P.map(x=>`<figure><img src="${esc(x.src)}" alt="${esc(x.cap||'')}">${x.cap?`<figcaption>${esc(x.cap)}</figcaption>`:''}</figure>`).join('')}</div>`:''}
+ <p class="full">${esc(text||'')}</p>${links.length?`<h4>Photos elsewhere</h4><div class="media">${links.join('')}</div>`:''}
+ ${p&&p.imdb?`<a class="btn" href="${esc(p.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}
+ ${m.flag?`<p class="src">Note: ${esc(m.flag)}</p>`:''}<p class="src qs">Sources: ${srcs.map(link).join(' · ')}</p></div>`;
+ $('#modal').hidden=false;$('#modal .x').focus()}
+document.addEventListener('click',e=>{if(e.target.closest('a'))return;const c=e.target.closest('.side .fact[data-f]');if(!c)return;story(FS[+c.dataset.f])});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('.side .fact[data-f]')){e.preventDefault();story(FS[+e.target.dataset.f])}});
+})();
