@@ -2870,36 +2870,6 @@
    "media": []
   },
   {
-   "title": "Kinjite",
-   "year": 1989,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0097670/",
-   "poster": "posters/tt0097670.jpg",
-   "boxOffice": null,
-   "boxOfficeText": "3,416,846 (U.S.)",
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunt coord",
-     "source": "https://catalog.afi.com/Person/218285-Ernie-Orsatti"
-    },
-    {
-     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
-     "role": "Stunt player",
-     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
-    },
-    {
-     "person": "Noon Orsatti",
-     "role": "Stunt player",
-     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
    "title": "Road House",
    "year": 1989,
    "type": "movie",
@@ -3614,26 +3584,6 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunts",
      "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Highlander 2: The Quickening",
-   "year": 1991,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0102034/",
-   "poster": "posters/tt0102034.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Frank H. Orsatti (stuntman, 1942–2004)",
-     "role": "Stunt coord, sword master & stuntman",
-     "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
     }
    ],
    "funFacts": [],
@@ -4635,26 +4585,6 @@
    "media": []
   },
   {
-   "title": "Tall Tale: The Unbelievable Adventure",
-   "year": 1995,
-   "type": "movie",
-   "tmdb": "https://www.themoviedb.org/movie/41841-tall-tale-the-unbelievable-adventure",
-   "imdb": "https://www.imdb.com/title/tt0111359/",
-   "poster": "posters/tt0111359.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunt Coordinator",
-     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
    "title": "Larger Than Life",
    "year": 1996,
    "type": "movie",
@@ -5318,7 +5248,7 @@
    "title": "Charmed",
    "year": 1998,
    "type": "tv",
-   "tmdb": null,
+   "tmdb": "https://www.themoviedb.org/tv/1981-charmed",
    "imdb": "https://www.imdb.com/title/tt0158552/",
    "poster": "posters/1981-charmed.jpg",
    "boxOffice": null,
@@ -7336,7 +7266,12 @@
      "source": "https://www.imdb.com/name/nm1769066/"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Rowbie doubled Joe Locke as Wiccan.",
+     "source": "family (Rowbie); https://www.imdb.com/name/nm1769066/"
+    }
+   ],
    "media": []
   },
   {
@@ -7806,7 +7741,7 @@
  "boxOfficeSummary": {
   "total": 17120278244,
   "withData": 182,
-  "films": 311,
+  "films": 308,
   "tvShows": 31,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }

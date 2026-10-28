@@ -1,7 +1,8 @@
 import re
 import json
 cr=json.load(open('credits.all.json'))
-AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
+AFIFIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='posters/tt0106613.jpg',boxOffice=40700000,boxOfficeSource='https://en.wikipedia.org/wiki/Cop_and_a_Half'),
+('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
 for c in cr:
   if c['title'].startswith('Afi Catalog'): c['title']=AFIFIX.get((c['person'],c['year']),c['title'])
 cr=[c for c in cr if not c['title'].startswith("L'Incroyable Hulk")]
@@ -9,6 +10,34 @@ for c in cr:
   if c['title']=='Extraction II': c['title']='Extraction 2'
 for c in cr:
   if c['title']=="Jane Austen's Mafia!": c['title']='Mafia!'
+
+import unicodedata
+_R={'ii':'2','iii':'3','iv':'4','v':'5','vi':'6','vii':'7','viii':'8'}
+def _norm(t):
+  t=unicodedata.normalize('NFKD',t).encode('ascii','ignore').decode().lower().replace('&',' and ')
+  t=re.sub(r"[^a-z0-9 ]"," ",t); w=[_R.get(x,x) for x in t.split()]
+  w=[x for x in w if x not in ('the','a','part','chapter')]
+  return ' '.join(w)
+def _iid(c):
+  m=re.search(r'tt\d+',c.get('imdb') or ''); return m.group(0) if m else None
+_cl=[]
+for c in cr:
+  n,i=_norm(c['title']),_iid(c)
+  for g in _cl:
+    if (i and i in g['ids'] and (n.startswith(g['n']) or g['n'].startswith(n))) or (n==g['n'] and (c.get('type')=='tv' or g['tv'] or abs(c['year']-g['y'])<=1)):
+      g['m'].append(c); i and g['ids'].add(i); break
+  else: _cl.append(dict(n=n,y=c['year'],tv=c.get('type')=='tv',ids={i} if i else set(),m=[c]))
+MERGED=[]
+for g in _cl:
+  ts={c['title'] for c in g['m']}
+  if len(ts)>1 or len({c['year'] for c in g['m']})>1:
+    best=max(g['m'],key=lambda c:(bool(c.get('poster')),bool(c.get('imdb')),c.get('boxOffice') is not None))
+    y=min(c['year'] for c in g['m']); MERGED.append((sorted(ts),y))
+    for c in g['m']:
+      c['title']=best['title']; c['year']=y
+      for k in ('poster','imdb','boxOffice','boxOfficeSource','tmdb'):
+        if not c.get(k) and best.get(k): c[k]=best[k]
+json.dump(MERGED,open('merged_report.json','w'),indent=1)
 _seen=set();cr=[c for c in cr if not ((c['person'],c['title'],c['year']) in _seen or _seen.add((c['person'],c['title'],c['year'])))]
 OV=json.load(open('poster_override.json'))
 FIX={'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
@@ -24,6 +53,7 @@ for c in cr:
   if c['title'] in('The Poseidon Adventure','The Towering Inferno'): c['source']='https://en.wikipedia.org/wiki/Ernie_Orsatti'
 W='https://en.wikipedia.org/wiki/Ernie_Orsatti'; S='https://sabr.org/bioproj/person/ernie-orsatti/'; V='https://en.wikipedia.org/wiki/Victor_Orsatti'
 funfacts={
+ 'Agatha All Along':[{'text':'Rowbie doubled Joe Locke as Wiccan.','source':'family (Rowbie); https://www.imdb.com/name/nm1769066/'}],
  'American History X':[{'text':'Noon Orsatti and Ernie F. Orsatti created the film\'s infamous curb-stomp scene (family account). Both are credited as the film\'s stunt coordinators.','source':'family; https://www.themoviedb.org/person/1407364-noon-orsatti; https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
  'Stolen':[{'text':'Stuntman-actor Kevin Foster got his role through Noon, the film\'s stunt coordinator: "It all started with Noon." The same route landed him his part in the first Iron Man.','source':'https://mattjhorn.wordpress.com/2013/04/02/kevin-foster-stolen-2013/'}],
  'Hill Street Blues':[{'text':'Ernie F. Orsatti was thrown through a window in the 1981 pilot.','source':'https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
