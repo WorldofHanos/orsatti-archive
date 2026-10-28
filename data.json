@@ -2,7 +2,16 @@
  "title": "The Orsatti Film Archive",
  "people": [
   {
+   "name": "Al Orsatti",
+   "year": 1935,
+   "relation": "Brother of Ernie Orsatti",
+   "relationSource": "SABR; Wikipedia",
+   "note": "Agency partner with Frank, Vic and Ernie; his clients included actress Peggy O'Neill. Died by 1949 of a heart attack, aged 48 (Weaver et al.). Likely father of SAG leader Ken (Alfred Kendall) Orsatti – inferred."
+  },
+  {
    "name": "Victor \"Vic\" Orsatti",
+   "relation": "Brother of Ernie Orsatti",
+   "relationSource": "Wikipedia; SABR",
    "years": "1905–1984",
    "year": 1937,
    "photo": "photos/victor-orsatti.png",
@@ -35,9 +44,11 @@
   },
   {
    "name": "Frank Orsatti (agent)",
-   "year": 1935,
+   "year": 1930,
+   "relation": "Brother of Ernie Orsatti",
+   "relationSource": "Wikipedia; SABR",
    "imdb": "https://www.imdb.com/name/nm0650684/",
-   "note": "Ernie's brother; Hollywood agent with reputed mob ties. Not the same as Frank H. Orsatti the stuntman."
+   "note": "Founded the Orsatti Agency in 1930 after a career described as bootlegging; reputed fixer for MGM's Louis B. Mayer; agent to Judy Garland. Died by 1949 of a heart attack, aged 53 (Weaver et al.). Not the same person as Frank H. Orsatti the stuntman."
   },
   {
    "name": "Ernie F. Orsatti (\"Earnest\")",
@@ -203,6 +214,114 @@
      "person": "Frank Orsatti (agent)",
      "role": "Writer (story)",
      "source": "https://www.imdb.com/name/nm0650684/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Flight to Hong Kong",
+   "year": 1956,
+   "imdb": "https://www.imdb.com/title/tt0049219/",
+   "poster": "posters/tt0049219.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Associate producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Domino Kid",
+   "year": 1957,
+   "imdb": "https://www.imdb.com/title/tt0050325/",
+   "poster": "posters/tt0050325.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Hired Gun",
+   "year": 1957,
+   "imdb": "https://www.imdb.com/title/tt0050510/",
+   "poster": "posters/tt0050510.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ride Out for Revenge",
+   "year": 1957,
+   "imdb": "https://www.imdb.com/title/tt0050900/",
+   "poster": "posters/tt0050900.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Associate producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Apache Territory",
+   "year": 1958,
+   "imdb": "https://www.imdb.com/title/tt0051369/",
+   "poster": "posters/tt0051369.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Face in the Rain",
+   "year": 1963,
+   "imdb": "https://www.imdb.com/title/tt0057050/",
+   "poster": "posters/tt0057050.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "role": "Executive producer",
+     "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
     }
    ],
    "funFacts": [],
@@ -1352,6 +1471,37 @@
  ],
  "milestones": [
   {
+   "year": 1928,
+   "kind": "lore",
+   "title": "Bootleggers to the studios",
+   "text": "Family lore holds that the Orsatti brothers supplied Hollywood – and MGM in particular – during Prohibition. The documented pieces: author Tim Adler says Frank got into the movie business by supplying Louis B. Mayer with alcohol and women; Weaver et al. call Frank \"a former bootlegger\"; and father Morris was convicted (1922–25) of bribing a Prohibition agent.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Victor_Orsatti (citing Adler, Hollywood and the Mob)",
+    "Tom Weaver, David Schecter & Robert J. Kiss, Universal Terrors, 1951–1955 (McFarland, 2017)",
+    "https://hallapproved.com/us/cases/ca9/1925/6757913/"
+   ],
+   "flag": "Lore, partly documented"
+  },
+  {
+   "year": 1936,
+   "kind": "lore",
+   "title": "Vic's spaghetti parties",
+   "text": "A period news photo shows Al and Victor Orsatti with Alice Faye, James Stewart, Rochelle Hudson and Shirley Ross at \"one of Victor Orsatti's famous Hollywood spaghetti parties.\"",
+   "sources": [
+    "https://www.gettyimages.com.au/detail/news-photo/al-orsatti-rochelle-hudson-victor-orsatti-shirley-ross-news-photo/646310372"
+   ],
+   "flag": "Photo caption; exact year unknown"
+  },
+  {
+   "year": 1936,
+   "kind": "business",
+   "title": "Bringing Sonja Henie to Hollywood",
+   "text": "Vic is credited with persuading three-time Olympic figure-skating champion Sonja Henie to move to Hollywood after the 1936 Winter Olympics; she became one of its highest-paid stars. In 1939 Louella Parsons reported their romance was \"the talk of Hollywood.\"",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Victor_Orsatti"
+   ]
+  },
+  {
    "year": 1902,
    "kind": "milestone",
    "title": "Ernest Ralph Orsatti is born",
@@ -1639,7 +1789,7 @@
  "boxOfficeSummary": {
   "total": 5798431353,
   "withData": 42,
-  "films": 63,
+  "films": 69,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

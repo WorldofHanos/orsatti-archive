@@ -66,3 +66,5 @@ body{background:#000}main,header,footer{position:relative;z-index:1}
 .stats div{display:flex;flex-direction:column;align-items:center}.stats b{font-family:'Playfair Display',serif;font-weight:400;font-size:clamp(1.8rem,4vw,2.6rem)}.stats span{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
 .iconic{width:100%;text-align:center;font-family:'Playfair Display',serif;font-style:italic;color:var(--dim);margin:.6em 0 0}.stats .src{width:100%;text-align:center;margin:0}
 .rel{font-family:'Playfair Display',serif;font-style:italic;color:var(--gold);font-size:.9rem;margin:2px 0}
+
+.flag{border:0!important;padding:0!important;margin:0!important;color:var(--dim)!important;font-size:.8rem!important;cursor:help}
