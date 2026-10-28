@@ -178,3 +178,4 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 .side .fact.person img{float:left!important;width:46px!important;height:58px!important;margin:2px 12px 4px 0!important}
 .side .fact.person .k{margin-bottom:2px}
 .side .fact *{cursor:pointer}
+.gal figure{width:auto;max-width:260px}.gal img{width:auto!important;height:auto!important;max-width:260px;max-height:340px;object-fit:contain!important;background:#000}.side .fact.person img,.fact.person img{object-fit:contain!important;object-position:top;background:#000}.card img.face{object-fit:cover;object-position:top}

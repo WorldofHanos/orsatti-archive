@@ -52,7 +52,7 @@ const nm=s=>(s||'').split(' (')[0];
 function photosFor(m){const P=[];const add=(src,cap,url)=>{if(src&&!P.some(x=>x.src===src))P.push({src,cap,url})};
  if(m.kind==='person'){const p=m.p;add(p.photo,p.photoCaption,p.photoSource);(p.photos||[]).forEach(x=>add(x.src,x.caption,x.source))}
  (m.photos||[]).forEach(x=>add(x.src,x.caption,x.source));
- if(m.kind!=='person'){const t=(m.title+' '+m.text);D.people.forEach(p=>{const n=nm(p.name);if(p.photo&&n&&t.includes(n))add(p.photo,p.name+(p.photoCaption?' – '+p.photoCaption:''),p.photoSource)})}
+ if(m.kind!=='person'){const t=(m.title+' '+m.text);window.D.people.forEach(p=>{const n=nm(p.name);if(p.photo&&n&&t.includes(n))add(p.photo,p.name+(p.photoCaption?' – '+p.photoCaption:''),p.photoSource)})}
  return P}
 function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p?p.note:m.text;
  const links=p?[...(p.photoLinks||[]).map(l=>`<a class="ml" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.caption)} ↗</a>`)]:[];
@@ -63,7 +63,7 @@ function story(m){const p=m.p,P=photosFor(m);const title=p?p.name:m.title,text=p
  ${p&&p.imdb?`<a class="btn" href="${esc(p.imdb)}" target="_blank" rel="noopener">View on IMDb</a>`:''}
  ${m.flag?`<p class="src">Note: ${esc(m.flag)}</p>`:''}<p class="src qs">Sources: ${srcs.map(link).join(' · ')}</p></div>`;
  $('#modal').hidden=false;$('#modal .x').focus()}
-document.addEventListener('click',e=>{if(e.target.closest('a'))return;const c=e.target.closest('.side .fact[data-f]');if(!c)return;story(FS[+c.dataset.f])});
+document.addEventListener('click',e=>{if(e.target.closest('a'))return;const c=e.target.closest('.side .fact[data-f]');if(!c)return;try{story(FS[+c.dataset.f])}catch(err){console.error(err)}});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('.side .fact[data-f]')){e.preventDefault();story(FS[+e.target.dataset.f])}});
 })();
 ;(function(){const t=setInterval(()=>{const ys=document.querySelectorAll('.yr');if(!ys.length)return;clearInterval(t);
