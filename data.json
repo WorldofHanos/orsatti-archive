@@ -422,7 +422,12 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    1958,
+    1959,
+    1960
+   ]
   },
   {
    "title": "Face in the Rain",
@@ -984,7 +989,11 @@
      "source": "https://variety.com/2005/scene/people-news/frank-orsatti-1117915927/"
     }
    ],
-   "media": []
+   "media": [],
+   "years": [
+    1973,
+    1974
+   ]
   },
   {
    "title": "The Towering Inferno",
@@ -1358,7 +1367,7 @@
   },
   {
    "title": "The Incredible Hulk",
-   "year": 1979,
+   "year": 1977,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/648-the-incredible-hulk",
    "imdb": null,
@@ -1384,7 +1393,15 @@
      "source": "family; https://stuntsunlimited.com/frank-orsatti-honorary/"
     }
    ],
-   "media": []
+   "media": [],
+   "years": [
+    1977,
+    1978,
+    1979,
+    1980,
+    1981,
+    1982
+   ]
   },
   {
    "title": "Defiance",
@@ -1504,7 +1521,15 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ]
   },
   {
    "title": "The Entity",
@@ -2278,7 +2303,7 @@
   },
   {
    "title": "Outlaws",
-   "year": 1987,
+   "year": 1986,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/4100-outlaws",
    "imdb": null,
@@ -2294,7 +2319,11 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    1986,
+    1987
+   ]
   },
   {
    "title": "Big Shots",
@@ -5299,7 +5328,13 @@
      "source": "https://app.productionbeast.com/12248-noon-orsatti"
     }
    ],
-   "media": []
+   "media": [],
+   "years": [
+    1997,
+    1998,
+    1999,
+    2000
+   ]
   },
   {
    "title": "Fallen",
@@ -5394,7 +5429,18 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+   ]
   },
   {
    "title": "CHiPs '99",
@@ -6144,7 +6190,12 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2003,
+    2004,
+    2005
+   ]
   },
   {
    "title": "Cheaper by the Dozen",
@@ -6309,7 +6360,13 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2004,
+    2005,
+    2006,
+    2007
+   ]
   },
   {
    "title": "Christmas with the Kranks",
@@ -6484,7 +6541,12 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2006,
+    2007,
+    2008
+   ]
   },
   {
    "title": "Scrubs",
@@ -6574,7 +6636,12 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2006,
+    2007,
+    2008
+   ]
   },
   {
    "title": "Moonlight",
@@ -6594,7 +6661,11 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2007,
+    2008
+   ]
   },
   {
    "title": "Made of Honor",

@@ -152,6 +152,15 @@ for f in films.values():
   o=OV.get(f"{f['title']}|{f['year'] if f['type']=='movie' else None}")
   if o and not (f['poster'] and __import__('os').path.exists(f['poster'])): f.update({k:v for k,v in o.items() if k in('poster','tmdb')})
 fl=sorted(films.values(),key=lambda f:f['year'])
+# multi-year TV: years the family worked on the show where known (IMDb/TMDB/family), else full run (Wikidata/TMDB)
+TVSPAN={'Charmed':(1998,2006),"It's Always Sunny in Philadelphia":(2006,2008),'Entourage':(2004,2007),'Carnivàle':(2003,2005),
+ 'Moonlight':(2007,2008),'The Practice':(1997,2000),'The Magician':(1973,1974),'Remington Steele':(1982,1987),
+ 'The Incredible Hulk':(1977,1982),'The Texan':(1958,1960),'Outlaws':(1986,1987),'The Closer':(2006,2008)}
+TVADDED=0
+for f in fl:
+  if f['type']=='tv' and f['title'] in TVSPAN:
+    a,b=TVSPAN[f['title']];a=min(a,f['year']);f['years']=list(range(a,b+1));f['year']=a;TVADDED+=len(f['years'])-1
+print('TV year appearances added:',TVADDED)
 known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
 data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
