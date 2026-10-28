@@ -178,6 +178,26 @@
    ]
   },
   {
+   "title": "Spring Fever",
+   "year": 1927,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0018440/",
+   "poster": "posters/tt0018440.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Script Clerk",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
    "title": "The Cameraman",
    "year": 1928,
    "type": "movie",
@@ -282,6 +302,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Associate producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Associate Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -302,6 +327,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -322,6 +352,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -342,6 +377,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Associate producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Associate Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -362,6 +402,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -372,7 +417,7 @@
    "year": 1958,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/14763-the-texan",
-   "imdb": null,
+   "imdb": "https://www.imdb.com/title/tt0051320/",
    "poster": "posters/14763-the-texan.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
@@ -382,6 +427,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Producer · 2 episodes",
      "source": "https://www.themoviedb.org/person/1050247-victor-m-orsatti?language=en-US"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Producer (Rorvic Productions)",
+     "source": "https://en.wikipedia.org/wiki/Rorvic_Productions"
     }
    ],
    "funFacts": [],
@@ -402,6 +452,11 @@
      "person": "Victor \"Vic\" Orsatti (1905–1984)",
      "role": "Executive producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
+    },
+    {
+     "person": "Victor \"Vic\" Orsatti",
+     "role": "Executive Producer",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -7908,7 +7963,7 @@
  "boxOfficeSummary": {
   "total": 17160978244,
   "withData": 183,
-  "films": 311,
+  "films": 312,
   "tvShows": 35,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }

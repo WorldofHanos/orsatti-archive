@@ -93,5 +93,99 @@
   "role": "Stunt Performer (short)",
   "imdb": "https://www.imdb.com/title/tt34423292/",
   "poster": "posters/tt34423292.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Flight to Hong Kong",
+  "year": 1956,
+  "type": "movie",
+  "role": "Associate Producer",
+  "imdb": "https://www.imdb.com/title/tt0049219/",
+  "poster": "posters/tt0049219.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Ride Out for Revenge",
+  "year": 1957,
+  "type": "movie",
+  "role": "Associate Producer",
+  "imdb": "https://www.imdb.com/title/tt0050900/",
+  "poster": "posters/tt0050900.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Domino Kid",
+  "year": 1957,
+  "type": "movie",
+  "role": "Producer",
+  "imdb": "https://www.imdb.com/title/tt0050325/",
+  "poster": "posters/tt0050325.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "The Hired Gun",
+  "year": 1957,
+  "type": "movie",
+  "role": "Producer",
+  "imdb": "https://www.imdb.com/title/tt0050510/",
+  "poster": "posters/tt0050510.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Apache Territory",
+  "year": 1958,
+  "type": "movie",
+  "role": "Producer",
+  "imdb": "https://www.imdb.com/title/tt0051369/",
+  "poster": "posters/tt0051369.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://en.wikipedia.org/wiki/Rorvic_Productions",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "The Texan",
+  "year": 1958,
+  "type": "tv",
+  "role": "Producer (Rorvic Productions)",
+  "imdb": "https://www.imdb.com/title/tt0051320/",
+  "poster": "posters/tt0051320.jpg"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "A Face in the Rain",
+  "year": 1963,
+  "type": "movie",
+  "role": "Executive Producer"
+ },
+ {
+  "person": "Victor \"Vic\" Orsatti",
+  "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti",
+  "boxOffice": null,
+  "boxOfficeSource": null,
+  "title": "Spring Fever",
+  "year": 1927,
+  "type": "movie",
+  "role": "Script Clerk",
+  "imdb": "https://www.imdb.com/title/tt0018440/",
+  "poster": "posters/tt0018440.jpg"
  }
 ]

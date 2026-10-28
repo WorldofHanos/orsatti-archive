@@ -8,9 +8,12 @@ dict(title='Beauty in Black',year=2026,type='tv',role='Utility Stunts'),
 dict(title='The Middle',year=2024,type='movie',role='Stunt Coordinator (short)'),
 dict(title='Bad Bodyguard',year=2023,type='movie',role='Stunt Coordinator (short)'),
 dict(title='Fort Valor',year=2026,type='movie',role='Stunt Performer (short)')]
+V='Victor "Vic" Orsatti';A='https://catalog.afi.com/Person/151138-Victor-M.-Orsatti'
+VX=[('Flight to Hong Kong',1956,'movie','Associate Producer'),('Ride Out for Revenge',1957,'movie','Associate Producer'),('Domino Kid',1957,'movie','Producer'),('The Hired Gun',1957,'movie','Producer'),('Apache Territory',1958,'movie','Producer'),('The Texan',1958,'tv','Producer (Rorvic Productions)'),('A Face in the Rain',1963,'movie','Executive Producer'),('Spring Fever',1927,'movie','Script Clerk')]
+X+= [dict(title=t,year=y,type=ty,role=r,person=V,source=A if t!='The Texan' else 'https://en.wikipedia.org/wiki/Rorvic_Productions') for t,y,ty,r in VX]
 out=[]
 for x in X:
-  c=dict(person=R,source=S,boxOffice=None,boxOfficeSource=None,**{k:v for k,v in x.items() if k!='yt'})
+  c=dict(person=x.get('person',R),source=x.get('source',S),boxOffice=None,boxOfficeSource=None,**{k:v for k,v in x.items() if k not in('yt','person','source')})
   if x.get('yt'):
     p=f"posters/yt-{x['yt']}.jpg";urllib.request.urlretrieve(f"https://i.ytimg.com/vi/{x['yt']}/hqdefault.jpg",p);c['poster']=p
   else:
