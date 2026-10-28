@@ -151,3 +151,4 @@ main{max-width:none;padding:30px 24px 100px}
 #mbody .story{grid-column:1/-1}
 .gal{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0}.gal figure{margin:0;width:150px}.gal img{width:150px;height:190px;object-fit:cover;border:1px solid rgba(201,168,106,.4);cursor:zoom-in;filter:grayscale(.2)}.gal figcaption{font-size:.65rem;color:var(--dim);margin-top:4px}
 @media(max-width:1000px){.side .fact{height:220px}}
+.seas{color:var(--gold);font-size:.8rem;margin-top:4px}

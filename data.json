@@ -427,7 +427,13 @@
     1958,
     1959,
     1960
-   ]
+   ],
+   "seasonsByYear": {
+    "1958": "Season 1 · 1958–59",
+    "1959": "Season 1 · 1958–59 & Season 2 · 1959–60",
+    "1960": "Season 2 · 1959–60"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Face in the Rain",
@@ -993,7 +999,12 @@
    "years": [
     1973,
     1974
-   ]
+   ],
+   "seasonsByYear": {
+    "1973": "Season 1 · 1973–74",
+    "1974": "Season 1 · 1973–74"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "The Towering Inferno",
@@ -1401,7 +1412,16 @@
     1980,
     1981,
     1982
-   ]
+   ],
+   "seasonsByYear": {
+    "1977": "Season 1 · 1977–78",
+    "1978": "Season 1 · 1977–78 & Season 2 · 1978–79",
+    "1979": "Season 2 · 1978–79 & Season 3 · 1979–80",
+    "1980": "Season 3 · 1979–80 & Season 4 · 1980–81",
+    "1981": "Season 4 · 1980–81 & Season 5 · 1981–82",
+    "1982": "Season 5 · 1981–82"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Defiance",
@@ -1529,7 +1549,16 @@
     1985,
     1986,
     1987
-   ]
+   ],
+   "seasonsByYear": {
+    "1982": "Season 1 · 1982–83",
+    "1983": "Season 1 · 1982–83 & Season 2 · 1983–84",
+    "1984": "Season 2 · 1983–84 & Season 3 · 1984–85",
+    "1985": "Season 3 · 1984–85 & Season 4 · 1985–86",
+    "1986": "Season 4 · 1985–86",
+    "1987": "Season 5 · 1987"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "The Entity",
@@ -2323,7 +2352,12 @@
    "years": [
     1986,
     1987
-   ]
+   ],
+   "seasonsByYear": {
+    "1986": "Season 1 · 1986–87",
+    "1987": "Season 1 · 1986–87"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Big Shots",
@@ -5334,7 +5368,14 @@
     1998,
     1999,
     2000
-   ]
+   ],
+   "seasonsByYear": {
+    "1997": "Season 2 · 1997–98",
+    "1998": "Season 2 · 1997–98",
+    "1999": "Season 4 · 1999–00",
+    "2000": "Season 4 · 1999–00"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Fallen",
@@ -5440,7 +5481,19 @@
     2004,
     2005,
     2006
-   ]
+   ],
+   "seasonsByYear": {
+    "1998": "Season 1 · 1998–99",
+    "1999": "Season 1 · 1998–99 & Season 2 · 1999–00",
+    "2000": "Season 2 · 1999–00 & Season 3 · 2000–01",
+    "2001": "Season 3 · 2000–01 & Season 4 · 2001–02",
+    "2002": "Season 4 · 2001–02 & Season 5 · 2002–03",
+    "2003": "Season 5 · 2002–03 & Season 6 · 2003–04",
+    "2004": "Season 6 · 2003–04 & Season 7 · 2004–05",
+    "2005": "Season 7 · 2004–05 & Season 8 · 2005–06",
+    "2006": "Season 8 · 2005–06"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "CHiPs '99",
@@ -6193,9 +6246,13 @@
    "media": [],
    "years": [
     2003,
-    2004,
     2005
-   ]
+   ],
+   "seasonsByYear": {
+    "2003": "Season 1 · 2003",
+    "2005": "Season 2 · 2005"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Cheaper by the Dozen",
@@ -6366,7 +6423,14 @@
     2005,
     2006,
     2007
-   ]
+   ],
+   "seasonsByYear": {
+    "2004": "Season 1 · 2004",
+    "2005": "Season 2 · 2005",
+    "2006": "Season 3 · 2006–07",
+    "2007": "Season 3 · 2006–07 & Season 4 · 2007"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Christmas with the Kranks",
@@ -6546,7 +6610,13 @@
     2006,
     2007,
     2008
-   ]
+   ],
+   "seasonsByYear": {
+    "2006": "Season 2 · 2006",
+    "2007": "Season 3 · 2007",
+    "2008": "Season 4 · 2008"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Scrubs",
@@ -6641,7 +6711,13 @@
     2006,
     2007,
     2008
-   ]
+   ],
+   "seasonsByYear": {
+    "2006": "Season 2 · 2006",
+    "2007": "Season 3 · 2007",
+    "2008": "Season 4 · 2008–09"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Moonlight",
@@ -6665,7 +6741,12 @@
    "years": [
     2007,
     2008
-   ]
+   ],
+   "seasonsByYear": {
+    "2007": "Season 1 · 2007–08",
+    "2008": "Season 1 · 2007–08"
+   },
+   "seasonSource": "TMDB season/episode air dates"
   },
   {
    "title": "Made of Honor",

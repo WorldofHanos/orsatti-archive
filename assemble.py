@@ -157,9 +157,19 @@ TVSPAN={'Charmed':(1998,2006),"It's Always Sunny in Philadelphia":(2006,2008),'E
  'Moonlight':(2007,2008),'The Practice':(1997,2000),'The Magician':(1973,1974),'Remington Steele':(1982,1987),
  'The Incredible Hulk':(1977,1982),'The Texan':(1958,1960),'Outlaws':(1986,1987),'The Closer':(2006,2008)}
 TVADDED=0
+SEAS=json.load(open('tv_seasons.json'))
+SEAS['Carnivàle']=[dict(season=1,years=[2003]),dict(season=2,years=[2005])]
+ONLY={'The Practice':{2,4}}  # Noon credited as stunt double on seasons 2 and 4
+def _yl(ys): return str(ys[0]) if len(ys)==1 else f"{ys[0]}–{str(ys[-1])[2:]}"
 for f in fl:
-  if f['type']=='tv' and f['title'] in TVSPAN:
-    a,b=TVSPAN[f['title']];a=min(a,f['year']);f['years']=list(range(a,b+1));f['year']=a;TVADDED+=len(f['years'])-1
+  if f['type']=='tv' and f['title'] in TVSPAN and SEAS.get(f['title']):
+    a,b=TVSPAN[f['title']]
+    S=[x for x in SEAS[f['title']] if x['years'] and (f['title'] not in ONLY or x['season'] in ONLY[f['title']]) and any(a<=y<=b for y in x['years'])]
+    yrs=sorted({y for x in S for y in x['years'] if a<=y<=b})
+    if not yrs: continue
+    f['years']=yrs;f['year']=yrs[0];TVADDED+=len(yrs)-1
+    f['seasonsByYear']={str(y):' & '.join(f"Season {x['season']} · {_yl(x['years'])}" for x in S if y in x['years']) for y in yrs}
+    f['seasonSource']='TMDB season/episode air dates'
 print('TV year appearances added:',TVADDED)
 known=[f for f in fl if f['boxOffice'] and f['type']=='movie']
 data=dict(title='The Orsatti Film Archive',people=people,films=fl,milestones=milestones,boxOfficeSummary=dict(total=sum(f['boxOffice'] for f in known),withData=len(known),films=sum(1 for f in fl if f['type']=='movie'),tvShows=sum(1 for f in fl if f['type']=='tv'),note='Worldwide gross from each film\'s Wikipedia infobox; each film counted once; TV series excluded/null.'))
