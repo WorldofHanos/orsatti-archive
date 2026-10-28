@@ -97,12 +97,9 @@
     "https://www.imdb.com/name/nm0650683/bio/",
     "https://leadinglightsautographs.com/products/inez-gorman-singer-and-starlet-autograph-and-vintage-photo (dealer listing; also says she sang at the Metropolitan Opera – not found in the Met archives)"
    ],
-   "photoLinks": [
-    {
-     "caption": "Signed c. 1936 Fox portrait by Gene Kornman (dealer listing)",
-     "url": "https://leadinglightsautographs.com/products/inez-gorman-singer-and-starlet-autograph-and-vintage-photo"
-    }
-   ],
+   "photo": "photos/fam-inez-fox-1936.jpg",
+   "photoCaption": "Inez Gorman, 20th Century-Fox publicity portrait, c. 1936. From the Orsatti family collection.",
+   "photoSource": "From the Orsatti family collection",
    "photos": []
   },
   {
