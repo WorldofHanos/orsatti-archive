@@ -99,6 +99,7 @@ for c in cr:
   import re as _r; m=_r.match(r'(\d+ episodes?)\s*…?\s*(.*)',c['role'] or ''); c['role']=f"{m.group(2) or 'Crew'} · {m.group(1)}" if m else c['role']
   c['role']=(c['role'] or '').replace('(also stunts, uncredited)','· Stunts')
   c['role']=re.sub(r'\s*[(,]?\s*(also stunts, )?uncredited\s*\)?','',c['role'] or '',flags=re.I).replace('( ','(').replace('()','').strip(' ,·') or 'Crew'
+  if c['title']=='Hot Shots! Part Deux' and c['person'].startswith('Ernie F.'): c['role']='Stunt Coordinator · Second Unit Director'
   f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
 for f in films.values():
   o=OV.get(f"{f['title']}|{f['year'] if f['type']=='movie' else None}")
