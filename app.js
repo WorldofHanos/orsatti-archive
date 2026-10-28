@@ -8,13 +8,13 @@ fetch('data.json').then(r=>r.json()).then(D=>{
  $('#foot').textContent=`${D.films.length} titles · ${D.milestones.length} milestones · total known worldwide gross ${money(S.total)}`;
  const nC=D.films.reduce((n,f)=>n+f.credits.length,0),yrs=new Date().getFullYear()-1923;
  $('#stats').innerHTML=[[yrs,'years in Hollywood'],[nC,'credits archived'],['$'+(S.total/1e9).toFixed(1)+'B','worldwide box office*'],[4,'generations']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')+`<p class="iconic">Sherlock Jr. · The Poseidon Adventure · The Terminator · Avengers: Endgame · Extraction II</p><p class="src">*Known grosses for ${S.withData} of ${S.films} titles, each counted once</p>`;
- const tl=$('#timeline');let cum=0;
+ const tl=$('#timeline');let cum=0,idx=0;
  Object.keys(years).sort((a,b)=>a-b).forEach(y=>{const g=years[y];g.films.forEach(f=>cum+=f.boxOffice||0);
   const el=document.createElement('section');el.className='yr';el.dataset.cum=cum;
   const reel=g.films.map((f,i)=>`<div class="p" data-i="${i}">${f.poster?`<img src="${esc(f.poster)}" alt="${esc(f.title)} poster" loading="lazy">`:`<div class="np">${esc(f.title)}</div>`}<div>${esc(f.title)}</div></div>`).join('');
   const ents=g.films.flatMap((f,i)=>f.credits.map(c=>`<div class="ent" data-i="${i}"><h3>${esc(f.title)}</h3><div class="who">${esc(c.person)}</div><div class="role">${esc(c.role)}</div></div>`)).join('');
   const facts=g.ms.map(m=>m.kind==='person'?`<div class="fact person">${m.p.photo?`<img src="${esc(m.p.photo)}" alt="${esc(m.p.name)}">`:''}<div><div class="k">Enter · Family Member</div><h3>${esc(m.p.name)}</h3>${m.p.birthName?`<div class="src">Born ${esc(m.p.birthName)}</div>`:''}${m.p.relation?`<div class="rel">${esc(m.p.relation)}</div>`:''}<div class="who">${esc(m.p.years||'')}</div><p>${esc(m.p.note)}</p>${m.p.photo?`<div class="src">Photo${m.p.photoCaption?' ('+esc(m.p.photoCaption)+')':''}: ${link(m.p.photoSource)}</div>`:''}${m.p.imdb?`<div class="src">Profile: ${link(m.p.imdb)}</div>`:''}</div></div>`:`<div class="fact ${m.kind}"><div class="k">${KIND[m.kind]||''}</div><h3>${esc(m.title)}</h3><p>${esc(m.text)}</p>${m.flag?`<span class="flag" title="${esc(m.flag)}">†</span>`:''}<div class="src">Sources: ${m.sources.map(link).join(' · ')}</div></div>`).join('');
-  el.innerHTML=`<div class="yhead"><div class="year">${y}</div></div>${g.films.length?`<div class="reel">${reel}</div><div class="hint">${g.films.length} title${g.films.length>1?'s':''} · click year to pin</div>`:''}<div class="items">${ents}${facts}</div>`;
+  const side=(idx++%2)?'r':'l';el.innerHTML=`<div class="side sl">${side==='l'?facts:''}</div><div class="mid"><div class="yhead"><div class="year">${y}</div></div>${g.films.length?`<div class="reel">${reel}</div>`:''}<div class="items">${ents}</div></div><div class="side sr">${side==='r'?facts:''}</div>`;
   el.querySelector('.yhead').onclick=()=>el.classList.toggle('pinned');
   el.querySelectorAll('[data-i]').forEach(p=>p.onclick=e=>{e.stopPropagation();open(g.films[p.dataset.i])});
   tl.appendChild(el)});

@@ -68,3 +68,12 @@ body{background:#000}main,header,footer{position:relative;z-index:1}
 .rel{font-family:'Playfair Display',serif;font-style:italic;color:var(--gold);font-size:.9rem;margin:2px 0}
 
 .flag{border:0!important;padding:0!important;margin:0!important;color:var(--dim)!important;font-size:.8rem!important;cursor:help}
+
+main{max-width:none;padding:30px 24px 100px}
+.yr{margin:18px 0!important;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,560px) minmax(0,1fr);gap:32px;align-items:start}
+.side{display:flex;flex-direction:column;gap:12px;padding-top:4px}.sl{align-items:flex-start}.sr{align-items:flex-end}
+.side .fact{margin:0;max-width:380px;padding:14px 18px;text-align:left}.side .fact h3{font-size:1.1rem}.side .fact p{font-size:.85rem;margin:.4em 0}
+.year{font-size:1.6rem;padding:2px 16px}
+.items{margin-top:10px;gap:6px 70px}.ent h3{font-size:1rem}
+.fact.person img{width:80px;height:100px}
+@media(max-width:1000px){.yr{grid-template-columns:1fr;gap:10px}.side{align-items:stretch;order:3}.mid{order:1}.side .fact{max-width:none}}
