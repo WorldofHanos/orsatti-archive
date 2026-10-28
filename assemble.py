@@ -47,7 +47,7 @@ FIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='poste
 'Avengers: Endgame':dict(boxOffice=2799439100,boxOfficeSource='https://en.wikipedia.org/wiki/Avengers:_Endgame')}
 for c in cr:
   c.update(FIX.get(c['title'],{}))
-  if c['title']=='The Poseidon Adventure': c['role']='Terry (actor) – performed the famous 32-ft skylight fall'
+  if c['title']=='The Poseidon Adventure' and c['person'].startswith('Ernie F'): c['role']='Terry (actor) – performed the famous 32-ft skylight fall'
 for c in cr:
   if c['title']=='Death on the Diamond': c['source']='https://www.baseballamore.com/orsattie/'
   if c['title'] in('The Poseidon Adventure','The Towering Inferno'): c['source']='https://en.wikipedia.org/wiki/Ernie_Orsatti'
