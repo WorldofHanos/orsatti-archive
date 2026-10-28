@@ -9,7 +9,8 @@
    "note": "Agency partner with Frank, Vic and Ernie; his clients included actress Peggy O'Neill. Died by 1949 of a heart attack, aged 48 (Weaver et al.). Likely father of SAG leader Ken (Alfred Kendall) Orsatti – inferred."
   },
   {
-   "name": "Victor \"Vic\" Orsatti",
+   "name": "Vic Orsatti",
+   "birthName": "Victor Manuel Orsatti",
    "relation": "Brother of Ernie Orsatti",
    "relationSource": "Wikipedia; SABR",
    "years": "1905–1984",
@@ -45,8 +46,8 @@
     "https://en.wikipedia.org/wiki/Ernie_Orsatti"
    ],
    "year": 1923,
-   "photo": "photos/ernie-1933-goudey.jpg",
-   "photoCaption": "1933 Goudey baseball card",
+   "photo": "photos/ernie-portrait.jpg",
+   "photoCaption": "Ernie Orsatti, St. Louis Cardinals era press photo (public domain, via DPLA)",
    "photoSource": "https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg",
    "photos": [
     {
@@ -205,7 +206,7 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Script Clerk",
      "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
@@ -315,14 +316,9 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Associate producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Associate Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -340,14 +336,9 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -365,14 +356,9 @@
    "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Hired_Gun_%281957_film%29",
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -390,14 +376,9 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Associate producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Associate Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -415,14 +396,9 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -433,21 +409,16 @@
    "year": 1958,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/14763-the-texan",
-   "imdb": "https://www.imdb.com/title/tt0051320/",
+   "imdb": null,
    "poster": "posters/14763-the-texan.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Producer · 2 episodes",
      "source": "https://www.themoviedb.org/person/1050247-victor-m-orsatti?language=en-US"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Producer (Rorvic Productions)",
-     "source": "https://en.wikipedia.org/wiki/Rorvic_Productions"
     }
    ],
    "funFacts": [],
@@ -465,14 +436,9 @@
    "boxOfficeSource": null,
    "credits": [
     {
-     "person": "Victor \"Vic\" Orsatti (1905–1984)",
+     "person": "Vic Orsatti (1905–1984)",
      "role": "Executive producer",
      "source": "https://en.wikipedia.org/wiki/Victor_Orsatti"
-    },
-    {
-     "person": "Victor \"Vic\" Orsatti",
-     "role": "Executive Producer",
-     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
     }
    ],
    "funFacts": [],
@@ -7694,6 +7660,15 @@
   }
  ],
  "milestones": [
+  {
+   "year": 1925,
+   "kind": "milestone",
+   "title": "Vic quarterbacks USC",
+   "text": "Vic Orsatti played quarterback (No. 5) for Howard Jones's 1925 and 1926 USC Trojans, and also played baseball and ran track at USC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Victor_Orsatti"
+   ]
+  },
   {
    "year": 1970,
    "kind": "milestone",
