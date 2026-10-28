@@ -74,9 +74,7 @@ function lbShow(n){k=(n+P.length)%P.length;const L=lb();L.querySelector("img").s
  c.textContent=(P[k].cap||"").trim();L.querySelectorAll(".lbnav").forEach(b=>b.style.display=P.length>1?"":"none");L.classList.add("on")}
 function enhance(){const s=mb.querySelector(".story");if(!s||s.dataset.gx)return;s.dataset.gx=1;const g=s.querySelector(".gal");if(!g)return;
  P=[...g.querySelectorAll("figure")].map(f=>({src:f.querySelector("img").src,cap:(f.querySelector("figcaption")||{}).textContent||""}));g.remove();
- const b=document.createElement("button");b.className="gbtn";b.textContent="Photos ("+P.length+")";s.querySelector("h2").after(b);
- const t=document.createElement("div");t.className="thumbs";t.innerHTML=P.map((p,n)=>`<img src="${p.src}" data-n="${n}" alt="">`).join("");b.after(t);
- b.onclick=e=>{e.stopPropagation();t.classList.toggle("open");b.classList.toggle("on")};
+ const t=document.createElement("div");t.className="thumbs open";t.innerHTML=P.map((p,n)=>`<img src="${p.src}" data-n="${n}" alt="">`).join("");const f=s.querySelector("p.full");(f||s.querySelector("h2")).after(t);
  t.onclick=e=>{const im=e.target.closest("img");if(!im)return;e.stopPropagation();lbShow(+im.dataset.n)}}
 new MutationObserver(enhance).observe(mb,{childList:true});
 document.addEventListener("keydown",e=>{const L=lb();if(!L||!L.classList.contains("on")||P.length<2)return;if(e.key==="ArrowRight")lbShow(k+1);if(e.key==="ArrowLeft")lbShow(k-1)});

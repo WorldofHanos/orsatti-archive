@@ -222,3 +222,4 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 .story .mll{display:flex;flex-wrap:wrap;gap:6px 14px}
 .story .mll .ml{color:var(--gold);font-size:.75rem;border-bottom:1px solid rgba(201,168,106,.35);padding:1px 0}
 .story .mll .ml:hover{color:#f3dfae;border-color:var(--gold)}
+.story .thumbs{transition:none;margin:4px 0 14px}
