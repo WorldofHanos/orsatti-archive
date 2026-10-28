@@ -190,3 +190,15 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 .gnav{background:none;border:1px solid rgba(201,168,106,.5);color:var(--gold);width:36px;height:36px;border-radius:50%;font-size:1.3rem;cursor:pointer;flex:none}
 .gnav:hover{background:rgba(201,168,106,.15)}
 .gv-cap{font-size:.75rem;color:var(--dim);text-align:center;font-style:italic}
+/* 5-wide poster grid, wider centre */
+.reel{max-width:calc(5*100px + 4*14px)!important;margin:0 auto;gap:16px 14px!important;justify-content:center}
+.reel .p,.reel .pw{width:100px!important}
+@media(min-width:1301px){.yr{grid-template-columns:minmax(200px,1fr) minmax(0,560px) minmax(200px,1fr)!important}}
+@media(min-width:1001px) and (max-width:1300px){
+ .counter{left:0!important;right:0!important;top:0!important;width:100%!important;border:0;border-bottom:1px solid rgba(201,168,106,.35);background:#000!important;display:flex;justify-content:center;gap:16px;align-items:baseline;padding:6px 14px!important}
+ .counter .sub{display:inline}
+ main{max-width:calc(100vw - 48px)!important;padding-top:48px}
+ .yr{grid-template-columns:minmax(220px,1fr) minmax(0,410px) minmax(220px,1fr)!important}
+ .reel{max-width:calc(4*92px + 3*14px)!important}.reel .p,.reel .pw{width:92px!important}}
+@media(max-width:1000px){.reel{max-width:calc(3*96px + 2*12px)!important}.reel .p,.reel .pw{width:96px!important}}
+@media(max-width:420px){.reel{max-width:calc(2*110px + 12px)!important}.reel .p,.reel .pw{width:110px!important}}
