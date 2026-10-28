@@ -157,15 +157,16 @@ for f in films.values():
   if o and not (f['poster'] and __import__('os').path.exists(f['poster'])): f.update({k:v for k,v in o.items() if k in('poster','tmdb')})
 fl=sorted(films.values(),key=lambda f:f['year'])
 # multi-year TV: years the family worked on the show where known (IMDb/TMDB/family), else full run (Wikidata/TMDB)
-TVSPAN={'Charmed':(1998,2006),"It's Always Sunny in Philadelphia":(2006,2008),'Entourage':(2004,2007),'Carnivàle':(2003,2005),
- 'Moonlight':(2007,2008),'The Practice':(1997,2000),'The Magician':(1973,1974),'Remington Steele':(1982,1987),
- 'The Incredible Hulk':(1977,1982),'The Texan':(1958,1960),'Outlaws':(1986,1987),'The Closer':(2006,2008)}
+TVSPAN={"It's Always Sunny in Philadelphia":(2006,2008),'Entourage':(2004,2007),'Carnivàle':(2003,2005),'Moonlight':(2007,2008),'The Practice':(1997,2000)}  # only credited work years (IMDb credit spans / credited seasons)
 TVADDED=0
 SEAS=json.load(open('tv_seasons.json'))
 SEAS['Carnivàle']=[dict(season=1,years=[2003]),dict(season=2,years=[2005])]
 ONLY={'The Practice':{2,4}}  # Noon credited as stunt double on seasons 2 and 4
 def _yl(ys): return str(ys[0]) if len(ys)==1 else f"{ys[0]}–{str(ys[-1])[2:]}"
 for f in fl:
+  if f['type']=='tv' and f['title'] not in TVSPAN and SEAS.get(f['title']):
+    S=[x for x in SEAS[f['title']] if f['year'] in x['years']]
+    if S: f['seasonsByYear']={str(f['year']):' & '.join(f"Season {x['season']} · {_yl(x['years'])}" for x in S)}
   if f['type']=='tv' and f['title'] in TVSPAN and SEAS.get(f['title']):
     a,b=TVSPAN[f['title']]
     S=[x for x in SEAS[f['title']] if x['years'] and (f['title'] not in ONLY or x['season'] in ONLY[f['title']]) and any(a<=y<=b for y in x['years'])]
