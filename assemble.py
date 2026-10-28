@@ -3,6 +3,10 @@ cr=json.load(open('credits.all.json'))
 AFIFIX={('Ernie F. Orsatti (1940–2020)',2003):'Cheaper by the Dozen',('Noon Orsatti',1994):'Mixed Nuts'}
 for c in cr:
   if c['title'].startswith('Afi Catalog'): c['title']=AFIFIX.get((c['person'],c['year']),c['title'])
+cr=[c for c in cr if not c['title'].startswith("L'Incroyable Hulk")]
+for c in cr:
+  if c['title']=="Jane Austen's Mafia!": c['title']='Mafia!'
+_seen=set();cr=[c for c in cr if not ((c['person'],c['title'],c['year']) in _seen or _seen.add((c['person'],c['title'],c['year'])))]
 OV=json.load(open('poster_override.json'))
 FIX={'Big Love':dict(imdb='https://www.imdb.com/title/tt0421030/',poster=None,boxOffice=None,boxOfficeSource=None),
 'Stranger Things':dict(imdb='https://www.imdb.com/title/tt4574334/',poster=None,boxOffice=None,boxOfficeSource=None),
@@ -17,6 +21,7 @@ for c in cr:
   if c['title'] in('The Poseidon Adventure','The Towering Inferno'): c['source']='https://en.wikipedia.org/wiki/Ernie_Orsatti'
 W='https://en.wikipedia.org/wiki/Ernie_Orsatti'; S='https://sabr.org/bioproj/person/ernie-orsatti/'; V='https://en.wikipedia.org/wiki/Victor_Orsatti'
 funfacts={
+ 'Mafia!':[{'text':'Rowbie Orsatti was set to play the kid in the Forrest Gump parody scene, but, afraid of wearing the leg braces, told his grandfather (Ernie F. Orsatti, the film\'s second-unit director) he wasn\'t interested.','source':'family (Rowbie Orsatti)'}],
  'Project X':[{'text':'Rowbie Orsatti doubled lead actor Thomas Mann (per Rowbie; IMDb lists his stunt credit on the film).','source':'https://www.imdb.com/name/nm1769066/'}],
  'Sherlock Jr.':[{'text':'Ernie was hired as assistant prop man because Buster Keaton was a huge baseball fan who insisted on playing ball on the sets of all his films.','source':'https://www.imdb.com/name/nm1108143/'},{'text':'At 5\'7" and 150 lb, Ernie was a close physical match for Keaton (5\'6", 140 lb) and doubled him in a scene in this film; SABR notes Keaton otherwise did his own stunts.','source':'https://sabr.org/bioproj/person/ernie-orsatti/'}],
  'Our Hospitality':[{'text':'In the early 1920s Ernie doubled for Keaton and captained Keaton\'s amateur baseball team.','source':W}],
@@ -88,7 +93,7 @@ media={
 }
 films={}
 for c in cr:
-  k=(c['title'],None if c.get('type')=='tv' else c['year']); f=films.setdefault(k,dict(title=c['title'],year=c['year'],type=c.get('type','movie'),tmdb=c.get('tmdb'),imdb=c.get('imdb'),poster=c.get('poster'),boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))
+  k=(c['title'],None if c.get('type')=='tv' else c['year']); f=films.setdefault(k,dict(title=('Mafia! (Jane Austen\'s Mafia!)' if c['title']=='Mafia!' else c['title']),year=c['year'],type=c.get('type','movie'),tmdb=c.get('tmdb'),imdb=c.get('imdb'),poster=c.get('poster'),boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))
   f['year']=min(f['year'],c['year']); f['poster']=f['poster'] or c.get('poster'); f['imdb']=f['imdb'] or c.get('imdb')
   import re as _r; m=_r.match(r'(\d+ episodes?)\s*…?\s*(.*)',c['role'] or ''); c['role']=f"{m.group(2) or 'Crew'} · {m.group(1)}" if m else c['role']
   f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
