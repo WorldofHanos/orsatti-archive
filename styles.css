@@ -168,3 +168,13 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 @media(prefers-reduced-motion:reduce){.side .fact.milestone::before{animation:none}}
 .side .fact.milestone::before{background-image:radial-gradient(1.6px 1.6px at 12% 18%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 78% 12%,#f0d28f,transparent),radial-gradient(2px 2px at 88% 46%,#e0bd74,transparent),radial-gradient(1.4px 1.4px at 34% 62%,#f0d28f,transparent),radial-gradient(1.6px 1.6px at 62% 84%,#e0bd74,transparent),radial-gradient(2px 2px at 22% 88%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 52% 32%,#e0bd74,transparent),radial-gradient(1.6px 1.6px at 94% 74%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 6% 52%,#e0bd74,transparent),radial-gradient(1.6px 1.6px at 70% 58%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 44% 8%,#f0d28f,transparent),radial-gradient(1.4px 1.4px at 84% 92%,#e0bd74,transparent),radial-gradient(1.2px 1.2px at 28% 40%,#f0d28f,transparent),radial-gradient(1.2px 1.2px at 58% 70%,#e0bd74,transparent)}
 @keyframes mtw{0%{opacity:.45}50%{opacity:.95}100%{opacity:.6}}
+/* landscape teaser cards */
+@media(min-width:1001px){.yr{grid-template-columns:minmax(200px,1fr) minmax(220px,340px) minmax(200px,1fr)!important;gap:22px!important}main{max-width:min(1240px,calc(100vw - 420px))!important}}
+.side .fact{height:auto!important;max-width:none!important;width:100%;padding:14px 18px 30px!important;cursor:pointer}
+.side .fact p{-webkit-line-clamp:3!important;margin:.3em 0 0!important}
+.side .fact h3{-webkit-line-clamp:2;margin:.15em 0 0}
+.side .fact::after{height:34px}
+.side .fact .more{bottom:8px}
+.side .fact.person img{float:left!important;width:46px!important;height:58px!important;margin:2px 12px 4px 0!important}
+.side .fact.person .k{margin-bottom:2px}
+.side .fact *{cursor:pointer}
