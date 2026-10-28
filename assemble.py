@@ -151,6 +151,12 @@ media={
  'Borderlands':[{'type':'article','title':'Digital Trends interview with Noon Orsatti & Jimmy O\'Dee','url':'https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/'}],
  'Sherlock Jr.':[{'type':'link','title':'LAPL photo: Ernie Orsatti Jr. (Ernie F.), Valley College outfielder, 1961','url':'https://calisphere.org/item/1b436e5952a6ff3776783e5fa5e461e0/'},{'type':'photo','src':'photos/ernie-1933-goudey.jpg','title':'Ernie Orsatti, 1933 Goudey card','url':'https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg'}],
 }
+PH4={'World Series champion':[dict(src=C+'1931_World_Series-_Philadelphia_Athletics_vs._St._Louis_Cardinals_(3533485459).jpg?width=900',caption="The 1931 World Series, Athletics vs. Cardinals – Ernie's Cardinals won in seven games (Ernie not identified)",source='https://commons.wikimedia.org/wiki/File:1931_World_Series-_Philadelphia_Athletics_vs._St._Louis_Cardinals_(3533485459).jpg')],'Gashouse Gang – 1934 champions':[dict(src=C+'Dizzy_Dean_Time.jpg?width=900',caption="Dizzy Dean on Time magazine, April 1935 – ace of Ernie's 1934 Gashouse Gang (copyright not renewed)",source='https://commons.wikimedia.org/wiki/File:Dizzy_Dean_Time.jpg'),dict(src=C+'Dizzy_Dean_1934_tiger.jpg?width=900',caption="Dizzy Dean in 1934, the Gashouse Gang's championship season",source='https://commons.wikimedia.org/wiki/File:Dizzy_Dean_1934_tiger.jpg')]}
+for _m in milestones:
+  if _m['title'] in PH4: _m['photos']=_m.get('photos',[])+PH4[_m['title']]
+media.setdefault('The Towering Inferno',[]).append({'type':'link','title':'Towering Inferno behind-the-scenes featurettes, incl. interview with Ernie F. Orsatti (Internet Archive)','url':'https://archive.org/details/towering-inferno-bts'})
+media.setdefault('Sherlock Jr.',[]).append({'type':'link','title':'Sherlock Jr. (1924) with commentary by film historian David Kalat (Internet Archive)','url':'https://archive.org/details/sherlock-jr-david-kalat'})
+
 films={}
 for c in cr:
   k=(c['title'],None if c.get('type')=='tv' else c['year']); f=films.setdefault(k,dict(title=('Mafia! (Jane Austen\'s Mafia!)' if c['title']=='Mafia!' else c['title']),year=c['year'],type=c.get('type','movie'),tmdb=c.get('tmdb'),imdb=c.get('imdb'),poster=c.get('poster'),boxOffice=c.get('boxOffice'),boxOfficeText=c.get('boxOfficeText'),boxOfficeSource=c.get('boxOfficeSource'),credits=[],funFacts=funfacts.get(c['title'],[]),media=media.get(c['title'],[])))

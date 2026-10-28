@@ -198,6 +198,11 @@
      "src": "photos/ernie-1933-goudey.jpg",
      "title": "Ernie Orsatti, 1933 Goudey card",
      "url": "https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg"
+    },
+    {
+     "type": "link",
+     "title": "Sherlock Jr. (1924) with commentary by film historian David Kalat (Internet Archive)",
+     "url": "https://archive.org/details/sherlock-jr-david-kalat"
     }
    ]
   },
@@ -1027,7 +1032,13 @@
      "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
     }
    ],
-   "media": []
+   "media": [
+    {
+     "type": "link",
+     "title": "Towering Inferno behind-the-scenes featurettes, incl. interview with Ernie F. Orsatti (Internet Archive)",
+     "url": "https://archive.org/details/towering-inferno-bts"
+    }
+   ]
   },
   {
    "title": "Black Samson",
@@ -8054,6 +8065,11 @@
      "src": "photos/ernie-action.jpg",
      "caption": "Ernie Orsatti, Cardinals-era press photo (public domain, via DPLA)",
      "source": "https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg"
+    },
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/1931_World_Series-_Philadelphia_Athletics_vs._St._Louis_Cardinals_(3533485459).jpg?width=900",
+     "caption": "The 1931 World Series, Athletics vs. Cardinals – Ernie's Cardinals won in seven games (Ernie not identified)",
+     "source": "https://commons.wikimedia.org/wiki/File:1931_World_Series-_Philadelphia_Athletics_vs._St._Louis_Cardinals_(3533485459).jpg"
     }
    ]
   },
@@ -8080,6 +8096,16 @@
      "src": "photos/ernie-goudey-1933-pd.jpg",
      "caption": "Ernie Orsatti, 1933 Goudey card (public domain)",
      "source": "https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg"
+    },
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dizzy_Dean_Time.jpg?width=900",
+     "caption": "Dizzy Dean on Time magazine, April 1935 – ace of Ernie's 1934 Gashouse Gang (copyright not renewed)",
+     "source": "https://commons.wikimedia.org/wiki/File:Dizzy_Dean_Time.jpg"
+    },
+    {
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dizzy_Dean_1934_tiger.jpg?width=900",
+     "caption": "Dizzy Dean in 1934, the Gashouse Gang's championship season",
+     "source": "https://commons.wikimedia.org/wiki/File:Dizzy_Dean_1934_tiger.jpg"
     }
    ]
   },
