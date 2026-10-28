@@ -32,3 +32,6 @@ fetch('data.json').then(r=>r.json()).then(D=>{
  const upd=()=>{let c=0;document.querySelectorAll('.yr').forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.6)c=+s.dataset.cum});target=c};addEventListener('scroll',upd);upd();
 });
 
+;(function(){const mark=i=>{const f=()=>i.classList.add('ld');i.complete&&i.naturalWidth?f():i.addEventListener('load',f,{once:true})};
+const run=()=>{document.querySelectorAll('.reel img').forEach(mark);const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.reel img').forEach(i=>{i.loading='eager';i.decoding='async'});io.unobserve(e.target)}}),{rootMargin:'1500px 0px'});document.querySelectorAll('.yr').forEach(y=>io.observe(y))};
+const t=setInterval(()=>{if(document.querySelector('.reel img')){clearInterval(t);run()}},200)})();

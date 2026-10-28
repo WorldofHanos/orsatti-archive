@@ -144,7 +144,7 @@ for c in cr:
   c['role']=(c['role'] or '').replace('(also stunts, uncredited)','· Stunts')
   c['role']=re.sub(r'\s*[(,]?\s*(also stunts, )?uncredited\s*\)?','',c['role'] or '',flags=re.I).replace('( ','(').replace('()','').strip(' ,·') or 'Crew'
   if c['title']=='Hot Shots! Part Deux' and c['person'].startswith('Ernie F.'): c['role']='Stunt Coordinator · Second Unit Director'
-  f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
+  if not any(x['person']==c['person'] and x['role'].lower()==c['role'].lower() for x in f['credits']): f['credits'].append(dict(person=c['person'],role=c['role'],source=c['source']))
 for f in films.values():
   o=OV.get(f"{f['title']}|{f['year'] if f['type']=='movie' else None}")
   if o and not (f['poster'] and __import__('os').path.exists(f['poster'])): f.update({k:v for k,v in o.items() if k in('poster','tmdb')})
