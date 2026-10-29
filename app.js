@@ -79,3 +79,11 @@ function enhance(){const s=mb.querySelector(".story");if(!s||s.dataset.gx)return
 new MutationObserver(enhance).observe(mb,{childList:true});
 document.addEventListener("keydown",e=>{const L=lb();if(!L||!L.classList.contains("on")||P.length<2)return;if(e.key==="ArrowRight")lbShow(k+1);if(e.key==="ArrowLeft")lbShow(k-1)});
 })();
+
+(()=>{const m=document.getElementById('share'),f=document.getElementById('shareForm'),msg=document.getElementById('shareMsg');if(!m)return;
+const open=()=>{m.hidden=false;document.body.style.overflow='hidden';f.querySelector('input').focus()},close=()=>{m.hidden=true;document.body.style.overflow=''};
+document.getElementById('shareBtn').onclick=open;document.getElementById('shareX').onclick=close;
+m.addEventListener('click',e=>{if(e.target===m)close()});addEventListener('keydown',e=>{if(e.key==='Escape'&&!m.hidden)close()});
+f.addEventListener('submit',async e=>{e.preventDefault();if(f.action.includes('FORM_ID')){msg.textContent='Submissions are not open yet.';return}
+msg.textContent='Sending…';try{const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
+if(r.ok){f.reset();msg.textContent='Thank you. Your submission has been received.'}else msg.textContent='Something went wrong. Please try again.'}catch(_){msg.textContent='Something went wrong. Please try again.'}})})();
