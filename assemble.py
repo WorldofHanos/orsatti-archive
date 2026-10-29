@@ -665,6 +665,24 @@ for f in data['films']:
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'second unit on Charmed' not in p['note']:
     p['note']=p['note'].replace('After Charmed ended in 2006,','He coordinated stunts and directed second unit on Charmed through its 2006 finale; after the show ended,',1)
+# --- Rowbie TV episode credits (IMDb episode pages / Metacritic / fernsehserien.de; family)
+for t,y,tm,po,role,src in [
+ ('Criminal Minds',2011,'4057-criminal-minds','criminal-minds-s6','Stunts (1 ep, 2011: "Self-Fulfilling Prophecy")','https://www.imdb.com/title/tt2078078/fullcredits/'),
+ ('Major Crimes',2016,'39483-major-crimes','major-crimes-s5','Stunts (1 ep, 2016: "Present Tense")','https://www.imdb.com/title/tt5275090/fullcredits/'),
+ ('Lethal Weapon',2016,'67116-lethal-weapon','lethal-weapon-s1','Stunts (1 ep, 2016: Pilot)','https://www.imdb.com/title/tt5473122/fullcredits/'),
+ ('Jane the Virgin',2016,'61418-jane-the-virgin','jane-the-virgin','Stunts (1 ep, 2016)','https://www.metacritic.com/tv/jane-the-virgin/credits/'),
+ ('S.W.A.T.',2019,'71790-s-w-a-t','swat-2017','Stunts (1 ep, 2019)','https://www.fernsehserien.de/rowbie-orsatti/filmografie'),
+ ('The Orville',2019,'71738-the-orville','the-orville-s2','Stunts (1 ep, 2019)','https://www.fernsehserien.de/rowbie-orsatti/filmografie'),
+ ('The Bernie Mac Show',2001,'1693-the-bernie-mac-show','bernie-mac-s1','Stunts (2 eps, 2001)','https://www.imdb.com/title/tt0285341/fullcredits/'),
+ ('Grounded for Life',2001,'4731-grounded-for-life','grounded-for-life-s1','Stunt double: Griffin Frazen (1 ep, 2001)','https://www.imdb.com/title/tt0255734/fullcredits'),
+ ('Murder in the First',2015,'60129-murder-in-the-first','murder-in-the-first-s2','Stunts (1 ep, 2015: "Twenty-Fifteen")','https://www.imdb.com/title/tt4034322/fullcredits/'),
+ ('All Rise',2019,'90872-all-rise','all-rise-s1','Stunts','https://www.metacritic.com/person/rowbie-orsatti/ (years estimated)'),
+ ('Light as a Feather',2018,'81829-light-as-a-feather','light-as-a-feather-s1','Stunts · Assistant Stunt Coordinator','https://www.tvguide.com/celebrities/rowbie-orsatti/credits/3031005168/ (years estimated)')]:
+  f=_film(t,y,'tv','https://www.themoviedb.org/tv/'+tm,'posters/%s.jpg'%po,[dict(person='Rowbie Orsatti',role=role,source='Orsatti family; '+src)])
+  if not f.get('years') and f['year']!=y and y not in (f.get('years') or []):f['years']=sorted({f['year'],y})
+_film('Grounded for Life',2001,'tv',None,None,[dict(person='Noon Orsatti',role='Fight choreographer (1 ep, 2001)',source='https://www.imdb.com/title/tt0255734/fullcredits')])
+for f in data['films']:
+  if f['title']=='The Middle' and f['year']==2024 and not f['poster']:f['poster']='posters/the-middle-2024-titlecard.jpg'
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},

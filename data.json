@@ -7916,7 +7916,7 @@
    "type": "movie",
    "tmdb": null,
    "imdb": null,
-   "poster": null,
+   "poster": "posters/the-middle-2024-titlecard.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -8717,6 +8717,231 @@
      "id": "3GCrzjVdmSg"
     }
    ]
+  },
+  {
+   "title": "Criminal Minds",
+   "year": 2011,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/4057-criminal-minds",
+   "imdb": null,
+   "poster": "posters/criminal-minds-s6.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2011: \"Self-Fulfilling Prophecy\")",
+     "source": "Orsatti family; https://www.imdb.com/title/tt2078078/fullcredits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Major Crimes",
+   "year": 2016,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/39483-major-crimes",
+   "imdb": null,
+   "poster": "posters/major-crimes-s5.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2016: \"Present Tense\")",
+     "source": "Orsatti family; https://www.imdb.com/title/tt5275090/fullcredits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Lethal Weapon",
+   "year": 2016,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/67116-lethal-weapon",
+   "imdb": null,
+   "poster": "posters/lethal-weapon-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2016: Pilot)",
+     "source": "Orsatti family; https://www.imdb.com/title/tt5473122/fullcredits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Jane the Virgin",
+   "year": 2016,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/61418-jane-the-virgin",
+   "imdb": null,
+   "poster": "posters/jane-the-virgin.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2016)",
+     "source": "Orsatti family; https://www.metacritic.com/tv/jane-the-virgin/credits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "S.W.A.T.",
+   "year": 2019,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/71790-s-w-a-t",
+   "imdb": null,
+   "poster": "posters/swat-2017.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2019)",
+     "source": "Orsatti family; https://www.fernsehserien.de/rowbie-orsatti/filmografie"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Orville",
+   "year": 2019,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/71738-the-orville",
+   "imdb": null,
+   "poster": "posters/the-orville-s2.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2019)",
+     "source": "Orsatti family; https://www.fernsehserien.de/rowbie-orsatti/filmografie"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Bernie Mac Show",
+   "year": 2001,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/1693-the-bernie-mac-show",
+   "imdb": null,
+   "poster": "posters/bernie-mac-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (2 eps, 2001)",
+     "source": "Orsatti family; https://www.imdb.com/title/tt0285341/fullcredits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Grounded for Life",
+   "year": 2001,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/4731-grounded-for-life",
+   "imdb": null,
+   "poster": "posters/grounded-for-life-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt double: Griffin Frazen (1 ep, 2001)",
+     "source": "Orsatti family; https://www.imdb.com/title/tt0255734/fullcredits"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "Fight choreographer (1 ep, 2001)",
+     "source": "https://www.imdb.com/title/tt0255734/fullcredits"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Murder in the First",
+   "year": 2015,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/60129-murder-in-the-first",
+   "imdb": null,
+   "poster": "posters/murder-in-the-first-s2.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (1 ep, 2015: \"Twenty-Fifteen\")",
+     "source": "Orsatti family; https://www.imdb.com/title/tt4034322/fullcredits/"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "All Rise",
+   "year": 2019,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/90872-all-rise",
+   "imdb": null,
+   "poster": "posters/all-rise-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts",
+     "source": "Orsatti family; https://www.metacritic.com/person/rowbie-orsatti/ (years estimated)"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Light as a Feather",
+   "year": 2018,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/81829-light-as-a-feather",
+   "imdb": null,
+   "poster": "posters/light-as-a-feather-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts · Assistant Stunt Coordinator",
+     "source": "Orsatti family; https://www.tvguide.com/celebrities/rowbie-orsatti/credits/3031005168/ (years estimated)"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   }
  ],
  "milestones": [
