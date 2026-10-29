@@ -551,6 +551,57 @@ for f in data['films']:
 if not any(f['title']=='Extraction' and f['year']==2020 for f in data['films']):
   data['films'].append(dict(title='Extraction',year=2020,type='movie',tmdb='https://www.themoviedb.org/movie/545609-extraction',imdb='https://www.imdb.com/title/tt8936646/',poster='posters/tt8936646.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
     credits=[dict(person='Noon Orsatti',role='Stunt Coordinator (reshoots)',source='Orsatti family')],funFacts=[],media=[]))
+# --- Profiler / The Pretender / The Practice (IMDb, TVmaze, family)
+EF='Ernie F. Orsatti (1940–2020)'
+def _film(t,y,typ,tm,poster,credits):
+  f=next((f for f in data['films'] if f['title']==t and (f['type']==typ)),None)
+  if not f:
+    f=dict(title=t,year=y,type=typ,tmdb=tm,imdb=None,poster=poster,boxOffice=None,boxOfficeText=None,boxOfficeSource=None,credits=[],funFacts=[],media=[]);data['films'].append(f)
+  for c in credits:
+    if not any(x['person'].split(' (')[0]==c['person'].split(' (')[0] for x in f['credits']):f['credits'].append(c)
+    else:
+      for x in f['credits']:
+        if x['person'].split(' (')[0]==c['person'].split(' (')[0] and c.get('force'):x.update({k:v for k,v in c.items() if k!='force'})
+  return f
+_film('Profiler',1996,'tv','https://www.themoviedb.org/tv/2651-profiler','posters/profiler-s1.jpg',[
+ dict(person=EF,role='Stunt coordinator (19 eps, 1996–1998)',source='Orsatti family; https://www.imdb.com/title/tt0115322/fullcredits/'),
+ dict(person='Noon Orsatti',role='Stunt coordinator (11 eps, 1997–1998)',source='Orsatti family; https://www.imdb.com/title/tt0115322/fullcredits/')])
+_film('The Pretender',1997,'tv','https://www.themoviedb.org/tv/1706-the-pretender','posters/the-pretender-s2.jpg',[
+ dict(person=EF,role='Stunt coordinator (3 eps, 1997–1999)',source='Orsatti family; https://www.tvmaze.com/people/97987/ernie-f-orsatti'),
+ dict(person='Noon Orsatti',role='Stunt coordinator (1 ep, 1998)',source='Orsatti family; https://www.tvmaze.com/people/97988/noon-orsatti')])
+_film('The Practice',1997,'tv',None,None,[dict(person=EF,role='Stunt coordinator (1 ep, 2002)',source='Orsatti family; https://www.tvmaze.com/people/97987/ernie-f-orsatti')])
+for f in data['films']:
+  if f['title']=='The Practice':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Stunt double (seasons 2–4, 1997–2000)'
+TVP2={'Profiler':{1996:(1,'1996–97','posters/profiler-s1.jpg'),1997:(2,'1997–98','posters/profiler-s2.jpg'),1998:(3,'1998–99','posters/profiler-s3.jpg')},
+ 'The Pretender':{1997:(2,'1997–98','posters/the-pretender-s2.jpg'),1998:(3,'1998–99','posters/the-pretender-s3.jpg'),1999:(3,'1998–99','posters/the-pretender.jpg')},
+ 'The Practice':{1997:(2,'1997–98','posters/the-practice-s2.jpg'),1998:(3,'1998–99','posters/the-practice-s3.jpg'),1999:(4,'1999–00','posters/the-practice-s4.jpg'),2000:(4,'1999–00','posters/tt0118437.jpg'),2002:(6,'2001–02','posters/the-practice-s6.jpg')}}
+for f in data['films']:
+  if f['title'] in TVP2 and f['type']=='tv':
+    m=TVP2[f['title']];f['years']=sorted(m);f['year']=min(m)
+    f['seasonsByYear']={str(y):'Season %d · %s'%v[:2] for y,v in m.items()}
+    f['postersByYear']={str(y):v[2] for y,v in m.items()};f['poster']=m[min(m)][2]
+# --- Captain America: Civil War (Noon) (family)
+_film('Captain America: Civil War',2016,'movie','https://www.themoviedb.org/movie/271110-captain-america-civil-war','posters/tt3498820.jpg',[dict(person='Noon Orsatti',role='Stunts',source='Orsatti family')])
+# --- Noon hiatus card (family)
+data['milestones']=[m for m in data['milestones'] if m['title']!='A personal hiatus']
+data['milestones'].append(dict(year=2012,kind='business',title='A personal hiatus',text='After finishing work on Ride Along around 2012, Noon Orsatti stepped away from the business for a personal, life-changing adventure. He returned around 2015, when he was asked to work on Captain America: Civil War.',sources=['Orsatti family']))
+# --- Rowbie full filmography (IMDb via TV Guide/Metacritic/TMDB; family)
+RS='https://www.imdb.com/name/nm1769066/'
+RW=lambda r='Stunts':dict(person='Rowbie Orsatti',role=r,source=RS)
+for t,y,typ,tm,po in [('The Accountant',2016,'movie','302946-the-accountant','the-accountant'),('Grown Ups 2',2013,'movie','109418-grown-ups-2','grown-ups-2'),('In Time',2011,'movie','49530-in-time','in-time'),('Drive Angry',2011,'movie','47327-drive-angry','drive-angry'),('The Cat in the Hat',2003,'movie','10588-the-cat-in-the-hat','the-cat-in-the-hat'),('Rebel',2021,'tv','111261-rebel','rebel-2021'),('All Night',2018,'tv','75966-all-night','all-night-2018'),('Family Tools',2013,'tv','45042-family-tools','family-tools'),('Standoff',2006,'tv','630-standoff','standoff')]:
+  _film(t,y,typ,'https://www.themoviedb.org/%s/%s'%('movie' if typ=='movie' else 'tv',tm),'posters/%s.jpg'%po,[RW()])
+_film('Secret Headquarters',2022,'movie','https://www.themoviedb.org/movie/791155-secret-headquarters','posters/secret-headquarters.jpg',[RW('Stunt rigger')])
+for t in ('Avengers: Endgame','Stolen','The Closer','Entourage','Carnivàle'):
+  f=next((f for f in data['films'] if f['title']==t),None)
+  if f and not any(c['person'].startswith('Rowbie') for c in f['credits']):f['credits'].append(RW())
+# --- J.J. Perry & Noon photos on 'A land of the real'
+for m in data['milestones']:
+  if m['title']=='A land of the real':
+    m['thumbs']=[dict(src='photos/noon-tmdb.jpg',caption='Noon Orsatti',source='https://www.themoviedb.org/person/1407364-noon-orsatti'),dict(src='photos/jj-perry.jpg',caption='J.J. Perry',source='https://www.themoviedb.org/person/131532-j-j-perry')]
+    m['text']='Several stunt performers who worked for Noon Orsatti went on to direct: Chad Stahelski (John Wick), David Leitch (Deadpool 2), Sam Hargrave (Extraction) and J.J. Perry (Day Shift). Noon credits their attention to detail for the transition. His own approach stayed old school: practical action on the ground, with real cars, real people and real jumps.'
+    m['sources']=['https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/','Orsatti family']
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},

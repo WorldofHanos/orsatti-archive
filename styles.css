@@ -226,3 +226,5 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 .story ul.pfilms{list-style:none;padding:0;margin:4px 0 14px;font-size:.85rem}
 .story ul.pfilms li{padding:3px 0;border-bottom:1px solid rgba(201,168,106,.15)}
 .story ul.pfilms .fy{color:var(--gold);margin-right:8px}.story ul.pfilms a{color:var(--w);text-decoration:none}.story ul.pfilms a:hover{color:var(--gold)}.story ul.pfilms .fr{color:#9a927f;font-style:italic;margin-left:6px}
+
+.thumbs{display:flex;gap:12px;flex-wrap:wrap;margin:.6em 0}.thumbs figure{margin:0;text-align:center}.thumbs img{height:96px;width:auto;object-fit:contain;border:1px solid rgba(201,168,106,.4);background:#111}.thumbs figcaption{color:var(--gold);font-size:.7rem;letter-spacing:.05em;margin-top:3px}
