@@ -339,6 +339,16 @@ for f in data['films']:
       if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator';c['source']='Orsatti family; https://www.imdb.com/name/nm0650683/'
     if not any(c['person'].startswith('Noon') for c in f['credits']):f['credits'].append(dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
     f['funFacts']=[dict(text='Father and son on one set: Ernie F. coordinated the stunts on Steve Martin\'s noir spoof, and 19-year-old Noon worked them alongside him.',source='Orsatti family')]
+# --- Winds of War: Noon's first project (family)
+WW='https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)'
+data['films']=[f for f in data['films'] if f['title']!='The Winds of War']
+data['films'].append(dict(title='The Winds of War',year=1980,years=[1980,1981],type='tv',tmdb='https://www.themoviedb.org/tv/42240-the-winds-of-war',imdb='https://www.imdb.com/title/tt0085111/',poster='posters/tt0085111.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=WW,
+ credits=[dict(person='Noon Orsatti',role='Stunts · first project',source='Orsatti family; '+WW)],
+ funFacts=[dict(text='Noon Orsatti\'s first project. Shot from December 1980 to December 1981 at 404 locations, ABC\'s $40 million miniseries aired over seven nights in February 1983 and was seen by 140 million viewers.',source=WW)],media=[]))
+for p in data['people']:
+  if p['name']=='Noon Orsatti':
+    p['year']=1980
+    if 'Winds of War' not in p['note']:p['note']=p['note'].replace('Son of Ernie F.; ','Son of Ernie F. His career began on The Winds of War, the epic ABC miniseries shot 1980–81. Stunt coordinator and 2nd-unit director. ',1).replace('81. Stunt coordinator and 2nd-unit director. stunt coordinator / 2nd-unit director.','81. Stunt coordinator and 2nd-unit director.');p.setdefault('noteSources',[]).append(WW)
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]

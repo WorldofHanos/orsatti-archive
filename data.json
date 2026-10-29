@@ -210,17 +210,18 @@
   {
    "name": "Noon Orsatti",
    "relation": "Son of Ernie F. Orsatti",
-   "year": 1986,
+   "year": 1980,
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
    "imdb": "https://www.imdb.com/name/nm0650687/",
-   "note": "Son of Ernie F.; stunt coordinator / 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski.",
+   "note": "Son of Ernie F. His career began on The Winds of War, the epic ABC miniseries shot 1980–81. Stunt coordinator and 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski.",
    "noteSources": [
     "https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards",
     "https://www.actorawards.org/node/12606",
     "https://ew.com/movies/chad-stahelski-keanu-reeves-stunt-double-the-matrix-resurrections-interview/",
     "https://www.televisionacademy.com/bios/noon-orsatti",
-    "https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film"
+    "https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film",
+    "https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)"
    ],
    "photos": []
   },
@@ -8039,6 +8040,35 @@
     }
    ],
    "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Winds of War",
+   "year": 1980,
+   "years": [
+    1980,
+    1981
+   ],
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/42240-the-winds-of-war",
+   "imdb": "https://www.imdb.com/title/tt0085111/",
+   "poster": "posters/tt0085111.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)",
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts · first project",
+     "source": "Orsatti family; https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)"
+    }
+   ],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti's first project. Shot from December 1980 to December 1981 at 404 locations, ABC's $40 million miniseries aired over seven nights in February 1983 and was seen by 140 million viewers.",
+     "source": "https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)"
+    }
+   ],
    "media": []
   }
  ],
