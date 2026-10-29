@@ -474,6 +474,10 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Just Married' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
+# --- Entourage (Noon) (family + IMDb)
+for f in data['films']:
+  if f['title']=='Entourage' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Stunt coordinator / stunt driver (5 eps, 2005–2007)',source='Orsatti family; https://www.imdb.com/title/tt0387199/fullcredits/'))
 # --- Charmed: Noon takes over (family)
 CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
