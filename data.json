@@ -3844,9 +3844,19 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunts",
      "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
+    },
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt double: Keanu Reeves (gas station fight)",
+     "source": "Orsatti family"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Noon doubled Keanu Reeves in the gas station fight with Patrick Swayze – with his uncle Frank H. also on the stunt crew.",
+     "source": "Orsatti family"
+    }
+   ],
    "media": []
   },
   {
