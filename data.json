@@ -2517,14 +2517,14 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt player",
-     "source": "https://catalog.afi.com/Person/289861-Noon-Orsatti"
+     "role": "Stunt double: Freddy Krueger (Robert Englund)",
+     "source": "Orsatti family (Noon Orsatti); credited as stunt player, https://catalog.afi.com/Catalog/moviedetails/58990"
     }
    ],
    "funFacts": [
     {
-     "text": "Noon is credited as a stunt player (AFI Catalog). A claim that he doubled Freddy Krueger could NOT be verified – AFI lists him among general stunt players only.",
-     "source": "https://catalog.afi.com/Catalog/moviedetails/58990"
+     "text": "Noon doubled Freddy Krueger – and Robert Englund trusted him with more than the stunts.",
+     "source": "Orsatti family"
     }
    ],
    "media": []
@@ -8738,6 +8738,16 @@
    "sources": [
     "Orsatti family",
     "https://catalog.afi.com/Film/58169-LET'S-GET-LOST"
+   ]
+  },
+  {
+   "year": 1988,
+   "kind": "milestone",
+   "title": "\"The only one that truly understands Freddy\"",
+   "text": "On A Nightmare on Elm Street 4: The Dream Master, Noon Orsatti doubled Freddy Krueger. Robert Englund told him, \"You're the only one that truly understands Freddy\" – and left Noon on set to deliver Freddy's dialogue and play the scenes on camera himself.",
+   "sources": [
+    "Orsatti family (Noon Orsatti)",
+    "https://catalog.afi.com/Catalog/moviedetails/58990 (Noon credited as stunt player; Kevin J. Redzinski is credited as Freddy stunt double/stand-in)"
    ]
   }
  ],
