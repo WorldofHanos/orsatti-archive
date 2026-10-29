@@ -6185,7 +6185,12 @@
      "source": "https://www.imdb.com/name/nm0650687/"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti earned his DGA card here, as second unit director.",
+     "source": "Orsatti family (Noon Orsatti)"
+    }
+   ],
    "media": []
   },
   {
@@ -8816,6 +8821,15 @@
    "sources": [
     "Orsatti family (Noon Orsatti)",
     "https://catalog.afi.com/Catalog/moviedetails/58990 (Noon credited as stunt player; Kevin J. Redzinski is credited as Freddy stunt double/stand-in)"
+   ]
+  },
+  {
+   "year": 2001,
+   "kind": "milestone",
+   "title": "Noon earns his DGA card",
+   "text": "Noon Orsatti earned his Directors Guild of America card as second unit director on Stop at Nothing (2001).",
+   "sources": [
+    "Orsatti family (Noon Orsatti)"
    ]
   }
  ],

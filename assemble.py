@@ -440,6 +440,13 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='City of Industry' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Additional Stunt Coordinator',source='Orsatti family'))
+# --- Noon DGA card (family)
+data['milestones']=[m for m in data['milestones'] if m['title']!='Noon earns his DGA card']
+data['milestones'].append(dict(year=2001,kind='milestone',title='Noon earns his DGA card',
+ text='Noon Orsatti earned his Directors Guild of America card as second unit director on Stop at Nothing (2001).',sources=['Orsatti family (Noon Orsatti)']))
+for f in data['films']:
+  if f['title']=='Stop at Nothing':
+    f['funFacts']=[dict(text='Noon Orsatti earned his DGA card here, as second unit director.',source='Orsatti family (Noon Orsatti)')]
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
