@@ -419,6 +419,12 @@ for f in data['films']:
   if f['title']=='Surf Ninjas':
     for c in f['credits']:
       if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator';c['source']='Orsatti family; https://catalog.afi.com/Person/218285-Ernie-Orsatti'
+# --- Tall Tale (family)
+for f in data['films']:
+  if f['title']=='Tall Tale':
+    for c in f['credits']:
+      if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator · Second Unit Director';c['source']='Orsatti family; https://www.imdb.com/name/nm0650683/'
+    if not any(c['person'].startswith('Noon') for c in f['credits']):f['credits'].append(dict(person='Noon Orsatti',role='Additional Stunt Coordinator',source='Orsatti family'))
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
