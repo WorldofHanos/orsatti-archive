@@ -754,6 +754,32 @@ for p in data['people']:
 for p in data['people']:
   if p['name'].startswith('Frank H. Orsatti'):
     p['photos']=[x for x in p.get('photos',[]) if 'hulk-set' not in x['src']]+[dict(src='photos/hulk-set-frank-manny-lou.jpg',caption='Lou Ferrigno, Frank Orsatti and Manny Perry on the set of The Incredible Hulk.',source='Orsatti family')]
+# --- Trade-press facts batch (lantern.mediahist.org)
+L='https://lantern.mediahist.org/catalog/'
+def _ms(t):return next(m for m in data['milestones'] if m['title']==t)
+def _src(m,*ids):
+  for i in ids:
+    if L+i not in m['sources']:m['sources'].append(L+i)
+m=_ms('Theater Candy Corp.');m['title']='Theatre Candy Box Corporation'
+m['text']="Frank Orsatti joined MGM executive Sam Katz and Fox West Coast's Charles Skouras as directors of the Theatre Candy Box Corporation, a $200,000 venture selling candy and lobby advertising in theaters, with ad films shown on automatic projectors behind the candy bars. The company grew out of Orsatti's Phono-Vision venture. Katz (1892–1961) had co-founded Chicago's Balaban & Katz chain, headed Paramount's Publix circuit, and ran MGM's musicals unit from 1936."
+_src(m,'motionpictureher146unse_0714')
+m=_ms('Frank Orsatti opens the Orsatti Agency')
+if 'Bren, Weber' not in m['text']:m['text']=m['text'].replace(' The agency climbed',' Trade papers record that Frank, a former real estate operator, entered the business in 1930 as Bren, Weber & Orsatti, then bought out his partners and brought in his brothers Victor, Ernie and Al. The agency climbed')
+_src(m,'variety166-1947-05_0182')
+m=_ms('Bren, Orsatti & Marx')
+if 'Milton Bren Company' not in m['text']:m['text']+=' Later in 1934 the firm split into the Milton Bren Company and Orsatti and Company.'
+_src(m,'hollywoodreporte1821holl_1472')
+_T=["Shirley Temple's agent",'Frank Orsatti dies','Sabre Productions signs with United Artists']
+data['milestones']=[x for x in data['milestones'] if x['title'] not in _T]
+data['milestones']+=[
+ dict(year=1940,kind='business',title="Shirley Temple's agent",text="After Shirley Temple left 20th Century-Fox, Frank Orsatti negotiated her next deals.",sources=[L+'filmdail77wids_0295']),
+ dict(year=1947,kind='business',title='Frank Orsatti dies',text='Frank Orsatti died of a heart attack at his Santa Monica beach home on May 19, 1947. The trade papers called the Philadelphia-born agent a pioneer of the talent business. He was survived by his brothers Victor, Ernest and Alfred.',sources=[L+'boxofficeaprjun15051unse_1122',L+'motionpictureher167unse_0374']),
+ dict(year=1955,kind='business',title='Sabre Productions signs with United Artists',text="Victor Orsatti's Sabre Productions signed a two-picture deal with United Artists, for Flight from Hong Kong and Mr. Tex.",sources=[L+'motionpictureher198quig_0383'])]
+for p in data['people']:
+  if p['name']=='Frank Orsatti (agent)':
+    p['note']=p['note'].replace('Died by 1949 of a heart attack, aged 53 (Weaver et al.).','Died of a heart attack at his Santa Monica beach home on May 19, 1947.')
+    if 'Crowther' not in p['note']:p['note']+=" Biographer Bosley Crowther called Orsatti one of Louis B. Mayer's closest companions and wrote that agents doing business at MGM had to split their fees with him."
+    p['noteSources']=list(p.get('noteSources',[]))+[L+'hollywoodrajah00crow_0259',L+'boxofficeaprjun15051unse_1122']
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
