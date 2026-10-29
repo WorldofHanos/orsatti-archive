@@ -242,3 +242,5 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 #shareForm input[type=file]{display:block;margin-top:8px;color:var(--dim);font-size:.85rem}
 .sharemsg{color:var(--gold);font-size:.85rem;min-height:1.2em}
 @media(max-width:700px){.sharewrap{justify-content:flex-end;padding:0 14px 22px}}
+
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}

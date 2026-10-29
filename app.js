@@ -84,6 +84,6 @@ document.addEventListener("keydown",e=>{const L=lb();if(!L||!L.classList.contain
 const open=()=>{m.hidden=false;document.body.style.overflow='hidden';f.querySelector('input').focus()},close=()=>{m.hidden=true;document.body.style.overflow=''};
 document.getElementById('shareBtn').onclick=open;document.getElementById('shareX').onclick=close;
 m.addEventListener('click',e=>{if(e.target===m)close()});addEventListener('keydown',e=>{if(e.key==='Escape'&&!m.hidden)close()});
-f.addEventListener('submit',async e=>{e.preventDefault();if(f.action.includes('FORM_ID')){msg.textContent='Submissions are not open yet.';return}
-msg.textContent='Sending…';try{const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
+f.addEventListener('submit',async e=>{e.preventDefault();if(f._honey&&f._honey.value)return;
+msg.textContent='Sending…';try{const r=await fetch(f.action,{method:'POST',body:JSON.stringify(Object.fromEntries(new FormData(f))),headers:{'Content-Type':'application/json',Accept:'application/json'}});
 if(r.ok){f.reset();msg.textContent='Thank you. Your submission has been received.'}else msg.textContent='Something went wrong. Please try again.'}catch(_){msg.textContent='Something went wrong. Please try again.'}})})();
