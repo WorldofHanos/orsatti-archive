@@ -5648,7 +5648,7 @@
     },
     {
      "person": "Noon Orsatti",
-     "role": "Stunt Coordinator (~128 episodes, seasons 3–8, through the finale)",
+     "role": "Stunt Coordinator (~128 episodes, through the finale)",
      "source": "Orsatti family (Noon Orsatti)"
     },
     {
@@ -5743,8 +5743,8 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Additional Stunt Coordinator",
+     "source": "Orsatti family; https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
     },
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -8245,12 +8245,13 @@
   {
    "year": 1998,
    "kind": "milestone",
-   "title": "Rowbie Orsatti's first credit: Charmed",
-   "text": "Rowbie Orsatti's first screen credit came on Charmed in 1998, a show the family ran for years: his grandfather Ernie F. Orsatti was its stunt coordinator (37 episodes), and his father Noon Orsatti also worked on the series.",
+   "title": "Charmed: a family show",
+   "text": "Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.",
    "sources": [
     "https://www.imdb.com/name/nm1769066/",
     "https://www.themoviedb.org/person/112572-ernie-f-orsatti",
-    "family"
+    "family",
+    "Orsatti family (Noon Orsatti)"
    ]
   },
   {
@@ -8847,16 +8848,6 @@
    "text": "Noon Orsatti earned his Directors Guild of America card as second unit director on Stop at Nothing (2001).",
    "sources": [
     "Orsatti family (Noon Orsatti)"
-   ]
-  },
-  {
-   "year": 2000,
-   "kind": "milestone",
-   "title": "Noon takes over Charmed",
-   "text": "After his father Ernie F. coordinated Charmed's early seasons, Noon Orsatti took over as stunt coordinator in season 3 and ran the show's stunts for the rest of its life – about 128 episodes, through the 2006 series finale. Charmed mattered: eight seasons of witches, demons and weekly fights gave Noon the room to bring in young performers, and a generation of stunt people started their careers on his set.",
-   "sources": [
-    "Orsatti family (Noon Orsatti)",
-    "https://www.themoviedb.org/tv/1981-charmed"
    ]
   }
  ],

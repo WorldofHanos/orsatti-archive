@@ -448,20 +448,27 @@ for f in data['films']:
   if f['title']=='Stop at Nothing':
     f['funFacts']=[dict(text='Noon Orsatti earned his DGA card here, as second unit director.',source='Orsatti family (Noon Orsatti)')]
 # --- Charmed: Noon takes over (family)
+CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
+ "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
 data['milestones']=[m for m in data['milestones'] if m['title']!='Noon takes over Charmed']
-data['milestones'].append(dict(year=2000,kind='milestone',title='Noon takes over Charmed',
- text='After his father Ernie F. coordinated Charmed\'s early seasons, Noon Orsatti took over as stunt coordinator in season 3 and ran the show\'s stunts for the rest of its life – about 128 episodes, through the 2006 series finale. Charmed mattered: eight seasons of witches, demons and weekly fights gave Noon the room to bring in young performers, and a generation of stunt people started their careers on his set.',
- sources=['Orsatti family (Noon Orsatti)','https://www.themoviedb.org/tv/1981-charmed']))
+for m in data['milestones']:
+  if m['title'].endswith('first credit: Charmed'):
+    m['title']='Charmed: a family show';m['text']=CH;m['sources']=list(m.get('sources',[]))+['Orsatti family (Noon Orsatti)']
 for f in data['films']:
   if f['title']=='Charmed':
     f['years']=list(range(1998,2006))
     f['seasonsByYear']={str(1998+i):'Season %d · %d–%s'%(i+1,1998+i,str(1999+i)[2:]) for i in range(8)}
     for c in f['credits']:
-      if c['person'].startswith('Noon'):c['role']='Stunt Coordinator (~128 episodes, seasons 3–8, through the finale)';c['source']='Orsatti family (Noon Orsatti)'
+      if c['person'].startswith('Noon'):c['role']='Stunt Coordinator (~128 episodes, through the finale)';c['source']='Orsatti family (Noon Orsatti)'
       if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator · 37 episodes (seasons 1–2)'
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'Charmed' not in p['note']:
     p['note']+=' Took over Charmed from his father in season 3 and coordinated it through the 2006 finale – about 128 episodes – launching the careers of many young stunt performers.'
+# --- Pleasantville (family)
+for f in data['films']:
+  if f['title']=='Pleasantville':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Additional Stunt Coordinator';c['source']='Orsatti family; '+c['source']
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
