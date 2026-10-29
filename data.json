@@ -8270,6 +8270,26 @@
     }
    ],
    "media": []
+  },
+  {
+   "title": "Extraction",
+   "year": 2020,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/545609-extraction",
+   "imdb": "https://www.imdb.com/title/tt8936646/",
+   "poster": "posters/tt8936646.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator (reshoots)",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   }
  ],
  "milestones": [

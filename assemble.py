@@ -547,6 +547,10 @@ for f in data['films']:
   if f['title']=='Hawkeye':
     for c in f['credits']:
       if c['person'].startswith('Noon'):c['role']='Co-Stunt Coordinator · 6 episodes · 2 Emmy nominations (2022)';c['source']='Orsatti family; https://www.imdb.com/name/nm0650687/'
+# --- Extraction (2020) (Noon) (family)
+if not any(f['title']=='Extraction' and f['year']==2020 for f in data['films']):
+  data['films'].append(dict(title='Extraction',year=2020,type='movie',tmdb='https://www.themoviedb.org/movie/545609-extraction',imdb='https://www.imdb.com/title/tt8936646/',poster='posters/tt8936646.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
+    credits=[dict(person='Noon Orsatti',role='Stunt Coordinator (reshoots)',source='Orsatti family')],funFacts=[],media=[]))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
