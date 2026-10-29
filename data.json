@@ -155,8 +155,12 @@
    "relation": "Brother of Ernie Orsatti",
    "relationSource": "Wikipedia; SABR",
    "imdb": "https://www.imdb.com/name/nm0650684/",
-   "note": "Founded the Orsatti Agency in 1930 after a career described as bootlegging; reputed fixer for MGM's Louis B. Mayer; agent to Judy Garland. Died by 1949 of a heart attack, aged 53 (Weaver et al.). Not the same person as Frank H. Orsatti the stuntman.",
-   "photos": []
+   "note": "Founded the Orsatti Agency in 1930 after a career described as bootlegging; reputed fixer for MGM's Louis B. Mayer; agent to Judy Garland. Died by 1949 of a heart attack, aged 53 (Weaver et al.). Not the same person as Frank H. Orsatti the stuntman. His brother Jesse \"Cheesy\" Orsatti was convicted in 1932 in the Caress kidnapping case and sent to San Quentin.",
+   "photos": [],
+   "noteSources": [
+    "Orsatti family",
+    "https://openjurist.org/132/calapp/360/people-v-frank-3295572"
+   ]
   },
   {
    "name": "Ernie F. Orsatti",
@@ -9439,6 +9443,25 @@
      "src": "photos/fam-ernie-valley-baseball.jpg",
      "caption": "Ernie F. Orsatti, Valley College outfielder, c. 1961",
      "source": "Orsatti family"
+    }
+   ]
+  },
+  {
+   "year": 1932,
+   "kind": "mob",
+   "title": "The Caress kidnapping trial",
+   "text": "The family had its Prohibition-era wild side. In December 1930, Hollywood bookmaker E.L. \"Zeke\" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. Among the accused was Jesse \"Cheesy\" Orsatti, brother of agent Frank Orsatti. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sent to San Quentin.",
+   "sources": [
+    "Orsatti family",
+    "https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/",
+    "https://openjurist.org/132/calapp/360/people-v-frank-3295572",
+    "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/"
+   ],
+   "thumbs": [
+    {
+     "src": "photos/jesse-orsatti-caress-trial-1932.jpg",
+     "caption": "Jesse \"Cheesy\" Orsatti (labeled) at the opening of the Caress kidnapping trial, Los Angeles, February 1, 1932",
+     "source": "Orsatti family; https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/"
     }
    ]
   }

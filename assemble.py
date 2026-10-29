@@ -643,6 +643,16 @@ for m in data['milestones']:
 for p in data['people']:
   if p['name']=='Ernie Orsatti':
     p['thumbs']=[dict(src='photos/ernie-sr-1964-musial.jpg',caption='Ernie Orsatti Sr. in 1964, reading that Stan Musial quit a year too soon',source='Orsatti family; https://calisphere.org/item/ark:/21198/zz0002srjc/')]
+# --- Jesse "Cheesy" Orsatti & the Caress kidnapping (family + LAPL/Calisphere, People v. Frank, J.H. Graham)
+data['milestones']=[m for m in data['milestones'] if m['title']!='The Caress kidnapping trial']
+data['milestones'].append(dict(year=1932,kind='mob',title='The Caress kidnapping trial',
+ text='The family had its Prohibition-era wild side. In December 1930, Hollywood bookmaker E.L. "Zeke" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. Among the accused was Jesse "Cheesy" Orsatti, brother of agent Frank Orsatti. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sent to San Quentin.',
+ sources=['Orsatti family','https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/','https://openjurist.org/132/calapp/360/people-v-frank-3295572','https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/'],
+ thumbs=[dict(src='photos/jesse-orsatti-caress-trial-1932.jpg',caption='Jesse "Cheesy" Orsatti (labeled) at the opening of the Caress kidnapping trial, Los Angeles, February 1, 1932',source='Orsatti family; https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/')]))
+for p in data['people']:
+  if p['name']=='Frank Orsatti (agent)' and 'Cheesy' not in p['note']:
+    p['note']+=' His brother Jesse "Cheesy" Orsatti was convicted in 1932 in the Caress kidnapping case and sent to San Quentin.'
+    p['noteSources']=list(p.get('noteSources',[]))+['Orsatti family','https://openjurist.org/132/calapp/360/people-v-frank-3295572']
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
