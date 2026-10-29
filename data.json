@@ -72,18 +72,16 @@
      "src": "photos/fam-ernie-goudey-1933.jpg",
      "caption": "Ernie Orsatti, 1933 Goudey card – From the Orsatti family collection",
      "source": "From the Orsatti family collection"
-    }
-   ],
-   "years": "1902–1968",
-   "imdb": "https://www.imdb.com/name/nm1108143/",
-   "note": "Keaton prop man/stuntman, Cardinals outfielder, agent.",
-   "thumbs": [
+    },
     {
      "src": "photos/ernie-sr-1964-musial.jpg",
      "caption": "Ernie Orsatti Sr. in 1964, reading that Stan Musial quit a year too soon",
      "source": "Orsatti family; https://calisphere.org/item/ark:/21198/zz0002srjc/"
     }
-   ]
+   ],
+   "years": "1902–1968",
+   "imdb": "https://www.imdb.com/name/nm1108143/",
+   "note": "Keaton prop man/stuntman, Cardinals outfielder, agent."
   },
   {
    "name": "Inez Gorman",
@@ -8503,6 +8501,11 @@
    "boxOfficeSource": null,
    "credits": [
     {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "Orsatti family"
+    },
+    {
      "person": "Rowbie Orsatti",
      "role": "Stunts",
      "source": "https://www.imdb.com/name/nm1769066/"
@@ -8522,6 +8525,11 @@
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "Orsatti family"
+    },
     {
      "person": "Rowbie Orsatti",
      "role": "Stunts",
@@ -9090,7 +9098,7 @@
     "https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/"
    ],
    "flag": "Single published source; father's prison term not independently verified",
-   "thumbs": [
+   "photos": [
     {
      "src": "photos/frank-orsatti-mgm-group.jpg",
      "caption": "John Gilbert with Hal Roach, Norma Talmadge, Eddie Mannix, Marie Prevost, Buster Keaton, Paul Bern, Irving Thalberg, Frank Orsatti, E.B. Patrick, Edmund Goulding, Norma Shearer and Beatrice Lillie, late 1920s–early 1930s",
@@ -9359,7 +9367,7 @@
     "https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/",
     "Orsatti family"
    ],
-   "thumbs": [
+   "photos": [
     {
      "src": "photos/noon-tmdb.jpg",
      "caption": "Noon Orsatti",
@@ -9438,7 +9446,7 @@
     "Orsatti family",
     "https://calisphere.org/item/1b436e5952a6ff3776783e5fa5e461e0/"
    ],
-   "thumbs": [
+   "photos": [
     {
      "src": "photos/fam-ernie-valley-baseball.jpg",
      "caption": "Ernie F. Orsatti, Valley College outfielder, c. 1961",
@@ -9457,7 +9465,7 @@
     "https://openjurist.org/132/calapp/360/people-v-frank-3295572",
     "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/"
    ],
-   "thumbs": [
+   "photos": [
     {
      "src": "photos/jesse-orsatti-caress-trial-1932.jpg",
      "caption": "Jesse \"Cheesy\" Orsatti (labeled) at the opening of the Caress kidnapping trial, Los Angeles, February 1, 1932",

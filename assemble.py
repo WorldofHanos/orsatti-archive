@@ -653,6 +653,10 @@ for p in data['people']:
   if p['name']=='Frank Orsatti (agent)' and 'Cheesy' not in p['note']:
     p['note']+=' His brother Jesse "Cheesy" Orsatti was convicted in 1932 in the Caress kidnapping case and sent to San Quentin.'
     p['noteSources']=list(p.get('noteSources',[]))+['Orsatti family','https://openjurist.org/132/calapp/360/people-v-frank-3295572']
+# --- Noon on In Time & Drive Angry (family)
+for f in data['films']:
+  if f['title'] in ('In Time','Drive Angry') and f['year']==2011 and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
@@ -674,5 +678,9 @@ for f in data['films']:
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'After Charmed ended' not in p.get('note',''):
     p['note']=p.get('note','').rstrip()+' After Charmed ended in 2006, he turned his focus back to feature films.'
+# --- render 'thumbs' through the standard photos gallery path
+for _o in data['milestones']+data['people']:
+  if _o.get('thumbs'):
+    _o['photos']=[x for x in _o.get('photos',[]) if x['src'] not in {t['src'] for t in _o['thumbs']}]+_o.pop('thumbs')
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
