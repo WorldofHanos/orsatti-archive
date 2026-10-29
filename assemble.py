@@ -602,6 +602,11 @@ for m in data['milestones']:
     m['thumbs']=[dict(src='photos/noon-tmdb.jpg',caption='Noon Orsatti',source='https://www.themoviedb.org/person/1407364-noon-orsatti'),dict(src='photos/jj-perry.jpg',caption='J.J. Perry',source='https://www.themoviedb.org/person/131532-j-j-perry')]
     m['text']='Several stunt performers who worked for Noon Orsatti went on to direct: Chad Stahelski (John Wick), David Leitch (Deadpool 2), Sam Hargrave (Extraction) and J.J. Perry (Day Shift). Noon credits their attention to detail for the transition. His own approach stayed old school: practical action on the ground, with real cars, real people and real jumps.'
     m['sources']=['https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/','Orsatti family']
+# --- You're Cordially Invited (Rowbie) (family)
+for f in data['films']:
+  if f['title']=="You're Cordially Invited":
+    for c in f['credits']:
+      if c['person'].startswith('Rowbie'):c['role']='Stunts · Stunt Coordinator (reshoots)';c['source']='Orsatti family; https://www.imdb.com/name/nm1769066/'
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
