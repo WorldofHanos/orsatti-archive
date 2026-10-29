@@ -447,6 +447,15 @@ data['milestones'].append(dict(year=2001,kind='milestone',title='Noon earns his 
 for f in data['films']:
   if f['title']=='Stop at Nothing':
     f['funFacts']=[dict(text='Noon Orsatti earned his DGA card here, as second unit director.',source='Orsatti family (Noon Orsatti)')]
+# --- Ernie F. & Frank H. DGA cards (family)
+data['milestones']=[m for m in data['milestones'] if m['title'] not in ('Ernie F. earns his DGA card','Frank H. earns his DGA card')]
+data['milestones'].append(dict(year=1981,kind='milestone',title='Ernie F. earns his DGA card',
+ text='Ernie F. Orsatti earned his Directors Guild of America card on Underground Aces (1981).',sources=['Orsatti family']))
+data['milestones'].append(dict(year=1977,kind='milestone',title='Frank H. earns his DGA card',
+ text='Frank H. Orsatti joined the Directors Guild of America before stepping behind the camera on The Incredible Hulk, where he went on to direct twelve episodes.',sources=['Orsatti family']))
+for f in data['films']:
+  if f['title']=='Underground Aces':
+    f['funFacts']=[dict(text='Ernie F. Orsatti earned his DGA card here.',source='Orsatti family')]
 # --- Charmed: Noon takes over (family)
 CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
