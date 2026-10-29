@@ -527,6 +527,11 @@ for f in data['films']:
     for c in f['credits']:
       if c['person'].startswith('Noon'):c['role']='Stunts · Stunt double: Ewan McGregor (final fire burn)';c['source']='Orsatti family; https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US'
     f['funFacts']=[x for x in f.get('funFacts',[]) if 'fire burn' not in x['text']]+[dict(text='Noon Orsatti doubled Ewan McGregor for the film\'s final fire burn.',source='Orsatti family')]
+# --- The Expendables (Noon) (family + IMDb)
+for f in data['films']:
+  if f['title']=='The Expendables':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Co-Stunt Coordinator · Second Unit Director';c['source']='Orsatti family; https://www.imdb.com/name/nm0650687/'
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
