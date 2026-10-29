@@ -284,8 +284,8 @@ data['milestones']+=[
  dict(year=2022,kind='milestone',title='Two Emmy nominations for Hawkeye',
   text='Noon Orsatti earned two Primetime Emmy nominations for Marvel\'s Hawkeye in 2022: Outstanding Stunt Coordination for a Comedy Series, shared with Heidi Moneymaker, and Outstanding Stunt Performance for the episode "Echoes." His son Rowbie worked the same series as a stunt performer.',
   sources=[TA,'https://www.televisionacademy.com/shows/hawkeye']),
- dict(year=2024,kind='milestone',title='"A land of the real"',
-  text='"Chad Stahelski used to work for me, Dave Leitch used to work for me, and Sam Hargrave used to work for me," Noon said in 2024 – the stunt men who went on to direct John Wick, Deadpool 2 and Extraction. His own creed for Borderlands was old school: "I come from a land of the real. Everything that we did on the ground was practical. We had real cars. We had real people. We had real jumps."',
+ dict(year=2001,kind='milestone',title='A land of the real',
+  text='Several stunt performers who worked for Noon Orsatti went on to direct: Chad Stahelski (John Wick), David Leitch (Deadpool 2) and Sam Hargrave (Extraction). Noon counts J.J. Perry among the stunt veterans who have made the same move behind the camera, and credits the group\'s attention to detail for the transition. His own approach stayed old school: practical action on the ground, with real cars, real people and real jumps.',
   sources=[DT])]
 REXN='Rex Orsatti (Rex Pierson)';REXS='https://www.themoviedb.org/person/1720933-rex-pierson'
 REX=[('Rocky III',1982,'tt0084602','Challenger'),('Beverly Hills Cop',1984,'tt0086960','Stunts'),('Road House',1989,'tt0098206','Stunts'),('Lock Up',1989,'tt0097770','Stunts'),('Darkman',1990,'tt0099365','Stunts'),('Another 48 Hrs.',1990,'tt0099044','Barroom fighter'),('The Perfect Weapon',1991,None,'Stunts'),('Necessary Roughness',1991,'tt0102510','Stunts'),('U.S. Marshals',1998,'tt0120873','Stunts'),('BASEketball',1998,'tt0131857','Stunts'),('The Incredible Hulk',None,None,'Stand-in')]
