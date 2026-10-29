@@ -807,5 +807,10 @@ for p in data['people']:
 for _o in data['milestones']+data['people']:
   if _o.get('thumbs'):
     _o['photos']=[x for x in _o.get('photos',[]) if x['src'] not in {t['src'] for t in _o['thumbs']}]+_o.pop('thumbs')
+# --- de-dupe photos: family Goudey scan duplicates the public-domain one on MLB debut; Sherlock Jr. media photo duplicates ernie-action.jpg
+for p in data['people']:
+  p['photos']=[x for x in p.get('photos',[]) if x['src']!='photos/fam-ernie-goudey-1933.jpg']
+for f in data['films']:
+  f['media']=[x for x in f.get('media',[]) if x.get('src')!='photos/ernie-1933-goudey.jpg']
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
