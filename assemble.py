@@ -332,6 +332,13 @@ for f in data['films']:
   if f['title']=='Sky Riders':
     for c in f['credits']:
       if c['person'].startswith('Ernie F.'):c['role']='Actor (Joe) · Stunt Coordinator';c['source']='https://catalog.afi.com/Catalog/MovieDetailsPrintView/55219'
+# --- Dead Men Don't Wear Plaid (family)
+for f in data['films']:
+  if f['title']=="Dead Men Don't Wear Plaid":
+    for c in f['credits']:
+      if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator';c['source']='Orsatti family; https://www.imdb.com/name/nm0650683/'
+    if not any(c['person'].startswith('Noon') for c in f['credits']):f['credits'].append(dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
+    f['funFacts']=[dict(text='Father and son on one set: Ernie F. coordinated the stunts on Steve Martin\'s noir spoof, and 19-year-old Noon worked them alongside him.',source='Orsatti family')]
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]

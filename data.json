@@ -1630,11 +1630,21 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "Orsatti family; https://www.imdb.com/name/nm0650683/"
+    },
+    {
+     "person": "Noon Orsatti",
      "role": "Stunts",
-     "source": "https://www.imdb.com/name/nm0650683/"
+     "source": "Orsatti family"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Father and son on one set: Ernie F. coordinated the stunts on Steve Martin's noir spoof, and 19-year-old Noon worked them alongside him.",
+     "source": "Orsatti family"
+    }
+   ],
    "media": []
   },
   {
