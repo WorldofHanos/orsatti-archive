@@ -536,6 +536,12 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Trespass' and f['year']==2011 and not any(c['person'].startswith('Rowbie') for c in f['credits']):
     f['credits'].append(dict(person='Rowbie Orsatti',role='Stunts',source='Orsatti family'))
+# --- Ride Along (2014) is Noon's, not Ride Along 2 (family)
+for f in data['films']:
+  if f['title']=='Ride Along 2':f['credits']=[c for c in f['credits'] if not c['person'].startswith('Noon')]
+  if f['title']=='Ride Along' and f['year']==2014 and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunt Coordinator',source='Orsatti family'))
+data['films']=[f for f in data['films'] if f['credits']]
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
