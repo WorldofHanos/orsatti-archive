@@ -360,13 +360,13 @@ data['milestones']=[m for m in data['milestones'] if m['title']!='In front of Br
 data['milestones'].append(dict(year=1987,kind='milestone',title='In front of Bruce Weber\'s camera',
  text='Father and son, Ernie F. and Noon Orsatti sat together for a photo shoot with fashion photographer Bruce Weber. Noon also turns up in Weber\'s Oscar-nominated Chet Baker documentary Let\'s Get Lost (1988).',
  sources=['Orsatti family','https://catalog.afi.com/Film/58169-LET\'S-GET-LOST']))
-# --- A Guide for the Married Man: Noon at 4 (family)
-data['films']=[f for f in data['films'] if f['title']!='A Guide for the Married Man']
-data['films'].append(dict(title='A Guide for the Married Man',year=1967,type='movie',tmdb=None,imdb='https://www.imdb.com/title/tt0061736/',poster='posters/tt0061736.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource='https://en.wikipedia.org/wiki/A_Guide_for_the_Married_Man',
- credits=[dict(person='Noon Orsatti',role='Child performer',source='Orsatti family')],funFacts=[dict(text="Noon's first time on set, age 4.",source='Orsatti family')],media=[]))
+# --- Up Your Teddy Bear: Noon at 6 (family correction; replaces earlier A Guide for the Married Man attribution)
+data['films']=[f for f in data['films'] if f['title'] not in ('A Guide for the Married Man','Up Your Teddy Bear')]
+data['films'].append(dict(title='Up Your Teddy Bear',year=1970,type='movie',tmdb='https://www.themoviedb.org/movie/124827-up-your-teddy-bear',imdb='https://www.imdb.com/title/tt0066099/',poster='posters/tt0066099.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
+ credits=[dict(person='Noon Orsatti',role='Child performer',source='Orsatti family')],funFacts=[dict(text="Noon's first time on set, age 6. The Wally Cox and Julie Newmar comedy was also released as Hot Mother, Mother, The Seduction of a Nerd and The Toy Grabbers.",source='Orsatti family; https://www.imdb.com/title/tt0066099/')],media=[]))
 for p in data['people']:
-  if p['name']=='Noon Orsatti' and 'Married Man' not in p['note']:
-    p['note']=p['note'].replace('His career began on','He first stepped onto a set at four, in Gene Kelly\'s A Guide for the Married Man (1967); his career proper began on',1)
+  if p['name']=='Noon Orsatti' and 'Teddy Bear' not in p['note']:
+    p['note']=p['note'].replace('His career began on','He first stepped onto a set at six, in Up Your Teddy Bear (1970); his career proper began on',1)
 # --- Freddy (family)
 EL='A Nightmare on Elm Street 4: The Dream Master'
 for f in data['films']:
