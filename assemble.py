@@ -266,6 +266,16 @@ for f in data['films']:
   if f['title']=='The Incredible Hulk':
     for c in f['credits']:
       if c['person'].startswith('Frank H.'):c['role']='Stunt double: David Banner (Bill Bixby) & the Hulk · Stunt Coordinator · Director';c['source']='https://stuntsunlimited.com/frank-orsatti-honorary/'
+# --- Morris: Bank of Italy lore + Dolley
+data['milestones']=[m for m in data['milestones'] if m['title']!='Morris and the Bank of Italy']
+data['milestones'].append(dict(year=1913,kind='lore',title='Morris and the Bank of Italy',
+ text='Family lore holds that Morris Orsatti, owner of the International Steamship and Railroad Ticket Agency, was close to A.P. Giannini, whose Bank of Italy came to Los Angeles in 1913 and later became Bank of America. Morris\'s agency served the same Italian immigrant families Giannini built his bank on, in the years the Bank of Italy opened its Plaza branch in LA\'s Little Italy.',
+ sources=['Orsatti family (Noon Orsatti)','https://sabr.org/bioproj/person/ernie-orsatti/','https://pcad.lib.washington.edu/building/14111/','https://artsandculture.google.com/story/eAWBC2Udnlo3KQ','https://www.occ.gov/about/who-we-are/history/history-of-the-occ/1866-1913/1866-1913-bank-of-america.html']))
+for m in data['milestones']:
+  if m['title']=='Morris Orsatti and the Prohibition agent' and 'framing' not in m['text']:
+    m['text']=m['text'].replace('A federal indictment charged Morris Orsatti','A federal indictment charged Morris Orsatti, the Los Angeles steamship and railroad ticket agent,',1)+' The case cut both ways: in 1923 Dolley, by then California\'s Prohibition chief, was himself accused of framing "Italian steamship agent Morris Orsatti", and was cleared.'
+    m.pop('flag',None)
+    m['sources']=m['sources']+['https://en.wikipedia.org/wiki/George_Hunter_White (citing Bakersfield Morning Echo, Nov 1, 1923, p. 5)']
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
