@@ -4375,11 +4375,16 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt Coordinator",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Stunt Coordinator · Stunt double: Johnny Depp",
+     "source": "Orsatti family; https://catalog.afi.com/Person/289861-Noon-Orsatti"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti doubled Johnny Depp – and he's the one on screen in the famous diner juggling scene.",
+     "source": "Orsatti family"
+    }
+   ],
    "media": []
   },
   {
@@ -4395,8 +4400,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunt Coordinator",
-     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+     "role": "Stunt Coordinator · Second Unit Director",
+     "source": "Orsatti family; https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
     }
    ],
    "funFacts": [],
