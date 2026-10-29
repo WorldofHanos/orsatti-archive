@@ -819,6 +819,13 @@ for f in data['films']:
 for m in data['milestones']:
   if m['title']=='Stunts Unlimited':
     m['photos']=[dict(src='photos/stunts-unlimited-group.jpg',caption='The members of Stunts Unlimited.',source='Orsatti family')]+[x for x in m.get('photos',[]) if 'stunts-unlimited-group' not in x['src']]
+# --- Vic on Sky Devils; Ernie Sr. role/source fixes (AFI, SABR)
+_film('Sky Devils',1932,'movie','https://www.themoviedb.org/movie/201750-sky-devils','posters/sky-devils-1932.jpg',[dict(person='Vic Orsatti (1905–1984)',role='Assistant Director',source='https://catalog.afi.com/Person/151138-Victor-M.-Orsatti')])
+for f in data['films']:
+  for c in f['credits']:
+    if c['person'].startswith('Ernie Orsatti (1902'):
+      if f['title']=='Our Hospitality':c['role']='Stunts and props'
+      if f['title']=='Death on the Diamond':c['source']='https://sabr.org/bioproj/person/ernie-orsatti/'
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:

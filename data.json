@@ -289,7 +289,7 @@
    "credits": [
     {
      "person": "Ernie Orsatti (1902–1968)",
-     "role": "Stunt coordinator",
+     "role": "Stunts and props",
      "source": "https://www.imdb.com/name/nm1108143/"
     }
    ],
@@ -415,7 +415,7 @@
     {
      "person": "Ernie Orsatti (1902–1968)",
      "role": "Bit part: a Cardinals player shot while running the bases",
-     "source": "https://www.baseballamore.com/orsattie/"
+     "source": "https://sabr.org/bioproj/person/ernie-orsatti/"
     }
    ],
    "funFacts": [
@@ -9179,6 +9179,26 @@
    "years": [
     1994
    ]
+  },
+  {
+   "title": "Sky Devils",
+   "year": 1932,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/201750-sky-devils",
+   "imdb": null,
+   "poster": "posters/sky-devils-1932.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Vic Orsatti (1905–1984)",
+     "role": "Assistant Director",
+     "source": "https://catalog.afi.com/Person/151138-Victor-M.-Orsatti"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   }
  ],
  "milestones": [
@@ -10083,7 +10103,7 @@
  "boxOfficeSummary": {
   "total": 17036378244,
   "withData": 182,
-  "films": 329,
+  "films": 330,
   "tvShows": 65,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
