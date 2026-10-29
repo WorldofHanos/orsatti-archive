@@ -327,6 +327,11 @@ for f in data['films']:
       if c['person'].startswith('Ernie F.'):c['role']='Stunts – firefighter hanging on to Steve McQueen outside the scenic elevator'
 for p in data['people']:
   if p['name'].startswith('Ernie F.'):p['note']=p['note'].replace('(1974, a firefighter in the glass-elevator rescue)','(1974, the firefighter hanging on to Steve McQueen outside the scenic glass elevator)')
+# --- Sky Riders: actor role
+for f in data['films']:
+  if f['title']=='Sky Riders':
+    for c in f['credits']:
+      if c['person'].startswith('Ernie F.'):c['role']='Actor (Joe) · Stunt Coordinator';c['source']='https://catalog.afi.com/Catalog/MovieDetailsPrintView/55219'
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
