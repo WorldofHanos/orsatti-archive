@@ -319,6 +319,14 @@ for p in data['people']:
     p['note']+=' Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, "Echoes"). Co-coordinated The Expendables (2010) with Stahelski.';p.setdefault('noteSources',[]).extend([TA,'https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film'])
   if n.startswith('Rowbie') and 'Thunderbolts' not in p['note']:
     p['note']='Son of Noon; stunt performer and coordinator. Started young on The Bernie Mac Show (2001); stunts on Hawkeye, Extraction II, Thunderbolts* and Stranger Things (2025); doubled Joe Locke on Agatha All Along and John Lee Ames on Ballard (2025); coordinated Charlie Puth\'s "Loser" music video (2022).';p.setdefault('noteSources',[]).append('https://www.imdb.com/name/nm1769066/')
+# --- Towering Inferno: McQueen (family)
+for f in data['films']:
+  if f['title']=='The Towering Inferno':
+    f['funFacts']=[dict(text='Ernie F. Orsatti played the hero firefighter hanging on to Steve McQueen outside the scenic glass elevator, high above San Francisco, in the film\'s famous elevator rescue.',source='Orsatti family; https://en.wikipedia.org/wiki/Ernie_Orsatti')]
+    for c in f['credits']:
+      if c['person'].startswith('Ernie F.'):c['role']='Stunts – firefighter hanging on to Steve McQueen outside the scenic elevator'
+for p in data['people']:
+  if p['name'].startswith('Ernie F.'):p['note']=p['note'].replace('(1974, a firefighter in the glass-elevator rescue)','(1974, the firefighter hanging on to Steve McQueen outside the scenic glass elevator)')
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
