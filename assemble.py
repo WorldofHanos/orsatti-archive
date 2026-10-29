@@ -743,6 +743,13 @@ data['milestones']+=[
  dict(year=1942,kind='business',title='Theater Candy Corp.',text='Frank Orsatti and Sam Katz served as directors of Theater Candy Corp., a $200,000 company that showed advertising films on automatic projectors set behind theater candy bars.',sources=['https://lantern.mediahist.org/catalog/filmdaily81wids_0298'],
   thumbs=[dict(src='photos/theater-candy-corp-1942.jpg',caption='Film Daily on Theater Candy Corp., 1942.',source='https://lantern.mediahist.org/catalog/filmdaily81wids_0298')]),
  dict(year=1946,kind='business',title='The candy machine and the Oddity Shop',text="Ernie Orsatti held a patent on a candy vending machine and earned royalties on the theater-lobby candy bars that used it across Southern California. He also opened Ernie Orsatti's Oddity Shop and Florist on Sunset Boulevard.",sources=['https://sabr.org/bioproj/person/ernie-orsatti/ (citing The Sporting News, Feb 5, 1947)'])]
+# --- Vic nightclub photo with Jean Harlow (family; 1934 column)
+for p in data['people']:
+  if p['name']=='Vic Orsatti':
+    p['photos']=[x for x in p.get('photos',[]) if 'nightclub' not in x['src']]+[dict(src='photos/vic-orsatti-nightclub.jpg',caption='Vic Orsatti with Jean Harlow, mid-1930s.',source='Orsatti family')]
+    if 'Harlow' not in p['note']:
+      p['note']+=' In July 1934, gossip columns reported Jean Harlow at the Legion prizefights with Vic Orsatti.'
+      p['noteSources']=list(p.get('noteSources',[]))+['Worcester Democrat and Ledger-Enterprise (Pocomoke City, MD), July 13, 1934, via MyHeritage newspaper index: https://www.myheritage.com/names/jean_harlow']
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
