@@ -686,6 +686,8 @@ for f in data['films']:
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'After Charmed ended' not in p.get('note',''):
     p['note']=p.get('note','').rstrip()+' After Charmed ended in 2006, he turned his focus back to feature films.'
+for p in data['people']:
+  if p['name']=='Noon Orsatti':p['note']=p['note'].replace('and coordinated it through the 2006 finale','and coordinated its stunts and directed second unit through the 2006 finale',1)
 # --- render 'thumbs' through the standard photos gallery path
 for _o in data['milestones']+data['people']:
   if _o.get('thumbs'):
