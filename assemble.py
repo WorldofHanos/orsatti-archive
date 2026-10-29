@@ -683,6 +683,30 @@ for t,y,tm,po,role,src in [
 _film('Grounded for Life',2001,'tv',None,None,[dict(person='Noon Orsatti',role='Fight choreographer (1 ep, 2001)',source='https://www.imdb.com/title/tt0255734/fullcredits')])
 for f in data['films']:
   if f['title']=='The Middle' and f['year']==2024 and not f['poster']:f['poster']='posters/the-middle-2024-titlecard.jpg'
+# --- Noon filmography sweep (TV Guide/Metacritic/TVmaze/production credits; family)
+NS='Orsatti family; '
+for t,y,typ,tm,po,role,src in [
+ ('Ninja Assassin',2009,'movie','movie/22832-ninja-assassin','ninja-assassin','Stunt Coordinator · Stunts','https://www.metacritic.com/person/noon-orsatti/'),
+ ('Captain America: Brave New World',2025,'movie','movie/822119-captain-america-brave-new-world','captain-america-bnw','Assistant Stunt Rigging Coordinator','https://jhwikicollection-20.fandom.com/wiki/Captain_America:_Brave_New_World/Credits'),
+ ("Madea's Destination Wedding",2025,'movie','movie/1246310-madea-s-destination-wedding','madeas-destination-wedding','Stunts','https://www.metacritic.com/person/noon-orsatti/'),
+ ('Bangkok Dangerous',2008,'movie','movie/13184-bangkok-dangerous','bangkok-dangerous','Stunts','https://www.metacritic.com/person/noon-orsatti/'),
+ ('Moonwalker',1988,'movie','movie/13192-moonwalker','moonwalker','Stuntman','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('The Double 0 Kid',1992,'movie','movie/55325-the-double-0-kid','the-double-0-kid','Actor','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('Marshal Law',1996,'movie','movie/90675-marshal-law','marshal-law','Stunts','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('The Glass Jar',1999,'movie','movie/1741688-the-glass-jar','the-glass-jar','Stunts','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('Secret Headquarters',2022,'movie','movie/791155-secret-headquarters',None,'Stunt rigger','https://www.metacritic.com/person/noon-orsatti/'),
+ ('Yours, Mine & Ours',2005,'movie','movie/13499-yours-mine-ours',None,'Stunts','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('Nip/Tuck',2006,'tv','tv/3750-nip-tuck','nip-tuck-s3','Stunt Coordinator (season 3)','https://app.productionbeast.com/12248-noon-orsatti'),
+ ('The Falcon and the Winter Soldier',2021,'tv','tv/88396-the-falcon-and-the-winter-soldier','falcon-winter-soldier','Rigging stunts','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('Baywatch',1992,'tv','tv/4386-baywatch','baywatch-s2','Actor: Todd (1 ep, 1992: "Shark\'s Cove")','https://www.tvmaze.com/people/97988/noon-orsatti'),
+ ('Alien Nation',1989,'tv','tv/5383-alien-nation','alien-nation-s1','Actor: Svabo (3 eps, 1989)','https://www.tvmaze.com/people/97988/noon-orsatti'),
+ ('Perfect Strangers',1989,'tv','tv/1786-perfect-strangers','perfect-strangers-s5','Actor: Grant Larkin (1 ep, 1989: "Good Skates")','http://m.tviv.org/Noon_Orsatti'),
+ ('Team Knight Rider',1997,'tv','tv/10964-team-knight-rider','team-knight-rider','Actor','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/ (years estimated)')]:
+  _film(t,y,typ,'https://www.themoviedb.org/'+tm,'posters/%s.jpg'%po if po else None,[dict(person='Noon Orsatti',role=role,source=NS+src)])
+# --- Project X roof jump (family)
+for f in data['films']:
+  if f['title']=='Project X' and f['year']==2012:
+    f['funFacts']=[x for x in f.get('funFacts',[]) if 'roof jump' not in x['text']]+[dict(text="Rowbie Orsatti performed the film's famous roof jump.",source='Orsatti family')]
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
