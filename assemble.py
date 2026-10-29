@@ -479,7 +479,7 @@ for f in data['films']:
   if f['title']=='Entourage' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunt coordinator / stunt driver (5 eps, 2005–2007)',source='Orsatti family; https://www.imdb.com/title/tt0387199/fullcredits/'))
 # --- Charmed: Noon takes over (family)
-CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
+CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. After Charmed ended, Noon turned his focus back to feature films. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
 data['milestones']=[m for m in data['milestones'] if m['title']!='Noon takes over Charmed']
 for m in data['milestones']:
@@ -513,5 +513,26 @@ for p in data['people']:
   p['photos']=[x for x in p.get('photos',[]) if _ok(x['src'],'P:'+p['name'])]
 for m in data['milestones']:
   if m.get('photos'):m['photos']=[x for x in m['photos'] if _ok(x['src'],'M:'+m['title'])]
+# --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
+TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
+ 'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
+ 'The Closer':{2005:(1,'2005'),2006:(2,'2006'),2007:(3,'2007'),2008:(4,'2008–09')}}
+SLUG={'Entourage':'entourage','Scrubs':'scrubs','The Closer':'the-closer'}
+for f in data['films']:
+  t=f['title']
+  if t in TVP and f['type']=='tv':
+    m=TVP[t];f['years']=sorted(m);f['year']=min(m)
+    f['seasonsByYear']={str(y):'Season %d · %s'%v for y,v in m.items()}
+    f['postersByYear']={str(y):'posters/%s-s%d.jpg'%(SLUG[t],v[0]) for y,v in m.items()}
+    f['poster']=f['postersByYear'][str(min(m))]
+    if t=='Scrubs':
+      for c in f['credits']:
+        if c['person'].startswith('Noon'):c['role']='Stunt Coordinator (about 6 seasons, 2003–2009)';c['source']='Orsatti family (about six seasons; years estimated, IMDb confirms 2009 season 8 credit); https://www.imdb.com/title/tt0285403/fullcredits/'
+    if t=='The Closer':
+      for c in f['credits']:
+        if c['person'].startswith('Noon'):c['role']='Stunt Coordinator (seasons 1–4, 2005–2009)';c['source']='Orsatti family (4+ seasons); https://www.themoviedb.org/person/1407364-noon-orsatti (13 episodes)'
+for p in data['people']:
+  if p['name']=='Noon Orsatti' and 'After Charmed ended' not in p.get('note',''):
+    p['note']=p.get('note','').rstrip()+' After Charmed ended in 2006, he turned his focus back to feature films.'
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])

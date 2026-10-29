@@ -214,7 +214,7 @@
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
    "imdb": "https://www.imdb.com/name/nm0650687/",
-   "note": "Son of Ernie F. He first stepped onto a set at four, in Gene Kelly's A Guide for the Married Man (1967); his career proper began on The Winds of War, the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald's, Sara Lee, Polaroid and more. Stunt coordinator and 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski. Took over Charmed from his father in season 3 and coordinated it through the 2006 finale – about 128 episodes – launching the careers of many young stunt performers.",
+   "note": "Son of Ernie F. He first stepped onto a set at four, in Gene Kelly's A Guide for the Married Man (1967); his career proper began on The Winds of War, the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald's, Sara Lee, Polaroid and more. Stunt coordinator and 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski. Took over Charmed from his father in season 3 and coordinated it through the 2006 finale – about 128 episodes – launching the careers of many young stunt performers. After Charmed ended in 2006, he turned his focus back to feature films.",
    "noteSources": [
     "https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards",
     "https://www.actorawards.org/node/12606",
@@ -6635,7 +6635,7 @@
    "type": "tv",
    "tmdb": null,
    "imdb": "https://www.imdb.com/title/tt0387199/",
-   "poster": "posters/tt0387199.jpg",
+   "poster": "posters/entourage-s1.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": "https://en.wikipedia.org/wiki/Entourage_%28American_TV_series%29",
@@ -6663,9 +6663,15 @@
     "2004": "Season 1 · 2004",
     "2005": "Season 2 · 2005",
     "2006": "Season 3 · 2006–07",
-    "2007": "Season 3 · 2006–07 & Season 4 · 2007"
+    "2007": "Season 4 · 2007"
    },
-   "seasonSource": "TMDB season/episode air dates"
+   "seasonSource": "TMDB season/episode air dates",
+   "postersByYear": {
+    "2004": "posters/entourage-s1.jpg",
+    "2005": "posters/entourage-s2.jpg",
+    "2006": "posters/entourage-s3.jpg",
+    "2007": "posters/entourage-s4.jpg"
+   }
   },
   {
    "title": "Christmas with the Kranks",
@@ -6855,19 +6861,19 @@
   },
   {
    "title": "Scrubs",
-   "year": 2006,
+   "year": 2003,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/4556-scrubs",
    "imdb": null,
-   "poster": "posters/4556-scrubs.jpg",
+   "poster": "posters/scrubs-s3.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt Coordinator · 1 episode",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Stunt Coordinator (about 6 seasons, 2003–2009)",
+     "source": "Orsatti family (about six seasons; years estimated, IMDb confirms 2009 season 8 credit); https://www.imdb.com/title/tt0285403/fullcredits/"
     },
     {
      "person": "Rowbie Orsatti",
@@ -6876,7 +6882,31 @@
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "years": [
+    2003,
+    2004,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "seasonsByYear": {
+    "2003": "Season 3 · 2003–04",
+    "2004": "Season 4 · 2004–05",
+    "2006": "Season 5 · 2006",
+    "2007": "Season 6 · 2006–07",
+    "2008": "Season 7 · 2007–08",
+    "2009": "Season 8 · 2009"
+   },
+   "postersByYear": {
+    "2003": "posters/scrubs-s3.jpg",
+    "2004": "posters/scrubs-s4.jpg",
+    "2006": "posters/scrubs-s5.jpg",
+    "2007": "posters/scrubs-s6.jpg",
+    "2008": "posters/scrubs-s7.jpg",
+    "2009": "posters/scrubs-s8.jpg"
+   }
   },
   {
    "title": "Running with Scissors",
@@ -6920,19 +6950,19 @@
   },
   {
    "title": "The Closer",
-   "year": 2006,
+   "year": 2005,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/1450-the-closer",
    "imdb": null,
-   "poster": "posters/1450-the-closer.jpg",
+   "poster": "posters/the-closer-s1.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunts · 1 episode",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Stunt Coordinator (seasons 1–4, 2005–2009)",
+     "source": "Orsatti family (4+ seasons); https://www.themoviedb.org/person/1407364-noon-orsatti (13 episodes)"
     },
     {
      "person": "Ernie F. Orsatti (1940–2020)",
@@ -6943,7 +6973,22 @@
    "funFacts": [],
    "media": [],
    "seasonsByYear": {
-    "2006": "Season 2 · 2006"
+    "2005": "Season 1 · 2005",
+    "2006": "Season 2 · 2006",
+    "2007": "Season 3 · 2007",
+    "2008": "Season 4 · 2008–09"
+   },
+   "years": [
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "postersByYear": {
+    "2005": "posters/the-closer-s1.jpg",
+    "2006": "posters/the-closer-s2.jpg",
+    "2007": "posters/the-closer-s3.jpg",
+    "2008": "posters/the-closer-s4.jpg"
    }
   },
   {
@@ -8291,7 +8336,7 @@
    "year": 1998,
    "kind": "milestone",
    "title": "Charmed: a family show",
-   "text": "Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.",
+   "text": "Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. After Charmed ended, Noon turned his focus back to feature films. Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.",
    "sources": [
     "https://www.imdb.com/name/nm1769066/",
     "https://www.themoviedb.org/person/112572-ernie-f-orsatti",
