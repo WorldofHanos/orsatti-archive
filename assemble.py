@@ -355,9 +355,18 @@ for f in data['films']:
     f['funFacts'][0]['text']=f['funFacts'][0]['text'].replace("Noon Orsatti's first project.","Noon Orsatti's first project, at 18.")
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'Bruce Weber' not in p['note']:
-    p['note']=p['note'].replace('the epic ABC miniseries shot 1980–81.','the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald\'s, Sara Lee, Polaroid and more – and sat for a Bruce Weber photo shoot with his father.',1)
-  if p['name'].startswith('Ernie F.') and 'Bruce Weber' not in p['note']:
-    p['note']+=' He and his son Noon were photographed together by Bruce Weber.'
+    p['note']=p['note'].replace('the epic ABC miniseries shot 1980–81.','the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald\'s, Sara Lee, Polaroid and more.',1)
+data['milestones']=[m for m in data['milestones'] if m['title']!='In front of Bruce Weber\'s camera']
+data['milestones'].append(dict(year=1987,kind='milestone',title='In front of Bruce Weber\'s camera',
+ text='Father and son, Ernie F. and Noon Orsatti sat together for a photo shoot with fashion photographer Bruce Weber. Noon also turns up in Weber\'s Oscar-nominated Chet Baker documentary Let\'s Get Lost (1988).',
+ sources=['Orsatti family','https://catalog.afi.com/Film/58169-LET\'S-GET-LOST']))
+# --- A Guide for the Married Man: Noon at 4 (family)
+data['films']=[f for f in data['films'] if f['title']!='A Guide for the Married Man']
+data['films'].append(dict(title='A Guide for the Married Man',year=1967,type='movie',tmdb=None,imdb='https://www.imdb.com/title/tt0061736/',poster='posters/tt0061736.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource='https://en.wikipedia.org/wiki/A_Guide_for_the_Married_Man',
+ credits=[dict(person='Noon Orsatti',role='Child performer',source='Orsatti family')],funFacts=[dict(text="Noon's first time on set, age 4.",source='Orsatti family')],media=[]))
+for p in data['people']:
+  if p['name']=='Noon Orsatti' and 'Married Man' not in p['note']:
+    p['note']=p['note'].replace('His career began on','He first stepped onto a set at four, in Gene Kelly\'s A Guide for the Married Man (1967); his career proper began on',1)
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]

@@ -160,7 +160,7 @@
    "photoSource": "https://www.imdb.com/name/nm0650683/",
    "years": "1940–2020",
    "imdb": "https://www.imdb.com/name/nm0650683/",
-   "note": "Born Beverly Hills Feb 13, 1940; died La Quinta Sept 12, 2020. Nicknamed \"The Legend.\" Mother: opera singer Inez Gorman. A Foster Grant model and swimmer trained under Johnny Weissmuller; three Death Wish films, Hot Shots!, Alien: Resurrection, American History X, NYPD Blue, Charmed. Started in the film industry at sixteen; acted in The Green Berets (1968), The Mechanic (1972) and The Towering Inferno (1974, the firefighter hanging on to Steve McQueen outside the scenic glass elevator) before stunts took over. Over his career he logged some 140 stunt credits, and closed out coordinating 18 episodes of It's Always Sunny in Philadelphia (2006–08), Big Love and Furry Vengeance (2010). He and his son Noon were photographed together by Bruce Weber.",
+   "note": "Born Beverly Hills Feb 13, 1940; died La Quinta Sept 12, 2020. Nicknamed \"The Legend.\" Mother: opera singer Inez Gorman. A Foster Grant model and swimmer trained under Johnny Weissmuller; three Death Wish films, Hot Shots!, Alien: Resurrection, American History X, NYPD Blue, Charmed. Started in the film industry at sixteen; acted in The Green Berets (1968), The Mechanic (1972) and The Towering Inferno (1974, the firefighter hanging on to Steve McQueen outside the scenic glass elevator) before stunts took over. Over his career he logged some 140 stunt credits, and closed out coordinating 18 episodes of It's Always Sunny in Philadelphia (2006–08), Big Love and Furry Vengeance (2010).",
    "noteSources": [
     "https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/",
     "https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/",
@@ -214,7 +214,7 @@
    "photo": "photos/noon.jpg",
    "photoSource": "https://www.imdb.com/name/nm0650687/",
    "imdb": "https://www.imdb.com/name/nm0650687/",
-   "note": "Son of Ernie F. His career began on The Winds of War, the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald's, Sara Lee, Polaroid and more – and sat for a Bruce Weber photo shoot with his father. Stunt coordinator and 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski.",
+   "note": "Son of Ernie F. He first stepped onto a set at four, in Gene Kelly's A Guide for the Married Man (1967); his career proper began on The Winds of War, the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald's, Sara Lee, Polaroid and more. Stunt coordinator and 2nd-unit director. Won the 2024 Taurus World Stunt Award (Extraction 2); in the SAG Awards stunt-ensemble nominees for The Falcon and the Winter Soldier (2022). Chad Stahelski recalls working for Ernie F. and Noon on NYPD Blue, The Pretender and Profiler – and that Noon sent him to the Matrix audition. Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, \"Echoes\"). Co-coordinated The Expendables (2010) with Stahelski.",
    "noteSources": [
     "https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards",
     "https://www.actorawards.org/node/12606",
@@ -8070,6 +8070,31 @@
     }
    ],
    "media": []
+  },
+  {
+   "title": "A Guide for the Married Man",
+   "year": 1967,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": "https://www.imdb.com/title/tt0061736/",
+   "poster": "posters/tt0061736.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": "https://en.wikipedia.org/wiki/A_Guide_for_the_Married_Man",
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Child performer",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [
+    {
+     "text": "Noon's first time on set, age 4.",
+     "source": "Orsatti family"
+    }
+   ],
+   "media": []
   }
  ],
  "milestones": [
@@ -8703,6 +8728,16 @@
    "text": "\"Chad Stahelski used to work for me, Dave Leitch used to work for me, and Sam Hargrave used to work for me,\" Noon said in 2024 – the stunt men who went on to direct John Wick, Deadpool 2 and Extraction. His own creed for Borderlands was old school: \"I come from a land of the real. Everything that we did on the ground was practical. We had real cars. We had real people. We had real jumps.\"",
    "sources": [
     "https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/"
+   ]
+  },
+  {
+   "year": 1987,
+   "kind": "milestone",
+   "title": "In front of Bruce Weber's camera",
+   "text": "Father and son, Ernie F. and Noon Orsatti sat together for a photo shoot with fashion photographer Bruce Weber. Noon also turns up in Weber's Oscar-nominated Chet Baker documentary Let's Get Lost (1988).",
+   "sources": [
+    "Orsatti family",
+    "https://catalog.afi.com/Film/58169-LET'S-GET-LOST"
    ]
   }
  ],
