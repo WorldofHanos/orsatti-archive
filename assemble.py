@@ -363,10 +363,10 @@ data['milestones'].append(dict(year=1987,kind='milestone',title='In front of Bru
 # --- Up Your Teddy Bear: Noon at 6 (family correction; replaces earlier A Guide for the Married Man attribution)
 data['films']=[f for f in data['films'] if f['title'] not in ('A Guide for the Married Man','Up Your Teddy Bear','The Seduction of a Nerd')]
 data['films'].append(dict(title='The Seduction of a Nerd',year=1970,type='movie',tmdb='https://www.themoviedb.org/movie/124827-up-your-teddy-bear',imdb='https://www.imdb.com/title/tt0066099/',poster='posters/seduction-of-a-nerd.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
- credits=[dict(person='Noon Orsatti',role='Child performer',source='Orsatti family')],funFacts=[dict(text="Noon's first time on set, age 6. Noon joined SAG on this film. The Wally Cox and Julie Newmar comedy was also released as Up Your Teddy Bear, Hot Mother, Mother and The Toy Grabbers.",source='Orsatti family; https://www.imdb.com/title/tt0066099/')],media=[]))
+ credits=[dict(person='Noon Orsatti',role='Child performer',source='Orsatti family')],funFacts=[dict(text="Noon's first time on set, age 6. Noon joined SAG in 1969 while filming it. The Wally Cox and Julie Newmar comedy was also released as Up Your Teddy Bear, Hot Mother, Mother and The Toy Grabbers.",source='Orsatti family; https://www.imdb.com/title/tt0066099/')],media=[]))
 for p in data['people']:
   if p['name']=='Noon Orsatti' and 'Seduction of a Nerd' not in p['note']:
-    p['note']=p['note'].replace('His career began on','He first stepped onto a set at six, in The Seduction of a Nerd (1970), and joined the Screen Actors Guild that year; his career proper began on',1)
+    p['note']=p['note'].replace('His career began on','He first stepped onto a set at six, filming The Seduction of a Nerd (released 1970), and joined the Screen Actors Guild in 1969; his career proper began on',1)
 # --- Freddy (family)
 EL='A Nightmare on Elm Street 4: The Dream Master'
 for f in data['films']:
