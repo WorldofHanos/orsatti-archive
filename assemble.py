@@ -378,6 +378,10 @@ data['milestones']=[m for m in data['milestones'] if m['title']!='"The only one 
 data['milestones'].append(dict(year=1988,kind='milestone',title='"The only one that truly understands Freddy"',
  text='On A Nightmare on Elm Street 4: The Dream Master, Noon Orsatti doubled Freddy Krueger. Robert Englund told him, "You\'re the only one that truly understands Freddy" – and left Noon on set to deliver Freddy\'s dialogue and play the scenes on camera himself.',
  sources=['Orsatti family (Noon Orsatti)','https://catalog.afi.com/Catalog/moviedetails/58990 (Noon credited as stunt player; Kevin J. Redzinski is credited as Freddy stunt double/stand-in)']))
+# --- Donor (family)
+for f in data['films']:
+  if f['title']=='Donor' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
