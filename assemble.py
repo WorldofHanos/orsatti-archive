@@ -458,6 +458,14 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Frank McKlusky, C.I.' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunt double: Frank McKlusky (Dave Sheridan)',source='Orsatti family'))
+# --- Carnivale (Noon) & Cheaper by the Dozen (Rowbie) (family)
+for f in data['films']:
+  if f['title']=='Carnivàle' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Additional Stunt Coordinator',source='Orsatti family'))
+  if f['title']=='Cheaper by the Dozen' and f['year']==2003:
+    if not any(c['person'].startswith('Rowbie') for c in f['credits']):
+      f['credits'].append(dict(person='Rowbie Orsatti',role='Stunts',source='Orsatti family'))
+    f['funFacts']=[x for x in f.get('funFacts',[]) if 'moon bounce' not in x['text']]+[dict(text='As a kid, Rowbie Orsatti tested many of the gags off camera for the child actors, and he was in the moon bounce scene with Steve Martin.',source='Orsatti family')]
 # --- Charmed: Noon takes over (family)
 CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
