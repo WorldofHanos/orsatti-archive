@@ -616,6 +616,10 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='The Runarounds' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunt Driver',source='Orsatti family'))
+# --- Fort Valor (Noon) (family)
+for f in data['films']:
+  if f['title']=='Fort Valor' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Stunt Coordinator',source='Orsatti family'))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
