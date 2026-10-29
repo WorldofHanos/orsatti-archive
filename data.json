@@ -1535,11 +1535,6 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunt double: David Banner (Bill Bixby) & the Hulk · Stunt Coordinator · Director",
      "source": "https://stuntsunlimited.com/frank-orsatti-honorary/"
-    },
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stand-in",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
     }
    ],
    "funFacts": [
@@ -3164,11 +3159,6 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunts",
      "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
-    },
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
     }
    ],
    "funFacts": [],
@@ -3209,11 +3199,6 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunt coord",
      "source": "https://catalog.afi.com/Person/53874-Frank-Orsatti"
-    },
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
     }
    ],
    "funFacts": [],
@@ -3894,11 +3879,6 @@
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
      "role": "Stunts",
      "source": "https://www.themoviedb.org/person/1219264-frank-orsatti?language=en-US"
-    },
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
     }
    ],
    "funFacts": [],
@@ -8156,146 +8136,6 @@
    "media": []
   },
   {
-   "title": "Rocky III",
-   "year": 1982,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0084602/",
-   "poster": "posters/tt0084602.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Challenger",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Beverly Hills Cop",
-   "year": 1984,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0086960/",
-   "poster": "posters/tt0086960.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Darkman",
-   "year": 1990,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0099365/",
-   "poster": "posters/tt0099365.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Another 48 Hrs.",
-   "year": 1990,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0099044/",
-   "poster": "posters/tt0099044.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Barroom fighter",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "Necessary Roughness",
-   "year": 1991,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0102510/",
-   "poster": "posters/tt0102510.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "U.S. Marshals",
-   "year": 1998,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0120873/",
-   "poster": "posters/tt0120873.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
-   "title": "BASEketball",
-   "year": 1998,
-   "type": "movie",
-   "tmdb": null,
-   "imdb": "https://www.imdb.com/title/tt0131857/",
-   "poster": "posters/tt0131857.jpg",
-   "boxOffice": null,
-   "boxOfficeText": null,
-   "boxOfficeSource": null,
-   "credits": [
-    {
-     "person": "Rex Orsatti (Rex Pierson)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1720933-rex-pierson"
-    }
-   ],
-   "funFacts": [],
-   "media": []
-  },
-  {
    "title": "The Winds of War",
    "year": 1980,
    "years": [
@@ -10241,10 +10081,10 @@
   }
  ],
  "boxOfficeSummary": {
-  "total": 17160978244,
-  "withData": 183,
-  "films": 313,
-  "tvShows": 37,
+  "total": 17036378244,
+  "withData": 182,
+  "films": 329,
+  "tvShows": 65,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

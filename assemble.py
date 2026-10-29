@@ -819,5 +819,14 @@ for f in data['films']:
 for m in data['milestones']:
   if m['title']=='Stunts Unlimited':
     m['photos']=[dict(src='photos/stunts-unlimited-group.jpg',caption='The members of Stunts Unlimited.',source='Orsatti family')]+[x for x in m.get('photos',[]) if 'stunts-unlimited-group' not in x['src']]
+# --- Remove Rex's credits (family request; keep his person card) and recompute summary
+_rm=[]
+for f in data['films']:
+  f['credits']=[c for c in f['credits'] if not c['person'].startswith('Rex')]
+_rm=[f for f in data['films'] if not f['credits']]
+data['films']=[f for f in data['films'] if f['credits']]
+_k=[f for f in data['films'] if f['type']=='movie' and f.get('boxOffice')]
+data['boxOfficeSummary'].update(total=sum(f['boxOffice'] for f in _k),withData=len(_k),films=sum(1 for f in data['films'] if f['type']=='movie'),tvShows=sum(1 for f in data['films'] if f['type']=='tv'))
+print('removed',[(f['title'],f['poster']) for f in _rm])
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
