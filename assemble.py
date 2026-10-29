@@ -780,6 +780,9 @@ for p in data['people']:
     p['note']=p['note'].replace('Died by 1949 of a heart attack, aged 53 (Weaver et al.).','Died of a heart attack at his Santa Monica beach home on May 19, 1947.')
     if 'Crowther' not in p['note']:p['note']+=" Biographer Bosley Crowther called Orsatti one of Louis B. Mayer's closest companions and wrote that agents doing business at MGM had to split their fees with him."
     p['noteSources']=list(p.get('noteSources',[]))+[L+'hollywoodrajah00crow_0259',L+'boxofficeaprjun15051unse_1122']
+# --- 1969 Noon joins SAG (family)
+data['milestones']=[m for m in data['milestones'] if m['title']!='Noon Orsatti joins SAG']
+data['milestones'].append(dict(year=1969,kind='milestone',side='r',title='Noon Orsatti joins SAG',text='At six, while filming The Seduction of a Nerd with Wally Cox and Julie Newmar, Noon Orsatti joined the Screen Actors Guild, the start of a career that would span more than five decades.',sources=['Orsatti family']))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
