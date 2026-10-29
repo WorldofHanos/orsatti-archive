@@ -750,6 +750,10 @@ for p in data['people']:
     if 'Harlow' not in p['note']:
       p['note']+=' In July 1934, gossip columns reported Jean Harlow at the Legion prizefights with Vic Orsatti.'
       p['noteSources']=list(p.get('noteSources',[]))+['Worcester Democrat and Ledger-Enterprise (Pocomoke City, MD), July 13, 1934, via MyHeritage newspaper index: https://www.myheritage.com/names/jean_harlow']
+# --- Hulk set photo (family)
+for p in data['people']:
+  if p['name'].startswith('Frank H. Orsatti'):
+    p['photos']=[x for x in p.get('photos',[]) if 'hulk-set' not in x['src']]+[dict(src='photos/hulk-set-frank-manny-lou.jpg',caption='Lou Ferrigno, Frank Orsatti and Manny Perry on the set of The Incredible Hulk.',source='Orsatti family')]
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
