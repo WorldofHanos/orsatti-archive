@@ -626,6 +626,13 @@ for t,y,yt,yttitle,cr,ff in [
  ('The Presidents of the United States of America: Peaches',1995,'3GCrzjVdmSg','The Presidents of the United States of America – Peaches (Official HD Music Video)',[dict(person='Ernie F. Orsatti (1940–2020)',role='Stunt Coordinator',source='Orsatti family')],[dict(text='This ninja-fight video is where Chad Stahelski began working with the Orsattis on a regular basis.',source='Orsatti family')])]:
   if not any(f['title']==t for f in data['films']):
     data['films'].append(dict(title=t,year=y,type='music_video',tmdb=None,imdb=None,poster='posters/yt-%s.jpg'%yt,boxOffice=None,boxOfficeText=None,boxOfficeSource=None,credits=cr,funFacts=ff,media=[dict(type='youtube',title=yttitle,url='https://www.youtube.com/watch?v='+yt,id=yt)]))
+# --- Ernie F.: Dodgers scouting & Valley College (family + Valley Times)
+VT='https://calisphere.org/item/1b436e5952a6ff3776783e5fa5e461e0/'
+data['milestones']=[m for m in data['milestones'] if m['title']!='Scouted by the Dodgers']
+data['milestones'].append(dict(year=1958,kind='baseball',title='Scouted by the Dodgers',
+ text='Baseball ran in the family. Right out of high school, Ernie F. Orsatti was scouted by the Los Angeles Dodgers. By 1961 he was patrolling the outfield for the Los Angeles Valley College Monarchs, where the Valley Times singled him out as the son of the former major league star – Ernie Orsatti Sr., who played for the St. Louis Cardinals from 1927 to 1935 and won two World Series titles.',
+ sources=['Orsatti family',VT],
+ thumbs=[dict(src='photos/ernie-f-valley-1961.jpg',caption='Ernie F. Orsatti, Valley College Monarchs, 1961',source=VT)]))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
