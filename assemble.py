@@ -632,7 +632,7 @@ data['milestones']=[m for m in data['milestones'] if m['title']!='Scouted by the
 data['milestones'].append(dict(year=1958,kind='baseball',title='Scouted by the Dodgers',
  text='Baseball ran in the family. Right out of high school, Ernie F. Orsatti was scouted by the Los Angeles Dodgers. By 1961 he was patrolling the outfield for the Los Angeles Valley College Monarchs, where the Valley Times singled him out as the son of the former major league star – Ernie Orsatti Sr., who played for the St. Louis Cardinals from 1927 to 1935 and won two World Series titles.',
  sources=['Orsatti family',VT],
- thumbs=[dict(src='photos/ernie-f-valley-1961.jpg',caption='Ernie F. Orsatti, Valley College Monarchs, 1961',source=VT)]))
+ thumbs=[dict(src='photos/fam-ernie-valley-baseball.jpg',caption='Ernie F. Orsatti, Valley College outfielder, c. 1961',source='Orsatti family')]))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
