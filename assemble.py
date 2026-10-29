@@ -826,6 +826,12 @@ for f in data['films']:
     if c['person'].startswith('Ernie Orsatti (1902'):
       if f['title']=='Our Hospitality':c['role']='Stunts and props'
       if f['title']=='Death on the Diamond':c['source']='https://sabr.org/bioproj/person/ernie-orsatti/'
+# --- Spite Marriage: Ernie Sr., not Ernie F. (AFI production notes)
+for f in data['films']:
+  if f['title']=='Spite Marriage' and f['year']==1929:
+    f['credits']=[c for c in f['credits'] if not c['person'].startswith('Ernie F.')]
+    if not any(c['person'].startswith('Ernie Orsatti (1902') for c in f['credits']):
+      f['credits'].append(dict(person='Ernie Orsatti (1902–1968)',role='Stunts',source='https://catalog.afi.com/Film/12353-SPITE-MARRIAGE'))
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
