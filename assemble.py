@@ -639,6 +639,10 @@ for m in data['milestones']:
     m['thumbs']=[dict(src='photos/frank-orsatti-mgm-group.jpg',caption='John Gilbert with Hal Roach, Norma Talmadge, Eddie Mannix, Marie Prevost, Buster Keaton, Paul Bern, Irving Thalberg, Frank Orsatti, E.B. Patrick, Edmund Goulding, Norma Shearer and Beatrice Lillie, late 1920s–early 1930s',source='Orsatti family; https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/'),dict(src='photos/frank-orsatti-mgm-group-reverse.jpg',caption="Reverse of the print: the archive's typed caption naming F. Orsatti, filed January 1936",source='Orsatti family')]
     for x in ['Orsatti family','https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/']:
       if x not in m['sources']:m['sources'].append(x)
+# --- Ernie Sr. 1964 photo (family + UCLA LA Times archive via Calisphere)
+for p in data['people']:
+  if p['name']=='Ernie Orsatti':
+    p['thumbs']=[dict(src='photos/ernie-sr-1964-musial.jpg',caption='Ernie Orsatti Sr. in 1964, reading that Stan Musial quit a year too soon',source='Orsatti family; https://calisphere.org/item/ark:/21198/zz0002srjc/')]
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
