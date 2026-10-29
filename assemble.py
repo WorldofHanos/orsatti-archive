@@ -729,6 +729,9 @@ data['milestones'].append(dict(year=1938,kind='business',title='A letter from Lo
  text="On September 29, 1938, Louis B. Mayer wrote to Frank Orsatti at the agency's 9121 Sunset Boulevard office about reviving a film on the life of General John J. Pershing, based on the General's memoirs, My Experiences in the World War. Frank had arranged a conference for MGM with Captain Julius Klein and Geza Herczeg, but the project stalled after Irving Thalberg's death and the General's illness. Mayer called the picture \"an everlasting monument\" to Pershing and the A.E.F., and asked Frank to win the General's consent while the project stayed strictly confidential.",
  sources=['Orsatti family'],
  thumbs=[dict(src='photos/lb-mayer-letter-1938.jpg',caption='Louis B. Mayer to Frank Orsatti, September 29, 1938.',source='Orsatti family')]))
+# --- Ken Orsatti portrait (family)
+for p in data['people']:
+  if p['name'].startswith('Ken Orsatti'):p.update(photo='photos/ken-orsatti-portrait.jpg',photoCaption='Ken Orsatti.',photoSource='Orsatti family')
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
