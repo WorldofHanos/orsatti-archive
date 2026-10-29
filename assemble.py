@@ -454,6 +454,10 @@ data['milestones'].append(dict(year=1981,kind='milestone',title='Ernie F. earns 
 for f in data['films']:
   if f['title']=='Underground Aces':
     f['funFacts']=[dict(text='Ernie F. Orsatti earned his DGA card here.',source='Orsatti family')]
+# --- Noon doubles Dave Sheridan (family)
+for f in data['films']:
+  if f['title']=='Frank McKlusky, C.I.' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Stunt double: Frank McKlusky (Dave Sheridan)',source='Orsatti family'))
 # --- Charmed: Noon takes over (family)
 CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
