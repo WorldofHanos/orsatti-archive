@@ -812,5 +812,9 @@ for p in data['people']:
   p['photos']=[x for x in p.get('photos',[]) if x['src']!='photos/fam-ernie-goudey-1933.jpg']
 for f in data['films']:
   f['media']=[x for x in f.get('media',[]) if x.get('src')!='photos/ernie-1933-goudey.jpg']
+# --- Stunts Unlimited group photo (family)
+for m in data['milestones']:
+  if m['title']=='Stunts Unlimited':
+    m['photos']=[dict(src='photos/stunts-unlimited-group.jpg',caption='The members of Stunts Unlimited.',source='Orsatti family')]+[x for x in m.get('photos',[]) if 'stunts-unlimited-group' not in x['src']]
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
