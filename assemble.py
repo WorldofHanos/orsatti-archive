@@ -707,6 +707,18 @@ for t,y,typ,tm,po,role,src in [
 for f in data['films']:
   if f['title']=='Project X' and f['year']==2012:
     f['funFacts']=[x for x in f.get('funFacts',[]) if 'roof jump' not in x['text']]+[dict(text="Rowbie Orsatti performed the film's famous roof jump.",source='Orsatti family')]
+# --- Noon TV credits: Sisters, 1st & Ten, Just the Ten of Us, NYPD Blue; Red Shoe Diaries Duchovny double (family)
+for _t,_y,_tm,_p,_r in [
+ ('1st & Ten',1990,'https://www.tvmaze.com/shows/16857','posters/1st-and-ten.jpg','Actor (Purse Snatcher)'),
+ ('Just the Ten of Us',1989,'https://www.themoviedb.org/tv/2174-just-the-ten-of-us','posters/just-the-ten-of-us.jpg','Actor (Tough Guy), "Simple Gifts" (1989)'),
+ ('NYPD Blue',1993,'https://www.themoviedb.org/tv/194-nypd-blue','posters/nypd-blue-s1.jpg','Stunt player (several episodes)'),
+ ('Sisters',1994,'https://www.tvmaze.com/shows/8143','posters/sisters.jpg','Stunt double: George Clooney')]:
+  _f=_film(_t,_y,'tv',_tm,_p,[dict(person='Noon Orsatti',role=_r,source='Orsatti family')]);_f['years']=[_y]
+for f in data['films']:
+  if f['title']=='Red Shoe Diaries':
+    for c in f['credits']:
+      if c['person'].startswith('Noon') and 'Duchovny' not in c['role']:c['role']+=' · Stunt double: David Duchovny'
+    if not any('Duchovny' in x['text'] for x in f.get('funFacts',[])):f.setdefault('funFacts',[]).append(dict(text='Noon Orsatti doubled David Duchovny, the future star of The X-Files.',source='Orsatti family'))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},

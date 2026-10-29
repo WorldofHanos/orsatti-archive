@@ -3991,7 +3991,7 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt Coordinator (entire series)",
+     "role": "Stunt Coordinator (entire series) · Stunt double: David Duchovny",
      "source": "Orsatti family"
     },
     {
@@ -4000,7 +4000,12 @@
      "source": "Orsatti family"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti doubled David Duchovny, the future star of The X-Files.",
+     "source": "Orsatti family"
+    }
+   ],
    "media": [],
    "years": [
     1992,
@@ -9236,6 +9241,98 @@
    ],
    "funFacts": [],
    "media": []
+  },
+  {
+   "title": "1st & Ten",
+   "year": 1990,
+   "type": "tv",
+   "tmdb": "https://www.tvmaze.com/shows/16857",
+   "imdb": null,
+   "poster": "posters/1st-and-ten.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Actor (Purse Snatcher)",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "years": [
+    1990
+   ]
+  },
+  {
+   "title": "Just the Ten of Us",
+   "year": 1989,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/2174-just-the-ten-of-us",
+   "imdb": null,
+   "poster": "posters/just-the-ten-of-us.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Actor (Tough Guy), \"Simple Gifts\" (1989)",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "years": [
+    1989
+   ]
+  },
+  {
+   "title": "NYPD Blue",
+   "year": 1993,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/194-nypd-blue",
+   "imdb": null,
+   "poster": "posters/nypd-blue-s1.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt player (several episodes)",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "years": [
+    1993
+   ]
+  },
+  {
+   "title": "Sisters",
+   "year": 1994,
+   "type": "tv",
+   "tmdb": "https://www.tvmaze.com/shows/8143",
+   "imdb": null,
+   "poster": "posters/sisters.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt double: George Clooney",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "years": [
+    1994
+   ]
   }
  ],
  "milestones": [
