@@ -276,6 +276,49 @@ for m in data['milestones']:
     m['text']=m['text'].replace('A federal indictment charged Morris Orsatti','A federal indictment charged Morris Orsatti, the Los Angeles steamship and railroad ticket agent,',1)+' The case cut both ways: in 1923 Dolley, by then California\'s Prohibition chief, was himself accused of framing "Italian steamship agent Morris Orsatti", and was cleared.'
     m.pop('flag',None)
     m['sources']=m['sources']+['https://en.wikipedia.org/wiki/George_Hunter_White (citing Bakersfield Morning Echo, Nov 1, 1923, p. 5)']
+# --- research round: 1980s-on
+TA='https://www.televisionacademy.com/bios/noon-orsatti';DT='https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/'
+VO='https://variety.com/2020/film/obituaries-people-news/ernie-f-orsatti-dead-dies-stuntman-poseidon-adventure-1234775752/'
+data['milestones']=[m for m in data['milestones'] if m['title'] not in('Two Emmy nominations for Hawkeye','"A land of the real"')]
+data['milestones']+=[
+ dict(year=2022,kind='milestone',title='Two Emmy nominations for Hawkeye',
+  text='Noon Orsatti earned two Primetime Emmy nominations for Marvel\'s Hawkeye in 2022: Outstanding Stunt Coordination for a Comedy Series, shared with Heidi Moneymaker, and Outstanding Stunt Performance for the episode "Echoes." His son Rowbie worked the same series as a stunt performer.',
+  sources=[TA,'https://www.televisionacademy.com/shows/hawkeye']),
+ dict(year=2024,kind='milestone',title='"A land of the real"',
+  text='"Chad Stahelski used to work for me, Dave Leitch used to work for me, and Sam Hargrave used to work for me," Noon said in 2024 – the stunt men who went on to direct John Wick, Deadpool 2 and Extraction. His own creed for Borderlands was old school: "I come from a land of the real. Everything that we did on the ground was practical. We had real cars. We had real people. We had real jumps."',
+  sources=[DT])]
+REXN='Rex Orsatti (Rex Pierson)';REXS='https://www.themoviedb.org/person/1720933-rex-pierson'
+REX=[('Rocky III',1982,'tt0084602','Challenger'),('Beverly Hills Cop',1984,'tt0086960','Stunts'),('Road House',1989,'tt0098206','Stunts'),('Lock Up',1989,'tt0097770','Stunts'),('Darkman',1990,'tt0099365','Stunts'),('Another 48 Hrs.',1990,'tt0099044','Barroom fighter'),('The Perfect Weapon',1991,None,'Stunts'),('Necessary Roughness',1991,'tt0102510','Stunts'),('U.S. Marshals',1998,'tt0120873','Stunts'),('BASEketball',1998,'tt0131857','Stunts'),('The Incredible Hulk',None,None,'Stand-in')]
+for t,y,tt,r in REX:
+  f=next((f for f in data['films'] if f['title']==t),None)
+  if not f:
+    f=dict(title=t,year=y,type='movie',tmdb=None,imdb='https://www.imdb.com/title/%s/'%tt,poster='posters/%s.jpg'%tt,boxOffice=None,boxOfficeText=None,boxOfficeSource=None,credits=[],funFacts=[],media=[]);data['films'].append(f)
+  if not any(c['person']==REXN for c in f['credits']):f['credits'].append(dict(person=REXN,role=r,source=REXS))
+for f in data['films']:
+  if f['title']=='The Expendables':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Stunt Coordinator (with Chad Stahelski)';c['source']='https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film'
+  if f['title']=='Highlander II: The Quickening':
+    for c in f['credits']:
+      if c['person'].startswith('Frank H.'):c['role']='Stunt Coordinator · Sword Master · Stunts';c['source']='https://catalog.afi.com/Person/53874-Frank-Orsatti'
+  if f['title']=='Hawkeye':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Stunt Coordinator · 2 Emmy nominations (2022)';c['source']=TA
+_rex=dict(name=REXN,relation='Half-brother of Ernie F. and Frank H. Orsatti',year=1982,years='',imdb=REXS,
+ note='Credited on screen as Rex Pierson, Rex worked stunts through the 1980s and 1990s: Beverly Hills Cop, Road House and Lock Up (the last two alongside his brother Frank), Darkman, Necessary Roughness and U.S. Marshals. He fought Rocky as a "Challenger" in Rocky III, brawled in Another 48 Hrs., and stood in on The Incredible Hulk.',
+ noteSources=[VO,'https://www.imdb.com/name/nm0650685/bio/',REXS,'https://www.metacritic.com/person/rex-pierson/','https://www.tvguide.com/celebrities/rex-pierson/credits/3000470832/'],photos=[])
+data['people']=[p for p in data['people'] if p['name']!=REXN]
+_i=[k for k,p in enumerate(data['people']) if p['name'].startswith('Frank H.')][0];data['people'].insert(_i+1,_rex)
+for p in data['people']:
+  n=p['name']
+  if n.startswith('Ernie F.') and '140' not in p['note']:
+    p['note']+=' Over his career he logged some 140 stunt credits, and closed out coordinating 18 episodes of It\'s Always Sunny in Philadelphia (2006–08), Big Love and Furry Vengeance (2010).';p['noteSources'].append(VO)
+  if n.startswith('Frank H.') and 'sword master' not in p['note']:
+    p['note']=p['note'].replace('stunt coordinator on Serpico and Highlander II','stunt coordinator on Serpico, Lock Up and Highlander II (also its sword master)')
+  if n.startswith('Noon') and 'Emmy' not in p['note']:
+    p['note']+=' Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, "Echoes"). Co-coordinated The Expendables (2010) with Stahelski.';p.setdefault('noteSources',[]).extend([TA,'https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film'])
+  if n.startswith('Rowbie') and 'Thunderbolts' not in p['note']:
+    p['note']='Son of Noon; stunt performer and coordinator. Started young on The Bernie Mac Show (2001); stunts on Hawkeye, Extraction II, Thunderbolts* and Stranger Things (2025); doubled Joe Locke on Agatha All Along and John Lee Ames on Ballard (2025); coordinated Charlie Puth\'s "Loser" music video (2022).';p.setdefault('noteSources',[]).append('https://www.imdb.com/name/nm1769066/')
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
