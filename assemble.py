@@ -479,7 +479,7 @@ for f in data['films']:
   if f['title']=='Entourage' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunt coordinator / stunt driver (5 eps, 2005–2007)',source='Orsatti family; https://www.imdb.com/title/tt0387199/fullcredits/'))
 # --- Charmed: Noon takes over (family)
-CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts through the 2006 series finale – about 128 episodes. After Charmed ended, Noon turned his focus back to feature films. "
+CH=("Charmed was a family show. Ernie F. Orsatti coordinated its stunts from the start, Rowbie Orsatti got his first screen credit on it in 1998, and in season 3 Noon Orsatti took over from his father and ran the stunts – and directed second unit – through the 2006 series finale, about 128 episodes. After Charmed ended, Noon turned his focus back to feature films. "
  "Eight seasons of witches, demons and weekly fights made Charmed a training ground: Noon brought in performers who were just starting out, and a generation of stunt people launched their careers on his set.")
 data['milestones']=[m for m in data['milestones'] if m['title']!='Noon takes over Charmed']
 for m in data['milestones']:
@@ -657,6 +657,14 @@ for p in data['people']:
 for f in data['films']:
   if f['title'] in ('In Time','Drive Angry') and f['year']==2011 and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
+# --- Charmed (Noon) (family)
+for f in data['films']:
+  if f['title']=='Charmed':
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Stunt Coordinator · Second Unit Director (~128 episodes, through the finale)';c['source']='Orsatti family'
+for p in data['people']:
+  if p['name']=='Noon Orsatti' and 'second unit on Charmed' not in p['note']:
+    p['note']=p['note'].replace('After Charmed ended in 2006,','He coordinated stunts and directed second unit on Charmed through its 2006 finale; after the show ended,',1)
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
