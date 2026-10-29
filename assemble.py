@@ -429,6 +429,13 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Larger Than Life' and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunt double: Matthew McConaughey',source='Orsatti family'))
+# --- Bilko / Trial and Error / Love Bug (family)
+for f in data['films']:
+  r={'Sgt. Bilko':'Stunts','Trial and Error':'Stunts','The Love Bug':'Stunt driver (Herbie)'}.get(f['title'])
+  if r and f['year'] in (1996,1997) and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role=r,source='Orsatti family'))
+  if f['title']=='The Love Bug' and f['year']==1997:
+    f['funFacts']=[dict(text='Noon Orsatti drove Herbie – with his father Ernie F. coordinating the stunts.',source='Orsatti family')]
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
