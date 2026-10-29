@@ -436,6 +436,10 @@ for f in data['films']:
     f['credits'].append(dict(person='Noon Orsatti',role=r,source='Orsatti family'))
   if f['title']=='The Love Bug' and f['year']==1997:
     f['funFacts']=[dict(text='Noon Orsatti drove Herbie – with his father Ernie F. coordinating the stunts.',source='Orsatti family')]
+# --- City of Industry (family)
+for f in data['films']:
+  if f['title']=='City of Industry' and not any(c['person'].startswith('Noon') for c in f['credits']):
+    f['credits'].append(dict(person='Noon Orsatti',role='Additional Stunt Coordinator',source='Orsatti family'))
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
