@@ -732,6 +732,17 @@ data['milestones'].append(dict(year=1938,kind='business',title='A letter from Lo
 # --- Ken Orsatti portrait (family)
 for p in data['people']:
   if p['name'].startswith('Ken Orsatti'):p.update(photo='photos/ken-orsatti-portrait.jpg',photoCaption='Ken Orsatti.',photoSource='Orsatti family')
+# --- Frank Orsatti business ventures + Ernie Sr. 1946 (trade press, SABR)
+_T=['Bren, Orsatti & Marx','Phonovision','Theater Candy Corp.','The candy machine and the Oddity Shop']
+data['milestones']=[m for m in data['milestones'] if m['title'] not in _T]
+data['milestones']+=[
+ dict(year=1934,kind='business',title='Bren, Orsatti & Marx',text='Zeppo Marx, fresh from the Marx Brothers act, joined agents Milton Bren and Frank Orsatti as a partner, and the firm announced the new name Bren, Orsatti & Marx in a full-page Hollywood Reporter ad.',sources=['https://lantern.mediahist.org/catalog/hollywoodreporte1821holl_0801'],
+  thumbs=[dict(src='photos/bren-orsatti-marx-1934-ad.jpg',caption='Hollywood Reporter ad announcing Bren, Orsatti & Marx, 1934.',source='https://lantern.mediahist.org/catalog/hollywoodreporte1821holl_0801')]),
+ dict(year=1940,kind='business',title='Phonovision',text='Frank Orsatti and Sam Sax brought Phonovision to New York: a coin-operated, nickel-in-the-slot movie machine built for cocktail lounges and hotels. They demonstrated it at the Sherry-Netherland, with Solly Freedman also part of the venture.',sources=['https://lantern.mediahist.org/catalog/filmdail77wids_0244','https://lantern.mediahist.org/catalog/motionpictureher139unse_0152','https://lantern.mediahist.org/catalog/boxofficeaprjun13637unse_0603'],
+  thumbs=[dict(src='photos/phonovision-filmdaily-1940.jpg',caption='Film Daily front page, May 7, 1940.',source='https://lantern.mediahist.org/catalog/filmdail77wids_0244'),dict(src='photos/phonovision-mph-1940.jpg',caption='Motion Picture Herald on nickel movies, May 1940.',source='https://lantern.mediahist.org/catalog/motionpictureher139unse_0152'),dict(src='photos/phonovision-boxoffice-1940.jpg',caption='Boxoffice on the Orsatti slot-machine film, 1940.',source='https://lantern.mediahist.org/catalog/boxofficeaprjun13637unse_0603')]),
+ dict(year=1942,kind='business',title='Theater Candy Corp.',text='Frank Orsatti and Sam Katz served as directors of Theater Candy Corp., a $200,000 company that showed advertising films on automatic projectors set behind theater candy bars.',sources=['https://lantern.mediahist.org/catalog/filmdaily81wids_0298'],
+  thumbs=[dict(src='photos/theater-candy-corp-1942.jpg',caption='Film Daily on Theater Candy Corp., 1942.',source='https://lantern.mediahist.org/catalog/filmdaily81wids_0298')]),
+ dict(year=1946,kind='business',title='The candy machine and the Oddity Shop',text="Ernie Orsatti held a patent on a candy vending machine and earned royalties on the theater-lobby candy bars that used it across Southern California. He also opened Ernie Orsatti's Oddity Shop and Florist on Sunset Boulevard.",sources=['https://sabr.org/bioproj/person/ernie-orsatti/ (citing The Sporting News, Feb 5, 1947)'])]
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
