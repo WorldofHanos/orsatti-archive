@@ -349,6 +349,15 @@ for p in data['people']:
   if p['name']=='Noon Orsatti':
     p['year']=1980
     if 'Winds of War' not in p['note']:p['note']=p['note'].replace('Son of Ernie F.; ','Son of Ernie F. His career began on The Winds of War, the epic ABC miniseries shot 1980–81. Stunt coordinator and 2nd-unit director. ',1).replace('81. Stunt coordinator and 2nd-unit director. stunt coordinator / 2nd-unit director.','81. Stunt coordinator and 2nd-unit director.');p.setdefault('noteSources',[]).append(WW)
+# --- Noon early years (family)
+for f in data['films']:
+  if f['title']=='The Winds of War':
+    f['funFacts'][0]['text']=f['funFacts'][0]['text'].replace("Noon Orsatti's first project.","Noon Orsatti's first project, at 18.")
+for p in data['people']:
+  if p['name']=='Noon Orsatti' and 'Bruce Weber' not in p['note']:
+    p['note']=p['note'].replace('the epic ABC miniseries shot 1980–81.','the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald\'s, Sara Lee, Polaroid and more – and sat for a Bruce Weber photo shoot with his father.',1)
+  if p['name'].startswith('Ernie F.') and 'Bruce Weber' not in p['note']:
+    p['note']+=' He and his son Noon were photographed together by Bruce Weber.'
 # --- one photo, one home: each photo appears in only its best-matching section
 OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
 def _key(src):return src.split('/')[-1].split('?')[0]
