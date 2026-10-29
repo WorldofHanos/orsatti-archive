@@ -639,6 +639,10 @@ for m in data['milestones']:
     m['thumbs']=[dict(src='photos/frank-orsatti-mgm-group.jpg',caption='John Gilbert with Hal Roach, Norma Talmadge, Eddie Mannix, Marie Prevost, Buster Keaton, Paul Bern, Irving Thalberg, Frank Orsatti, E.B. Patrick, Edmund Goulding, Norma Shearer and Beatrice Lillie, late 1920s–early 1930s',source='Orsatti family; https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/'),dict(src='photos/frank-orsatti-mgm-group-reverse.jpg',caption="Reverse of the print: the archive's typed caption naming F. Orsatti, filed January 1936",source='Orsatti family')]
     for x in ['Orsatti family','https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/']:
       if x not in m['sources']:m['sources'].append(x)
+    m['text']+=' The agency climbed the Sunset Strip as it grew: from 7608 Sunset to 9000 and 9121 Sunset in the 1930s, then 9130 Sunset Boulevard in the 1940s. Around 1950 it moved to 300 S. Beverly Drive in Beverly Hills, its home into the 1960s.'
+    m['thumbs'].append(dict(src='photos/orsatti-co-9000-sunset-1930s.jpg',caption='Orsatti & Co. on Sunset Boulevard, 1930s.',source='USC Libraries / California Historical Society (CC BY); https://calisphere.org/item/618dc1328aa7dc94178f21e24db1bc90/'))
+    for x in ['Film Daily Year Book and Radio Annual, via Media History Digital Library: https://lantern.mediahist.org/','USC Libraries / California Historical Society (CC BY): https://calisphere.org/item/618dc1328aa7dc94178f21e24db1bc90/']:
+      if x not in m['sources']:m['sources'].append(x)
 # --- Ernie Sr. 1964 photo (family + UCLA LA Times archive via Calisphere)
 for p in data['people']:
   if p['name']=='Ernie Orsatti':
@@ -719,6 +723,12 @@ for f in data['films']:
     for c in f['credits']:
       if c['person'].startswith('Noon') and 'Duchovny' not in c['role']:c['role']+=' · Stunt double: David Duchovny'
     if not any('Duchovny' in x['text'] for x in f.get('funFacts',[])):f.setdefault('funFacts',[]).append(dict(text='Noon Orsatti doubled David Duchovny, the future star of The X-Files.',source='Orsatti family'))
+# --- 1938 L.B. Mayer letter (family)
+data['milestones']=[m for m in data['milestones'] if m['title']!='A letter from Louis B. Mayer']
+data['milestones'].append(dict(year=1938,kind='business',title='A letter from Louis B. Mayer',
+ text="On September 29, 1938, Louis B. Mayer wrote to Frank Orsatti at the agency's 9121 Sunset Boulevard office about reviving a film on the life of General John J. Pershing, based on the General's memoirs, My Experiences in the World War. Frank had arranged a conference for MGM with Captain Julius Klein and Geza Herczeg, but the project stalled after Irving Thalberg's death and the General's illness. Mayer called the picture \"an everlasting monument\" to Pershing and the A.E.F., and asked Frank to win the General's consent while the project stayed strictly confidential.",
+ sources=['Orsatti family'],
+ thumbs=[dict(src='photos/lb-mayer-letter-1938.jpg',caption='Louis B. Mayer to Frank Orsatti, September 29, 1938.',source='Orsatti family')]))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},

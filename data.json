@@ -9707,11 +9707,13 @@
    "year": 1930,
    "kind": "business",
    "title": "Frank Orsatti opens the Orsatti Agency",
-   "text": "\"In 1930, their son Frank, a former bootlegger, went into the agency business and brought in his brothers Al, Victor and Ernie. The Orsatti Agency represented actors, executives, producers, directors, writers and radio talent.\" The same book says father Morris Orsatti, a bank vice-president, had ties to organized crime and \"spent time up the river in the 1920s.\"",
+   "text": "\"In 1930, their son Frank, a former bootlegger, went into the agency business and brought in his brothers Al, Victor and Ernie. The Orsatti Agency represented actors, executives, producers, directors, writers and radio talent.\" The same book says father Morris Orsatti, a bank vice-president, had ties to organized crime and \"spent time up the river in the 1920s.\" The agency climbed the Sunset Strip as it grew: from 7608 Sunset to 9000 and 9121 Sunset in the 1930s, then 9130 Sunset Boulevard in the 1940s. Around 1950 it moved to 300 S. Beverly Drive in Beverly Hills, its home into the 1960s.",
    "sources": [
     "Tom Weaver, David Schecter & Robert J. Kiss, Universal Terrors, 1951–1955 (McFarland, 2017), This Island Earth chapter",
     "Orsatti family",
-    "https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/"
+    "https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/",
+    "Film Daily Year Book and Radio Annual, via Media History Digital Library: https://lantern.mediahist.org/",
+    "USC Libraries / California Historical Society (CC BY): https://calisphere.org/item/618dc1328aa7dc94178f21e24db1bc90/"
    ],
    "flag": "Single published source; father's prison term not independently verified",
    "photos": [
@@ -9724,6 +9726,11 @@
      "src": "photos/frank-orsatti-mgm-group-reverse.jpg",
      "caption": "Reverse of the print: the archive's typed caption naming F. Orsatti, filed January 1936",
      "source": "Orsatti family"
+    },
+    {
+     "src": "photos/orsatti-co-9000-sunset-1930s.jpg",
+     "caption": "Orsatti & Co. on Sunset Boulevard, 1930s.",
+     "source": "USC Libraries / California Historical Society (CC BY); https://calisphere.org/item/618dc1328aa7dc94178f21e24db1bc90/"
     }
    ]
   },
@@ -10092,6 +10099,22 @@
      "src": "photos/cabaria-cafe-raid-1923-clipping.jpg",
      "caption": "Vice Squad Again Raids Cabaria Cafe, 1923: co-owner Jesse Orsatti arrested; partner Les Bruneman was arrested in an earlier raid.",
      "source": "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/"
+    }
+   ]
+  },
+  {
+   "year": 1938,
+   "kind": "business",
+   "title": "A letter from Louis B. Mayer",
+   "text": "On September 29, 1938, Louis B. Mayer wrote to Frank Orsatti at the agency's 9121 Sunset Boulevard office about reviving a film on the life of General John J. Pershing, based on the General's memoirs, My Experiences in the World War. Frank had arranged a conference for MGM with Captain Julius Klein and Geza Herczeg, but the project stalled after Irving Thalberg's death and the General's illness. Mayer called the picture \"an everlasting monument\" to Pershing and the A.E.F., and asked Frank to win the General's consent while the project stayed strictly confidential.",
+   "sources": [
+    "Orsatti family"
+   ],
+   "photos": [
+    {
+     "src": "photos/lb-mayer-letter-1938.jpg",
+     "caption": "Louis B. Mayer to Frank Orsatti, September 29, 1938.",
+     "source": "Orsatti family"
     }
    ]
   }
