@@ -636,7 +636,7 @@ data['milestones'].append(dict(year=1958,kind='baseball',title='Scouted by the D
 # --- Frank Orsatti with MGM/Keaton group, c. 1935 (family + Calisphere)
 for m in data['milestones']:
   if m['title']=='Frank Orsatti opens the Orsatti Agency':
-    m['thumbs']=[dict(src='photos/frank-orsatti-mgm-group-1935.jpg',caption='John Gilbert with Hal Roach, Norma Talmadge, Eddie Mannix, Marie Prevost, Buster Keaton, Paul Bern, Irving Thalberg, Frank Orsatti, E.B. Patrick, Edmund Goulding, Norma Shearer and Beatrice Lillie (c. 1935)',source='Orsatti family; https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/')]
+    m['thumbs']=[dict(src='photos/frank-orsatti-mgm-group.jpg',caption='John Gilbert with Hal Roach, Norma Talmadge, Eddie Mannix, Marie Prevost, Buster Keaton, Paul Bern, Irving Thalberg, Frank Orsatti, E.B. Patrick, Edmund Goulding, Norma Shearer and Beatrice Lillie, late 1920s–early 1930s',source='Orsatti family; https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/'),dict(src='photos/frank-orsatti-mgm-group-reverse.jpg',caption="Reverse of the print: the archive's typed caption naming F. Orsatti, filed January 1936",source='Orsatti family')]
     for x in ['Orsatti family','https://calisphere.org/item/41436b1bb7365f4b96de619d26be1694/']:
       if x not in m['sources']:m['sources'].append(x)
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
