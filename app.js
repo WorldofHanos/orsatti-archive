@@ -86,4 +86,4 @@ document.getElementById('shareBtn').onclick=open;document.getElementById('shareX
 m.addEventListener('click',e=>{if(e.target===m)close()});addEventListener('keydown',e=>{if(e.key==='Escape'&&!m.hidden)close()});
 f.addEventListener('submit',async e=>{e.preventDefault();if(f._honey&&f._honey.value)return;
 msg.textContent='Sending…';try{const r=await fetch(f.action,{method:'POST',body:JSON.stringify(Object.fromEntries(new FormData(f))),headers:{'Content-Type':'application/json',Accept:'application/json'}});
-if(r.ok){f.reset();msg.textContent='Thank you. Your submission has been received.'}else msg.textContent='Something went wrong. Please try again.'}catch(_){msg.textContent='Something went wrong. Please try again.'}})})();
+if(r.ok){f.reset();msg.textContent='Thank you. Your submission has been received.'}else msg.innerHTML='The form is down at the moment. Please email <a href="mailto:orsattifilmarchive@gmail.com">orsattifilmarchive@gmail.com</a> directly.'}catch(_){msg.innerHTML='The form is down at the moment. Please email <a href="mailto:orsattifilmarchive@gmail.com">orsattifilmarchive@gmail.com</a> directly.'}})})();
