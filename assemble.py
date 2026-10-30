@@ -892,5 +892,12 @@ data['films']=[f for f in data['films'] if f['credits']]
 _k=[f for f in data['films'] if f['type']=='movie' and f.get('boxOffice')]
 data['boxOfficeSummary'].update(total=sum(f['boxOffice'] for f in _k),withData=len(_k),films=sum(1 for f in data['films'] if f['type']=='movie'),tvShows=sum(1 for f in data['films'] if f['type']=='tv'))
 print('removed',[(f['title'],f['poster']) for f in _rm])
+def _dd(o):
+    if isinstance(o,dict):
+        for k,v in o.items():
+            if k in('noteSources','nameSources','sources') and isinstance(v,list):o[k]=list(dict.fromkeys(x if isinstance(x,str) else json.dumps(x) for x in v)) if all(isinstance(x,str) for x in v) else v
+            else:_dd(v)
+    elif isinstance(o,list):[_dd(x) for x in o]
+_dd(data)
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
