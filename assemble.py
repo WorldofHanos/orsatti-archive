@@ -849,6 +849,14 @@ for f in data['films']:
   if f['title']=='Bangkok Dangerous' and f['year']==2008:
     for c in f['credits']:
       if c['person'].startswith('Noon'):c['role']='Stunt co-coordinator';c['source']='Orsatti family'
+# --- Leitch & Stahelski photos on 'A land of the real' (Wikimedia Commons)
+for m in data['milestones']:
+  if m['title']=='A land of the real':
+    m['photos']=[x for x in m.get('photos',[]) if x['src'] not in ('photos/david-leitch.jpg','photos/chad-stahelski.jpg')]+[
+     dict(src='photos/david-leitch.jpg',caption='David Leitch',source='Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg'),
+     dict(src='photos/chad-stahelski.jpg',caption='Chad Stahelski',source='Kevin Paul, CC BY 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg')]
+    for x in ['David Leitch photo: Gage Skidmore, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg','Chad Stahelski photo: Kevin Paul, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg']:
+      if x not in m['sources']:m['sources'].append(x)
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:

@@ -9866,7 +9866,9 @@
    "text": "Several stunt performers who worked for Noon Orsatti went on to direct: Chad Stahelski (John Wick), David Leitch (Deadpool 2), Sam Hargrave (Extraction) and J.J. Perry (Day Shift). Noon credits their attention to detail for the transition. His own approach stayed old school: practical action on the ground, with real cars, real people and real jumps.",
    "sources": [
     "https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/",
-    "Orsatti family"
+    "Orsatti family",
+    "David Leitch photo: Gage Skidmore, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg",
+    "Chad Stahelski photo: Kevin Paul, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg"
    ],
    "photos": [
     {
@@ -9878,6 +9880,16 @@
      "src": "photos/jj-perry.jpg",
      "caption": "J.J. Perry",
      "source": "https://www.themoviedb.org/person/131532-j-j-perry"
+    },
+    {
+     "src": "photos/david-leitch.jpg",
+     "caption": "David Leitch",
+     "source": "Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg"
+    },
+    {
+     "src": "photos/chad-stahelski.jpg",
+     "caption": "Chad Stahelski",
+     "source": "Kevin Paul, CC BY 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg"
     }
    ]
   },
