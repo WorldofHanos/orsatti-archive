@@ -837,6 +837,9 @@ for f in data['films']:
   if f['title']=='Skyfire' and f['year']==2019:
     for c in f['credits']:
       if c['person'].startswith('Noon'):c['role']='Action director';c['source']='Orsatti family'
+  if f['title']=='Bangkok Dangerous' and f['year']==2008:
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Stunt co-coordinator';c['source']='Orsatti family'
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
