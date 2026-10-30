@@ -875,7 +875,7 @@ _f['years']=[2026];_f['seasonsByYear']={'2026':'Season 2 · 2026'};_f['postersBy
 # --- Frank H. portrait, 1970s still and Stunts Unlimited tribute video (family; YouTube)
 for p in data['people']:
   if p['name'].startswith('Frank H. Orsatti'):
-    p.update(photo='photos/frank-h-orsatti-portrait.jpg',photoCaption='Frank H. Orsatti',photoSource='Orsatti family')
+    p.update(photo='photos/frank-h-orsatti-portrait.jpg',photoThumb='photos/frank-h-orsatti-portrait-thumb.jpg',photoCaption='Frank H. Orsatti',photoSource='Orsatti family')
     p['photos']=[x for x in p.get('photos',[]) if 'frank-h-orsatti-1970s' not in x['src']]+[dict(src='photos/frank-h-orsatti-1970s-location.jpg',caption='Frank H. Orsatti (right) on location in the 1970s, from the 2019 Stunts Unlimited tribute video',source='Orsatti family; https://www.youtube.com/watch?v=4KWnJ1wcftM')]
     p['photoLinks']=[l for l in p.get('photoLinks',[]) if '4KWnJ1wcftM' not in l['url']]+[dict(caption='Video: Frank Orsatti named an honorary member of Stunts Unlimited (2019)',url='https://www.youtube.com/watch?v=4KWnJ1wcftM')]
 # --- Bruce Weber horseback photo (family)
