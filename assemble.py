@@ -783,6 +783,11 @@ for p in data['people']:
 # --- 1969 Noon joins SAG (family)
 data['milestones']=[m for m in data['milestones'] if m['title']!='Noon Orsatti joins SAG']
 data['milestones'].append(dict(year=1969,kind='milestone',side='r',title='Noon Orsatti joins SAG',text='At six, while filming The Seduction of a Nerd with Wally Cox and Julie Newmar, Noon Orsatti joined the Screen Actors Guild, the start of a career that would span more than five decades.',sources=['Orsatti family']))
+# --- 1986 Stunt Man Awards (UPI)
+data['milestones']=[m for m in data['milestones'] if m['title']!='Ernie Orsatti wins Best Stunt Coordinator']
+data['milestones'].append(dict(year=1986,kind='milestone',title='Ernie Orsatti wins Best Stunt Coordinator',
+ text='At the 2nd Annual Stunt Man Awards, taped March 22, 1986 in Los Angeles before some 500 guests and hosted by Lee Majors, Ernie F. Orsatti won Best Stunt Coordinator for a feature film for Death Wish 3, sharing the category with Gary McLarty (Beverly Hills Cop). Charlton Heston, Chuck Norris, Heather Locklear, Robert Wagner, Ernest Borgnine and David Carradine were among the guests, and Yakima Canutt received the Harvey Parry Lifetime Achievement Award. The show aired in syndication nationwide that spring.',
+ sources=['UPI Archives, March 24, 1986, "Stunt men and women honored" (spelled "Ernie Orsati"): https://www.upi.com/Archives/1986/03/24/Stunt-men-and-women-honored/1695512024400/']))
 # --- per-season TV posters & Noon season credits (family + IMDb/TMDB)
 TVP={'Entourage':{2004:(1,'2004'),2005:(2,'2005'),2006:(3,'2006–07'),2007:(4,'2007')},
  'Scrubs':{2003:(3,'2003–04'),2004:(4,'2004–05'),2006:(5,'2006'),2007:(6,'2006–07'),2008:(7,'2007–08'),2009:(8,'2009')},
