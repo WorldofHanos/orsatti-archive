@@ -245,3 +245,4 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .sharemsg a{color:var(--gold);text-decoration:underline}
+.media .mcap{color:var(--gold);font-size:.78rem;margin:4px 0 10px}
