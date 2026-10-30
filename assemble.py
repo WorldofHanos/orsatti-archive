@@ -575,7 +575,7 @@ for f in data['films']:
     for c in f['credits']:
       if c['person'].startswith('Noon'):c['role']='Stunt double (seasons 2–4, 1997–2000)'
 TVP2={'Profiler':{1996:(1,'1996–97','posters/profiler-s1.jpg'),1997:(2,'1997–98','posters/profiler-s2.jpg'),1998:(3,'1998–99','posters/profiler-s3.jpg')},
- 'The Pretender':{1997:(2,'1997–98','posters/the-pretender-s2.jpg'),1998:(3,'1998–99','posters/the-pretender-s3.jpg'),1999:(3,'1998–99','posters/the-pretender.jpg')},
+ 'The Pretender':{1996:(1,'1996–97','posters/the-pretender-s1.jpg'),1997:(2,'1997–98','posters/the-pretender-s2.jpg'),1998:(3,'1998–99','posters/the-pretender-s3.jpg'),1999:(4,'1999–2000','posters/the-pretender-s4.jpg'),2000:(4,'1999–2000','posters/the-pretender.jpg')},
  'The Practice':{1997:(2,'1997–98','posters/the-practice-s2.jpg'),1998:(3,'1998–99','posters/the-practice-s3.jpg'),1999:(4,'1999–00','posters/the-practice-s4.jpg'),2000:(4,'1999–00','posters/tt0118437.jpg'),2002:(6,'2001–02','posters/the-practice-s6.jpg')}}
 for f in data['films']:
   if f['title'] in TVP2 and f['type']=='tv':
@@ -833,6 +833,10 @@ for f in data['films']:
     if not any(c['person'].startswith('Ernie Orsatti (1902') for c in f['credits']):
       f['credits'].append(dict(person='Ernie Orsatti (1902–1968)',role='Stunts',source='https://catalog.afi.com/Film/12353-SPITE-MARRIAGE'))
 # --- Skyfire: Noon as Action director (family)
+for f in data['films']:
+  if f['title']=='The Pretender' and f['type']=='tv':
+    for c in f['credits']:
+      if c['person'].startswith(('Ernie F.','Noon')):c['role']='Stunt coordinator (all 4 seasons, ~86 eps, 1996–2000)';c['source']='Orsatti family'
 for f in data['films']:
   if f['title']=='Skyfire' and f['year']==2019:
     for c in f['credits']:

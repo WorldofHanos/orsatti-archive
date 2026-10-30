@@ -8251,42 +8251,48 @@
   },
   {
    "title": "The Pretender",
-   "year": 1997,
+   "year": 1996,
    "type": "tv",
    "tmdb": "https://www.themoviedb.org/tv/1706-the-pretender",
    "imdb": null,
-   "poster": "posters/the-pretender-s2.jpg",
+   "poster": "posters/the-pretender-s1.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunt coordinator (3 eps, 1997–1999)",
-     "source": "Orsatti family; https://www.tvmaze.com/people/97987/ernie-f-orsatti"
+     "role": "Stunt coordinator (all 4 seasons, ~86 eps, 1996–2000)",
+     "source": "Orsatti family"
     },
     {
      "person": "Noon Orsatti",
-     "role": "Stunt coordinator (1 ep, 1998)",
-     "source": "Orsatti family; https://www.tvmaze.com/people/97988/noon-orsatti"
+     "role": "Stunt coordinator (all 4 seasons, ~86 eps, 1996–2000)",
+     "source": "Orsatti family"
     }
    ],
    "funFacts": [],
    "media": [],
    "years": [
+    1996,
     1997,
     1998,
-    1999
+    1999,
+    2000
    ],
    "seasonsByYear": {
+    "1996": "Season 1 · 1996–97",
     "1997": "Season 2 · 1997–98",
     "1998": "Season 3 · 1998–99",
-    "1999": "Season 3 · 1998–99"
+    "1999": "Season 4 · 1999–2000",
+    "2000": "Season 4 · 1999–2000"
    },
    "postersByYear": {
+    "1996": "posters/the-pretender-s1.jpg",
     "1997": "posters/the-pretender-s2.jpg",
     "1998": "posters/the-pretender-s3.jpg",
-    "1999": "posters/the-pretender.jpg"
+    "1999": "posters/the-pretender-s4.jpg",
+    "2000": "posters/the-pretender.jpg"
    }
   },
   {
