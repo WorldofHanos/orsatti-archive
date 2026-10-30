@@ -861,6 +861,10 @@ for m in data['milestones']:
 for p in data['people']:
   if p['name']=='Noon Orsatti':
     p['photos']=[x for x in p.get('photos',[]) if 'noon-stallone' not in x['src']]+[dict(src='photos/noon-stallone.jpg',caption='Noon Orsatti with Sylvester Stallone on set',source='Orsatti family (via IMDb photo gallery)')]
+# --- Noon on the Star Trek VI bridge (family)
+for f in data['films']:
+  if f['title']=='Star Trek VI: The Undiscovered Country':
+    f['media']=[x for x in f.get('media',[]) if x.get('src')!='photos/noon-star-trek-vi.jpg']+[dict(type='photo',src='photos/noon-star-trek-vi.jpg',title='Noon Orsatti on the bridge, Star Trek VI: The Undiscovered Country (1991)',caption='Noon Orsatti on the bridge, Star Trek VI: The Undiscovered Country (1991)',url='photos/noon-star-trek-vi.jpg',source='Orsatti family')]
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
