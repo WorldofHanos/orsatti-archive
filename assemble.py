@@ -878,6 +878,10 @@ for p in data['people']:
     p.update(photo='photos/frank-h-orsatti-portrait.jpg',photoCaption='Frank H. Orsatti',photoSource='Orsatti family')
     p['photos']=[x for x in p.get('photos',[]) if 'frank-h-orsatti-1970s' not in x['src']]+[dict(src='photos/frank-h-orsatti-1970s-location.jpg',caption='Frank H. Orsatti (right) on location in the 1970s, from the 2019 Stunts Unlimited tribute video',source='Orsatti family; https://www.youtube.com/watch?v=4KWnJ1wcftM')]
     p['photoLinks']=[l for l in p.get('photoLinks',[]) if '4KWnJ1wcftM' not in l['url']]+[dict(caption='Video: Frank Orsatti named an honorary member of Stunts Unlimited (2019)',url='https://www.youtube.com/watch?v=4KWnJ1wcftM')]
+# --- Bruce Weber horseback photo (family)
+for m in data['milestones']:
+  if m['title']=="In front of Bruce Weber's camera":
+    m['photos']=[x for x in m.get('photos',[]) if 'bruce-weber-horseback' not in x['src']]+[dict(src='photos/bruce-weber-horseback-vaulting.jpg',caption='Horseback acrobatics for a Bruce Weber shoot; Noon Orsatti leaps from the horse (top right)',source='Orsatti family')]
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
