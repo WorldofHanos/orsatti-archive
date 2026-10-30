@@ -217,12 +217,12 @@
    "photoThumb": "photos/frank-h-orsatti-portrait-thumb.jpg",
    "photoCaption": "Frank H. Orsatti",
    "photoSource": "Orsatti family",
-   "photoLinks": [
-    {
-     "caption": "Video: Frank Orsatti named an honorary member of Stunts Unlimited (2019)",
-     "url": "https://www.youtube.com/watch?v=4KWnJ1wcftM"
-    }
-   ]
+   "photoLinks": [],
+   "video": {
+    "id": "4KWnJ1wcftM",
+    "caption": "Frank Orsatti named an honorary member of Stunts Unlimited (2019)",
+    "url": "https://www.youtube.com/watch?v=4KWnJ1wcftM"
+   }
   },
   {
    "name": "Rex Orsatti (Rex Pierson)",
