@@ -872,6 +872,12 @@ for f in data['films']:
 # --- The Terminal List S2 (family)
 _f=_film('The Terminal List',2026,'tv','https://www.themoviedb.org/tv/120911-the-terminal-list','posters/the-terminal-list-s2.jpg',[dict(person='Noon Orsatti',role='Additional stunt coordinator (Season 2)',source='Orsatti family')])
 _f['years']=[2026];_f['seasonsByYear']={'2026':'Season 2 · 2026'};_f['postersByYear']={'2026':'posters/the-terminal-list-s2.jpg'}
+# --- Frank H. portrait, 1970s still and Stunts Unlimited tribute video (family; YouTube)
+for p in data['people']:
+  if p['name'].startswith('Frank H. Orsatti'):
+    p.update(photo='photos/frank-h-orsatti-portrait.jpg',photoCaption='Frank H. Orsatti',photoSource='Orsatti family')
+    p['photos']=[x for x in p.get('photos',[]) if 'frank-h-orsatti-1970s' not in x['src']]+[dict(src='photos/frank-h-orsatti-1970s-location.jpg',caption='Frank H. Orsatti (right) on location in the 1970s, from the 2019 Stunts Unlimited tribute video',source='Orsatti family; https://www.youtube.com/watch?v=4KWnJ1wcftM')]
+    p['photoLinks']=[l for l in p.get('photoLinks',[]) if '4KWnJ1wcftM' not in l['url']]+[dict(caption='Video: Frank Orsatti named an honorary member of Stunts Unlimited (2019)',url='https://www.youtube.com/watch?v=4KWnJ1wcftM')]
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
