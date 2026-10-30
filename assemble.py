@@ -865,10 +865,10 @@ for p in data['people']:
 for f in data['films']:
   if f['title']=='Star Trek VI: The Undiscovered Country':
     f['media']=[x for x in f.get('media',[]) if x.get('src')!='photos/noon-star-trek-vi.jpg']+[dict(type='photo',src='photos/noon-star-trek-vi.jpg',title='Noon Orsatti on the bridge, Star Trek VI: The Undiscovered Country (1991)',caption='Noon Orsatti on the bridge, Star Trek VI: The Undiscovered Country (1991)',url='photos/noon-star-trek-vi.jpg',source='Orsatti family')]
-# --- Fly Me to the Moon: Noon stunt coordinator (family)
+# --- Fly Me to the Moon: Noon stunts (family)
 for f in data['films']:
   if f['title']=='Fly Me to the Moon' and f['year']==2024 and not any(c['person'].startswith('Noon') for c in f['credits']):
-    f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunt coordinator',source='Orsatti family'))
+    f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
