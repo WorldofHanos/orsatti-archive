@@ -241,7 +241,13 @@
     "https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film",
     "https://en.wikipedia.org/wiki/The_Winds_of_War_(miniseries)"
    ],
-   "photos": []
+   "photos": [
+    {
+     "src": "photos/noon-stallone.jpg",
+     "caption": "Noon Orsatti with Sylvester Stallone on set",
+     "source": "Orsatti family (via IMDb photo gallery)"
+    }
+   ]
   },
   {
    "name": "Rowbie Orsatti",

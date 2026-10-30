@@ -857,6 +857,10 @@ for m in data['milestones']:
      dict(src='photos/chad-stahelski.jpg',caption='Chad Stahelski',source='Kevin Paul, CC BY 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg')]
     for x in ['David Leitch photo: Gage Skidmore, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg','Chad Stahelski photo: Kevin Paul, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg']:
       if x not in m['sources']:m['sources'].append(x)
+# --- Noon with Stallone (family)
+for p in data['people']:
+  if p['name']=='Noon Orsatti':
+    p['photos']=[x for x in p.get('photos',[]) if 'noon-stallone' not in x['src']]+[dict(src='photos/noon-stallone.jpg',caption='Noon Orsatti with Sylvester Stallone on set',source='Orsatti family (via IMDb photo gallery)')]
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
