@@ -9225,6 +9225,35 @@
    ],
    "funFacts": [],
    "media": []
+  },
+  {
+   "title": "The Terminal List",
+   "year": 2026,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/120911-the-terminal-list",
+   "imdb": null,
+   "poster": "posters/the-terminal-list-s2.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Additional stunt coordinator (Season 2)",
+     "source": "Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "years": [
+    2026
+   ],
+   "seasonsByYear": {
+    "2026": "Season 2 · 2026"
+   },
+   "postersByYear": {
+    "2026": "posters/the-terminal-list-s2.jpg"
+   }
   }
  ],
  "milestones": [
@@ -10152,7 +10181,7 @@
   "total": 17036378244,
   "withData": 182,
   "films": 330,
-  "tvShows": 65,
+  "tvShows": 66,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

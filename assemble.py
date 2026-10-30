@@ -869,6 +869,9 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Fly Me to the Moon' and f['year']==2024 and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].insert(0,dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
+# --- The Terminal List S2 (family)
+_f=_film('The Terminal List',2026,'tv','https://www.themoviedb.org/tv/120911-the-terminal-list','posters/the-terminal-list-s2.jpg',[dict(person='Noon Orsatti',role='Additional stunt coordinator (Season 2)',source='Orsatti family')])
+_f['years']=[2026];_f['seasonsByYear']={'2026':'Season 2 · 2026'};_f['postersByYear']={'2026':'posters/the-terminal-list-s2.jpg'}
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
