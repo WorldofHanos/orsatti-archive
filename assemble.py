@@ -832,6 +832,11 @@ for f in data['films']:
     f['credits']=[c for c in f['credits'] if not c['person'].startswith('Ernie F.')]
     if not any(c['person'].startswith('Ernie Orsatti (1902') for c in f['credits']):
       f['credits'].append(dict(person='Ernie Orsatti (1902–1968)',role='Stunts',source='https://catalog.afi.com/Film/12353-SPITE-MARRIAGE'))
+# --- Skyfire: Noon as Action director (family)
+for f in data['films']:
+  if f['title']=='Skyfire' and f['year']==2019:
+    for c in f['credits']:
+      if c['person'].startswith('Noon'):c['role']='Action director';c['source']='Orsatti family'
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
