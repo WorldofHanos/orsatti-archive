@@ -855,7 +855,10 @@ for m in data['milestones']:
   if m['title']=='A land of the real':
     m['photos']=[x for x in m.get('photos',[]) if x['src'] not in ('photos/david-leitch.jpg','photos/chad-stahelski.jpg')]+[
      dict(src='photos/david-leitch.jpg',caption='David Leitch',source='Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg'),
-     dict(src='photos/chad-stahelski.jpg',caption='Chad Stahelski',source='Kevin Paul, CC BY 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg')]
+     dict(src='photos/chad-stahelski.jpg',caption='Chad Stahelski',source='Kevin Paul, CC BY 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg'),
+     dict(src='photos/sam-hargrave.jpg',caption='Sam Hargrave',source='Orsatti family')]
+    m['photos']=[x for i,x in enumerate(m['photos']) if x['src'] not in [y['src'] for y in m['photos'][:i]]]
+    if 'Orsatti family' not in m['sources']:m['sources'].append('Orsatti family')
     for x in ['David Leitch photo: Gage Skidmore, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg','Chad Stahelski photo: Kevin Paul, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Chad_Stahelski_-_Wick_is_Pain.jpg']:
       if x not in m['sources']:m['sources'].append(x)
 # --- Noon with Stallone (family)
