@@ -251,4 +251,4 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 @media (hover:none),(pointer:coarse){.reel{max-height:none!important;opacity:1!important;padding:20px 0!important}}
 #stats{min-height:178px}@media(max-width:1000px){#stats{min-height:139px}}@media(max-width:700px){#stats{min-height:228px}}@media(max-width:420px){#stats{min-height:250px}}
 main#timeline{min-height:100vh}
-#bo{font-variant-numeric:tabular-nums;min-width:15ch;display:inline-block;text-align:right;white-space:nowrap;box-sizing:content-box}.counter{width:auto!important;min-width:180px;box-sizing:border-box}@media(max-width:700px){.counter{width:100%!important}#bo{min-width:8.5em}}
+@media(max-width:700px){#bo{font-variant-numeric:tabular-nums;min-width:8.5em;display:inline-block;text-align:right}}
