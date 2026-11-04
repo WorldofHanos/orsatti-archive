@@ -899,7 +899,7 @@ print('removed',[(f['title'],f['poster']) for f in _rm])
 data['milestones']=[m for m in data['milestones'] if m['title']!='An all-star wedding']
 data['milestones'].append(dict(year=1937,kind='milestone',title='An all-star wedding',
  text="In May 1937 Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
- sources=['Chicago Sunday Tribune, June 20, 1937, p. 6 (Associated Press photo): https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf'],
+ sources=['Chicago Sunday Tribune, June 20, 1937, p. 6: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf'],
  photos=[dict(src='photos/vic-june-lang-wedding-1937.jpg',caption="June Lang, film actress, had an all-star cast of bridesmaids when she married Victor Orsatti, actors' agent, in Hollywood. Looking on as the bridal couple embrace are, left to right, Shirley Deane, Dixie Dunbar, Jean Chatburn (Mrs. Frank Orsatti), Claire Trevor and Alice Faye. Sharon Mulcahy is the flower girl. (Chicago Sunday Tribune, June 20, 1937)",source='Chicago Sunday Tribune, June 20, 1937, p. 6, Associated Press photo: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf')]))
 for m in data['milestones']:
   if m['title']=="Vic's spaghetti parties":
@@ -907,6 +907,28 @@ for m in data['milestones']:
     m['photos']=[x for x in m.get('photos',[]) if 'vic-alice-faye-birthday' not in x['src']]+[dict(src='photos/vic-alice-faye-birthday-1940.jpg',caption='Alice Faye and Vic Orsatti at his birthday party, c. 1940',source='Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250')]
     s2='Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250'
     if s2 not in m['sources']:m['sources'].append(s2)
+# --- Nov 4 photo batch (period press)
+def _addph(match,ph,src_label):
+  hit=0
+  for m in data['milestones']:
+    if m['title']==match:
+      hit=1;m['photos']=[x for x in m.get('photos',[]) if x['src']!=ph['src']]+[ph]
+      if src_label not in m['sources']:m['sources'].append(src_label)
+  assert hit,match
+_W="An all-star wedding";_H='"Husbands are much easier to find than good agents."';_S='Sabre Productions signs with United Artists'
+for t,src,cap,lab in [
+ (_W,'photos/vic-june-lang-wedding-dance-trocadero-1937.jpg','June Lang and Vic Orsatti dance at their wedding reception at the Trocadero','Hollywood magazine Vol. 26 (1937), p. 14: https://archive.org/details/hollywood26fawc/page/n580'),
+ (_H,'photos/vic-orsatti-marie-mcdonald-mocambo-stlpd-1945-09-23.jpg','Marie McDonald dances with her husband, Vic Orsatti, at the Mocambo','St. Louis Post-Dispatch, Sept 23, 1945 (Nat Dallinger photo): https://archive.org/details/per_st-louis-post-dispatch_1945-09-23_98_18'),
+ (_H,'photos/vic-orsatti-marie-mcdonald-photoplay-1946-01.jpg','Marie McDonald with Vic Orsatti','Photoplay, Jan 1946, p. 14: https://archive.org/details/Photoplay-1946-01-Vol-28-No-2/page/n15'),
+ (_H,'photos/vic-orsatti-marie-mcdonald-barn-party-screenland-1946-01.jpg','Vic Orsatti and Marie McDonald at a Hollywood barn party','Screenland, Jan 1946, p. 53: https://archive.org/details/Screenland-1946-01-Vol-50-No-3/page/n52'),
+ (_S,'photos/vic-orsatti-flight-to-hong-kong-premiere-1956.jpg','Vic Orsatti (fourth from left) at the Flight to Hong Kong premiere press reception, San Antonio, 1956','Film Bulletin, Oct 29, 1956, p. 25: https://archive.org/details/filmbulletin195624film/page/n779')]:
+  _addph(t,dict(src=src,caption=cap,source=lab),lab)
+for p in data['people']:
+  if p['name']=='Frank Orsatti (agent)':
+    _l='Chicago Sunday Tribune, Oct 10, 1937, p. 12: https://archive.lib.msu.edu/DMC/tribune/trib10101937/trib10101937012.pdf'
+    p['photos']=[x for x in p.get('photos',[]) if 'jean-chatburn' not in x['src']]+[dict(src='photos/jean-chatburn-mrs-frank-orsatti-tribune-1937-10-10.jpg',caption='Jean Chatburn, Mrs. Frank Orsatti, 1937',source=_l)]
+    p.setdefault('noteSources',[])
+    if _l not in p['noteSources']:p['noteSources'].append(_l)
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():

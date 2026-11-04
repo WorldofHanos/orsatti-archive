@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const money=n=>'$'+Math.round(n).toLocaleString('en-US');
-const link=u=>/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace('www.',''))}</a>`:esc(u);
+const link=u=>{const mm=/^(.+?):\s+(https?:\/\/\S+)$/.exec(u||'');if(mm){const h=mm[1].replace(/\s*\(.*\)$/,'');return `<a href="${esc(mm[2])}" target="_blank" rel="noopener" title="${esc(mm[1])}">${esc(h)}</a>`}return /^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace('www.',''))}</a>`:esc(u)};
 const KIND={baseball:'Diamond',mob:'Hollywood Underworld',keaton:'The Keaton Years',quote:'In Their Words',business:'Family Business',milestone:'Milestone',lore:'Hollywood Legend'};
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(D=>{window.D=D;
  const years={};D.films.forEach(f=>(f.years||[f.year]).forEach(y=>(years[y]??={films:[],ms:[]}).films.push(f)));D.milestones.forEach(m=>(years[m.year]??={films:[],ms:[]}).ms.push(m));D.people.forEach(p=>p.year&&(years[p.year]??={films:[],ms:[]}).ms.unshift({kind:'person',p}));
