@@ -9376,11 +9376,19 @@
    "year": 1936,
    "kind": "lore",
    "title": "Vic's spaghetti parties",
-   "text": "A period news photo shows Al and Victor Orsatti with Alice Faye, James Stewart, Rochelle Hudson and Shirley Ross at \"one of Victor Orsatti's famous Hollywood spaghetti parties.\"",
+   "text": "A period news photo shows Al and Victor Orsatti with Alice Faye, James Stewart, Rochelle Hudson and Shirley Ross at \"one of Victor Orsatti's famous Hollywood spaghetti parties.\" Vic Orsatti was also Alice Faye's agent and her friend.",
    "sources": [
-    "https://www.gettyimages.com.au/detail/news-photo/al-orsatti-rochelle-hudson-victor-orsatti-shirley-ross-news-photo/646310372"
+    "https://www.gettyimages.com.au/detail/news-photo/al-orsatti-rochelle-hudson-victor-orsatti-shirley-ross-news-photo/646310372",
+    "Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250"
    ],
-   "flag": "Photo caption; exact year unknown"
+   "flag": "Photo caption; exact year unknown",
+   "photos": [
+    {
+     "src": "photos/vic-alice-faye-birthday-1940.jpg",
+     "caption": "Alice Faye and Vic Orsatti at his birthday party, c. 1940",
+     "source": "Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250"
+    }
+   ]
   },
   {
    "year": 1936,
@@ -10194,6 +10202,22 @@
    "sources": [
     "UPI Archives, March 23, 1986, \"The categories and individual winners in the second annual Stuntman Awards\" (lists Best Stunt Coordinator, Film: Gary McLarty for Beverly Hills Cop; Ernie Orsatti for Deathwish 3): https://www.upi.com/Archives/1986/03/23/The-categories-and-individual-winners-in-the-second-annual/4530511938000",
     "UPI Archives, March 24, 1986, \"Stunt men and women honored\" (spelled \"Ernie Orsati\"): https://www.upi.com/Archives/1986/03/24/Stunt-men-and-women-honored/1695512024400/"
+   ]
+  },
+  {
+   "year": 1937,
+   "kind": "milestone",
+   "title": "An all-star wedding",
+   "text": "In May 1937 Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
+   "sources": [
+    "Chicago Sunday Tribune, June 20, 1937, p. 6 (Associated Press photo): https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf"
+   ],
+   "photos": [
+    {
+     "src": "photos/vic-june-lang-wedding-1937.jpg",
+     "caption": "June Lang, film actress, had an all-star cast of bridesmaids when she married Victor Orsatti, actors' agent, in Hollywood. Looking on as the bridal couple embrace are, left to right, Shirley Deane, Dixie Dunbar, Jean Chatburn (Mrs. Frank Orsatti), Claire Trevor and Alice Faye. Sharon Mulcahy is the flower girl. (Chicago Sunday Tribune, June 20, 1937)",
+     "source": "Chicago Sunday Tribune, June 20, 1937, p. 6, Associated Press photo: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf"
+    }
    ]
   }
  ],

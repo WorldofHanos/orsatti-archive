@@ -895,6 +895,18 @@ data['films']=[f for f in data['films'] if f['credits']]
 _k=[f for f in data['films'] if f['type']=='movie' and f.get('boxOffice')]
 data['boxOfficeSummary'].update(total=sum(f['boxOffice'] for f in _k),withData=len(_k),films=sum(1 for f in data['films'] if f['type']=='movie'),tvShows=sum(1 for f in data['films'] if f['type']=='tv'))
 print('removed',[(f['title'],f['poster']) for f in _rm])
+# --- Vic & June Lang wedding 1937 (AP / Chicago Tribune); Alice Faye birthday photo 1940 (Silver Screen)
+data['milestones']=[m for m in data['milestones'] if m['title']!='An all-star wedding']
+data['milestones'].append(dict(year=1937,kind='milestone',title='An all-star wedding',
+ text="In May 1937 Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
+ sources=['Chicago Sunday Tribune, June 20, 1937, p. 6 (Associated Press photo): https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf'],
+ photos=[dict(src='photos/vic-june-lang-wedding-1937.jpg',caption="June Lang, film actress, had an all-star cast of bridesmaids when she married Victor Orsatti, actors' agent, in Hollywood. Looking on as the bridal couple embrace are, left to right, Shirley Deane, Dixie Dunbar, Jean Chatburn (Mrs. Frank Orsatti), Claire Trevor and Alice Faye. Sharon Mulcahy is the flower girl. (Chicago Sunday Tribune, June 20, 1937)",source='Chicago Sunday Tribune, June 20, 1937, p. 6, Associated Press photo: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf')]))
+for m in data['milestones']:
+  if m['title']=="Vic's spaghetti parties":
+    m['text']=m['text'].rstrip()+" Vic Orsatti was also Alice Faye\'s agent and her friend."
+    m['photos']=[x for x in m.get('photos',[]) if 'vic-alice-faye-birthday' not in x['src']]+[dict(src='photos/vic-alice-faye-birthday-1940.jpg',caption='Alice Faye and Vic Orsatti at his birthday party, c. 1940',source='Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250')]
+    s2='Silver Screen Vol. 10 (1939–40), p. 6: https://archive.org/details/silverscreen10unse/page/n250'
+    if s2 not in m['sources']:m['sources'].append(s2)
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():
