@@ -319,7 +319,7 @@ for p in data['people']:
   if n.startswith('Noon') and 'Emmy' not in p['note']:
     p['note']+=' Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, "Echoes"). Co-coordinated The Expendables (2010) with Stahelski.';p.setdefault('noteSources',[]).extend([TA,'https://www.svenskfilmdatabas.se/en/item/?itemid=71940&type=film'])
   if n.startswith('Rowbie') and 'Thunderbolts' not in p['note']:
-    p['note']='Son of Noon; stunt performer and coordinator. His first show was Charmed (1998); he joined SAG in 2001, the year of his work on The Bernie Mac Show. Stunts on Hawkeye, Extraction II, Thunderbolts* and Stranger Things (2025); doubled Joe Locke on Agatha All Along and John Lee Ames on Ballard (2025); coordinated Charlie Puth\'s "Loser" music video (2022).';p.setdefault('noteSources',[]).extend(['Orsatti family','https://www.imdb.com/name/nm1769066/'])
+    p['note']='Son of Noon; stunt performer and coordinator. Started young on Charmed (1998), his first show, followed by The Bernie Mac Show (2001); stunts on Hawkeye, Extraction II, Thunderbolts* and Stranger Things (2025); doubled Joe Locke on Agatha All Along and John Lee Ames on Ballard (2025); coordinated Charlie Puth\'s "Loser" music video (2022).';p.setdefault('noteSources',[]).extend(['Orsatti family','https://www.imdb.com/name/nm1769066/'])
 # --- Towering Inferno: McQueen (family)
 for f in data['films']:
   if f['title']=='The Towering Inferno':
