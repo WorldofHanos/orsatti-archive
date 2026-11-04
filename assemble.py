@@ -134,7 +134,7 @@ for _m in milestones:
   if _m['title'] in PH3: _m['photos']=_m.get('photos',[])+PH3[_m['title']]
 
 people=[
- dict(name='Al Orsatti',year=1935,relation='Brother of Ernie Orsatti',relationSource='SABR; Wikipedia',note='Agency partner with Frank, Vic and Ernie; his clients included actress Peggy O\'Neill. Died by 1949 of a heart attack, aged 48 (Weaver et al.). Likely father of SAG leader Ken (Alfred Kendall) Orsatti – inferred.'),
+ dict(name='Al Orsatti',year=1935,relation='Brother of Ernie Orsatti',relationSource='SABR; Wikipedia',note='Agency partner with Frank, Vic and Ernie; his clients included actress Peggy O\'Neill. Died by 1949 of a heart attack, aged 48 (Weaver et al.). Father of SAG leader Ken (Alfred Kendall) Orsatti.'),
  dict(name='Vic Orsatti',birthName='Victor Manuel Orsatti',photos=[dict(src='https://commons.wikimedia.org/wiki/Special:FilePath/June_Lang_by_Otto_Dyar,_1930s.jpg?width=900',caption='June Lang, Vic Orsatti\'s first wife (m. 1937), portrait by Otto Dyar, 1930s',source='https://commons.wikimedia.org/wiki/File:June_Lang_by_Otto_Dyar,_1930s.jpg')],relation='Brother of Ernie Orsatti',relationSource='Wikipedia; SABR',years='1905–1984',year=1937,photo='photos/victor-orsatti.png',photoCaption='1923 high-school football photo (public domain)',photoSource='https://commons.wikimedia.org/wiki/File:Victor_Orsatti.png',note='Ernie\'s brother: USC quarterback, agent to Judy Garland and Sonja Henie, later a producer. Formed Sabre Productions on Sept 17, 1953, planning This Island Earth as its first film (the picture was made at Universal). Producer credits: Flight to Hong Kong (assoc., 1956), Ride Out for Revenge (assoc., 1957), Domino Kid and The Hired Gun (1957), Apache Territory (1958), A Face in the Rain (exec., 1963), plus the CBS western The Texan (1958–60) with Rory Calhoun. Earliest credit: script clerk on Spring Fever (1927). Born Victor Manuel Orsatti in Los Angeles, Nov 25, 1905; died Newport Beach, June 9, 1984; interred at Pacific View Memorial Park, Corona del Mar. Mob-adjacent orbit: his first wife June Lang (m. 1937) later married Outfit figure Johnny Roselli; second wife Marie "The Body" McDonald reportedly had an affair with Bugsy Siegel in Las Vegas while divorcing him (1947). Photos (link only): with RKO starlet Frances Neal at the Citizen Kane premiere, 1941 (Variety); at Victor Orsatti\'s spaghetti party with Al, Alice Faye and James Stewart (Getty).',photoLinks=[dict(caption='Vic Orsatti & Frances Neal, Citizen Kane premiere, 1941 (Variety)',url='https://variety.com/gallery/citizen-kane-premiere-anniversary-photos/'),dict(caption='Spaghetti party with Al Orsatti, Rochelle Hudson, Shirley Ross (Getty)',url='https://www.gettyimages.com.au/detail/news-photo/al-orsatti-rochelle-hudson-victor-orsatti-shirley-ross-news-photo/646310372')],noteSources=['https://catalog.afi.com/Person/151138-Victor-M.-Orsatti','https://en.wikipedia.org/wiki/Rorvic_Productions','https://www.findagrave.com/memorial/26911562/victor_m-orsatti','https://www.glamourgirlsofthesilverscreen.com/show/213/Vic+Orsatti/index.html (citing Crivello, Fallen Angels; Strait, Queen of Ice)','Weaver, Schecter & Kiss, Universal Terrors 1951–1955 (McFarland, 2017)']),
  dict(name='Ernie Orsatti',birthName='Ernest Ralph Orsatti',nameSources=['https://www.baseball-reference.com/players/o/orsater01.shtml','https://sabr.org/bioproj/person/ernie-orsatti/','https://en.wikipedia.org/wiki/Ernie_Orsatti'],year=1923,photo='photos/ernie-portrait.jpg',photoCaption='Ernie Orsatti, St. Louis Cardinals era press photo (public domain, via DPLA)',photoSource='https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg',photos=[dict(src='photos/ernie-goudey-1933-pd.jpg',caption='1933 Goudey card #201 (public domain)',source='https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg')],years='1902–1968',imdb='https://www.imdb.com/name/nm1108143/',note='Keaton prop man/stuntman, Cardinals outfielder, agent.'),
  dict(name='Frank Orsatti (agent)',year=1930,relation='Brother of Ernie Orsatti',relationSource='Wikipedia; SABR',imdb='https://www.imdb.com/name/nm0650684/',note='Founded the Orsatti Agency in 1930 after a career described as bootlegging; reputed fixer for MGM\'s Louis B. Mayer; agent to Judy Garland. Died by 1949 of a heart attack, aged 53 (Weaver et al.). Not the same person as Frank H. Orsatti the stuntman.'),
@@ -929,6 +929,40 @@ for p in data['people']:
     p['photos']=[x for x in p.get('photos',[]) if 'jean-chatburn' not in x['src']]+[dict(src='photos/jean-chatburn-mrs-frank-orsatti-tribune-1937-10-10.jpg',caption='Jean Chatburn, Mrs. Frank Orsatti, 1937',source=_l)]
     p.setdefault('noteSources',[])
     if _l not in p['noteSources']:p['noteSources'].append(_l)
+# --- Early Morris finds (LA Times, CFC, Water and Power Associates)
+_WPA='Water and Power Associates: https://waterandpower.org/museum/Early_LA_Buildings%20(1900%20-%201925)_Page_2.html'
+_L08='Los Angeles Times, Dec 31, 1908'; _L12='Los Angeles Times, Jan 19, 1912'; _CFC='Commercial & Financial Chronicle, Oct 22, 1904'
+data['milestones']=[m for m in data['milestones'] if m['title']!='Los Angeles quick to raise aid fund']
+data['milestones'].append(dict(year=1908,kind='milestone',title='Los Angeles quick to raise aid fund',
+ text="When the December 1908 earthquake devastated Messina and southern Italy, Los Angeles moved quickly to send relief. Italian consular agent Luigi Dell'Orto, Morris Orsatti and Secondo Guasti went out to solicit money in the business district and gathered the first thousand dollars, and the fund's headquarters opened at the Orsatti Steamship Company office, 220 North Spring Street.",
+ sources=[_L08],
+ photos=[dict(src='photos/la-quick-to-raise-aid-fund-latimes-1908-12-31.jpg',caption='"Los Angeles Quick to Raise Aid Fund" – Luigi Dell\'Orto, consular agent, with Morris Orsatti and Secondo Guasti, "the three men who gathered the first thousand dollars in Los Angeles for the benefit of the earthquake sufferers of Italy." Los Angeles Times, Dec 31, 1908',source=_L08)]))
+for m in data['milestones']:
+  if m['title']=='Morris and the Bank of Italy':
+    m['kind']='business'
+    m['text']=("Newspapers record Morris Orsatti as a banker as well as a steamship and railroad ticket agent. He was a vice-president of the International Savings & Exchange Bank of Los Angeles when it opened in 1904, and in 1912 the Los Angeles Times still listed him as vice-president of the International Bank. "
+      "The bank's building stood at Spring and Temple streets, and by 1927 it carried a Bank of Italy sign: A.P. Giannini's bank, which came to Los Angeles in 1913 and later became Bank of America. "
+      "Family lore holds that Morris was close to Giannini, and his agency served the same Italian immigrant families Giannini built his bank on.")
+    m['sources']=list(dict.fromkeys([_CFC,_L12,_WPA,_L08]+m['sources']))
+    m['photos']=[x for x in m.get('photos',[]) if not any(k in x['src'] for k in('morris-orsatti-portrait','international-'))]+[
+     dict(src='photos/morris-orsatti-portrait-latimes-1908-12-31.jpg',caption='Morris Orsatti, 1908',source=_L08),
+     dict(src='photos/international-savings-exchange-bank-1904-cfc.jpg',caption='The Commercial & Financial Chronicle on the new International Savings & Exchange Bank: "erecting an attractive seven-story building," authorized capital $500,000, 1904',source=_CFC),
+     dict(src='photos/morris-orsatti-vp-international-bank-latimes-1912-01-19.jpg',caption='"Morris Orsatti, vice-president of the International Bank," at a gathering of the Italian colony, Los Angeles Times, Jan 19, 1912',source=_L12),
+     dict(src='photos/international-bank-building-spring-temple-1910-wpa.jpg',caption='The International Bank Building on the southwest corner of Spring and Temple streets, 1910',source=_WPA),
+     dict(src='photos/international-bank-bldg-bank-of-italy-sign-1927-wpa.jpg',caption='Los Angeles City Hall under construction, 1927; the International Bank Building stands to the south, with a sign reading Bank of Italy',source=_WPA)]
+  if m['title']=='Morris Orsatti and the Prohibition agent':
+    _a=" In November 1923 Morris Orsatti was sentenced to twenty years in the federal prison on McNeil Island and fined $2,100, then released on $50,000 bond pending his appeal."
+    if _a.strip() not in m['text']:m['text']=m['text'].rstrip()+_a
+    for x in ['Los Angeles Times, July 13, 1922','Los Angeles Times, Nov 6, 1923','Los Angeles Times, Nov 28, 1923']:
+      if x not in m['sources']:m['sources'].append(x)
+    m['photos']=[x for x in m.get('photos',[]) if 'latimes-192' not in x['src']]+[
+     dict(src='photos/hold-suspects-in-liquor-ring-latimes-1922-07-13.jpg',caption='"Hold Suspects in Liquor Ring" – Los Angeles Times, July 13, 1922',source='Los Angeles Times, July 13, 1922'),
+     dict(src='photos/twenty-years-for-orsatti-latimes-1923-11-06.jpg',caption='"Twenty Years for Orsatti: Fine Also Imposed on Him for Attempt to Bribe Dolley" – Los Angeles Times, Nov 6, 1923',source='Los Angeles Times, Nov 6, 1923'),
+     dict(src='photos/morris-orsatti-released-on-bond-latimes-1923-11-28.jpg',caption='"Morris Orsatti Is Released on Bond" – Los Angeles Times, Nov 28, 1923',source='Los Angeles Times, Nov 28, 1923')]
+for p in data['people']:
+  if p['name']=='Al Orsatti':
+    p.setdefault('noteSources',[])
+    if 'Orsatti family' not in p['noteSources']:p['noteSources'].append('Orsatti family')
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():
