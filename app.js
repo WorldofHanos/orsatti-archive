@@ -37,7 +37,7 @@ const ents=g.films.map((f,i)=>`<div class="ent" data-i="${i}"><span class="t">${
 const run=()=>{document.querySelectorAll('.reel img').forEach(mark);const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.reel img').forEach(i=>{i.loading='eager';i.decoding='async'});io.unobserve(e.target)}}),{rootMargin:'1500px 0px'});document.querySelectorAll('.yr').forEach(y=>io.observe(y))};
 const t=setInterval(()=>{if(document.querySelector('.reel img')){clearInterval(t);run()}},200)})();
 
-document.addEventListener('touchstart',e=>{const p=e.target.closest('.reel .p');document.querySelectorAll('.reel .p.tap').forEach(x=>x!==p&&x.classList.remove('tap'));if(p&&!p.classList.contains('tap')){p.classList.add('tap')}},{passive:true});
+document.addEventListener('click',e=>{const p=e.target.closest('.reel .p');document.querySelectorAll('.reel .p.tap').forEach(x=>x!==p&&x.classList.remove('tap'));if(p&&!p.classList.contains('tap')){p.classList.add('tap')}});
 ;(function(){const s=()=>{const c=document.querySelector('.counter'),l=document.querySelector('.corner-logo');if(c&&l){l.style.height=c.offsetHeight+'px';l.style.width=c.offsetWidth+'px';l.style.justifyContent='center'}};addEventListener('resize',s);setInterval(s,1000)})();
 
 ;(function(){const c=document.createElement('canvas');c.id='stars';document.body.prepend(c);const x=c.getContext('2d');let S=[];
