@@ -1626,7 +1626,16 @@
      "source": "Orsatti family; https://stuntsunlimited.com/frank-orsatti-honorary/"
     }
    ],
-   "media": [],
+   "media": [
+    {
+     "type": "photo",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg?width=900",
+     "title": "Bill Bixby and Lou Ferrigno in The Incredible Hulk (1977 publicity photo)",
+     "caption": "Bill Bixby and Lou Ferrigno in The Incredible Hulk (1977 publicity photo). Frank H. Orsatti doubled both Bixby's David Banner and the Hulk, and coordinated the show's stunts (Frank not pictured)",
+     "source": "https://commons.wikimedia.org/wiki/File:Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg",
+     "url": "https://commons.wikimedia.org/wiki/File:Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg"
+    }
+   ],
    "seasonsByYear": {
     "1979": "Season 2 · 1978–79 & Season 3 · 1979–80"
    }
@@ -9618,11 +9627,6 @@
      "src": "photos/stunts-unlimited-group.jpg",
      "caption": "The members of Stunts Unlimited.",
      "source": "Orsatti family"
-    },
-    {
-     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg?width=900",
-     "caption": "Bill Bixby and Lou Ferrigno in The Incredible Hulk (1977 publicity photo). Frank H. Orsatti doubled both Bixby's David Banner and the Hulk, and coordinated the show's stunts (Frank not pictured)",
-     "source": "https://commons.wikimedia.org/wiki/File:Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg"
     }
    ]
   },
