@@ -931,7 +931,7 @@ for p in data['people']:
     if _l not in p['noteSources']:p['noteSources'].append(_l)
 # --- Early Morris finds (LA Times, CFC, Water and Power Associates)
 _WPA='Water and Power Associates: https://waterandpower.org/museum/Early_LA_Buildings%20(1900%20-%201925)_Page_2.html'
-_L08='Los Angeles Times, Dec 31, 1908'; _L12='Los Angeles Times, Jan 19, 1912'; _CFC='Commercial & Financial Chronicle, Oct 22, 1904'
+_L08='Los Angeles Times, Dec 31, 1908'; _L12='Los Angeles Times, Jan 19, 1912'; _CFC='Commercial & Financial Chronicle, Oct 22, 1904, p. 1681: https://archive.org/details/sim_commercial-and-financial-chronicle_1904-10-22_79_2052/page/n11'
 data['milestones']=[m for m in data['milestones'] if m['title']!='Los Angeles quick to raise aid fund']
 data['milestones'].append(dict(year=1908,kind='milestone',title='Los Angeles quick to raise aid fund',
  text="When the December 1908 earthquake devastated Messina and southern Italy, Los Angeles moved quickly to send relief. Italian consular agent Luigi Dell'Orto, Morris Orsatti and Secondo Guasti went out to solicit money in the business district and gathered the first thousand dollars, and the fund's headquarters opened at the Orsatti Steamship Company office, 220 North Spring Street.",
@@ -946,7 +946,7 @@ for m in data['milestones']:
     m['sources']=list(dict.fromkeys([_CFC,_L12,_WPA,_L08]+m['sources']))
     m['photos']=[x for x in m.get('photos',[]) if not any(k in x['src'] for k in('morris-orsatti-portrait','international-'))]+[
      dict(src='photos/morris-orsatti-portrait-latimes-1908-12-31.jpg',caption='Morris Orsatti, 1908',source=_L08),
-     dict(src='photos/international-savings-exchange-bank-1904-cfc.jpg',caption='The Commercial & Financial Chronicle on the new International Savings & Exchange Bank: "erecting an attractive seven-story building," authorized capital $500,000, 1904',source=_CFC),
+     dict(src='photos/international-savings-exchange-bank-1904-cfc.jpg',caption='"The International Savings & Exchange Bank opened for business several weeks ago in Los Angeles at 296 North Spring Street. The officers of the institution are Mr. John Lopizich, President; Jules Kauffman, A. Fusenot, Leon Escallier and Morris Orsatti, Vice-Presidents, and Charles Ewing, Cashier." Commercial & Financial Chronicle, Oct 22, 1904, p. 1681',source=_CFC),
      dict(src='photos/morris-orsatti-vp-international-bank-latimes-1912-01-19.jpg',caption='"Morris Orsatti, vice-president of the International Bank," at a gathering of the Italian colony, Los Angeles Times, Jan 19, 1912',source=_L12),
      dict(src='photos/international-bank-building-spring-temple-1910-wpa.jpg',caption='The International Bank Building on the southwest corner of Spring and Temple streets, 1910',source=_WPA),
      dict(src='photos/international-bank-bldg-bank-of-italy-sign-1927-wpa.jpg',caption='Los Angeles City Hall under construction, 1927; the International Bank Building stands to the south, with a sign reading Bank of Italy',source=_WPA)]
