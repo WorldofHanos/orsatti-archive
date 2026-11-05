@@ -47,7 +47,7 @@ FIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='poste
 'Stop at Nothing':dict(boxOffice=None,boxOfficeSource=None),'Moonlight':dict(boxOffice=None,boxOfficeSource=None),
 'The Swarm':dict(boxOffice=None),'Highlander II: The Quickening':dict(boxOffice=None),
 'Avengers: Endgame':dict(boxOffice=2799439100,boxOfficeSource='https://en.wikipedia.org/wiki/Avengers:_Endgame')}
-cr=[c for c in cr if not (c['title']=='The Poseidon Adventure' and c['person'].startswith('Frank H.'))]
+cr=[c for c in cr if not (c['title'] in ('The Poseidon Adventure','The Towering Inferno') and c['person'].startswith('Frank H.'))]
 for c in cr:
   c.update(FIX.get(c['title'],{}))
   if c['title']=='The Poseidon Adventure' and c['person'].startswith('Ernie F'): c['role']='Terry (actor) – performed the famous 32-ft skylight fall'
