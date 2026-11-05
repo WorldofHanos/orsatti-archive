@@ -73,7 +73,7 @@ funfacts={
  'Sherlock Jr.':[{'text':'Ernie was hired as assistant prop man because Buster Keaton was a huge baseball fan who insisted on playing ball on the sets of all his films.','source':'https://www.imdb.com/name/nm1108143/'},{'text':'At 5\'7" and 150 lb, Ernie was a close physical match for Keaton (5\'6", 140 lb) and doubled him in a scene in this film; SABR notes Keaton otherwise did his own stunts.','source':'https://sabr.org/bioproj/person/ernie-orsatti/'}],
  'Our Hospitality':[{'text':'In the early 1920s Ernie doubled for Keaton and captained Keaton\'s amateur baseball team.','source':W}],
  'Death on the Diamond':[{'text':'The scene was filmed at Sportsman\'s Park on June 26, 1934, before a Cardinals–Giants game – in the middle of the Gashouse Gang\'s championship season.','source':'https://www.baseballamore.com/orsattie/'}],
- 'The Poseidon Adventure':[{'text':'Ernie F. Orsatti is best known for his free fall into a skylight in this film.','source':W},{'text':'He was cast as Terry (Pamela Sue Martin\'s boyfriend), not as a stuntman, when asked to do the 32-ft fall. Gene Hackman came to watch: "We\'ve all come to watch you die." One take; it knocked him "colder than a cucumber."','source':'https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],
+ 'The Poseidon Adventure':[{'text':'Ernie F. Orsatti is best known for his skylight fall in this film. Cast as Terry (Pamela Sue Martin\'s boyfriend), not as a stuntman, he was asked to do the 32-ft fall. Gene Hackman came to watch: "We\'ve all come to watch you die." One take; it knocked him "colder than a cucumber."','source':'https://www.hollywoodreporter.com/news/general-news/ernie-orsatti-stuntman-who-took-quite-the-fall-in-the-poseidon-adventure-dies-at-80-4063318/'}],  # Wikipedia URL retained on Ernie F. credit source for this title
  'Borderlands':[{'text':'Noon: "Chad Stahelski used to work for me, Dave Leitch used to work for me, and Sam Hargrave used to work for me."','source':'https://www.digitaltrends.com/movies/borderlands-interview-stunts-jimmy-odee-noon-orsatti/'}],
  'The Towering Inferno':[{'text':'Played a hero firefighter hanging on to the scenic elevator.','source':W}],
  'The Terminator':[{'text':'Frank H. Orsatti doubled for Arnold Schwarzenegger.','source':'https://www.imdb.com/name/nm0650685/'}],
@@ -123,7 +123,7 @@ milestones=[
  dict(year=2024,kind='milestone',title='Taurus World Stunt Award',text='Noon Orsatti wins the Taurus World Stunt Award for Best Stunt Coordinator and/or 2nd Unit Director for Extraction 2 – the third generation of the family in film.',sources=['https://en.wikipedia.org/wiki/Taurus_World_Stunt_Awards','https://www.imdb.com/name/nm0650687/']),
 ]
 C="https://commons.wikimedia.org/wiki/Special:FilePath/"
-PH={"Quitting school for the movies":[dict(src=C+"Buster_Keaton_with_writers_and_director_in_1923.jpg?width=900",caption="Buster Keaton (centre) with his writers and director, 1923 – the Keaton unit Ernie joined (Ernie not pictured)",source="https://commons.wikimedia.org/wiki/File:Buster_Keaton_with_writers_and_director_in_1923.jpg"),dict(src=C+"Buster_keaton_in_sherlock_jr,_1924.jpg?width=900",caption="Buster Keaton in Sherlock Jr. (1924), the film in which Ernie doubled him",source="https://commons.wikimedia.org/wiki/File:Buster_keaton_in_sherlock_jr,_1924.jpg")],"Fired… into pro baseball":[dict(src="photos/ernie-action.jpg",caption="Ernie Orsatti fielding, press photo (public domain, via DPLA)",source="https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg")],"MLB debut – St. Louis Cardinals":[dict(src="photos/ernie-goudey-1933-pd.jpg",caption="Ernie Orsatti, 1933 Goudey card #201 (public domain)",source="https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg")],"World Series champion":[dict(src="photos/ernie-action.jpg",caption="Ernie Orsatti, Cardinals-era press photo (public domain, via DPLA)",source="https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg")],"Gashouse Gang – 1934 champions":[dict(src="photos/ernie-goudey-1933-pd.jpg",caption="Ernie Orsatti, 1933 Goudey card (public domain)",source="https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg")]}
+PH={"Quitting school for the movies":[dict(src=C+"Buster_Keaton_with_writers_and_director_in_1923.jpg?width=900",caption="Buster Keaton (centre) with his writers and director, 1923 – the Keaton unit Ernie joined (Ernie not pictured)",source="https://commons.wikimedia.org/wiki/File:Buster_Keaton_with_writers_and_director_in_1923.jpg"),dict(src=C+"Buster_keaton_in_sherlock_jr,_1924.jpg?width=900",caption="Buster Keaton in Sherlock Jr. (1924), the film in which Ernie doubled him",source="https://commons.wikimedia.org/wiki/File:Buster_keaton_in_sherlock_jr,_1924.jpg")],"Fired… into pro baseball":[dict(src="photos/ernie-action.jpg",caption="Ernie Orsatti fielding, press photo (public domain, via DPLA)",source="https://commons.wikimedia.org/wiki/File:Ernest_Orsatti_-_DPLA_-_9bca1ab5bc3cc804eea874cbf130f097.jpg")],"MLB debut – St. Louis Cardinals":[dict(src="photos/ernie-goudey-1933-pd.jpg",caption="Ernie Orsatti, 1933 Goudey card #201 (public domain)",source="https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg")],"World Series champion":[],"Gashouse Gang – 1934 champions":[dict(src="photos/ernie-goudey-1933-pd.jpg",caption="Ernie Orsatti, 1933 Goudey card (public domain)",source="https://commons.wikimedia.org/wiki/File:ErnieOrsattiGoudeycard.jpg")]}
 for _m in milestones:
   if _m["title"] in PH: _m["photos"]=PH[_m["title"]]
 PH2={'Stunts Unlimited':[dict(src=C+'Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg?width=900',caption="Bill Bixby and Lou Ferrigno in The Incredible Hulk (1977 publicity photo). Frank H. Orsatti doubled both Bixby's David Banner and the Hulk, and coordinated the show's stunts (Frank not pictured)",source='https://commons.wikimedia.org/wiki/File:Bill_Bixby_Lou_Ferrigno_Incredible_Hulk_1977.jpg')],'"Frank Orsatti created a stunt legacy."':[dict(src=C+'Lou_Ferrigno_Incredible_Hulk.jpg?width=900',caption='Lou Ferrigno as the Hulk (1977 publicity photo) – Manny Perry, hired by Frank, doubled him',source='https://commons.wikimedia.org/wiki/File:Lou_Ferrigno_Incredible_Hulk.jpg')],'Vic quarterbacks USC':[dict(src=C+"Howard_Jones'_Trojans_Prepare_for_Iowa_Eleven,_1925.jpg?width=900",caption="USC Trojans players preparing for Iowa, 1925 – Howard Jones's squad that Vic quarterbacked (Vic not identified in this photo)",source="https://commons.wikimedia.org/wiki/File:Howard_Jones'_Trojans_Prepare_for_Iowa_Eleven,_1925.jpg"),dict(src=C+'Howard_Jones_and_the_USC_football_team_at_the_Coliseum.jpg?width=900',caption='Coach Howard Jones and the USC football team at the Coliseum (Vic not identified)',source='https://commons.wikimedia.org/wiki/File:Howard_Jones_and_the_USC_football_team_at_the_Coliseum.jpg')],'Bringing Sonja Henie to Hollywood':[dict(src=C+'Sonja_Henie_1936.jpg?width=900',caption='Sonja Henie at the 1936 Winter Olympics – after which Vic persuaded her to try Hollywood',source='https://commons.wikimedia.org/wiki/File:Sonja_Henie_1936.jpg'),dict(src=C+'Sonja_Henie_on_Time_Magazine_1939.jpg?width=900',caption='Sonja Henie on the cover of Time, July 17, 1939 – by then a top 20th Century-Fox star',source='https://commons.wikimedia.org/wiki/File:Sonja_Henie_on_Time_Magazine_1939.jpg')],'The Bugsy Siegel connection':[dict(src=C+'Bugsy_Siegel.jpg?width=900',caption='Benjamin "Bugsy" Siegel, police mugshot, April 12, 1928 (public domain)',source='https://commons.wikimedia.org/wiki/File:Bugsy_Siegel.jpg')],'Quitting school for the movies':[dict(src=C+'Our_Hospitality_(1923)_Poster.jpg?width=900',caption="Poster for Buster Keaton's Our Hospitality (1923), from the era Ernie worked in Keaton's unit",source='https://commons.wikimedia.org/wiki/File:Our_Hospitality_(1923)_Poster.jpg')]}
@@ -508,7 +508,7 @@ for f in data['films']:
   if f['title']=='Fallen' and f['year']==1998 and not any(c['person'].startswith('Noon') for c in f['credits']):
     f['credits'].append(dict(person='Noon Orsatti',role='Stunts',source='Orsatti family'))
 # --- one photo, one home: each photo appears in only its best-matching section
-OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'ernie-action.jpg':'M:World Series champion','Marie_McDonald.jpg':'M:"Husbands'}
+OWNER={'fam-cardinals-1934-team.jpg':'M:Gashouse Gang','fam-ernie-batting.jpg':'M:Best season','fam-ernie-ballpark-friends.jpg':'P:Ernie Orsatti','ernie-goudey-1933-pd.jpg':'M:MLB debut','fam-ruth-1934-ws.jpg':"M:Babe Ruth's bat",'Marie_McDonald.jpg':'M:"Husbands'}  # ernie-action.jpg dropped: duplicate of Ernie bio portrait crop
 def _key(src):return src.split('/')[-1].split('?')[0]
 def _ok(src,who):
   o=OWNER.get(_key(src));return o is None or who.startswith(o)
@@ -1084,5 +1084,34 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Project X' and f['year']==2012:
     f['credits']=[c for c in f['credits'] if c['person']!='Rowbie Orsatti']+[dict(person='Rowbie Orsatti',role='Stunt Double: Thomas Mann',source='Orsatti family; https://www.imdb.com/name/nm1769066/')]
+# --- Editorial cleanup: expanded bios, de-duplicated timeline cards, Poseidon/Mechanic/photo fixes
+# Lasting content lives in editorial_cleanup.json; this block applies it after all digs/mutations.
+_ED=json.load(open('editorial_cleanup.json'))
+for p in data['people']:
+  e=_ED['bios'].get(p['name'])
+  if e:
+    p['note']=e['note']
+    # Merge noteSources: keep any post-proposal dig sources, prefer editorial order first
+    p['noteSources']=list(dict.fromkeys(list(e.get('noteSources') or [])+list(p.get('noteSources') or [])))
+for m in data['milestones']:
+  e=_ED['milestones'].get(m['title'])
+  if e:
+    m['text']=e['text']
+    m['sources']=list(dict.fromkeys(list(e.get('sources') or [])+list(m.get('sources') or [])))
+    if 'flag' in e: m['flag']=e['flag']
+# World Series champion: ensure action duplicate removed even if reintroduced by photo maps
+for m in data['milestones']:
+  if m['title']==_ED['remove_photo']['milestone']:
+    m['photos']=[x for x in m.get('photos',[]) if x.get('src')!=_ED['remove_photo']['src']]
+# Mechanic: AFI credits Chicken Lickin driver only on 1972 original (afi_credits.json); strip copy-paste funfact from 2011 remake
+_my=_ED['mechanic_chicken_year']
+for f in data['films']:
+  if f['title']=='The Mechanic' and f.get('year')!=_my:
+    f['funFacts']=[x for x in f.get('funFacts',[]) if 'Chicken Lickin' not in x.get('text','')]
+# Poseidon: apply merged fun fact (Wikipedia credit source on Ernie F. still preserves that URL)
+for f in data['films']:
+  if f['title']=='The Poseidon Adventure':
+    f['funFacts']=list(_ED['poseidon_funfacts'])
+
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
