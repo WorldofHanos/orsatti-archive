@@ -1076,5 +1076,8 @@ for f in data['films']:
   if f['title']=='The Accountant' and f['year']==2016:
     for c in f['credits']:
       if c['person']=='Rowbie Orsatti':c['role']='Stunts (pre-vis)'
+for f in data['films']:
+  if f['title']=='The Falcon and the Winter Soldier' and f['year']==2021:
+    f['credits']=[c for c in f['credits'] if c['person']!='Rowbie Orsatti']+[dict(person='Rowbie Orsatti',role='Stunt Rigger',source='Orsatti family')]
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
