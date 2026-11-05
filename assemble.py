@@ -1072,5 +1072,9 @@ def _dd(o):
             else:_dd(v)
     elif isinstance(o,list):[_dd(x) for x in o]
 _dd(data)
+for f in data['films']:
+  if f['title']=='The Accountant' and f['year']==2016:
+    for c in f['credits']:
+      if c['person']=='Rowbie Orsatti':c['role']='Stunts (pre-vis)'
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
