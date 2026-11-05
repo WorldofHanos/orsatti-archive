@@ -47,6 +47,7 @@ FIX={'Cop & 1/2':dict(imdb='https://www.imdb.com/title/tt0106613/',poster='poste
 'Stop at Nothing':dict(boxOffice=None,boxOfficeSource=None),'Moonlight':dict(boxOffice=None,boxOfficeSource=None),
 'The Swarm':dict(boxOffice=None),'Highlander II: The Quickening':dict(boxOffice=None),
 'Avengers: Endgame':dict(boxOffice=2799439100,boxOfficeSource='https://en.wikipedia.org/wiki/Avengers:_Endgame')}
+cr=[c for c in cr if not (c['title']=='The Poseidon Adventure' and c['person'].startswith('Frank H.'))]
 for c in cr:
   c.update(FIX.get(c['title'],{}))
   if c['title']=='The Poseidon Adventure' and c['person'].startswith('Ernie F'): c['role']='Terry (actor) – performed the famous 32-ft skylight fall'
@@ -228,7 +229,7 @@ data['milestones']+= [
   text='Frank H. Orsatti was drafted by his father\'s Cardinals, but an injury in training ended that dream. He shipped out with the Merchant Marines and spent ten years working freighters. Back in Los Angeles he took his first stunt job on Planet of the Apes (1968), then worked Rosemary\'s Baby and Bullitt the same year.',
   sources=[SU,'https://www.imdb.com/name/nm0650685/bio/']),
  dict(year=1971,kind='milestone',title='Off the Golden Gate Bridge',
-  text='For B.S. I Love You, Frank H. Orsatti jumped off the Golden Gate Bridge. Stunts Unlimited lists it among the defining gags of a career that went on to The Poseidon Adventure, The Longest Yard, Lethal Weapon 2 and 3, Point Break and Con Air.',
+  text='For B.S. I Love You, Frank H. Orsatti jumped off the Golden Gate Bridge. Stunts Unlimited lists it among the defining gags of a career that went on to The Longest Yard, Lethal Weapon 2 and 3, Point Break and Con Air.',
   sources=[SU]),
  dict(year=1972,kind='milestone',title='"We\'ve all come to watch you die."',
   text='Ernie F. Orsatti was cast as an actor in The Poseidon Adventure, playing Terry, the boyfriend of Pamela Sue Martin\'s character. The day before the shoot, Irwin Allen told him he wanted him to do the fall. "I\'m not a stuntman," Ernie said. He did it anyway: hanging from an upside-down table, letting go, and dropping 32 feet onto his back through the ballroom skylight. Paul Stader\'s only advice: "Pick a point, look at it and let go." It knocked him "colder than a cucumber," and they got it in one take. Gene Hackman and Ernest Borgnine came in on their day off with their families. "We\'ve all come to watch you die," Hackman told him, and took pictures. Afterwards, Ernie said, nobody called him an actor again: "you\'re the guy who did the stunt in The Poseidon Adventure, you\'re a stuntman – I wish I\'d found that out years earlier because I\'d be richer."',
