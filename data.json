@@ -9501,6 +9501,26 @@
    ],
    "funFacts": [],
    "media": []
+  },
+  {
+   "title": "John Rambo",
+   "year": 2027,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Orsatti family",
+     "role": "Family member and role to be confirmed (upcoming, 2027)",
+     "source": "Orsatti family; release date: https://en.wikipedia.org/wiki/John_Rambo_(film)"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   }
  ],
  "milestones": [
@@ -10632,7 +10652,7 @@
  "boxOfficeSummary": {
   "total": 17036378244,
   "withData": 182,
-  "films": 335,
+  "films": 336,
   "tvShows": 71,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
