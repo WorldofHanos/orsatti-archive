@@ -987,6 +987,30 @@ for m in data['milestones']:
     if 'Kefauver' not in m['text']:m['text']+=a
     _ph(m,'photos/kefauver-report-1951-p64-orsatti-phonovision-costello.jpg','Kefauver Committee report, 1951, p. 64: Phono-Vision\'s California parent was a company "of which Frank Orsatti was president; Frank Orsatti brought Sherman into contact with Frank Costello," who sought the Louisiana distributorship for "Dandy Phil" Kastel.',_K);_seen.add(t)
 assert len(_seen)==5,_seen
+# --- mob dig: new Phonovision trade-press, Capone context photo, Photoplay wedding page
+_FD='The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244'
+_FDA='The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122'
+_LOC='Library of Congress: https://www.loc.gov/item/99472813/'
+_PP='Photoplay, Aug 1937, p. 60'
+_seen2=set()
+for m in data['milestones']:
+  t=m['title']
+  if t=='Phonovision':
+    a=(' Frank told The Film Daily that distribution contracts had been signed with representatives in every state and that some 40,000 sets had already been leased;'
+       ' the partners leased the Edison studio in New York for production, Sax signed bandleader Abe Lyman for the first Phonovision short, and the first public showing was set for Jack Dempsey\'s restaurant.'
+       ' Trade ads placed the Phonovision Corporation of America at 9130 Sunset Boulevard.')
+    if 'Abe Lyman' not in m['text']:
+      i=m['text'].find(' The Senate');m['text']=m['text'][:i]+a+m['text'][i:] if i>0 else m['text']+a
+    _ph(m,'photos/phonovision-40k-headline-filmdaily-p1.jpg','"40,000 Phonovision Sets Leased, Asserts Orsatti" – The Film Daily, front page, June 1940',_FD)
+    _ph(m,'photos/phonovision-40k-sets-orsatti-filmdaily.jpg','The 40,000-sets story continued: the partners "had leased the Edison studio here for production," with the first public showing "at Dempsey\'s restaurant"',_FD)
+    _ph(m,'photos/phonovision-abe-lyman-orsatti-sax-filmdaily.jpg','"Sax Signs Abe Lyman For Phonovision Short" – Sam Sax, "partner with Frank Orsatti in the venture," lines up "name" bands for the nickel-in-the-slot talking movie machine',_FD)
+    _ph(m,'photos/phonovision-ad-filmdaily.jpg','"A New and Sensational Idea Takes a Bow" – Phonovision Corporation of America trade ad, 9130 Sunset Blvd., Los Angeles',_FDA);_seen2.add(t)
+  if t=='The Caress kidnapping trial':
+    _ph(m,'photos/al-capone-sonny-gabby-hartnett-1931-loc.jpg','Period context: Al Capone and his son Sonny with Cubs catcher Gabby Hartnett at a 1931 Cubs–White Sox charity game in Chicago (not an Orsatti event)',_LOC);_seen2.add(t)
+  if t=='An all-star wedding':
+    m['text']=m['text'].replace('In May 1937 Vic Orsatti married','On May 29, 1937, Vic Orsatti married')
+    _ph(m,'photos/june-lang-vic-wedding-bridesmaids-photoplay-1937-08.jpg','"June\'s Wedding" – Photoplay on "a \'June\' wedding on May 29th of that popular couple, June Lang and Vic Orsatti," with the kiss-at-the-altar close-up; Shirley Temple\'s parents and Anne Shirley were among the guests',_PP);_seen2.add(t)
+assert len(_seen2)==3,_seen2
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():

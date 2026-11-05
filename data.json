@@ -10163,7 +10163,8 @@
     "https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/",
     "https://openjurist.org/132/calapp/360/people-v-frank-3295572",
     "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/",
-    "Jonathan Marshall, Mexico and the International Narcotics Traffic, 1920-1976: https://www.researchgate.net/profile/Jonathan-Marshall-8/publication/343815415_Mexico_and_the_International_Narcotics_Traffic_1920-1976/links/5f5be5e5299bf1d43cfc9ad2/Mexico-and-the-International-Narcotics-Traffic-1920-1976.pdf"
+    "Jonathan Marshall, Mexico and the International Narcotics Traffic, 1920-1976: https://www.researchgate.net/profile/Jonathan-Marshall-8/publication/343815415_Mexico_and_the_International_Narcotics_Traffic_1920-1976/links/5f5be5e5299bf1d43cfc9ad2/Mexico-and-the-International-Narcotics-Traffic-1920-1976.pdf",
+    "Library of Congress: https://www.loc.gov/item/99472813/"
    ],
    "photos": [
     {
@@ -10175,6 +10176,11 @@
      "src": "photos/cabaria-cafe-raid-1923-clipping.jpg",
      "caption": "Vice Squad Again Raids Cabaria Cafe, 1923: co-owner Jesse Orsatti arrested; partner Les Bruneman was arrested in an earlier raid.",
      "source": "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/"
+    },
+    {
+     "src": "photos/al-capone-sonny-gabby-hartnett-1931-loc.jpg",
+     "caption": "Period context: Al Capone and his son Sonny with Cubs catcher Gabby Hartnett at a 1931 Cubs–White Sox charity game in Chicago (not an Orsatti event)",
+     "source": "Library of Congress: https://www.loc.gov/item/99472813/"
     }
    ]
   },
@@ -10215,12 +10221,14 @@
    "year": 1940,
    "kind": "business",
    "title": "Phonovision",
-   "text": "Frank Orsatti and Sam Sax brought Phonovision to New York: a coin-operated, nickel-in-the-slot movie machine built for cocktail lounges and hotels. They demonstrated it at the Sherry-Netherland, with Solly Freedman also part of the venture. The Senate's Kefauver Committee later reported that Irving Sherman returned to New York in 1940 as general manager of Phono-Vision Co., a subsidiary of the California company of which Frank Orsatti was president, and that Frank brought Sherman into contact with Frank Costello. Sherman negotiated with Costello over the Louisiana distributorship for the 10-cent movie machines, which Costello wanted for \"Dandy Phil\" Kastel.",
+   "text": "Frank Orsatti and Sam Sax brought Phonovision to New York: a coin-operated, nickel-in-the-slot movie machine built for cocktail lounges and hotels. They demonstrated it at the Sherry-Netherland, with Solly Freedman also part of the venture. Frank told The Film Daily that distribution contracts had been signed with representatives in every state and that some 40,000 sets had already been leased; the partners leased the Edison studio in New York for production, Sax signed bandleader Abe Lyman for the first Phonovision short, and the first public showing was set for Jack Dempsey's restaurant. Trade ads placed the Phonovision Corporation of America at 9130 Sunset Boulevard. The Senate's Kefauver Committee later reported that Irving Sherman returned to New York in 1940 as general manager of Phono-Vision Co., a subsidiary of the California company of which Frank Orsatti was president, and that Frank brought Sherman into contact with Frank Costello. Sherman negotiated with Costello over the Louisiana distributorship for the 10-cent movie machines, which Costello wanted for \"Dandy Phil\" Kastel.",
    "sources": [
     "https://lantern.mediahist.org/catalog/filmdail77wids_0244",
     "https://lantern.mediahist.org/catalog/motionpictureher139unse_0152",
     "https://lantern.mediahist.org/catalog/boxofficeaprjun13637unse_0603",
-    "Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64"
+    "Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64",
+    "The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244",
+    "The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122"
    ],
    "photos": [
     {
@@ -10242,6 +10250,26 @@
      "src": "photos/kefauver-report-1951-p64-orsatti-phonovision-costello.jpg",
      "caption": "Kefauver Committee report, 1951, p. 64: Phono-Vision's California parent was a company \"of which Frank Orsatti was president; Frank Orsatti brought Sherman into contact with Frank Costello,\" who sought the Louisiana distributorship for \"Dandy Phil\" Kastel.",
      "source": "Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64"
+    },
+    {
+     "src": "photos/phonovision-40k-headline-filmdaily-p1.jpg",
+     "caption": "\"40,000 Phonovision Sets Leased, Asserts Orsatti\" – The Film Daily, front page, June 1940",
+     "source": "The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244"
+    },
+    {
+     "src": "photos/phonovision-40k-sets-orsatti-filmdaily.jpg",
+     "caption": "The 40,000-sets story continued: the partners \"had leased the Edison studio here for production,\" with the first public showing \"at Dempsey's restaurant\"",
+     "source": "The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244"
+    },
+    {
+     "src": "photos/phonovision-abe-lyman-orsatti-sax-filmdaily.jpg",
+     "caption": "\"Sax Signs Abe Lyman For Phonovision Short\" – Sam Sax, \"partner with Frank Orsatti in the venture,\" lines up \"name\" bands for the nickel-in-the-slot talking movie machine",
+     "source": "The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244"
+    },
+    {
+     "src": "photos/phonovision-ad-filmdaily.jpg",
+     "caption": "\"A New and Sensational Idea Takes a Bow\" – Phonovision Corporation of America trade ad, 9130 Sunset Blvd., Los Angeles",
+     "source": "The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122"
     }
    ]
   },
@@ -10330,10 +10358,11 @@
    "year": 1937,
    "kind": "milestone",
    "title": "An all-star wedding",
-   "text": "In May 1937 Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
+   "text": "On May 29, 1937, Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
    "sources": [
     "Chicago Sunday Tribune, June 20, 1937, p. 6: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf",
-    "Hollywood magazine Vol. 26 (1937), p. 14: https://archive.org/details/hollywood26fawc/page/n580"
+    "Hollywood magazine Vol. 26 (1937), p. 14: https://archive.org/details/hollywood26fawc/page/n580",
+    "Photoplay, Aug 1937, p. 60"
    ],
    "photos": [
     {
@@ -10345,6 +10374,11 @@
      "src": "photos/vic-june-lang-wedding-dance-trocadero-1937.jpg",
      "caption": "June Lang and Vic Orsatti dance at their wedding reception at the Trocadero",
      "source": "Hollywood magazine Vol. 26 (1937), p. 14: https://archive.org/details/hollywood26fawc/page/n580"
+    },
+    {
+     "src": "photos/june-lang-vic-wedding-bridesmaids-photoplay-1937-08.jpg",
+     "caption": "\"June's Wedding\" – Photoplay on \"a 'June' wedding on May 29th of that popular couple, June Lang and Vic Orsatti,\" with the kiss-at-the-altar close-up; Shirley Temple's parents and Anne Shirley were among the guests",
+     "source": "Photoplay, Aug 1937, p. 60"
     }
    ]
   },
