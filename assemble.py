@@ -678,7 +678,7 @@ for t,y,tm,po,role,src in [
  ('Lethal Weapon',2016,'67116-lethal-weapon','lethal-weapon-s1','Stunts (1 ep, 2016: Pilot)','https://www.imdb.com/title/tt5473122/fullcredits/'),
  ('Jane the Virgin',2016,'61418-jane-the-virgin','jane-the-virgin','Stunts (1 ep, 2016)','https://www.metacritic.com/tv/jane-the-virgin/credits/'),
  ('S.W.A.T.',2019,'71790-s-w-a-t','swat-2017','Stunts (1 ep, 2019)','https://www.fernsehserien.de/rowbie-orsatti/filmografie'),
- ('The Orville',2019,'71738-the-orville','the-orville-s2','Stunts (1 ep, 2019)','https://www.fernsehserien.de/rowbie-orsatti/filmografie'),
+ ('The Orville',2019,'71738-the-orville','the-orville-s2','Stunts (2 episodes)','https://www.fernsehserien.de/rowbie-orsatti/filmografie; https://www.imdb.com/title/tt5691552/'),
  ('The Bernie Mac Show',2001,'1693-the-bernie-mac-show','bernie-mac-s1','Stunts (2 eps, 2001)','https://www.imdb.com/title/tt0285341/fullcredits/'),
  ('Grounded for Life',2001,'4731-grounded-for-life','grounded-for-life-s1','Stunt double: Griffin Frazen (1 ep, 2001)','https://www.imdb.com/title/tt0255734/fullcredits'),
  ('Murder in the First',2015,'60129-murder-in-the-first','murder-in-the-first-s2','Stunts (1 ep, 2015: "Twenty-Fifteen")','https://www.imdb.com/title/tt4034322/fullcredits/'),
