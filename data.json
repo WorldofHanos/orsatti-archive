@@ -7965,8 +7965,8 @@
    "year": 2024,
    "type": "movie",
    "tmdb": null,
-   "imdb": null,
-   "poster": "posters/the-middle-2024-titlecard.jpg",
+   "imdb": "https://www.imdb.com/title/tt31064394/",
+   "poster": "posters/the-middle-2024-short.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -7974,7 +7974,7 @@
     {
      "person": "Rowbie Orsatti",
      "role": "Stunt Coordinator (short)",
-     "source": "https://www.imdb.com/name/nm1769066/"
+     "source": "https://www.imdb.com/title/tt31064394/; Orsatti family"
     }
    ],
    "funFacts": [],

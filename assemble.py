@@ -688,7 +688,10 @@ for t,y,tm,po,role,src in [
   if not f.get('years') and f['year']!=y and y not in (f.get('years') or []):f['years']=sorted({f['year'],y})
 _film('Grounded for Life',2001,'tv',None,None,[dict(person='Noon Orsatti',role='Fight choreographer (1 ep, 2001)',source='https://www.imdb.com/title/tt0255734/fullcredits')])
 for f in data['films']:
-  if f['title']=='The Middle' and f['year']==2024 and not f['poster']:f['poster']='posters/the-middle-2024-titlecard.jpg'
+  if f['title']=='The Middle' and f['year']==2024:
+    f['poster']='posters/the-middle-2024-short.jpg';f['imdb']='https://www.imdb.com/title/tt31064394/'
+    for c in f['credits']:
+      if c['person'].startswith('Rowbie'):c['role']='Stunt Coordinator (short)';c['source']='https://www.imdb.com/title/tt31064394/; Orsatti family'
 # --- Noon filmography sweep (TV Guide/Metacritic/TVmaze/production credits; family)
 NS='Orsatti family; '
 for t,y,typ,tm,po,role,src in [
