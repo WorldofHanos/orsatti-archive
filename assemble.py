@@ -426,6 +426,7 @@ for f in data['films']:
     for c in f['credits']:
       if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator · Second Unit Director';c['source']='https://variety.com/1995/film/reviews/tall-tale-the-unbelievable-adventures-of-pecos-bill-1200441007/; https://www.imdb.com/title/tt0111359/fullcredits/'
     f['credits']=[c for c in f['credits'] if not c['person'].startswith('Noon')]+[dict(person='Noon Orsatti',role='Stunts · Additional Stunt Coordinator',source='https://www.imdb.com/title/tt0111359/fullcredits/; Orsatti family')]
+    f['media']=[x for x in f.get('media',[]) if x.get('url')!='https://variety.com/1995/film/reviews/tall-tale-the-unbelievable-adventures-of-pecos-bill-1200441007/']+[dict(type='link',title='Variety review (Mar 19, 1995)',url='https://variety.com/1995/film/reviews/tall-tale-the-unbelievable-adventures-of-pecos-bill-1200441007/',note='Joe Leydon calls it "a lavishly produced, robustly entertaining Old West fantasy"; credits list "second unit director/stunt coordinator, Ernie Orsatti."')]
 # --- Larger Than Life (family)
 for f in data['films']:
   if f['title']=='Larger Than Life' and not any(c['person'].startswith('Noon') for c in f['credits']):
