@@ -973,7 +973,7 @@ for m in data['milestones']:
   t=m['title']
   if t=="Ernie Orsatti's Oddity Shop and Florist":
     m['text']=m['text'].replace("on Sunset Boulevard with his brothers-in-law.","at 9130 Sunset Boulevard with his brothers-in-law – the same Sunset Strip address the family's talent agency used in the 1940s.")
-    _ph(m,'photos/ernie-orsatti-oddity-shop-9130-sunset-ad-house-beautiful-1946-04.jpg','House Beautiful ad listing Ernie Orsatti Oddity Shop, 9130 Sunset Boulevard, Hollywood','House Beautiful, April 1946, p. 65');_seen.add(t)
+    _ph(m,'photos/ernie-orsatti-oddity-shop-9130-sunset-ad-house-beautiful-1946-04.jpg','House Beautiful ad listing Ernie Orsatti Oddity Shop, 9130 Sunset Boulevard, Hollywood','House Beautiful, April 1946, p. 65: https://archive.org/details/housebeautiful88jannewy/page/n552');_seen.add(t)
   if t=='Gashouse Gang – 1934 champions':
     _ph(m,'photos/ernie-orsatti-frisch-deans-union-station-stlpd-1934-10-02.jpg','Manager Frankie Frisch, Ernie Orsatti (at left) and Paul and Dizzy Dean waving goodbye at Union Station as the Cardinals left for the World Series','St. Louis Post-Dispatch, Oct 2, 1934');_seen.add(t)
   if t=='Frank Orsatti dies':
