@@ -10228,7 +10228,8 @@
     "https://lantern.mediahist.org/catalog/boxofficeaprjun13637unse_0603",
     "Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64",
     "The Film Daily, June 1940: https://archive.org/details/filmdail77wids",
-    "The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122"
+    "The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122",
+    "Library of Congress: https://www.loc.gov/item/98506867/"
    ],
    "photos": [
     {
@@ -10270,6 +10271,11 @@
      "src": "photos/phonovision-ad-filmdaily.jpg",
      "caption": "\"A New and Sensational Idea Takes a Bow\" – Phonovision Corporation of America trade ad, 9130 Sunset Blvd., Los Angeles",
      "source": "The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122"
+    },
+    {
+     "src": "photos/frank-costello-kefauver-1951-commons.jpg",
+     "caption": "Frank Costello testifying before the Kefauver Committee, 1951 – the investigation whose report said Frank Orsatti brought Irving Sherman into contact with Costello over Phonovision (photo: Al Aumuller, New York World-Telegram & Sun)",
+     "source": "Library of Congress: https://www.loc.gov/item/98506867/"
     }
    ]
   },

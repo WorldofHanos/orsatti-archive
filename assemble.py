@@ -1011,6 +1011,9 @@ for m in data['milestones']:
     m['text']=m['text'].replace('In May 1937 Vic Orsatti married','On May 29, 1937, Vic Orsatti married')
     _ph(m,'photos/june-lang-vic-wedding-bridesmaids-photoplay-1937-08.jpg','"June\'s Wedding" – Photoplay on "a \'June\' wedding on May 29th of that popular couple, June Lang and Vic Orsatti," with the kiss-at-the-altar close-up; Shirley Temple\'s parents and Anne Shirley were among the guests',_PP);_seen2.add(t)
 assert len(_seen2)==3,_seen2
+for m in data['milestones']:
+  if m['title']=='Phonovision':
+    _ph(m,'photos/frank-costello-kefauver-1951-commons.jpg','Frank Costello testifying before the Kefauver Committee, 1951 – the investigation whose report said Frank Orsatti brought Irving Sherman into contact with Costello over Phonovision (photo: Al Aumuller, New York World-Telegram & Sun)','Library of Congress: https://www.loc.gov/item/98506867/')
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():
