@@ -177,12 +177,17 @@
    "photos": []
   },
   {
-   "name": "Frank Orsatti (agent)",
+   "name": "Frank P. Orsatti (agent)",
+   "birthName": "Frank Paul Orsatti",
+   "nameSources": [
+    "Social Security NUMIDENT (public deceased file): Frank Paul Orsatti, b. 22 Feb 1894 Philadelphia, son of Morris Orsatti and Maria A. Manze; SSN 561-18-2853",
+    "Find a Grave family links on Ernie Orsatti / Victor M. Orsatti memorials naming sibling Frank Paul Orsatti (1893–1947)"
+   ],
    "year": 1930,
    "relation": "Brother of Ernie Orsatti",
    "relationSource": "Wikipedia; SABR",
    "imdb": "https://www.imdb.com/name/nm0650684/",
-   "note": "Frank founded the Orsatti Agency in 1930 after a career described as bootlegging. Trade papers trace its beginnings to Bren, Weber & Orsatti; he subsequently bought out his partners and brought in brothers Al, Vic and Ernie. His clients included Judy Garland, and his business expanded beyond talent representation into Phonovision and theater candy advertising.\n\nHis association with MGM ranged from project development to a reputation as a fixer for Louis B. Mayer. Biographer Bosley Crowther called him one of Mayer’s closest companions and wrote that agents doing business at MGM had to split their fees with him. Allegations about supplying Mayer with alcohol and women are attributed to author Tim Adler, not presented as court findings; the dated timeline cards retain those accounts and their caveats.\n\nFrank died of a heart attack at his Santa Monica beach home on May 19, 1947. His brother Jesse ‘Cheesy’ Orsatti was convicted in 1932 in the Caress kidnapping case and sent to San Quentin. This Frank was the agent, not his nephew Frank H. Orsatti the stuntman.",
+   "note": "Frank P. founded the Orsatti Agency in 1930 after a career described as bootlegging. Trade papers trace its beginnings to Bren, Weber & Orsatti; he subsequently bought out his partners and brought in brothers Al, Vic and Ernie. His clients included Judy Garland, and his business expanded beyond talent representation into Phonovision and theater candy advertising.\n\nHis association with MGM ranged from project development to a reputation as a fixer for Louis B. Mayer. Biographer Bosley Crowther called him one of Mayer’s closest companions and wrote that agents doing business at MGM had to split their fees with him. Allegations about supplying Mayer with alcohol and women are attributed to author Tim Adler, not presented as court findings; the dated timeline cards retain those accounts and their caveats.\n\nFrank P. died of a heart attack at his Santa Monica beach home on May 19, 1947. His brother Jesse ‘Cheesy’ Orsatti was convicted in 1932 in the Caress kidnapping case and sent to San Quentin. This Frank P. was the agent, not his nephew Frank H. Orsatti the stuntman.",
    "photos": [
     {
      "src": "photos/jean-chatburn-mrs-frank-orsatti-tribune-1937-10-10.jpg",
@@ -265,7 +270,7 @@
    "photos": [
     {
      "src": "photos/hulk-set-frank-manny-lou.jpg",
-     "caption": "Lou Ferrigno, Frank Orsatti and Manny Perry on the set of The Incredible Hulk.",
+     "caption": "Lou Ferrigno, Frank H. Orsatti and Manny Perry on the set of The Incredible Hulk.",
      "source": "Orsatti family"
     },
     {
@@ -281,7 +286,7 @@
    "photoLinks": [],
    "video": {
     "id": "4KWnJ1wcftM",
-    "caption": "Frank Orsatti named an honorary member of Stunts Unlimited (2019)",
+    "caption": "Frank H. Orsatti named an honorary member of Stunts Unlimited (2019)",
     "url": "https://www.youtube.com/watch?v=4KWnJ1wcftM"
    }
   },
@@ -530,7 +535,7 @@
    "boxOfficeSource": "https://en.wikipedia.org/wiki/The_Irish_in_Us",
    "credits": [
     {
-     "person": "Frank Orsatti (agent)",
+     "person": "Frank P. Orsatti (agent)",
      "role": "Writer (story)",
      "source": "https://www.imdb.com/name/nm0650684/"
     },
@@ -9624,7 +9629,7 @@
   {
    "year": 1978,
    "kind": "quote",
-   "title": "\"Frank Orsatti created a stunt legacy.\"",
+   "title": "\"Frank H. Orsatti created a stunt legacy.\"",
    "text": "\"…he gave so many second unit directors and stunt coordinators their first breaks as stunt performers, myself included.\" – Manny Perry, Stunts Unlimited, on being hired by Frank to double Lou Ferrigno on The Incredible Hulk.",
    "sources": [
     "https://stuntsunlimited.com/frank-orsatti-honorary/"
@@ -9992,8 +9997,8 @@
   {
    "year": 1930,
    "kind": "business",
-   "title": "Frank Orsatti opens the Orsatti Agency",
-   "text": "\"In 1930, their son Frank, a former bootlegger, went into the agency business and brought in his brothers Al, Victor and Ernie. The Orsatti Agency represented actors, executives, producers, directors, writers and radio talent.\" Trade papers record that Frank, a former real estate operator, entered the business in 1930 as Bren, Weber & Orsatti, then bought out his partners and brought in his brothers Victor, Ernie and Al. The agency climbed the Sunset Strip as it grew: from 7608 Sunset to 9000 and 9121 Sunset in the 1930s, then 9130 Sunset Boulevard in the 1940s. Around 1950 it moved to 300 S. Beverly Drive in Beverly Hills, its home into the 1960s.",
+   "title": "Frank P. Orsatti opens the Orsatti Agency",
+   "text": "\"In 1930, their son Frank, a former bootlegger, went into the agency business and brought in his brothers Al, Victor and Ernie. The Orsatti Agency represented actors, executives, producers, directors, writers and radio talent.\" Trade papers record that Frank P., a former real estate operator, entered the business in 1930 as Bren, Weber & Orsatti, then bought out his partners and brought in his brothers Victor, Ernie and Al. The agency climbed the Sunset Strip as it grew: from 7608 Sunset to 9000 and 9121 Sunset in the 1930s, then 9130 Sunset Boulevard in the 1940s. Around 1950 it moved to 300 S. Beverly Drive in Beverly Hills, its home into the 1960s.",
    "sources": [
     "Tom Weaver, David Schecter & Robert J. Kiss, Universal Terrors, 1951–1955 (McFarland, 2017), This Island Earth chapter",
     "Orsatti family",
@@ -10051,8 +10056,8 @@
   {
    "year": 1937,
    "kind": "mob",
-   "title": "Frank Orsatti & the Wizard of Oz",
-   "text": "Agent Frank Orsatti told MGM producer Arthur Freed that Samuel Goldwyn held the rights to The Wizard of Oz – the film that made Orsatti client Judy Garland a legend. Vic Orsatti negotiated her Dorothy contract.",
+   "title": "Frank P. Orsatti & the Wizard of Oz",
+   "text": "Agent Frank P. Orsatti told MGM producer Arthur Freed that Samuel Goldwyn held the rights to The Wizard of Oz – the film that made Orsatti client Judy Garland a legend. Vic Orsatti negotiated her Dorothy contract.",
    "sources": [
     "https://web.archive.org/web/20070907233032/http:/thewizardofoz.warnerbros.com/movie/cmp/timeline.html",
     "https://en.wikipedia.org/wiki/Victor_Orsatti"
@@ -10069,7 +10074,7 @@
    "year": 1938,
    "kind": "mob",
    "title": "\"Handling all of MGM's dirty work\"",
-   "text": "Author Tim Adler (Hollywood and the Mob, 2011) called Frank Orsatti \"a bootlegger and gangster\" who got into the movie business by supplying Louis B. Mayer with alcohol and women, with a reputation for \"handling all of MGM's 'dirty work'.\" Adler called Vic a \"gangster-cum-agent.\" Allegations from one author, not court findings.",
+   "text": "Author Tim Adler (Hollywood and the Mob, 2011) called Frank P. Orsatti \"a bootlegger and gangster\" who got into the movie business by supplying Louis B. Mayer with alcohol and women, with a reputation for \"handling all of MGM's 'dirty work'.\" Adler called Vic a \"gangster-cum-agent.\" Allegations from one author, not court findings.",
    "sources": [
     "https://en.wikipedia.org/wiki/Victor_Orsatti"
    ],
@@ -10122,7 +10127,7 @@
    "year": 1947,
    "kind": "mob",
    "title": "The Bugsy Siegel connection",
-   "text": "A fan-history site claims that during Marie McDonald's 1947 Las Vegas divorce stay from Vic Orsatti she rode the Flamingo Hotel float for Siegel – that detail is from a non-scholarly source. Testimony before the Senate's Kefauver Committee tied Frank Orsatti to Siegel directly: Irving Sherman, who was in California from 1937 to 1940, said he became friendly with Benjamin \"Bugsy\" Siegel and went to the track with him, and that Frank Orsatti, of the Orsatti Bros. Theatrical Agency, introduced them.",
+   "text": "A fan-history site claims that during Marie McDonald's 1947 Las Vegas divorce stay from Vic Orsatti she rode the Flamingo Hotel float for Siegel – that detail is from a non-scholarly source. Testimony before the Senate's Kefauver Committee tied agent Frank P. Orsatti to Siegel directly: Irving Sherman, who was in California from 1937 to 1940, said he became friendly with Benjamin \"Bugsy\" Siegel and went to the track with him, and that Frank Orsatti, of the Orsatti Bros. Theatrical Agency, introduced them.",
    "sources": [
     "https://en.wikipedia.org/wiki/Victor_Orsatti",
     "http://www.glamourgirlsofthesilverscreen.com/show/183/Marie++McDonald/",
@@ -10460,7 +10465,7 @@
    "year": 1932,
    "kind": "mob",
    "title": "The Caress kidnapping trial",
-   "text": "The family had its Prohibition-era wild side. As early as 1923, Jesse \"Cheesy\" Orsatti, brother of agent Frank Orsatti, co-owned the Cabaria Cafe on North Main Street with gambler Les Bruneman. He later joined a gang led by Ralph Sheldon, a Capone mob veteran from Chicago. In December 1930, Hollywood bookmaker E.L. \"Zeke\" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sentenced to 10 years at San Quentin. The Caresses were held at a house at 4700 Templeton Street in El Sereno. Even after the Long Beach shootout, the gang collected $20,000 by threatening to cut off Mrs. Caress's ears. Jerry Giesler led the defense. A fourth man, Joseph P. Baillie, was convicted and sentenced to life in October 1932. That April, prosecutors uncovered a plot to kidnap Sheriff Traeger, Undersheriff Biscailuz and a jailer to free Sheldon and Frank; DA Buron Fitts blamed Chicago gangsters and had the pair moved to San Quentin.",
+   "text": "The family had its Prohibition-era wild side. As early as 1923, Jesse \"Cheesy\" Orsatti, brother of agent Frank P. Orsatti, co-owned the Cabaria Cafe on North Main Street with gambler Les Bruneman. He later joined a gang led by Ralph Sheldon, a Capone mob veteran from Chicago. In December 1930, Hollywood bookmaker E.L. \"Zeke\" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sentenced to 10 years at San Quentin. The Caresses were held at a house at 4700 Templeton Street in El Sereno. Even after the Long Beach shootout, the gang collected $20,000 by threatening to cut off Mrs. Caress's ears. Jerry Giesler led the defense. A fourth man, Joseph P. Baillie, was convicted and sentenced to life in October 1932. That April, prosecutors uncovered a plot to kidnap Sheriff Traeger, Undersheriff Biscailuz and a jailer to free Sheldon and Frank; DA Buron Fitts blamed Chicago gangsters and had the pair moved to San Quentin.",
    "sources": [
     "Orsatti family",
     "https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/",
@@ -10498,7 +10503,7 @@
    "year": 1938,
    "kind": "business",
    "title": "A letter from Louis B. Mayer",
-   "text": "On September 29, 1938, Louis B. Mayer wrote to Frank Orsatti at the agency's 9121 Sunset Boulevard office about reviving a film on the life of General John J. Pershing, based on the General's memoirs, My Experiences in the World War. Frank had arranged a conference for MGM with Captain Julius Klein and Geza Herczeg, but the project stalled after Irving Thalberg's death and the General's illness. Mayer called the picture \"an everlasting monument\" to Pershing and the A.E.F., and asked Frank to win the General's consent while the project stayed strictly confidential.",
+   "text": "On September 29, 1938, Louis B. Mayer wrote to Frank P. Orsatti at the agency's 9121 Sunset Boulevard office about reviving a film on the life of General John J. Pershing, based on the General's memoirs, My Experiences in the World War. Frank had arranged a conference for MGM with Captain Julius Klein and Geza Herczeg, but the project stalled after Irving Thalberg's death and the General's illness. Mayer called the picture \"an everlasting monument\" to Pershing and the A.E.F., and asked Frank to win the General's consent while the project stayed strictly confidential.",
    "sources": [
     "Orsatti family"
    ],
@@ -10514,7 +10519,7 @@
    "year": 1934,
    "kind": "business",
    "title": "Bren, Orsatti & Marx",
-   "text": "Zeppo Marx, fresh from the Marx Brothers act, joined agents Milton Bren and Frank Orsatti as a partner, and the firm announced the new name Bren, Orsatti & Marx in a full-page Hollywood Reporter ad. Later in 1934 the firm split into the Milton Bren Company and Orsatti and Company.",
+   "text": "Zeppo Marx, fresh from the Marx Brothers act, joined agents Milton Bren and Frank P. Orsatti as a partner, and the firm announced the new name Bren, Orsatti & Marx in a full-page Hollywood Reporter ad. Later in 1934 the firm split into the Milton Bren Company and Orsatti and Company.",
    "sources": [
     "https://lantern.mediahist.org/catalog/hollywoodreporte1821holl_0801",
     "https://lantern.mediahist.org/catalog/hollywoodreporte1821holl_1472"
@@ -10531,7 +10536,7 @@
    "year": 1940,
    "kind": "business",
    "title": "Phonovision",
-   "text": "Frank Orsatti and Sam Sax brought Phonovision to New York: a coin-operated, nickel-in-the-slot movie machine built for cocktail lounges and hotels. They demonstrated it at the Sherry-Netherland, with Solly Freedman also part of the venture. Frank told The Film Daily that distribution contracts had been signed with representatives in every state and that some 40,000 sets had already been leased; the partners leased the Edison studio in New York for production, Sax signed bandleader Abe Lyman for the first Phonovision short, and the first public showing was set for Jack Dempsey's restaurant. Trade ads placed the Phonovision Corporation of America at 9130 Sunset Boulevard. The Senate's Kefauver Committee later reported that Irving Sherman returned to New York in 1940 as general manager of Phono-Vision Co., a subsidiary of the California company of which Frank Orsatti was president, and that Frank brought Sherman into contact with Frank Costello. Sherman negotiated with Costello over the Louisiana distributorship for the 10-cent movie machines, which Costello wanted for \"Dandy Phil\" Kastel.",
+   "text": "Frank P. Orsatti and Sam Sax brought Phonovision to New York: a coin-operated, nickel-in-the-slot movie machine built for cocktail lounges and hotels. They demonstrated it at the Sherry-Netherland, with Solly Freedman also part of the venture. Frank P. told The Film Daily that distribution contracts had been signed with representatives in every state and that some 40,000 sets had already been leased; the partners leased the Edison studio in New York for production, Sax signed bandleader Abe Lyman for the first Phonovision short, and the first public showing was set for Jack Dempsey's restaurant. Trade ads placed the Phonovision Corporation of America at 9130 Sunset Boulevard. The Senate's Kefauver Committee later reported that Irving Sherman returned to New York in 1940 as general manager of Phono-Vision Co., a subsidiary of the California company of which Frank P. Orsatti was president, and that Frank brought Sherman into contact with Frank Costello. Sherman negotiated with Costello over the Louisiana distributorship for the 10-cent movie machines, which Costello wanted for \"Dandy Phil\" Kastel.",
    "sources": [
     "https://lantern.mediahist.org/catalog/filmdail77wids_0244",
     "https://lantern.mediahist.org/catalog/motionpictureher139unse_0152",
@@ -10559,7 +10564,7 @@
     },
     {
      "src": "photos/kefauver-report-1951-p64-orsatti-phonovision-costello.jpg",
-     "caption": "Kefauver Committee report, 1951, p. 64: Phono-Vision's California parent was a company \"of which Frank Orsatti was president; Frank Orsatti brought Sherman into contact with Frank Costello,\" who sought the Louisiana distributorship for \"Dandy Phil\" Kastel.",
+     "caption": "Kefauver Committee report, 1951, p. 64: Phono-Vision's California parent was a company \"of which Frank P. Orsatti was president; Frank P. Orsatti brought Sherman into contact with Frank Costello,\" who sought the Louisiana distributorship for \"Dandy Phil\" Kastel.",
      "source": "Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64"
     },
     {
@@ -10574,7 +10579,7 @@
     },
     {
      "src": "photos/phonovision-abe-lyman-orsatti-sax-filmdaily.jpg",
-     "caption": "\"Sax Signs Abe Lyman For Phonovision Short\" – Sam Sax, \"partner with Frank Orsatti in the venture,\" lines up \"name\" bands for the nickel-in-the-slot talking movie machine",
+     "caption": "\"Sax Signs Abe Lyman For Phonovision Short\" – Sam Sax, \"partner with Frank P. Orsatti in the venture,\" lines up \"name\" bands for the nickel-in-the-slot talking movie machine",
      "source": "The Film Daily, June 1940: https://archive.org/details/filmdail77wids"
     },
     {
@@ -10584,7 +10589,7 @@
     },
     {
      "src": "photos/frank-costello-kefauver-1951-commons.jpg",
-     "caption": "Frank Costello testifying before the Kefauver Committee, 1951 – the investigation whose report said Frank Orsatti brought Irving Sherman into contact with Costello over Phonovision (photo: Al Aumuller, New York World-Telegram & Sun)",
+     "caption": "Frank Costello testifying before the Kefauver Committee, 1951 – the investigation whose report said Frank P. Orsatti brought Irving Sherman into contact with Costello over Phonovision (photo: Al Aumuller, New York World-Telegram & Sun)",
      "source": "Library of Congress: https://www.loc.gov/item/98506867/"
     }
    ]
@@ -10593,7 +10598,7 @@
    "year": 1942,
    "kind": "business",
    "title": "Theatre Candy Box Corporation",
-   "text": "Frank Orsatti joined MGM executive Sam Katz and Fox West Coast's Charles Skouras as directors of the Theatre Candy Box Corporation, a $200,000 venture selling candy and lobby advertising in theaters, with ad films shown on automatic projectors behind the candy bars. The company grew out of Orsatti's Phono-Vision venture. Katz (1892–1961) had co-founded Chicago's Balaban & Katz chain, headed Paramount's Publix circuit, and ran MGM's musicals unit from 1936.",
+   "text": "Frank P. Orsatti joined MGM executive Sam Katz and Fox West Coast's Charles Skouras as directors of the Theatre Candy Box Corporation, a $200,000 venture selling candy and lobby advertising in theaters, with ad films shown on automatic projectors behind the candy bars. The company grew out of Orsatti's Phono-Vision venture. Katz (1892–1961) had co-founded Chicago's Balaban & Katz chain, headed Paramount's Publix circuit, and ran MGM's musicals unit from 1936.",
    "sources": [
     "https://lantern.mediahist.org/catalog/filmdaily81wids_0298",
     "https://lantern.mediahist.org/catalog/motionpictureher146unse_0714"
@@ -10610,7 +10615,7 @@
    "year": 1940,
    "kind": "business",
    "title": "Shirley Temple's agent",
-   "text": "After Shirley Temple left 20th Century-Fox, Frank Orsatti negotiated her next deals.",
+   "text": "After Shirley Temple left 20th Century-Fox, Frank P. Orsatti negotiated her next deals.",
    "sources": [
     "https://lantern.mediahist.org/catalog/filmdail77wids_0295"
    ]
@@ -10618,8 +10623,8 @@
   {
    "year": 1947,
    "kind": "business",
-   "title": "Frank Orsatti dies",
-   "text": "Frank Orsatti died of a heart attack at his Santa Monica beach home on May 19, 1947. The trade papers called the Philadelphia-born agent a pioneer of the talent business. He was survived by his brothers Victor, Ernest and Alfred.",
+   "title": "Frank P. Orsatti dies",
+   "text": "Frank P. Orsatti died of a heart attack at his Santa Monica beach home on May 19, 1947. The trade papers called the Philadelphia-born agent a pioneer of the talent business. He was survived by his brothers Victor, Ernest and Alfred.",
    "sources": [
     "https://lantern.mediahist.org/catalog/boxofficeaprjun15051unse_1122",
     "https://lantern.mediahist.org/catalog/motionpictureher167unse_0374",
@@ -10674,7 +10679,7 @@
    "year": 1937,
    "kind": "milestone",
    "title": "An all-star wedding",
-   "text": "On May 29, 1937, Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
+   "text": "On May 29, 1937, Vic Orsatti married film actress June Lang in Hollywood. Her bridesmaids were featured film players Shirley Deane, Dixie Dunbar, Claire Trevor and Alice Faye, along with Jean Chatburn, wife of Vic's brother Frank P. Orsatti. Sharon Mulcahy was the flower girl, and an Associated Press photo of the wedding party ran in newspapers that June.",
    "sources": [
     "Chicago Sunday Tribune, June 20, 1937, p. 6: https://archive.lib.msu.edu/DMC/tribune/trib06201937/trib06201937006.pdf",
     "Hollywood magazine Vol. 26 (1937), p. 14: https://archive.org/details/hollywood26fawc/page/n580",
