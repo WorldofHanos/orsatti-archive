@@ -1080,5 +1080,8 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='The Falcon and the Winter Soldier' and f['year']==2021:
     f['credits']=[c for c in f['credits'] if c['person']!='Rowbie Orsatti']+[dict(person='Rowbie Orsatti',role='Stunt Rigger',source='Orsatti family')]
+for f in data['films']:
+  if f['title']=='Project X' and f['year']==2012:
+    f['credits']=[c for c in f['credits'] if c['person']!='Rowbie Orsatti']+[dict(person='Rowbie Orsatti',role='Stunt Double: Thomas Mann',source='Orsatti family; https://www.imdb.com/name/nm1769066/')]
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
