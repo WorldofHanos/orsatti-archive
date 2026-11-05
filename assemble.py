@@ -1125,5 +1125,8 @@ for f in data['films']:
   if f['title']=='The Poseidon Adventure':
     f['funFacts']=list(_ED['poseidon_funfacts'])
 
+# Family request: hide only Rex's person card; preserve historical mentions and assets.
+data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
+
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
