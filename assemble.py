@@ -963,6 +963,30 @@ for p in data['people']:
   if p['name']=='Al Orsatti':
     p.setdefault('noteSources',[])
     if 'Orsatti family' not in p['noteSources']:p['noteSources'].append('Orsatti family')
+# --- dig2 finds (House Beautiful, St. Louis Post-Dispatch, Boston American, Kefauver report)
+_K='U.S. Senate Special Committee to Investigate Organized Crime in Interstate Commerce (Kefauver Committee), Third Interim Report, Aug 31, 1951, pp. 63–64'
+def _ph(m,src,cap,lab):
+  m['photos']=[x for x in m.get('photos',[]) if x['src']!=src]+[dict(src=src,caption=cap,source=lab)]
+  if lab not in m['sources']:m['sources'].append(lab)
+_seen=set()
+for m in data['milestones']:
+  t=m['title']
+  if t=="Ernie Orsatti's Oddity Shop and Florist":
+    m['text']=m['text'].replace("on Sunset Boulevard with his brothers-in-law.","at 9130 Sunset Boulevard with his brothers-in-law – the same Sunset Strip address the family's talent agency used in the 1940s.")
+    _ph(m,'photos/ernie-orsatti-oddity-shop-9130-sunset-ad-house-beautiful-1946-04.jpg','House Beautiful ad listing Ernie Orsatti Oddity Shop, 9130 Sunset Boulevard, Hollywood','House Beautiful, April 1946, p. 65');_seen.add(t)
+  if t=='Gashouse Gang – 1934 champions':
+    _ph(m,'photos/ernie-orsatti-frisch-deans-union-station-stlpd-1934-10-02.jpg','Manager Frankie Frisch, Ernie Orsatti (at left) and Paul and Dizzy Dean waving goodbye at Union Station as the Cardinals left for the World Series','St. Louis Post-Dispatch, Oct 2, 1934');_seen.add(t)
+  if t=='Frank Orsatti dies':
+    _ph(m,'photos/frank-orsatti-agent-dies-boston-american-1947-05-20.jpg','"Frank Orsatti, Agent, Dies – SANTA MONICA, Cal., May 20 (AP) – Frank Orsatti, 54, actors\' agent, died of a heart attack at his beach home here." Boston American, May 20, 1947','Boston American, May 20, 1947 (AP)');_seen.add(t)
+  if t=='The Bugsy Siegel connection':
+    a=' Testimony before the Senate\'s Kefauver Committee tied Frank Orsatti to Siegel directly: Irving Sherman, who was in California from 1937 to 1940, said he became friendly with Benjamin "Bugsy" Siegel and went to the track with him, and that Frank Orsatti, of the Orsatti Bros. Theatrical Agency, introduced them.'
+    if 'Kefauver' not in m['text']:m['text']+=a
+    _ph(m,'photos/kefauver-report-1951-p63-orsatti-introduced-sherman-to-siegel.jpg','Kefauver Committee report, 1951, p. 63: "While in California from 1937 to 1940, he became friendly with Benjamin \'Bugsy\' Siegel, and went to the track with him. He said that Frank Orsatti, of the Orsatti Bros. Theatrical Agency, introduced them."',_K);_seen.add(t)
+  if t=='Phonovision':
+    a=' The Senate\'s Kefauver Committee later reported that Irving Sherman returned to New York in 1940 as general manager of Phono-Vision Co., a subsidiary of the California company of which Frank Orsatti was president, and that Frank brought Sherman into contact with Frank Costello. Sherman negotiated with Costello over the Louisiana distributorship for the 10-cent movie machines, which Costello wanted for "Dandy Phil" Kastel.'
+    if 'Kefauver' not in m['text']:m['text']+=a
+    _ph(m,'photos/kefauver-report-1951-p64-orsatti-phonovision-costello.jpg','Kefauver Committee report, 1951, p. 64: Phono-Vision\'s California parent was a company "of which Frank Orsatti was president; Frank Orsatti brought Sherman into contact with Frank Costello," who sought the Louisiana distributorship for "Dandy Phil" Kastel.',_K);_seen.add(t)
+assert len(_seen)==5,_seen
 def _dd(o):
     if isinstance(o,dict):
         for k,v in o.items():
