@@ -636,8 +636,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+     "role": "Stunts · Actor: Sgt. Don Ross",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US; https://www.televisionacademy.com/bios/ernie-f-orsatti; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -1181,8 +1181,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunts – firefighter hanging on to Steve McQueen outside the scenic elevator",
-     "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti"
+     "role": "Stunts – firefighter hanging on to Steve McQueen outside the scenic elevator · Actor: Mark Powers",
+     "source": "https://en.wikipedia.org/wiki/Ernie_Orsatti; https://catalog.afi.com/Person/218285-Ernie-Orsatti; Orsatti family"
     },
     {
      "person": "Frank H. Orsatti (stuntman, 1942–2004)",
@@ -2288,8 +2288,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US"
+     "role": "Stunts · Stunt Coordinator",
+     "source": "https://www.themoviedb.org/person/112572-ernie-f-orsatti?language=en-US; https://catalog.afi.com/Person/218285-Ernie-Orsatti; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -2771,8 +2771,8 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Crew",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Crew · Actor",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US; https://www.allmovie.com/artist/noon-orsatti-an370309/filmography; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -3621,8 +3621,8 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunts",
-     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US"
+     "role": "Stunts · Actor: Excelsior Crewman",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti?language=en-US; https://www.allmovie.com/artist/noon-orsatti-an370309/filmography; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -5642,8 +5642,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Stunts",
-     "source": "https://www.imdb.com/name/nm0650683/"
+     "role": "Stunts · Stunt Coordinator",
+     "source": "https://www.imdb.com/name/nm0650683/; https://www.themoviedb.org/person/112572-ernie-f-orsatti; Orsatti family"
     },
     {
      "person": "Noon Orsatti",
@@ -5687,8 +5687,8 @@
    "credits": [
     {
      "person": "Ernie F. Orsatti (1940–2020)",
-     "role": "Second unit director",
-     "source": "https://www.imdb.com/name/nm0650683/"
+     "role": "Second unit director · Stunt Coordinator",
+     "source": "https://www.imdb.com/name/nm0650683/; https://www.themoviedb.org/person/112572-ernie-f-orsatti; Orsatti family"
     }
    ],
    "funFacts": [
@@ -8018,8 +8018,8 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Second unit director & stunt coordinator",
-     "source": "https://www.imdb.com/name/nm0650687/"
+     "role": "Second unit director & stunt coordinator · Actor: Limo Driver",
+     "source": "https://www.imdb.com/name/nm0650687/; https://www.allmovie.com/artist/noon-orsatti-an370309/filmography; Orsatti family"
     },
     {
      "person": "Rowbie Orsatti",
@@ -9039,6 +9039,11 @@
      "person": "Noon Orsatti",
      "role": "Stunt Coordinator (season 3)",
      "source": "Orsatti family; https://app.productionbeast.com/12248-noon-orsatti"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.imdb.com/name/nm0650683/; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -9205,6 +9210,11 @@
      "person": "Noon Orsatti",
      "role": "Stunt player (several episodes)",
      "source": "Orsatti family"
+    },
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts · Stunt Coordinator",
+     "source": "https://www.televisionacademy.com/bios/ernie-f-orsatti; Orsatti family"
     }
    ],
    "funFacts": [],
@@ -9284,6 +9294,211 @@
    "postersByYear": {
     "2026": "posters/the-terminal-list-s2.jpg"
    }
+  },
+  {
+   "title": "Brooklyn South",
+   "year": 1997,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/15215-brooklyn-south",
+   "imdb": null,
+   "poster": "posters/brooklyn-south.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator (1997–1998)",
+     "source": "https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Brink!",
+   "year": 1998,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/15043-brink",
+   "imdb": null,
+   "poster": "posters/brink-1998.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunts",
+     "source": "https://app.productionbeast.com/12248-noon-orsatti; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Judgment Day",
+   "year": 2026,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1389884-judgment-day",
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Noon Orsatti",
+     "role": "Stunt Coordinator (upcoming)",
+     "source": "https://www.themoviedb.org/person/1407364-noon-orsatti; Orsatti family"
+    },
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Assistant Stunt Coordinator (upcoming)",
+     "source": "https://www.imdb.com/name/nm1769066/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Twilight of the Dead",
+   "year": 2026,
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/837506-twilight-of-the-dead",
+   "imdb": null,
+   "poster": "posters/twilight-of-the-dead.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunts (upcoming)",
+     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "L.A. Law",
+   "year": 1991,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/732-l-a-law",
+   "imdb": null,
+   "poster": "posters/la-law.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.televisionacademy.com/bios/ernie-f-orsatti; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Picket Fences",
+   "year": 1992,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/206-picket-fences",
+   "imdb": null,
+   "poster": "posters/picket-fences.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.televisionacademy.com/bios/ernie-f-orsatti; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "State of Mind",
+   "year": 2007,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/15301-state-of-mind",
+   "imdb": null,
+   "poster": "posters/state-of-mind-2007.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator",
+     "source": "https://www.imdb.com/name/nm0650683/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "Ally McBeal",
+   "year": 1998,
+   "type": "tv",
+   "tmdb": "https://www.themoviedb.org/tv/1480-ally-mcbeal",
+   "imdb": null,
+   "poster": "posters/ally-mcbeal.jpg",
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Second Unit Director (1 episode)",
+     "source": "https://www.imdb.com/name/nm0650683/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "5 Minutes to Midnight",
+   "year": 2007,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt Coordinator (short)",
+     "source": "https://www.imdb.com/name/nm0650683/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
+  },
+  {
+   "title": "The Third Vehicle",
+   "year": 2005,
+   "type": "movie",
+   "tmdb": null,
+   "imdb": null,
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunts",
+     "source": "https://www.imdb.com/name/nm0650683/; Orsatti family"
+    }
+   ],
+   "funFacts": [],
+   "media": []
   }
  ],
  "milestones": [
@@ -10415,8 +10630,8 @@
  "boxOfficeSummary": {
   "total": 17036378244,
   "withData": 182,
-  "films": 330,
-  "tvShows": 66,
+  "films": 335,
+  "tvShows": 71,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }
 }

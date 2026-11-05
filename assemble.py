@@ -887,6 +887,42 @@ for p in data['people']:
 for m in data['milestones']:
   if m['title']=="In front of Bruce Weber's camera":
     m['photos']=[x for x in m.get('photos',[]) if 'bruce-weber-horseback' not in x['src']]+[dict(src='photos/bruce-weber-horseback-vaulting.jpg',caption='Horseback acrobatics for a Bruce Weber shoot; Noon Orsatti leaps from the horse (top right)',source='Orsatti family')]
+# --- Credits audit (family-confirmed; Ride Along 2 excluded per family)
+_OF='; Orsatti family'
+_TA='https://www.televisionacademy.com/bios/ernie-f-orsatti'
+_IE='https://www.imdb.com/name/nm0650683/'
+for t,y,typ,tm,po,who,role,src in [
+ ('Brooklyn South',1997,'tv','https://www.themoviedb.org/tv/15215-brooklyn-south','posters/brooklyn-south.jpg','Noon Orsatti','Stunt Coordinator (1997–1998)','https://www.tvguide.com/celebrities/noon-orsatti/credits/3030218279/'),
+ ('Brink!',1998,'movie','https://www.themoviedb.org/movie/15043-brink','posters/brink-1998.jpg','Noon Orsatti','Stunts','https://app.productionbeast.com/12248-noon-orsatti'),
+ ('Judgment Day',2026,'movie','https://www.themoviedb.org/movie/1389884-judgment-day',None,'Noon Orsatti','Stunt Coordinator (upcoming)','https://www.themoviedb.org/person/1407364-noon-orsatti'),
+ ('Judgment Day',2026,'movie','https://www.themoviedb.org/movie/1389884-judgment-day',None,'Rowbie Orsatti','Assistant Stunt Coordinator (upcoming)','https://www.imdb.com/name/nm1769066/'),
+ ('Twilight of the Dead',2026,'movie','https://www.themoviedb.org/movie/837506-twilight-of-the-dead','posters/twilight-of-the-dead.jpg','Rowbie Orsatti','Stunts (upcoming)','https://www.themoviedb.org/person/1753329-rowbie-orsatti'),
+ ('L.A. Law',1991,'tv','https://www.themoviedb.org/tv/732-l-a-law','posters/la-law.jpg',EF,'Stunt Coordinator',_TA),
+ ('Picket Fences',1992,'tv','https://www.themoviedb.org/tv/206-picket-fences','posters/picket-fences.jpg',EF,'Stunt Coordinator',_TA),
+ ('NYPD Blue',1993,'tv',None,None,EF,'Stunts · Stunt Coordinator',_TA),
+ ('Nip/Tuck',2006,'tv',None,None,EF,'Stunt Coordinator',_IE),
+ ('State of Mind',2007,'tv','https://www.themoviedb.org/tv/15301-state-of-mind','posters/state-of-mind-2007.jpg',EF,'Stunt Coordinator',_IE),
+ ('Ally McBeal',1998,'tv','https://www.themoviedb.org/tv/1480-ally-mcbeal','posters/ally-mcbeal.jpg',EF,'Second Unit Director (1 episode)',_IE),
+ ('5 Minutes to Midnight',2007,'movie',None,None,EF,'Stunt Coordinator (short)',_IE),
+ ('The Third Vehicle',2005,'movie',None,None,EF,'Stunts',_IE)]:
+  _film(t,y,typ,tm,po,[dict(person=who,role=role,source=src+_OF)])
+def _addrole(title,who,extra,src):
+  for f in data['films']:
+    if f['title']==title:
+      for c in f['credits']:
+        if c['person'].startswith(who) and extra not in c['role']:
+          c['role']=c['role']+' · '+extra
+          if src not in c.get('source',''):c['source']=(c.get('source','')+'; '+src).strip('; ')+(_OF if 'Orsatti family' not in c.get('source','') else '')
+_AM='https://www.allmovie.com/artist/noon-orsatti-an370309/filmography'
+_addrole('Bride Hard','Noon','Actor: Limo Driver',_AM)
+_addrole('Star Trek VI: The Undiscovered Country','Noon','Actor: Excelsior Crewman',_AM)
+_addrole('A Stoning in Fulham County','Noon','Actor',_AM)
+_TE='https://www.themoviedb.org/person/112572-ernie-f-orsatti';_AF='https://catalog.afi.com/Person/218285-Ernie-Orsatti'
+_addrole('Fallen','Ernie F.','Stunt Coordinator',_TE)
+_addrole("Mafia! (Jane Austen's Mafia!)",'Ernie F.','Stunt Coordinator',_TE)
+_addrole("Murphy's Law",'Ernie F.','Stunt Coordinator',_AF)
+_addrole('The Green Berets','Ernie F.','Actor: Sgt. Don Ross',_TA)
+_addrole('The Towering Inferno','Ernie F.','Actor: Mark Powers',_AF)
 # --- Remove Rex's credits (family request; keep his person card) and recompute summary
 _rm=[]
 for f in data['films']:
