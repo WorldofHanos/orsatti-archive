@@ -906,7 +906,7 @@ for t,y,typ,tm,po,who,role,src in [
  ('5 Minutes to Midnight',2007,'movie',None,None,EF,'Stunt Coordinator (short)',_IE),
  ('The Third Vehicle',2005,'movie',None,None,EF,'Stunts',_IE)]:
   _film(t,y,typ,tm,po,[dict(person=who,role=role,source=src+_OF)])
-_film('John Rambo',2027,'movie',None,None,[dict(person='Orsatti family',role='Family member and role to be confirmed (upcoming, 2027)',source='Orsatti family; release date: https://en.wikipedia.org/wiki/John_Rambo_(film)')])
+_film('John Rambo',2027,'movie',None,None,[dict(person='Noon Orsatti',role='Supervising Stunt Coordinator (upcoming, 2027)',source='Orsatti family'),dict(person='Rowbie Orsatti',role='Stunt Coordinator (upcoming, 2027)',source='Orsatti family')])
 for f in data['films']:
   if f['title'] in ('Judgment Day','Twilight of the Dead') and f['year'] in (2026,2027):
     f['year']=2027;f['yearSource']='Orsatti family (2027 release)'
