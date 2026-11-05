@@ -424,8 +424,8 @@ for f in data['films']:
 for f in data['films']:
   if f['title']=='Tall Tale':
     for c in f['credits']:
-      if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator · Second Unit Director';c['source']='Orsatti family; https://www.imdb.com/name/nm0650683/'
-    if not any(c['person'].startswith('Noon') for c in f['credits']):f['credits'].append(dict(person='Noon Orsatti',role='Additional Stunt Coordinator',source='Orsatti family'))
+      if c['person'].startswith('Ernie F.'):c['role']='Stunt Coordinator · Second Unit Director';c['source']='https://variety.com/1995/film/reviews/tall-tale-the-unbelievable-adventures-of-pecos-bill-1200441007/; https://www.imdb.com/title/tt0111359/fullcredits/'
+    f['credits']=[c for c in f['credits'] if not c['person'].startswith('Noon')]+[dict(person='Noon Orsatti',role='Stunts · Additional Stunt Coordinator',source='https://www.imdb.com/title/tt0111359/fullcredits/; Orsatti family')]
 # --- Larger Than Life (family)
 for f in data['films']:
   if f['title']=='Larger Than Life' and not any(c['person'].startswith('Noon') for c in f['credits']):
