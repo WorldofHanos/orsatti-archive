@@ -988,7 +988,7 @@ for m in data['milestones']:
     _ph(m,'photos/kefauver-report-1951-p64-orsatti-phonovision-costello.jpg','Kefauver Committee report, 1951, p. 64: Phono-Vision\'s California parent was a company "of which Frank Orsatti was president; Frank Orsatti brought Sherman into contact with Frank Costello," who sought the Louisiana distributorship for "Dandy Phil" Kastel.',_K);_seen.add(t)
 assert len(_seen)==5,_seen
 # --- mob dig: new Phonovision trade-press, Capone context photo, Photoplay wedding page
-_FD='The Film Daily, June 1940: https://lantern.mediahist.org/catalog/filmdail77wids_0244'
+_FD='The Film Daily, June 1940: https://archive.org/details/filmdail77wids'
 _FDA='The Film Daily, 1940 (Phonovision ad): https://lantern.mediahist.org/catalog/filmdail77wids_0122'
 _LOC='Library of Congress: https://www.loc.gov/item/99472813/'
 _PP='Photoplay, Aug 1937, p. 60'
