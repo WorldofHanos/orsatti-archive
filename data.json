@@ -9507,8 +9507,8 @@
    "year": 2027,
    "type": "movie",
    "tmdb": null,
-   "imdb": null,
-   "poster": null,
+   "imdb": "https://www.imdb.com/title/tt36963968/",
+   "poster": "posters/john-rambo-2027.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -9516,12 +9516,12 @@
     {
      "person": "Noon Orsatti",
      "role": "Supervising Stunt Coordinator (upcoming, 2027)",
-     "source": "Orsatti family"
+     "source": "Orsatti family; https://www.imdb.com/title/tt36963968/"
     },
     {
      "person": "Rowbie Orsatti",
      "role": "Stunt Coordinator (upcoming, 2027)",
-     "source": "Orsatti family"
+     "source": "Orsatti family; https://www.imdb.com/title/tt36963968/"
     }
    ],
    "funFacts": [],

@@ -909,7 +909,8 @@ for t,y,typ,tm,po,who,role,src in [
  ('5 Minutes to Midnight',2007,'movie',None,None,EF,'Stunt Coordinator (short)',_IE),
  ('The Third Vehicle',2005,'movie',None,None,EF,'Stunts',_IE)]:
   _film(t,y,typ,tm,po,[dict(person=who,role=role,source=src+_OF)])
-_film('John Rambo',2027,'movie',None,None,[dict(person='Noon Orsatti',role='Supervising Stunt Coordinator (upcoming, 2027)',source='Orsatti family'),dict(person='Rowbie Orsatti',role='Stunt Coordinator (upcoming, 2027)',source='Orsatti family')])
+_jr=_film('John Rambo',2027,'movie',None,'posters/john-rambo-2027.jpg',[dict(person='Noon Orsatti',role='Supervising Stunt Coordinator (upcoming, 2027)',source='Orsatti family; https://www.imdb.com/title/tt36963968/'),dict(person='Rowbie Orsatti',role='Stunt Coordinator (upcoming, 2027)',source='Orsatti family; https://www.imdb.com/title/tt36963968/')])
+_jr['poster']='posters/john-rambo-2027.jpg';_jr['imdb']='https://www.imdb.com/title/tt36963968/'
 for f in data['films']:
   if f['title'] in ('Judgment Day','Twilight of the Dead') and f['year'] in (2026,2027):
     f['year']=2027;f['yearSource']='Orsatti family (2027 release)'
