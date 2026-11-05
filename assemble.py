@@ -906,6 +906,11 @@ for t,y,typ,tm,po,who,role,src in [
  ('5 Minutes to Midnight',2007,'movie',None,None,EF,'Stunt Coordinator (short)',_IE),
  ('The Third Vehicle',2005,'movie',None,None,EF,'Stunts',_IE)]:
   _film(t,y,typ,tm,po,[dict(person=who,role=role,source=src+_OF)])
+for f in data['films']:
+  if f['title'] in ('Judgment Day','Twilight of the Dead') and f['year'] in (2026,2027):
+    f['year']=2027;f['yearSource']='Orsatti family (2027 release)'
+    for c in f['credits']:
+      c['role']=c['role'].replace('(upcoming)','(upcoming, 2027)')
 def _addrole(title,who,extra,src):
   for f in data['films']:
     if f['title']==title:

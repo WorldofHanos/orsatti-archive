@@ -9337,7 +9337,7 @@
   },
   {
    "title": "Judgment Day",
-   "year": 2026,
+   "year": 2027,
    "type": "movie",
    "tmdb": "https://www.themoviedb.org/movie/1389884-judgment-day",
    "imdb": null,
@@ -9348,21 +9348,22 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt Coordinator (upcoming)",
+     "role": "Stunt Coordinator (upcoming, 2027)",
      "source": "https://www.themoviedb.org/person/1407364-noon-orsatti; Orsatti family"
     },
     {
      "person": "Rowbie Orsatti",
-     "role": "Assistant Stunt Coordinator (upcoming)",
+     "role": "Assistant Stunt Coordinator (upcoming, 2027)",
      "source": "https://www.imdb.com/name/nm1769066/; Orsatti family"
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "yearSource": "Orsatti family (2027 release)"
   },
   {
    "title": "Twilight of the Dead",
-   "year": 2026,
+   "year": 2027,
    "type": "movie",
    "tmdb": "https://www.themoviedb.org/movie/837506-twilight-of-the-dead",
    "imdb": null,
@@ -9373,12 +9374,13 @@
    "credits": [
     {
      "person": "Rowbie Orsatti",
-     "role": "Stunts (upcoming)",
+     "role": "Stunts (upcoming, 2027)",
      "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti; Orsatti family"
     }
    ],
    "funFacts": [],
-   "media": []
+   "media": [],
+   "yearSource": "Orsatti family (2027 release)"
   },
   {
    "title": "L.A. Law",
