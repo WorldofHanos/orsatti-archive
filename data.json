@@ -10401,13 +10401,15 @@
    "year": 1932,
    "kind": "mob",
    "title": "The Caress kidnapping trial",
-   "text": "The family had its Prohibition-era wild side. As early as 1923, Jesse \"Cheesy\" Orsatti, brother of agent Frank Orsatti, co-owned the Cabaria Cafe on North Main Street with gambler Les Bruneman. He later joined a gang led by Ralph Sheldon, a Capone mob veteran from Chicago. In December 1930, Hollywood bookmaker E.L. \"Zeke\" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sentenced to 10 years at San Quentin.",
+   "text": "The family had its Prohibition-era wild side. As early as 1923, Jesse \"Cheesy\" Orsatti, brother of agent Frank Orsatti, co-owned the Cabaria Cafe on North Main Street with gambler Les Bruneman. He later joined a gang led by Ralph Sheldon, a Capone mob veteran from Chicago. In December 1930, Hollywood bookmaker E.L. \"Zeke\" Caress, a part-owner of the Agua Caliente resort, was kidnapped with his wife and held for $50,000 ransom. The trial opened in Los Angeles on February 1, 1932, and ran until March 4; Jesse Orsatti, Ralph Sheldon and Louis Frank were convicted, and Jesse was sentenced to 10 years at San Quentin. The Caresses were held at a house at 4700 Templeton Street in El Sereno. Even after the Long Beach shootout, the gang collected $20,000 by threatening to cut off Mrs. Caress's ears. Jerry Giesler led the defense. A fourth man, Joseph P. Baillie, was convicted and sentenced to life in October 1932. That April, prosecutors uncovered a plot to kidnap Sheriff Traeger, Undersheriff Biscailuz and a jailer to free Sheldon and Frank; DA Buron Fitts blamed Chicago gangsters and had the pair moved to San Quentin.",
    "sources": [
     "Orsatti family",
     "https://calisphere.org/item/ba17b837ed40fe4ef226b248f4880b64/",
     "https://openjurist.org/132/calapp/360/people-v-frank-3295572",
     "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/",
+    "AP, Capital Journal (Salem, OR), March 5, 1932 verdict; AP, Capital Journal, April 19, 1932 escape plot: https://oregonnews.uoregon.edu/lccn/sn90066132/1932-04-19/ed-1/seq-7.pdf",
     "Jonathan Marshall, Mexico and the International Narcotics Traffic, 1920-1976: https://www.researchgate.net/profile/Jonathan-Marshall-8/publication/343815415_Mexico_and_the_International_Narcotics_Traffic_1920-1976/links/5f5be5e5299bf1d43cfc9ad2/Mexico-and-the-International-Narcotics-Traffic-1920-1976.pdf",
+    "https://digital.library.ucla.edu/catalog/ark:/21198/z12k24q6",
     "Library of Congress: https://www.loc.gov/item/99472813/"
    ],
    "photos": [
@@ -10420,6 +10422,11 @@
      "src": "photos/cabaria-cafe-raid-1923-clipping.jpg",
      "caption": "Vice Squad Again Raids Cabaria Cafe, 1923: co-owner Jesse Orsatti arrested; partner Les Bruneman was arrested in an earlier raid.",
      "source": "https://jhgraham.com/2017/03/23/george-leslie-les-bruneman-1897-1937/"
+    },
+    {
+     "src": "photos/caress-hideout-el-sereno-1931-ucla.jpg",
+     "caption": "Reporters and investigators outside the house at 4700 Templeton Street, El Sereno, where Zeke and Helen Caress were held (Los Angeles Times Photographic Archive, UCLA Library Special Collections)",
+     "source": "https://digital.library.ucla.edu/catalog/ark:/21198/z12k24q6"
     },
     {
      "src": "photos/al-capone-sonny-gabby-hartnett-1931-loc.jpg",
