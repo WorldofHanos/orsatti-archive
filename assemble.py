@@ -964,7 +964,7 @@ for p in data['people']:
     p.setdefault('noteSources',[])
     if 'Orsatti family' not in p['noteSources']:p['noteSources'].append('Orsatti family')
 # --- dig2 finds (House Beautiful, St. Louis Post-Dispatch, Boston American, Kefauver report)
-_K='U.S. Senate Special Committee to Investigate Organized Crime in Interstate Commerce (Kefauver Committee), Third Interim Report, Aug 31, 1951, pp. 63–64'
+_K='Kefauver Committee report (U.S. Senate), Aug 31, 1951, pp. 63–64'
 def _ph(m,src,cap,lab):
   m['photos']=[x for x in m.get('photos',[]) if x['src']!=src]+[dict(src=src,caption=cap,source=lab)]
   if lab not in m['sources']:m['sources'].append(lab)
