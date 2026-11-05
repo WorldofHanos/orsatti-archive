@@ -914,6 +914,10 @@ _jr['poster']='posters/john-rambo-2027.jpg';_jr['imdb']='https://www.imdb.com/ti
 for f in data['films']:
   if f['title'] in ('Judgment Day','Twilight of the Dead') and f['year'] in (2026,2027):
     f['year']=2027;f['yearSource']='Orsatti family (2027 release)'
+    if f['title']=='Twilight of the Dead':
+      f['poster']='posters/twilight-of-the-dead-imdb.jpg';f['imdb']='https://www.imdb.com/title/tt21343842/'
+      for c in f['credits']:
+        if 'imdb.com/title/tt21343842' not in c['source']:c['source']='https://www.imdb.com/title/tt21343842/; '+c['source']
     for c in f['credits']:
       c['role']=c['role'].replace('(upcoming)','(upcoming, 2027)')
 def _addrole(title,who,extra,src):

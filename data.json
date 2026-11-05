@@ -9366,8 +9366,8 @@
    "year": 2027,
    "type": "movie",
    "tmdb": "https://www.themoviedb.org/movie/837506-twilight-of-the-dead",
-   "imdb": null,
-   "poster": "posters/twilight-of-the-dead.jpg",
+   "imdb": "https://www.imdb.com/title/tt21343842/",
+   "poster": "posters/twilight-of-the-dead-imdb.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
@@ -9375,7 +9375,7 @@
     {
      "person": "Rowbie Orsatti",
      "role": "Stunts (upcoming, 2027)",
-     "source": "https://www.themoviedb.org/person/1753329-rowbie-orsatti; Orsatti family"
+     "source": "https://www.imdb.com/title/tt21343842/; https://www.themoviedb.org/person/1753329-rowbie-orsatti; Orsatti family"
     }
    ],
    "funFacts": [],
