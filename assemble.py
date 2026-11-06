@@ -1109,6 +1109,7 @@ for m in data['milestones']:
   e=_ED['milestones'].get(m['title'])
   if e:
     m['text']=e['text']
+    if 'photos' in e: m['photos']=list(e['photos'])
     m['sources']=list(dict.fromkeys(list(e.get('sources') or [])+list(m.get('sources') or [])))
     if 'flag' in e: m['flag']=e['flag']
 # World Series champion: ensure action duplicate removed even if reintroduced by photo maps
