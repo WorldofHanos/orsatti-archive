@@ -6,8 +6,8 @@ D = json.load(open('data.json'))
 e = lambda s: html.escape(s or '', quote=True)
 short = lambda n: n.split(' (')[0]
 def slug(n): return re.sub(r'[^a-z0-9]+', '-', short(n).lower()).strip('-')
-TITLE = 'The Orsatti Film Archive | Orsatti Family Hollywood Stunt Dynasty'
-DESC = ("The Orsatti family in Hollywood since 1923: stunt work by Ernie, Frank H., Ernie F., Noon and "
+TITLE = 'Orsatti Family Film Archive | A Hollywood Family Since 1923'
+DESC = ("The Orsattis, a Hollywood family since 1923: stunt work by Ernie, Frank H., Ernie F., Noon and "
         f"Rowbie Orsatti, Ken Orsatti of SAG, and {len(D['films'])} films and series.")
 IMG = SITE + '/og.png'
 today = datetime.date.today().isoformat()
