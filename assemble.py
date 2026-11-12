@@ -1129,5 +1129,15 @@ for f in data['films']:
 # Family request: hide only Rex's person card; preserve historical mentions and assets.
 data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
 
+# Serve remote Commons hotlinks from local copies (same rendition, byte-identical; see localized_photos.json)
+_LOC=json.load(open('localized_photos.json'))
+def _localize(o):
+    if isinstance(o,dict):
+        for k,v in o.items():
+            if k=='src' and isinstance(v,str) and v in _LOC: o[k]=_LOC[v]
+            else: _localize(v)
+    elif isinstance(o,list):
+        for v in o: _localize(v)
+_localize(data)
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
