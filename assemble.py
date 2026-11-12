@@ -1146,3 +1146,6 @@ def _localize(o):
 _localize(data)
 json.dump(data,open('data.json','w'),indent=1,ensure_ascii=False)
 print(len(fl),len(known),data['boxOfficeSummary']['total'])
+
+# Static SEO layer (people pages, index meta/JSON-LD/noscript, sitemap, robots)
+import runpy; runpy.run_path('build_seo.py')

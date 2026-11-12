@@ -1,0 +1,20 @@
+/* static person pages (people/*.html) and no-JS summary; reuses site palette */
+.sp-top{display:flex;align-items:center;gap:14px;padding:18px 24px;border-bottom:1px solid rgba(201,168,106,.25)}
+.sp-top img{height:42px;filter:drop-shadow(0 0 10px rgba(255,255,255,.2))}
+.sp-home{font-family:'Playfair Display',serif;color:var(--w);text-decoration:none;font-size:1.1rem}.sp-home:hover{color:var(--gold)}
+.sp-main{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+.sp-person h1{font-size:clamp(2rem,5vw,3rem);margin:.2em 0}.sp-person h2{font-family:'Playfair Display',serif;color:var(--gold);font-size:1.2rem;margin:2em 0 .6em;font-weight:400}
+.sp-person .k{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.sp-meta{color:var(--dim);font-size:.9rem}
+.sp-portrait{float:right;max-width:200px;max-height:260px;margin:0 0 16px 20px;border:1px solid var(--gold);box-shadow:0 0 24px rgba(201,168,106,.2)}
+.sp-bio p{color:#cfcac0;white-space:pre-line}
+.sp-list,.sp-fam{list-style:none;padding:0;margin:0;font-size:.9rem}
+.sp-list li,.sp-fam li{padding:5px 0;border-bottom:1px solid rgba(201,168,106,.15)}
+.sp-list a,.sp-fam a{color:var(--w);text-decoration:none}.sp-list a:hover,.sp-fam a:hover{color:var(--gold)}
+.sp-list i{font-style:normal;font-size:.6rem;letter-spacing:.15em;color:var(--gold);border:1px solid rgba(201,168,106,.4);padding:0 4px;margin-left:4px}
+.sp .fy{color:var(--gold);margin-right:8px}.sp .fr{color:#9a927f;font-style:italic;margin-left:6px}
+.sp-fam span{color:var(--dim);font-size:.82rem}
+.sp-ms{border-left:1px solid rgba(201,168,106,.45);padding:2px 0 2px 16px;margin:14px 0}.sp-ms h3{margin:.1em 0;font-size:1.1rem}.sp-ms p{color:#cfcac0;font-size:.9rem;margin:.3em 0}
+.sp .src{margin-top:2em;clear:both}.sp .btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);padding:7px 16px;text-decoration:none;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase}
+.sp-foot a{color:var(--gold);text-decoration:none}footer .sp-foot{text-align:center}
+@media(max-width:600px){.sp-portrait{float:none;display:block;margin:0 0 16px}.sp-top{padding:12px 14px}}
