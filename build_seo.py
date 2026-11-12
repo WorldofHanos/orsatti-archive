@@ -123,6 +123,9 @@ H = '<!--SEO:HEAD-->' + head(TITLE, DESC, SITE + '/', IMG, site_ld) + '<link rel
 N = ('<!--SEO:BODY--><noscript><section class="sp-main"><h2>The Orsatti Family</h2><ul class="sp-fam">' +
      ''.join(f'<li><a href="people/{s}.html"><b>{e(p["name"])}</b></a>{" <span class=fy>" + e(p["years"]) + "</span>" if p.get("years") else ""}<br><span>{e(desc)}</span></li>' for p, s, desc in pages) +
      '</ul></section></noscript><!--/SEO:BODY-->')
+F = ('<!--SEO:FAM--><nav class="famnav" aria-label="The family"><span class="famk">The family</span>' +
+     ''.join(f'<a href="people/{s}.html">{e(short(p["name"]))}</a>' for p, s, _ in pages) +
+     '<a class="famall" href="people/">All family pages ›</a></nav><!--/SEO:FAM-->')
 ix = open('index.html').read()
 if '<!--SEO:HEAD-->' not in ix:
     # first run: replace the hand-written title/description/og/twitter tags with the generated block
@@ -133,6 +136,10 @@ if '<!--SEO:HEAD-->' not in ix:
 else:
     ix = re.sub(r'<!--SEO:HEAD-->.*?<!--/SEO:HEAD-->', lambda _: H, ix, flags=re.S)
     ix = re.sub(r'<!--SEO:BODY-->.*?<!--/SEO:BODY-->', lambda _: N, ix, flags=re.S)
+if '<!--SEO:FAM-->' not in ix:
+    ix = ix.replace('<p id="foot"></p>', '<p id="foot"></p>' + F, 1)
+else:
+    ix = re.sub(r'<!--SEO:FAM-->.*?<!--/SEO:FAM-->', lambda _: F, ix, flags=re.S)
 open('index.html', 'w').write(ix)
 
 urls = [SITE + '/', SITE + '/people/'] + [f'{SITE}/people/{s}.html' for _, s, _ in pages]

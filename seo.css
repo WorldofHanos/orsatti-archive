@@ -18,3 +18,10 @@
 .sp .src{margin-top:2em;clear:both}.sp .btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);padding:7px 16px;text-decoration:none;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase}
 .sp-foot a{color:var(--gold);text-decoration:none}footer .sp-foot{text-align:center}
 @media(max-width:600px){.sp-portrait{float:none;display:block;margin:0 0 16px}.sp-top{padding:12px 14px}}
+/* main-page footer: subtle family links */
+.famnav{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:6px 16px;max-width:760px;margin:14px auto 0;font-size:.74rem;line-height:1.6}
+.famnav .famk{width:100%;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.famnav a{color:var(--dim);text-decoration:none;border-bottom:1px solid transparent;transition:color .25s,border-color .25s}
+.famnav a:hover,.famnav a:focus-visible{color:var(--gold);border-color:rgba(201,168,106,.5);outline:none}
+.famnav .famall{color:var(--gold)}
+@media(max-width:600px){.famnav{gap:4px 12px;font-size:.72rem;padding:0 6px}}
