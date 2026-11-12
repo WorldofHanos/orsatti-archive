@@ -372,8 +372,8 @@ for p in data['people']:
     p['note']=p['note'].replace('the epic ABC miniseries shot 1980–81.','the epic ABC miniseries shot 1980–81, when he was 18. Early on he also booked a run of national commercials – McDonald\'s, Sara Lee, Polaroid and more.',1)
 data['milestones']=[m for m in data['milestones'] if m['title']!='In front of Bruce Weber\'s camera']
 data['milestones'].append(dict(year=1987,kind='milestone',title='In front of Bruce Weber\'s camera',
- text='Father and son, Ernie F. and Noon Orsatti sat together for a photo shoot with fashion photographer Bruce Weber. Noon also turns up in Weber\'s Oscar-nominated Chet Baker documentary Let\'s Get Lost (1988).',
- sources=['Orsatti family','https://catalog.afi.com/Film/58169-LET\'S-GET-LOST']))
+ text='Father and son, Ernie F. and Noon Orsatti sat together for a photo shoot with fashion photographer Bruce Weber. Noon also turns up in Weber\'s Oscar-nominated Chet Baker documentary Let\'s Get Lost (1988).\n\nThe horseback-vaulting picture below became one of Weber\'s published fine-art prints, "Stuntmen, Point Conception Beach, Santa Barbara, CA, 1987." Galería Alta, which sells it as a signed gelatin-silver print, says it was made on the beach in 1987 for a commercial sitting, with the stuntmen in Calvin Klein clothes, and that "the frame outlived its assignment."',
+ sources=['Orsatti family','https://catalog.afi.com/Film/58169-LET\'S-GET-LOST','https://galeriaalta.com/artists/bruceweber/stuntmen-point-conception-beach-santa-barbara-ca/1987/']))
 # --- Up Your Teddy Bear: Noon at 6 (family correction; replaces earlier A Guide for the Married Man attribution)
 data['films']=[f for f in data['films'] if f['title'] not in ('A Guide for the Married Man','Up Your Teddy Bear','The Seduction of a Nerd')]
 data['films'].append(dict(title='The Seduction of a Nerd',year=1970,type='movie',tmdb='https://www.themoviedb.org/movie/124827-up-your-teddy-bear',imdb='https://www.imdb.com/title/tt0066099/',poster='posters/seduction-of-a-nerd.jpg',boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
