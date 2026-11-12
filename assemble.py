@@ -1111,7 +1111,9 @@ for m in data['milestones']:
     m['text']=e['text']
     if 'photos' in e: m['photos']=list(e['photos'])
     m['sources']=list(dict.fromkeys(list(e.get('sources') or [])+list(m.get('sources') or [])))
-    if 'flag' in e: m['flag']=e['flag']
+    if 'flag' in e:
+      if e['flag'] is None: m.pop('flag',None)
+      else: m['flag']=e['flag']
 # World Series champion: ensure action duplicate removed even if reintroduced by photo maps
 for m in data['milestones']:
   if m['title']==_ED['remove_photo']['milestone']:
