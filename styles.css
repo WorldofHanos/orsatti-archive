@@ -252,5 +252,5 @@ animation:mtw 4.5s ease-in-out infinite alternate}
 #stats{min-height:178px}@media(max-width:1000px){#stats{min-height:139px}}@media(max-width:700px){#stats{min-height:228px}}@media(max-width:420px){#stats{min-height:250px}}
 main#timeline{min-height:100vh}
 @media(max-width:700px){#bo{font-variant-numeric:tabular-nums;min-width:8.5em;display:inline-block;text-align:right}}
-/* mobile posters: 3 per row on small screens (fluid cells, 2:3 space reserved so nothing jumps on load) */
-@media(max-width:600px){.reel{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 12px!important;width:100%;max-width:calc(3*110px + 2*12px)!important;justify-content:stretch}.reel .p{width:auto!important;min-width:0}.reel .pw{width:100%!important}.reel .p>div:last-child{overflow-wrap:anywhere}}
+/* mobile posters: 3 per row on small screens, partial rows centered (fluid cells, 2:3 space reserved so nothing jumps on load) */
+@media(max-width:600px){.reel{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:16px 12px!important;width:100%;max-width:calc(3*110px + 2*12px)!important;margin-left:auto;margin-right:auto}.reel .p{flex:0 0 calc((100% - 24px)/3)!important;width:calc((100% - 24px)/3)!important;min-width:0}.reel .pw{width:100%!important}.reel .p>div:last-child{overflow-wrap:anywhere}}
