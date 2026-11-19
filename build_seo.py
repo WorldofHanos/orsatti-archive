@@ -8,7 +8,7 @@ short = lambda n: n.split(' (')[0]
 def slug(n): return re.sub(r'[^a-z0-9]+', '-', short(n).lower()).strip('-')
 TITLE = 'Orsatti Family Film Archive | A Hollywood Family Since 1923'
 DESC = ("The Orsattis, a Hollywood family since 1923: stunt work by Ernie, Frank H., Ernie F., Noon and "
-        f"Rowbie Orsatti, Ken Orsatti of SAG, and {len(D['films'])} films and series.")
+        f"Rowbie Orsatti, Ken Orsatti of SAG, and {D['boxOfficeSummary']['films'] + D['boxOfficeSummary']['tvShows']} films and series.")
 IMG = SITE + '/og.png'
 today = datetime.date.today().isoformat()
 
@@ -34,9 +34,18 @@ def milestones_for(p):
 
 def link(u):
     if isinstance(u, dict): u = u.get('url') or u.get('source') or ''
-    if isinstance(u, str) and u.startswith('http'):
-        return f'<a href="{e(u)}" rel="noopener">{e(re.sub(r"^https?://(www\.)?", "", u).split("/")[0])}</a>'
-    return e(u if isinstance(u, str) else '')
+    if not isinstance(u, str): return ''
+    mm = re.match(r'^(.+?):\s+(https?://\S+)$', u)
+    if mm:
+        return f'<a href="{e(mm.group(2))}" rel="noopener" title="{e(mm.group(1))}">{e(re.sub(r"\s*\(.*\)$", "", mm.group(1)))}</a>'
+    out = []
+    for x in re.split(r';\s+', u):
+        m2 = re.match(r'^(https?://\S+)\s*(.*)$', x.strip())
+        if not m2: out.append(e(x)); continue
+        host = re.sub(r'^https?://(www\.)?', '', m2.group(1)).split('/')[0]
+        note = re.sub(r'^\((.*)\)$', r'\1', m2.group(2))
+        out.append(f'<a href="{e(m2.group(1))}" rel="noopener"' + (f' title="{e(note)}"' if note else '') + f'>{e(host)}</a>')
+    return '; '.join(out)
 
 def person_ld(p):
     ld = {'@type': 'Person', 'name': short(p['name']), 'url': f"{SITE}/people/{slug(p['name'])}.html"}
