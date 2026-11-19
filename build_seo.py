@@ -47,7 +47,7 @@ def person_ld(p):
     return ld
 
 def head(title, desc, url, img, ld, prefix=''):
-    return (f'<title>{e(title)}</title><meta name="description" content="{e(desc)}">'
+    return (f'<title>{e(title)}</title><meta name="description" content="{e(desc)}"><meta name="robots" content="max-image-preview:large">'
             f'<link rel="canonical" href="{e(url)}">'
             f'<meta property="og:site_name" content="The Orsatti Film Archive"><meta property="og:type" content="website">'
             f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
@@ -117,7 +117,9 @@ open('people/index.html', 'w').write(SHELL.format(head=head('The Orsatti Family 
 
 # index.html: generated head block + noscript summary between markers
 site_ld = {'@context': 'https://schema.org', '@graph': [
-    {'@type': 'WebSite', 'name': 'The Orsatti Film Archive', 'url': SITE + '/', 'description': DESC},
+    {'@type': 'WebSite', 'name': 'The Orsatti Film Archive', 'url': SITE + '/', 'description': DESC, 'image': SITE + '/logo-square.png'},
+    {'@type': 'WebPage', 'url': SITE + '/', 'name': TITLE, 'primaryImageOfPage': {'@type': 'ImageObject', 'url': SITE + '/logo-square.png', 'width': 1200, 'height': 1200}},
+    {'@type': 'Organization', 'name': 'The Orsatti Film Archive', 'url': SITE + '/', 'logo': SITE + '/logo-square.png'},
     *[person_ld(p) for p, _, _ in pages]]}
 H = '<!--SEO:HEAD-->' + head(TITLE, DESC, SITE + '/', IMG, site_ld) + '<link rel="stylesheet" href="seo.css"><!--/SEO:HEAD-->'
 N = ('<!--SEO:BODY--><noscript><section class="sp-main"><h2>The Orsatti Family</h2><ul class="sp-fam">' +
