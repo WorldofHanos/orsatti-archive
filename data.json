@@ -5639,7 +5639,7 @@
    "credits": [
     {
      "person": "Noon Orsatti",
-     "role": "Stunt double (seasons 2–4, 1997–2000)",
+     "role": "Stunt double and stunt coordinator (seasons 2–4, 1997–2000)",
      "source": "https://app.productionbeast.com/12248-noon-orsatti"
     },
     {
@@ -9369,19 +9369,29 @@
    "year": 1998,
    "type": "movie",
    "tmdb": "https://www.themoviedb.org/movie/15043-brink",
-   "imdb": null,
+   "imdb": "https://www.imdb.com/title/tt0162212/",
    "poster": "posters/brink-1998.jpg",
    "boxOffice": null,
    "boxOfficeText": null,
    "boxOfficeSource": null,
    "credits": [
     {
+     "person": "Ernie F. Orsatti (1940–2020)",
+     "role": "Stunt coordinator",
+     "source": "https://www.imdb.com/title/tt0162212/fullcredits/"
+    },
+    {
      "person": "Noon Orsatti",
-     "role": "Stunts",
+     "role": "Stunt coordinator and stunts",
      "source": "https://app.productionbeast.com/12248-noon-orsatti; Orsatti family"
     }
    ],
-   "funFacts": [],
+   "funFacts": [
+    {
+     "text": "Noon Orsatti filmed the entire downhill race on rollerblades, skating alongside the action with a camera in hand.",
+     "source": "Orsatti family"
+    }
+   ],
    "media": []
   },
   {

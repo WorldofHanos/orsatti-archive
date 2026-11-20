@@ -1134,6 +1134,19 @@ for f in data['films']:
 # Family request: hide only Rex's person card; preserve historical mentions and assets.
 data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
 
+# Brink! / The Practice credit updates (approved by family; IMDb full credits for Ernie F. on Brink!)
+for _f in data['films']:
+  if _f['title']=='Brink!' and _f['year']==1998:
+    _f['imdb']='https://www.imdb.com/title/tt0162212/'
+    for _c in _f['credits']:
+      if _c['person']=='Noon Orsatti': _c['role']='Stunt coordinator and stunts'
+    if not any(_c['person'].startswith('Ernie F. Orsatti') for _c in _f['credits']):
+      _f['credits'].insert(0,dict(person='Ernie F. Orsatti (1940–2020)',role='Stunt coordinator',source='https://www.imdb.com/title/tt0162212/fullcredits/'))
+    _ff=dict(text='Noon Orsatti filmed the entire downhill race on rollerblades, skating alongside the action with a camera in hand.',source='Orsatti family')
+    if _ff not in _f.setdefault('funFacts',[]): _f['funFacts'].append(_ff)
+  if _f['title']=='The Practice' and _f['type']=='tv':
+    for _c in _f['credits']:
+      if _c['person']=='Noon Orsatti' and _c['role'].startswith('Stunt double'): _c['role']='Stunt double and stunt coordinator (seasons 2–4, 1997–2000)'
 # 1931 Metropolitan Studios (W754) premium portrait of Ernie on the 1931 World Series card
 _ERNIE31=dict(src='photos/ernie-orsatti-1931-metropolitan-studios.jpg',caption='Ernie Orsatti of the St. Louis Cardinals, in a 1931 Metropolitan Studios premium photograph.',source='https://photos.imageevent.com/apspr/baseballcards/worchcigarsets/mlballscans/large/orsatti.jpg')
 for _m in data['milestones']:
