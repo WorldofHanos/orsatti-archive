@@ -1134,6 +1134,11 @@ for f in data['films']:
 # Family request: hide only Rex's person card; preserve historical mentions and assets.
 data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
 
+# 1931 Metropolitan Studios (W754) premium portrait of Ernie on the 1931 World Series card
+_ERNIE31=dict(src='photos/ernie-orsatti-1931-metropolitan-studios.jpg',caption='Ernie Orsatti of the St. Louis Cardinals, in a 1931 Metropolitan Studios premium photograph.',source='https://photos.imageevent.com/apspr/baseballcards/worchcigarsets/mlballscans/large/orsatti.jpg')
+for _m in data['milestones']:
+  if _m['title']=='World Series champion' and _m['year']==1931 and not any(x.get('src')==_ERNIE31['src'] for x in _m.get('photos',[])):
+    _m.setdefault('photos',[]).append(dict(_ERNIE31))
 # Serve remote Commons hotlinks from local copies (same rendition, byte-identical; see localized_photos.json)
 _LOC=json.load(open('localized_photos.json'))
 def _localize(o):
