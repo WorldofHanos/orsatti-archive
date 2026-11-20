@@ -1217,6 +1217,11 @@ data['films'].append(dict(title='Jason',year=2027,releaseDate='2027-08-13',type=
   funFacts=[],media=[],yearSource='https://deadline.com/2026/11/new-friday-13-movie-jason-cast-release-date-title-1237226827/ (Steve Miner directs; 13th Friday the 13th film; theatrical release Aug 13, 2027)'))
 _k=[f for f in data['films'] if f.get('boxOffice')]
 data['boxOfficeSummary'].update(total=sum(f['boxOffice'] for f in _k),withData=len(_k),films=sum(1 for f in data['films'] if f['type']=='movie'),tvShows=sum(1 for f in data['films'] if f['type']=='tv'))
+# --- 2027 credits read plainly (family decision Nov 19, 2026): drop "(upcoming…)" wording; year already shows 2027
+import re as _re
+for _f in data['films']:
+    for _c in _f['credits']:
+        _c['role']=_re.sub(r'\s*\(upcoming(?:, \d{4})?\)','',_c['role'])
 for _m in data['milestones']:
   if _m['title'] in _RETITLE_PENDING: _m['title']=_RETITLE_PENDING[_m['title']]
 # Serve remote Commons hotlinks from local copies (same rendition, byte-identical; see localized_photos.json)
