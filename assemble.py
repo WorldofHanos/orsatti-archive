@@ -1210,6 +1210,13 @@ _ERNIE31=dict(src='photos/ernie-orsatti-1931-metropolitan-studios.jpg',caption='
 for _m in data['milestones']:
   if _m['title']=='World Series champion' and _m['year']==1931 and not any(x.get('src')==_ERNIE31['src'] for x in _m.get('photos',[])):
     _m.setdefault('photos',[]).append(dict(_ERNIE31))
+# --- Jason (2027): Rowbie stunt double for Matthew Sato (family-confirmed Nov 19, 2026; on Rowbie's IMDb)
+data['films']=[f for f in data['films'] if not (f['title']=='Jason' and f['year']==2027)]
+data['films'].append(dict(title='Jason',year=2027,releaseDate='2027-08-13',type='movie',tmdb='https://www.themoviedb.org/movie/1519647-jason',imdb='https://www.imdb.com/title/tt7464054/',poster=None,boxOffice=None,boxOfficeText=None,boxOfficeSource=None,
+  credits=[dict(person='Rowbie Orsatti',role='Stunt double: Matthew Sato',source='https://deadline.com/2026/11/new-friday-13-movie-jason-cast-release-date-title-1237226827/; https://www.imdb.com/name/nm1769066/')],
+  funFacts=[],media=[],yearSource='https://deadline.com/2026/11/new-friday-13-movie-jason-cast-release-date-title-1237226827/ (Steve Miner directs; 13th Friday the 13th film; theatrical release Aug 13, 2027)'))
+_k=[f for f in data['films'] if f.get('boxOffice')]
+data['boxOfficeSummary'].update(total=sum(f['boxOffice'] for f in _k),withData=len(_k),films=sum(1 for f in data['films'] if f['type']=='movie'),tvShows=sum(1 for f in data['films'] if f['type']=='tv'))
 for _m in data['milestones']:
   if _m['title'] in _RETITLE_PENDING: _m['title']=_RETITLE_PENDING[_m['title']]
 # Serve remote Commons hotlinks from local copies (same rendition, byte-identical; see localized_photos.json)

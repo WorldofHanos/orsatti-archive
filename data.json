@@ -9570,6 +9570,28 @@
    ],
    "funFacts": [],
    "media": []
+  },
+  {
+   "title": "Jason",
+   "year": 2027,
+   "releaseDate": "2027-08-13",
+   "type": "movie",
+   "tmdb": "https://www.themoviedb.org/movie/1519647-jason",
+   "imdb": "https://www.imdb.com/title/tt7464054/",
+   "poster": null,
+   "boxOffice": null,
+   "boxOfficeText": null,
+   "boxOfficeSource": null,
+   "credits": [
+    {
+     "person": "Rowbie Orsatti",
+     "role": "Stunt double: Matthew Sato",
+     "source": "https://deadline.com/2026/11/new-friday-13-movie-jason-cast-release-date-title-1237226827/; https://www.imdb.com/name/nm1769066/"
+    }
+   ],
+   "funFacts": [],
+   "media": [],
+   "yearSource": "https://deadline.com/2026/11/new-friday-13-movie-jason-cast-release-date-title-1237226827/ (Steve Miner directs; 13th Friday the 13th film; theatrical release Aug 13, 2027)"
   }
  ],
  "milestones": [
@@ -10795,7 +10817,7 @@
  "boxOfficeSummary": {
   "total": 17036378244,
   "withData": 182,
-  "films": 336,
+  "films": 337,
   "tvShows": 71,
   "note": "Worldwide gross from each film's Wikipedia infobox; each film counted once; TV series excluded/null."
  }

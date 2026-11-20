@@ -21,11 +21,11 @@ def credits_for(p):
     for f in D['films']:
         for c in f.get('credits', []):
             if c['person'].startswith(s):
-                out.append((f.get('year'), f['title'], c.get('role'), f.get('imdb'), f.get('type')))
+                out.append((f.get('year'), f['title'], c.get('role'), f.get('imdb'), f.get('type'), f.get('releaseDate') or ''))
     seen, res = set(), []
-    for r in sorted(out, key=lambda r: (r[0] or 0, r[1] or '')):
+    for r in sorted(out, key=lambda r: (r[0] or 0, r[5] if len(r) > 5 else '', r[1] or '')):
         k = (r[0], r[1], r[2])
-        if k not in seen: seen.add(k); res.append(r)
+        if k not in seen: seen.add(k); res.append(r[:5])
     return res
 
 def milestones_for(p):
