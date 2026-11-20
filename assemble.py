@@ -1134,6 +1134,60 @@ for f in data['films']:
 # Family request: hide only Rex's person card; preserve historical mentions and assets.
 data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
 
+# ---- Originality pass (approved Nov 19, 2026): one home per story; no facts, photos or sources lost ----
+def _rep(obj,key,old,new):
+    assert old in obj[key], (key,old[:60]); obj[key]=obj[key].replace(old,new)
+_P={p['name']:p for p in data['people']}; _M={m['title']:m for m in data['milestones']}
+# Ken 1961 card -> already fully covered by Ken's bio; move its sources (if any new) into the bio, then drop the card
+_ken=_M['Ken Orsatti joins SAG']; _kb=_P['Ken Orsatti (Alfred Kendall)']
+_kb['noteSources']=list(dict.fromkeys(_kb.get('noteSources',[])+_ken.get('sources',[])))
+assert not _ken.get('photos'); data['milestones']=[m for m in data['milestones'] if m is not _ken]
+# Ernie bio: birth/parents live on the 1902 card; agency-join lives on the 1935 card
+_e=_P['Ernie Orsatti']
+_rep(_e,'note',' Born in Los Angeles on September 8, 1902, he was the sixth of seven children of Italian immigrants Maurizio and Maria (Manze) Orsatti, known in America as Morris and Mary.','')
+_rep(_e,'note','After his last major-league game he joined brothers Frank, Vic and Al in the talent agency. Other ventures included','Beyond the family talent agency, his ventures included')
+# Bail Bonds card: cemetery stays in Ernie's bio
+_rep(_M['Orsatti Bail Bonds'],'text',' He is buried at San Fernando Mission Cemetery.','')
+# Frank P. bio: death details live on the 1947 card
+_rep(_P['Frank P. Orsatti (agent)'],'note','Frank P. died of a heart attack at his Santa Monica beach home on May 19, 1947. ','')
+# 1958 card: Ernie Sr.'s career summary lives in his bio and the 1931 card
+_rep(_M['Scouted by the Dodgers'],'text','as the son of the former major league star – Ernie Orsatti Sr., who played for the St. Louis Cardinals from 1927 to 1935 and won two World Series titles.','as the son of the former major league star Ernie Orsatti Sr.')
+# 1963 card: Merchant Marine years live on the 1968 card
+_rep(_M['Frank H. tries the family game'],'text',' He later spent ten years in the Merchant Marine before becoming a stuntman.','')
+# Ernie F. bio: Death Wish 3 award details live on the 1986 card
+_rep(_P['Ernie F. Orsatti'],'note','won Best Stunt Coordinator for a feature film for Death Wish 3 at the 1986 Stunt Man Awards, sharing the category with Gary McLarty.','won a 1986 Stunt Man Award.')
+# Noon bio: Hawkeye details live on the 2022 card
+_rep(_P['Noon Orsatti'],'note','Two 2022 Primetime Emmy nominations for Hawkeye (stunt coordination; stunt performance, "Echoes").','Emmy-nominated for Hawkeye (2022).')
+# Rowbie bio: Cheaper by the Dozen memory lives in that film's fun fact
+_rep(_P['Rowbie Orsatti'],'note',' As a child on Cheaper by the Dozen he tested gags off camera for the young actors and appeared in the moon-bounce scene with Steve Martin.','')
+# Film fun facts
+_dga=_M['Noon earns his DGA card']
+for _f in data['films']:
+    if _f['title']=='Planet of the Apes' and _f['year']==1968:
+        for _x in _f['funFacts']:
+            if _x['text'].startswith("Frank H. Orsatti's first stunt job"): _x['text']="Frank H. Orsatti's first stunt job (1968)."
+    if _f['title']=='The Poseidon Adventure' and _f['year']==1972:
+        for _x in _f['funFacts']:
+            if _x['text'].startswith('Ernie F. Orsatti is best known for his skylight fall'): _x['text']="Ernie F.'s 32-ft skylight fall is told on the 1972 timeline card."
+    if _f['title'] in ('Serpico','Highlander II: The Quickening','Stop at Nothing'):
+        _keep=[]
+        for _x in _f.get('funFacts',[]):
+            if _x['text'] in ("Frank H. Orsatti was the film's stunt coordinator.","Noon Orsatti earned his DGA card here, as second unit director."):
+                _s=_x.get('source')
+                if _f['title']=='Stop at Nothing':
+                    if _s and _s not in _dga['sources']: _dga['sources'].append(_s)
+                elif _s and not any(_s in (c.get('source') or '') for c in _f['credits']):
+                    _c=[c for c in _f['credits'] if c['person'].startswith('Frank H.')][0]; _c['source']=(_c.get('source')+'; ' if _c.get('source') else '')+_s
+            else: _keep.append(_x)
+        _f['funFacts']=_keep
+# Per-card labels for the eight baseball cards (replaces the shared "Diamond" label)
+_LABELS={'Climbing the Cardinals farm':'Minor Leagues','MLB debut – St. Louis Cardinals':'Big League Debut','World Series champion':'Four World Series',"Best season: .336 – and Rickey's phone trick":'Career Year','Gashouse Gang – 1934 champions':'1934 Champions','One last season':'Final Season','Scouted by the Dodgers':'Next Generation','Frank H. tries the family game':'Cardinals Draft'}
+for _m in data['milestones']:
+    if _m['kind']=='baseball' and _m['title'] in _LABELS: _m['label']=_LABELS[_m['title']]
+assert sum(1 for m in data['milestones'] if m.get('label'))==8
+# Distinct titles for look-alike cards (applied last; other blocks key on the old titles)
+_RETITLE={'Noon Orsatti joins SAG':'Noon joins SAG at age six','Rowbie Orsatti joins SAG':'A fourth generation in SAG','Ernie F. earns his DGA card':'Ernie F. joins the Directors Guild','Noon earns his DGA card':"Noon's second-unit debut earns his DGA card"}
+_RETITLE_PENDING=_RETITLE
 # 1902 birth card: keep the research note internal only (app.js displays m.flag; internalNote is not rendered)
 for _m in data['milestones']:
   if _m['title']=='Ernest Ralph Orsatti is born' and _m.get('flag'):
@@ -1156,6 +1210,8 @@ _ERNIE31=dict(src='photos/ernie-orsatti-1931-metropolitan-studios.jpg',caption='
 for _m in data['milestones']:
   if _m['title']=='World Series champion' and _m['year']==1931 and not any(x.get('src')==_ERNIE31['src'] for x in _m.get('photos',[])):
     _m.setdefault('photos',[]).append(dict(_ERNIE31))
+for _m in data['milestones']:
+  if _m['title'] in _RETITLE_PENDING: _m['title']=_RETITLE_PENDING[_m['title']]
 # Serve remote Commons hotlinks from local copies (same rendition, byte-identical; see localized_photos.json)
 _LOC=json.load(open('localized_photos.json'))
 def _localize(o):
@@ -1171,3 +1227,4 @@ print(len(fl),len(known),data['boxOfficeSummary']['total'])
 
 # Static SEO layer (people pages, index meta/JSON-LD/noscript, sitemap, robots)
 import runpy; runpy.run_path('build_seo.py')
+runpy.run_path('build_og.py')  # share image numbers stay current
