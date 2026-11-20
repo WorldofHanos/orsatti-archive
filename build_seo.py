@@ -66,7 +66,7 @@ def head(title, desc, url, img, ld, prefix=''):
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
 
 SHELL = '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-{head}<link rel="icon" href="{pre}favicon.png">
+{head}<link rel="icon" href="{pre}favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="48x48" href="{pre}favicon-48.png"><link rel="icon" type="image/png" sizes="96x96" href="{pre}favicon-96.png"><link rel="icon" type="image/png" sizes="192x192" href="{pre}favicon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="{pre}apple-touch-icon.png"><link rel="manifest" href="{pre}site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{pre}styles.css"><link rel="stylesheet" href="{pre}seo.css"></head><body class="sp">
 <div class="grain"></div>
