@@ -1134,6 +1134,10 @@ for f in data['films']:
 # Family request: hide only Rex's person card; preserve historical mentions and assets.
 data['people']=[p for p in data['people'] if p['name']!='Rex Orsatti (Rex Pierson)']
 
+# 1902 birth card: keep the research note internal only (app.js displays m.flag; internalNote is not rendered)
+for _m in data['milestones']:
+  if _m['title']=='Ernest Ralph Orsatti is born' and _m.get('flag'):
+    _m['internalNote']=_m.pop('flag')
 # Brink! / The Practice credit updates (approved by family; IMDb full credits for Ernie F. on Brink!)
 for _f in data['films']:
   if _f['title']=='Brink!' and _f['year']==1998:
